@@ -7,7 +7,7 @@ perfil <- tabPanel(title = "Chat-Radbio",
                           column(width = 2,
                                  pickerInput(inputId = "perfil_candidato_ano", 
                                              label = "test", 
-                                             choices = anos, 
+                                             choices = "test", 
                                              selected = "GBM", 
                                              options = list(`live-search` = TRUE))
                           ),

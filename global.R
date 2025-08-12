@@ -69,3 +69,4 @@ suppressMessages(lapply(tab_files, source))
 ##-- Chamando os shapes do mapsBR ----
 data("regMun")
 data("regUF")
+

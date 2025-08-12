@@ -16,7 +16,7 @@ observeEvent(input$eleicoes_cargo_br,{
     }
     
     ## anos暂时保留 ----------------------------
-    anos <- sort(unique(chaves_sub$ANO_ELEICAO))
+    #anos <- sort(unique(chaves_sub$ANO_ELEICAO))
     ## ----------------------------
     #ano_default <- input$eleicoes_ano_br
     

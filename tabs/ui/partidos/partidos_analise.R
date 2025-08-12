@@ -5,7 +5,7 @@ partido_analise <- tabPanel(title = "Clinical Samples",
                                    column(width = 2,
                                           pickerInput(inputId = "partido_ano", 
                                                       label = "test", 
-                                                      choices = anos, 
+                                             choices = "test", 
                                                       selected = "GBM", 
                                                       options = list(`live-search` = TRUE))
                                    ),

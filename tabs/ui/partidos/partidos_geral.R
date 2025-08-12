@@ -5,7 +5,7 @@ partido_geral <- tabPanel(title = "Biological resource",
                                  column(width = 2,
                                         pickerInput(inputId = "partido_geral_ano", 
                                                     label = "test", 
-                                                    choices = anos, 
+                                             choices = "test", 
                                                     selected = "GBM", 
                                                     options = list(`live-search` = TRUE))
                                  ),
