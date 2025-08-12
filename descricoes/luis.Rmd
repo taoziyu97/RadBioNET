@@ -1,0 +1,47 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+<h1 style="font-size: 2rem; line-height: 1.2;">
+  陶紫玉
+</h1>
+
+<div class="col2">
+<img class="foto" 
+    src="img/taozy.jpg"
+    style="width: 400px; height: auto;"
+>
+
+<div class="descricao">
+
+
+瑞金医院放疗科博士后，长期致力于放疗的生物学效应，以及基因组变异的研究。
+
+***
+
+### 特长：
+
+* 放射治疗的生物学效应
+* 人工智能
+* 基因组变异
+
+***
+
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/lgsilvaesilva/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/lgsilvaesilva"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/lgsilvaesilva"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>

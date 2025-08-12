@@ -1,0 +1,49 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+<h1 style="font-size: 2rem; line-height: 1.2;">
+  陈佳艺
+</h1>
+
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" 
+    src="img/chenjiayi.png"
+    style="width: 500px; height: auto;"
+>
+
+<div class="descricao">
+
+瑞金医院放疗科主任，主任医师，博士生导师，长期致力于乳腺癌放射治疗和综合治疗的临床和科研工作。现任上海医学会肿瘤放射治疗专委会副主任委员，上海医师协会肿瘤放射治疗分会副会长，上海市抗癌协会肿瘤放射治疗专委会副主任委员，中国抗癌协会整合肿瘤心脏病学专委会副主委，中国抗癌协会离子治疗学组副组长，中国抗癌协会乳腺癌专业委员常委，CSCO 乳腺癌专委会常委，中国女医师协会肿瘤分会常委，中国医师学会肿瘤放射治疗分会会员，医促会肿瘤放射治疗分会会员等。
+
+***
+
+### 诊疗特长：
+
+* 肿瘤的放射治疗
+* 乳腺癌放射治疗和综合治疗
+* 腹部肿瘤的放射治疗
+* 恶性淋巴瘤的放射治疗
+
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/douglas-mesquita/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/DouglasMesquita"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/DouglasMesqita"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>
