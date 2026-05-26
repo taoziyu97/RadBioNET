@@ -1,13 +1,13 @@
 shinyUI(
   fluidPage(
     tags$head(
-      tags$link(rel = "shortcut icon", href = "img/logo.ico"),
+      tags$link(rel = "shortcut icon", href = "img/favicon.png"),
       tags$link(rel = "stylesheet", type = "text/css",
                 href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"),
       tags$link(rel = "stylesheet", type = "text/css",
                 href = "https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro")
     ),
-    list(tags$head(HTML('<link rel="icon", href="img/logo.png",
+    list(tags$head(HTML('<link rel="icon", href="img/favicon.png",
                         type="image/png" />'))),
     div(style = "padding: 1px 0px; width: '100%'",
         titlePanel(
