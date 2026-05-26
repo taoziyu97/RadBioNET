@@ -27,8 +27,8 @@ chat_radbio_tab <- tabPanel(
       .chat-container::after { content: ''; display: table; clear: both; }
       .status-dot { font-size: 10px; vertical-align: middle; }
       .welcome-msg { text-align: center; padding: 40px 20px; color: #555; }
-      .welcome-msg h3 { font-size: 18px; color: #098ebb; margin-bottom: 10px; font-weight: 600; }
-      .welcome-msg p { font-size: 13px; color: #777; line-height: 1.6; margin: 4px 0; }
+      .welcome-msg h3 { font-size: 22px; color: #098ebb; margin-bottom: 12px; font-weight: 700; }
+      .welcome-msg p { font-size: 15px; color: #777; line-height: 1.7; margin: 6px 0; }
       #chat_input { font-size: 14px; }
     "))
   ),
