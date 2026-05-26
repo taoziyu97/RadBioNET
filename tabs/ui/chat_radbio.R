@@ -26,6 +26,14 @@ chat_radbio_tab <- tabPanel(
       .msg-system { text-align: center; color: #888; font-size: 12px; clear: both; padding: 5px; }
       .chat-container::after { content: ''; display: table; clear: both; }
       .status-dot { font-size: 10px; vertical-align: middle; }
+      .thinking-indicator { font-size: 13px; color: #888; font-style: italic; }
+      .thinking-dots span { animation: dot-pulse 1.4s infinite; opacity: 0; font-size: 22px; line-height: 0; }
+      .thinking-dots span:nth-child(1) { animation-delay: 0s; }
+      .thinking-dots span:nth-child(2) { animation-delay: 0.2s; }
+      .thinking-dots span:nth-child(3) { animation-delay: 0.4s; }
+      @keyframes dot-pulse {
+        0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; }
+      }
     "))
   ),
   column(
@@ -49,7 +57,7 @@ chat_radbio_tab <- tabPanel(
           fluidRow(
             column(10,
               textAreaInput("chat_input", NULL,
-                placeholder = "Ask about radiation biology...",
+                placeholder = "Ask about radiation biology, radiosensitivity factors, molecular mechanisms...",
                 width = "100%", rows = 2, resize = "none")
             ),
             column(2, br(),

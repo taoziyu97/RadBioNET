@@ -87,11 +87,30 @@ chat_add <- function(role, content) {
   chat_hist(h)
 }
 
-chat_render <- function(hist) {
-  if (length(hist) == 0) {
-    return(div(class = "msg-system", "Welcome to Chat-Radbio! Ask about radiation biology, radiotherapy sensitivity/resistance factors, and related research."))
-  }
+chat_render <- function(hist, loading = FALSE) {
   tags <- list()
+  if (length(hist) == 0) {
+    tags[[1]] <- div(style = "text-align:center;padding:40px 20px 30px 20px;",
+      div(style = "font-size:48px;margin-bottom:15px;", "&#129302;"),
+      div(style = "font-size:18px;font-weight:700;color:#1a5276;margin-bottom:8px;",
+        "Welcome to Chat-Radbio"),
+      div(style = "font-size:14px;color:#666;max-width:400px;margin:0 auto 20px auto;line-height:1.6;",
+        "Ask questions about radiation biology, radiosensitivity and radioresistance factors, molecular mechanisms, and related research."),
+      div(style = "font-size:13px;color:#999;",
+        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "&#128200; Radiation sensitivity biomarkers"),
+        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "&#129514; DNA damage repair pathways"),
+        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "&#128137; Radiosensitizers")),
+      div(style = "margin-top:12px;font-size:13px;color:#999;",
+        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "&#127760; Clinical translation of radiobiology"))
+    )
+    if (loading) {
+      tags[[2]] <- div(class = "msg-ai", style = "margin-top:10px;",
+        HTML(paste0('<span style="display:inline-flex;align-items:center;gap:8px;">',
+          '<span class="thinking-dots"><span>.</span><span>.</span><span>.</span></span>',
+          '</span>')))
+    }
+    return(do.call(tagList, tags))
+  }
   for (msg in hist) {
     if (msg$role == "system_msg") {
       tags[[length(tags) + 1]] <- div(class = "msg-system", msg$content)
@@ -103,6 +122,13 @@ chat_render <- function(hist) {
         HTML(render_markdown(msg$content))
       )
     }
+  }
+  if (loading) {
+    tags[[length(tags) + 1]] <- div(class = "msg-ai", style = "margin-top:5px;",
+      HTML(paste0('<span style="display:inline-flex;align-items:center;gap:8px;">',
+        '<span class="thinking-indicator">Thinking</span>',
+        '<span class="thinking-dots"><span>.</span><span>.</span><span>.</span></span>',
+        '</span>')))
   }
   do.call(tagList, tags)
 }
@@ -176,19 +202,19 @@ info <- reactive({
 })
 
 output$chat_history_ui <- renderUI({
-  chat_render(chat_hist())
+  chat_render(chat_hist(), chat_loading())
 })
 
 output$chat_status_ui <- renderUI({
   i <- info()
   if (chat_loading()) {
-    span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb;")
+    span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb; font-size: 13px;")
   } else if (i$ollama_ok) {
-    span(icon("circle", style = "color: #27ae60;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #27ae60; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
   } else if (i$api_ok) {
-    span(icon("circle", style = "color: #fdc23a;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #fdc23a; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
   } else {
-    span(icon("circle", style = "color: #e96449;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #e96449; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
   }
 })
 
