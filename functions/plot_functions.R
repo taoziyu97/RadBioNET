@@ -41,9 +41,10 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
     values = ~n,
     type = "pie",
     hole = 0.4,
+    domain = list(x = c(0.1, 0.9), y = c(0, 1)),
     textinfo = "label",
     textposition = "outside",
-    textfont = list(size = 9, color = "#555", family = "Open Sans"),
+    textfont = list(size = 8, color = "#555", family = "Open Sans"),
     hoverinfo = "text",
     hovertext = ~paste0(
       "<b>", .data[[category_col]], "</b><br>",
@@ -59,12 +60,12 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
       title = list(
         text = paste0("<b>", title, "</b>"),
         font = list(size = 12, color = "#333", family = "Open Sans"),
-        x = 0.05,
-        xanchor = "left"
+        x = 0.5,
+        xanchor = "center"
       ),
       xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
       yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-      margin = list(t = 30, b = 5, l = 5, r = 60),
+      margin = list(t = 30, b = 5, l = 5, r = 5),
       paper_bgcolor = "rgba(0,0,0,0)",
       plot_bgcolor = "rgba(0,0,0,0)",
       font = list(family = "Open Sans"),
