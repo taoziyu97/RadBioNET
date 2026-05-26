@@ -4,7 +4,7 @@ clinical_tab <- tabPanel(
   hr(),
   div(class = "filter-bar",
     fluidRow(
-      column(width = 5,
+      column(width = 6,
         pickerInput(
           inputId = "clinical_tumor_type",
           label = "Tumor Type",
@@ -14,7 +14,7 @@ clinical_tab <- tabPanel(
           multiple = TRUE
         )
       ),
-      column(width = 5,
+      column(width = 6,
         pickerInput(
           inputId = "clinical_factor_type",
           label = "Factor Type",
@@ -23,17 +23,17 @@ clinical_tab <- tabPanel(
           options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
           multiple = TRUE
         )
-      ),
-      column(width = 2,
-        br(),
+      )
+    ),
+    fluidRow(
+      column(width = 12, align = "center",
         actionBttn(
           inputId = "clinical_reset",
           label = "Reset",
           style = "fill",
           color = "danger",
           icon = icon("refresh"),
-          size = "sm",
-          block = TRUE
+          size = "sm"
         )
       )
     )

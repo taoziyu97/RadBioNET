@@ -26,7 +26,7 @@ data_tab <- tabPanel(
       )
     ),
     fluidRow(
-      column(width = 5,
+      column(width = 6,
         pickerInput(
           inputId = "filter_factor_type",
           label = "Factor Type",
@@ -36,7 +36,7 @@ data_tab <- tabPanel(
           multiple = TRUE
         )
       ),
-      column(width = 5,
+      column(width = 6,
         pickerInput(
           inputId = "filter_evidence",
           label = "Evidence Level",
@@ -45,17 +45,17 @@ data_tab <- tabPanel(
           options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
           multiple = TRUE
         )
-      ),
-      column(width = 2,
-        br(),
+      )
+    ),
+    fluidRow(
+      column(width = 12, align = "center",
         actionBttn(
           inputId = "btn_reset",
           label = "Reset",
           style = "fill",
           color = "danger",
           icon = icon("refresh"),
-          size = "sm",
-          block = TRUE
+          size = "sm"
         )
       )
     )
