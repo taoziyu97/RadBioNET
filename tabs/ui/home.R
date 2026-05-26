@@ -15,32 +15,32 @@ home <- tabPanel(
     )
   ),
   fluidRow(
-    column(width = 3,
-      div(class = "feature-card", onclick = "Shiny.setInputValue('analise_geral', 'click', {priority: 'event'});",
-        div(class = "feature-icon", "&#128269;"),
-        div(class = "feature-title", "Browse & Filter"),
-        div(class = "feature-desc", "Curated research data on radiation sensitivity and resistance factors")
+    column(width = 3, align = "center",
+      nav_block(
+        title = "Browse & Filter",
+        subtitle = "Curated research data on radiation sensitivity and resistance factors",
+        cor = "#098ebb", icon = "brasil.png", id = "analise_geral"
       )
     ),
-    column(width = 3,
-      div(class = "feature-card", onclick = "Shiny.setInputValue('analise_partidos', 'click', {priority: 'event'});",
-        div(class = "feature-icon", "&#128202;"),
-        div(class = "feature-title", "Visualizations"),
-        div(class = "feature-desc", "Interactive charts and statistics for data exploration")
+    column(width = 3, align = "center",
+      nav_block(
+        title = "Visualizations",
+        subtitle = "Interactive charts and statistics for data exploration",
+        cor = "#fdc23a", icon = "flag.png", id = "analise_partidos"
       )
     ),
-    column(width = 3,
-      div(class = "feature-card", onclick = "Shiny.setInputValue('analise_candidatos', 'click', {priority: 'event'});",
-        div(class = "feature-icon", "&#129302;"),
-        div(class = "feature-title", "AI Assistant"),
-        div(class = "feature-desc", "Chat-Radbio Q&A powered by large language models")
+    column(width = 3, align = "center",
+      nav_block(
+        title = "AI Assistant",
+        subtitle = "Chat-Radbio Q&A powered by large language models",
+        cor = "#e96449", icon = "person.png", id = "analise_candidatos"
       )
     ),
-    column(width = 3,
-      div(class = "feature-card", onclick = "Shiny.setInputValue('sobre', 'click', {priority: 'event'});",
-        div(class = "feature-icon", "&#127759;"),
-        div(class = "feature-title", "Collaboration"),
-        div(class = "feature-desc", "Global research network for radiation oncology")
+    column(width = 3, align = "center",
+      nav_block(
+        title = "Collaboration",
+        subtitle = "Global research network for radiation oncology",
+        cor = "#818286", icon = "sobre.png", id = "sobre"
       )
     )
   ),

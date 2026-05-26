@@ -17,6 +17,17 @@ tab_voronoys <- function(texto, cor, icon, id) {
               </div></a>'))
 }
 
+nav_block <- function(title, subtitle, cor, icon, id) {
+  HTML(paste0('<div class = "voronoys-block" style = "background-color:', cor, ';" onclick="Shiny.setInputValue(\'', id, '\', \'click\', {priority: \'event\'});">
+                  <span class = "name">', title, '<br><span style="font-size:10px;font-weight:400;text-transform:none;opacity:0.9;">', subtitle, '</span></span>
+                  <div class="img_block">
+                    <div class="img_block_conteiner">
+                      <img src="img/',icon,'">
+                    </div>
+                  </div>
+              </div>'))
+}
+
 render_markdown <- function(text) {
   if (is.null(text) || is.na(text)) return("")
   text <- gsub("\\*\\*(\\S.*?\\S)\\*\\*", "<strong>\\1</strong>", text)
