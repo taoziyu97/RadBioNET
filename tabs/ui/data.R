@@ -3,76 +3,58 @@ data_tab <- tabPanel(
   value = "data",
   hr(),
   br(),
-  column(
-    width = 12,
-    column(
-      width = 2,
+  div(class = "filter-bar",
+    column(width = 2,
       pickerInput(
         inputId = "filter_tumor_type",
         label = "Tumor Type",
         choices = tumor_types,
         selected = tumor_types,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE),
+        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
         multiple = TRUE
       )
     ),
-    column(
-      width = 2,
+    column(width = 2,
       pickerInput(
         inputId = "filter_tumor_subtype",
         label = "Tumor Subtype",
         choices = tumor_subtypes,
         selected = tumor_subtypes,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE),
+        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
         multiple = TRUE
       )
     ),
-    column(
-      width = 2,
+    column(width = 2,
       pickerInput(
         inputId = "filter_radiation_type",
         label = "Radiation Type",
         choices = radiation_types,
         selected = radiation_types,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE),
+        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
         multiple = TRUE
       )
     ),
-    column(
-      width = 2,
+    column(width = 2,
       pickerInput(
         inputId = "filter_factor_type",
         label = "Factor Type",
         choices = factor_types,
         selected = factor_types,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE),
+        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
         multiple = TRUE
       )
     ),
-    column(
-      width = 2,
+    column(width = 2,
       pickerInput(
         inputId = "filter_evidence",
         label = "Evidence Level",
         choices = evidence_levels,
         selected = evidence_levels,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE),
+        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
         multiple = TRUE
       )
     ),
-    column(
-      width = 1, style = "padding-top: 25px;",
-      actionBttn(
-        inputId = "btn_apply",
-        label = "Apply",
-        style = "fill",
-        color = "success",
-        icon = icon("check"),
-        size = "sm"
-      )
-    ),
-    column(
-      width = 1, style = "padding-top: 25px;",
+    column(width = 1, style = "padding-top: 25px;",
       actionBttn(
         inputId = "btn_reset",
         label = "Reset",
@@ -83,24 +65,50 @@ data_tab <- tabPanel(
       )
     )
   ),
-  br(), hr(),
-  column(
-    width = 12,
-    column(width = 4, withSpinner(plotlyOutput("chart_tumor_type"), type = 6)),
-    column(width = 4, withSpinner(plotlyOutput("chart_tumor_subtype"), type = 6)),
-    column(width = 4, withSpinner(plotlyOutput("chart_radiation_type"), type = 6))
+  br(),
+  p(style = "color: #888; font-size: 13px; margin: 5px 0 15px 5px;",
+    "Charts update automatically when filters change."),
+  div(class = "section-title", "Distribution Overview"),
+  hr(class = "section-divider"),
+  fluidRow(
+    column(width = 6,
+      div(class = "chart-card",
+        withSpinner(plotlyOutput("chart_tumor_type", height = "380px"), type = 4, color = "#098ebb")
+      )
+    ),
+    column(width = 6,
+      div(class = "chart-card",
+        withSpinner(plotlyOutput("chart_tumor_subtype", height = "380px"), type = 4, color = "#098ebb")
+      )
+    )
+  ),
+  fluidRow(
+    column(width = 6,
+      div(class = "chart-card",
+        withSpinner(plotlyOutput("chart_radiation_type", height = "380px"), type = 4, color = "#098ebb")
+      )
+    ),
+    column(width = 6,
+      div(class = "chart-card",
+        withSpinner(plotlyOutput("chart_factor_type", height = "380px"), type = 4, color = "#098ebb")
+      )
+    )
+  ),
+  fluidRow(
+    column(width = 12,
+      div(class = "chart-card",
+        withSpinner(plotlyOutput("chart_evidence", height = "380px"), type = 4, color = "#098ebb")
+      )
+    )
   ),
   br(),
-  column(
-    width = 12,
-    column(width = 6, withSpinner(plotlyOutput("chart_factor_type"), type = 6)),
-    column(width = 6, withSpinner(plotlyOutput("chart_evidence"), type = 6))
-  ),
-  br(), hr(),
-  column(
-    width = 12,
-    HTML("<center><h4>Database Records</h4></center>"),
-    br(),
-    withSpinner(DTOutput("data_table"), type = 6)
+  div(class = "section-title", "Database Records"),
+  hr(class = "section-divider"),
+  fluidRow(
+    column(width = 12,
+      div(class = "chart-card",
+        withSpinner(DTOutput("data_table"), type = 4, color = "#098ebb")
+      )
+    )
   )
 )

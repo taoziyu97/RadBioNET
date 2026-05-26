@@ -1,5 +1,4 @@
 data_filtered <- reactive({
-  req(input$btn_apply)
   df <- senres
 
   if (!is.null(input$filter_tumor_type)) {
@@ -73,9 +72,18 @@ output$data_table <- renderDT({
       scrollY = "400px",
       scroller = TRUE,
       pageLength = 10,
-      language = list(url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json")
+      language = list(url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json"),
+      header = list(
+        style = "background-color: #098ebb; color: white; font-family: Open Sans;"
+      )
     ),
     rownames = FALSE,
-    class = "display nowrap"
-  )
+    class = "display nowrap cell-border stripe",
+    filter = "top"
+  ) %>%
+    formatStyle(
+      columns = names(df),
+      fontSize = "12px",
+      fontFamily = "Open Sans"
+    )
 })

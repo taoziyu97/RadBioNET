@@ -1,3 +1,10 @@
+MODERN_COLORS <- c(
+  "#4E79A7", "#F28E2B", "#E15759", "#76B7B2", "#59A14F",
+  "#EDC948", "#B07AA1", "#FF9DA7", "#9C755F", "#BAB0AC",
+  "#86BCB6", "#8CD17D", "#B6992D", "#499894", "#D37295",
+  "#F1CE63", "#A0CBE8", "#FFBE7D", "#D4A6C8", "#FABFD2"
+)
+
 proportion_pie <- function(data, category_col, title, top_n = 10) {
   df <- data %>%
     group_by(.data[[category_col]]) %>%
@@ -11,7 +18,7 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
 
   if (nrow(df) > top_n) {
     top <- df[1:top_n, ]
-    other_n <- sum(df$n[top_n:nrow(df)])
+    other_n <- sum(df$n[-(1:top_n)])
     df <- bind_rows(
       top,
       tibble(!!category_col := "Others", n = other_n)
@@ -24,32 +31,46 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
       lbl = paste0(.data[[category_col]], "\n", n, " (", pct, "%)")
     )
 
-  colors <- brewer.pal(min(nrow(df), 9), "Set1")
-  if (nrow(df) > 9) colors <- colorRampPalette(colors)(nrow(df))
+  n_colors <- nrow(df)
+  if (n_colors <= length(MODERN_COLORS)) {
+    colors <- MODERN_COLORS[1:n_colors]
+  } else {
+    colors <- colorRampPalette(MODERN_COLORS)(n_colors)
+  }
 
   plot_ly(
     df,
     labels = ~lbl,
     values = ~n,
     type = "pie",
-    textinfo = "none",
+    textinfo = "label+percent",
+    textposition = "outside",
+    textfont = list(size = 10, color = "#555"),
     hoverinfo = "text",
-    text = ~paste0(
-      .data[[category_col]], "\n",
-      "Count: ", n, "\n",
+    hovertext = ~paste0(
+      "<b>", .data[[category_col]], "</b><br>",
+      "Count: ", n, "<br>",
       "Proportion: ", pct, "%"
     ),
     marker = list(
       colors = colors,
-      line = list(color = "#FFFFFF", width = 1)
+      line = list(color = "#FFFFFF", width = 2)
     ),
-    showlegend = TRUE
+    showlegend = FALSE,
+    pull = 0.02
   ) %>%
     layout(
-      title = list(text = title, font = list(size = 13)),
+      title = list(
+        text = paste0("<b>", title, "</b>"),
+        font = list(size = 14, color = "#333", family = "Open Sans"),
+        x = 0.05,
+        xanchor = "left"
+      ),
       xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
       yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-      legend = list(orientation = "h", y = -0.25, font = list(size = 9)),
-      margin = list(t = 35, b = 80, l = 10, r = 10)
+      margin = list(t = 40, b = 20, l = 10, r = 50),
+      paper_bgcolor = "rgba(0,0,0,0)",
+      plot_bgcolor = "rgba(0,0,0,0)",
+      font = list(family = "Open Sans")
     )
 }

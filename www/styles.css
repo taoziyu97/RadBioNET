@@ -175,6 +175,30 @@ a:focus, a:hover {
     background-color: #FFFFFF;
 }
 
+.pickerInput label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+.pickerInput .selectize-input {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  min-height: 36px;
+  font-size: 12px;
+}
+
+.pickerInput .selectize-input:hover {
+  border-color: #098ebb;
+}
+
+.pickerInput .selectize-input.focus {
+  border-color: #098ebb;
+  box-shadow: 0 0 0 2px rgba(9, 142, 187, 0.15);
+}
+
 /* footer */
 
 hr {
@@ -231,6 +255,51 @@ hr {
   text-align: justify !important;
 }
 
+/* Chart cards */
+
+.chart-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: box-shadow .3s;
+}
+
+.chart-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #098ebb;
+  display: inline-block;
+}
+
+.section-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #e8e8e8, #c0c0c0, #e8e8e8);
+  margin: 20px 0;
+}
+
+.filter-bar {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+}
+
+.filter-bar .pickerInput {
+  margin-bottom: 10px;
+}
+
 /* Sobre */
 
 .col2 {
@@ -250,23 +319,40 @@ hr {
   margin: auto !important;
 }
 
-th {
-    background: #6aae7a;
-    color: #fff;
+table.dataTable thead th {
+  background-color: #098ebb !important;
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 10px 8px !important;
+  border-bottom: none !important;
 }
 
-td {
-    padding-left: 5px;
+table.dataTable tbody td {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  padding: 8px;
+  vertical-align: middle;
 }
 
-td, 
-th {
-    vertical-align: top;
+table.dataTable tbody tr:hover {
+  background-color: #f0f8ff !important;
 }
 
-th {
-    font-size: 12px;
-    text-align: left;
+table.dataTable tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.dataTables_wrapper .dt-buttons {
+  margin-bottom: 10px;
+}
+
+.dataTables_wrapper .btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 4px 12px;
+  margin-right: 4px;
 }
 
 .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
