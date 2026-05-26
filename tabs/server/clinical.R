@@ -1,4 +1,5 @@
 clinical_filtered <- reactive({
+  req(input$clinical_apply)
   df <- senres
 
   if (!is.null(input$clinical_tumor_type)) {

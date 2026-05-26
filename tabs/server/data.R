@@ -1,4 +1,5 @@
 data_filtered <- reactive({
+  req(input$btn_apply)
   df <- senres
 
   if (!is.null(input$filter_tumor_type)) {
