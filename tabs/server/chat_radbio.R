@@ -89,8 +89,11 @@ chat_add <- function(role, content) {
 
 chat_render <- function(hist) {
   if (length(hist) == 0) {
-    return(div(class = "msg-system", style = "font-size: 14px; color: #555;",
-      "Welcome to Chat-Radbio! Ask about radiation biology, radiotherapy sensitivity/resistance factors, and related research."))
+    return(div(class = "welcome-msg",
+      h3("Welcome to Chat-Radbio"),
+      p("Ask about radiation biology, radiotherapy sensitivity/resistance factors, and related research."),
+      p("Try: \"What factors influence radiosensitivity in glioblastoma?\" or \"How does hypoxia affect radiotherapy response?\"")
+    ))
   }
   tags <- list()
   for (msg in hist) {
@@ -183,13 +186,13 @@ output$chat_history_ui <- renderUI({
 output$chat_status_ui <- renderUI({
   i <- info()
   if (chat_loading()) {
-    span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb;")
+    span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb; font-size: 14px;")
   } else if (i$ollama_ok) {
-    span(icon("circle", style = "color: #27ae60;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #27ae60;"), " ", i$label, style = "color: #666; font-size: 14px;")
   } else if (i$api_ok) {
-    span(icon("circle", style = "color: #fdc23a;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #fdc23a;"), " ", i$label, style = "color: #666; font-size: 14px;")
   } else {
-    span(icon("circle", style = "color: #e96449;"), " ", i$label, style = "color: #666;")
+    span(icon("circle", style = "color: #e96449;"), " ", i$label, style = "color: #666; font-size: 14px;")
   }
 })
 
