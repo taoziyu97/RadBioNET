@@ -26,10 +26,7 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
   }
 
   df <- df %>%
-    mutate(
-      pct = round(n / total_n * 100, 1),
-      lbl = paste0(.data[[category_col]], "\n", n, " (", pct, "%)")
-    )
+    mutate(pct = round(n / total_n * 100, 1))
 
   n_colors <- nrow(df)
   if (n_colors <= length(MODERN_COLORS)) {
@@ -40,37 +37,42 @@ proportion_pie <- function(data, category_col, title, top_n = 10) {
 
   plot_ly(
     df,
-    labels = ~lbl,
+    labels = ~.data[[category_col]],
     values = ~n,
     type = "pie",
-    textinfo = "label+percent",
+    hole = 0.4,
+    textinfo = "label",
     textposition = "outside",
-    textfont = list(size = 10, color = "#555"),
+    textfont = list(size = 9, color = "#555", family = "Open Sans"),
     hoverinfo = "text",
     hovertext = ~paste0(
       "<b>", .data[[category_col]], "</b><br>",
-      "Count: ", n, "<br>",
-      "Proportion: ", pct, "%"
+      "n = ", n, " (", pct, "%)"
     ),
     marker = list(
       colors = colors,
-      line = list(color = "#FFFFFF", width = 2)
+      line = list(color = "#FFFFFF", width = 1.5)
     ),
-    showlegend = FALSE,
-    pull = 0.02
+    showlegend = FALSE
   ) %>%
     layout(
       title = list(
         text = paste0("<b>", title, "</b>"),
-        font = list(size = 14, color = "#333", family = "Open Sans"),
+        font = list(size = 12, color = "#333", family = "Open Sans"),
         x = 0.05,
         xanchor = "left"
       ),
       xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
       yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-      margin = list(t = 40, b = 20, l = 10, r = 50),
+      margin = list(t = 30, b = 5, l = 5, r = 60),
       paper_bgcolor = "rgba(0,0,0,0)",
       plot_bgcolor = "rgba(0,0,0,0)",
-      font = list(family = "Open Sans")
+      font = list(family = "Open Sans"),
+      annotations = list(
+        text = paste0("<b>", total_n, "</b>"),
+        font = list(size = 16, color = "#555", family = "Open Sans"),
+        showarrow = FALSE,
+        x = 0.5, y = 0.5
+      )
     )
 }
