@@ -3,21 +3,44 @@ home <- tabPanel(
   value = "home",
   hr(),
   fluidRow(
-    column(width = 12,
-      div(style = "background: linear-gradient(135deg, #f0f7ff, #e8f4f8); border-radius: 14px; padding: 28px 35px; margin-bottom: 20px; border: 1px solid #d0e8f0; box-shadow: 0 3px 15px rgba(9, 142, 187, 0.08);",
-        h1(style = "margin: 0 0 12px 0; font-size: 28px; font-weight: 700; color: #1a5276; font-family: Open Sans;",
+    column(width = 10, offset = 1,
+      div(style = "background: linear-gradient(135deg, #f0f7ff, #e8f4f8); border-radius: 14px; padding: 30px 35px 25px 35px; margin-bottom: 20px; border: 1px solid #d0e8f0; box-shadow: 0 3px 15px rgba(9, 142, 187, 0.08);",
+        h1(style = "margin: 0 0 15px 0; font-size: 26px; font-weight: 700; color: #1a5276;",
           "RadBioNet"),
-        p(style = "margin: 0 0 12px 0; font-size: 15px; color: #2c3e50; line-height: 1.6; font-family: Source Sans Pro;",
-          HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform developed by the <span style='color:#19509A;font-weight:bold'>Department of Radiation Oncology</span> at <b>Ruijin Hospital</b>, Shanghai JiaoTong University School of Medicine.")),
-        p(style = "margin: 0 0 8px 0; font-size: 14px; color: #34495e; line-height: 1.6; font-family: Source Sans Pro;",
-          "The platform serves as a central hub for collecting, visualizing, and exploring factors associated with radiation sensitivity and resistance in cancer. It supports the global radiation oncology research community by providing:"),
-        div(style = "font-size: 14px; color: #34495e; line-height: 1.7; font-family: Source Sans Pro; padding-left: 5px;",
-          HTML("
-            <span style='display:inline-block;margin-right:20px;'>&#128269; Browse and filter curated research data</span>
-            <span style='display:inline-block;margin-right:20px;'>&#128202; Interactive visualizations and statistics</span>
-            <span style='display:inline-block;margin-right:20px;'>&#129302; AI-powered Chat-Radbio assistant</span>
-            <span style='display:inline-block;margin-right:5px;'>&#127759; Global collaboration platform</span>
-          "))
+        p(style = "margin: 0 0 14px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
+          HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform developed by the <span style='color:#19509A;font-weight:bold'>Department of Radiation Oncology at Ruijin Hospital</span>, Shanghai JiaoTong University School of Medicine.")),
+        p(style = "margin: 0 0 18px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
+          "The platform serves as a central hub for collecting, visualizing, and exploring factors associated with radiation sensitivity and resistance in cancer, supporting the global radiation oncology research community."),
+        fluidRow(
+          column(width = 3,
+            div(style = "background:#fff;border-radius:10px;padding:12px 8px;text-align:center;border:1px solid #e0eef5;margin-bottom:5px;",
+              div(style = "font-size:22px;margin-bottom:4px;", "&#128269;"),
+              div(style = "font-size:13px;color:#2c3e50;font-weight:600;", "Browse & Filter"),
+              div(style = "font-size:11px;color:#888;", "Curated research data")
+            )
+          ),
+          column(width = 3,
+            div(style = "background:#fff;border-radius:10px;padding:12px 8px;text-align:center;border:1px solid #e0eef5;margin-bottom:5px;",
+              div(style = "font-size:22px;margin-bottom:4px;", "&#128202;"),
+              div(style = "font-size:13px;color:#2c3e50;font-weight:600;", "Visualizations"),
+              div(style = "font-size:11px;color:#888;", "Interactive charts & tables")
+            )
+          ),
+          column(width = 3,
+            div(style = "background:#fff;border-radius:10px;padding:12px 8px;text-align:center;border:1px solid #e0eef5;margin-bottom:5px;",
+              div(style = "font-size:22px;margin-bottom:4px;", "&#129302;"),
+              div(style = "font-size:13px;color:#2c3e50;font-weight:600;", "AI Assistant"),
+              div(style = "font-size:11px;color:#888;", "Chat-Radbio Q&A")
+            )
+          ),
+          column(width = 3,
+            div(style = "background:#fff;border-radius:10px;padding:12px 8px;text-align:center;border:1px solid #e0eef5;margin-bottom:5px;",
+              div(style = "font-size:22px;margin-bottom:4px;", "&#127759;"),
+              div(style = "font-size:13px;color:#2c3e50;font-weight:600;", "Collaboration"),
+              div(style = "font-size:11px;color:#888;", "Global research network")
+            )
+          )
+        )
       )
     )
   ),

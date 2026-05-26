@@ -2,36 +2,39 @@ clinical_tab <- tabPanel(
   title = "Clinical",
   value = "clinical",
   hr(),
-  br(),
   div(class = "filter-bar",
-    column(width = 4,
-      pickerInput(
-        inputId = "clinical_tumor_type",
-        label = "Tumor Type",
-        choices = tumor_types,
-        selected = tumor_types,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
-        multiple = TRUE
-      )
-    ),
-    column(width = 4,
-      pickerInput(
-        inputId = "clinical_factor_type",
-        label = "Factor Type",
-        choices = factor_types,
-        selected = factor_types,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
-        multiple = TRUE
-      )
-    ),
-    column(width = 2, style = "padding-top: 25px;",
-      actionBttn(
-        inputId = "clinical_reset",
-        label = "Reset",
-        style = "fill",
-        color = "danger",
-        icon = icon("refresh"),
-        size = "sm"
+    fluidRow(
+      column(width = 5,
+        pickerInput(
+          inputId = "clinical_tumor_type",
+          label = "Tumor Type",
+          choices = tumor_types,
+          selected = tumor_types,
+          options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
+          multiple = TRUE
+        )
+      ),
+      column(width = 5,
+        pickerInput(
+          inputId = "clinical_factor_type",
+          label = "Factor Type",
+          choices = factor_types,
+          selected = factor_types,
+          options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
+          multiple = TRUE
+        )
+      ),
+      column(width = 2, style = "display:flex;align-items:flex-end;",
+        div(style = "width:100%;padding-bottom:1px;",
+          actionBttn(
+            inputId = "clinical_reset",
+            label = "Reset",
+            style = "fill",
+            color = "danger",
+            icon = icon("refresh"),
+            size = "sm"
+          )
+        )
       )
     )
   ),
