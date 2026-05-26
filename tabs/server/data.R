@@ -4,9 +4,6 @@ data_filtered <- reactive({
   if (!is.null(input$filter_tumor_type)) {
     df <- df %>% filter(`Tumor Type` %in% input$filter_tumor_type)
   }
-  if (!is.null(input$filter_tumor_subtype)) {
-    df <- df %>% filter(`Tumor Subtype` %in% input$filter_tumor_subtype)
-  }
   if (!is.null(input$filter_radiation_type)) {
     df <- df %>% filter(`Radiation Type` %in% input$filter_radiation_type)
   }
@@ -22,7 +19,6 @@ data_filtered <- reactive({
 
 observeEvent(input$btn_reset, {
   updatePickerInput(session, "filter_tumor_type", selected = tumor_types)
-  updatePickerInput(session, "filter_tumor_subtype", selected = tumor_subtypes)
   updatePickerInput(session, "filter_radiation_type", selected = radiation_types)
   updatePickerInput(session, "filter_factor_type", selected = factor_types)
   updatePickerInput(session, "filter_evidence", selected = evidence_levels)
@@ -31,11 +27,6 @@ observeEvent(input$btn_reset, {
 output$chart_tumor_type <- renderPlotly({
   req(data_filtered())
   proportion_pie(data_filtered(), "Tumor Type", "Tumor Type")
-})
-
-output$chart_tumor_subtype <- renderPlotly({
-  req(data_filtered())
-  proportion_pie(data_filtered(), "Tumor Subtype", "Tumor Subtype")
 })
 
 output$chart_radiation_type <- renderPlotly({

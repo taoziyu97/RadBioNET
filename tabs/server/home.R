@@ -1,21 +1,3 @@
-observeEvent(input$navbar, {
-  if (input$navbar == "home") {
-    sendSweetAlert(
-      session = session,
-      title = "Welcome to RadBioNet",
-      text = HTML("
-        <h3><b>Radiation Biology Database</b></h3>
-        <br>
-        This database compiles factors associated with radiation sensitivity and resistance
-        in cancer, supporting precision radiotherapy research.
-      "),
-      type = "info",
-      html = TRUE,
-      closeOnClickOutside = FALSE
-    )
-  }
-})
-
 observeEvent(input$analise_geral, {
   updateTabsetPanel(session = session, inputId = "navbar", selected = "data")
 })

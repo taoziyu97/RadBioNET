@@ -16,16 +16,6 @@ data_tab <- tabPanel(
     ),
     column(width = 2,
       pickerInput(
-        inputId = "filter_tumor_subtype",
-        label = "Tumor Subtype",
-        choices = tumor_subtypes,
-        selected = tumor_subtypes,
-        options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
-        multiple = TRUE
-      )
-    ),
-    column(width = 2,
-      pickerInput(
         inputId = "filter_radiation_type",
         label = "Radiation Type",
         choices = radiation_types,
@@ -71,31 +61,22 @@ data_tab <- tabPanel(
   div(class = "section-title", "Distribution Overview"),
   hr(class = "section-divider"),
   fluidRow(
-    column(width = 6,
+    column(width = 3,
       div(class = "chart-card",
         withSpinner(plotlyOutput("chart_tumor_type", height = "380px"), type = 4, color = "#098ebb")
       )
     ),
-    column(width = 6,
-      div(class = "chart-card",
-        withSpinner(plotlyOutput("chart_tumor_subtype", height = "380px"), type = 4, color = "#098ebb")
-      )
-    )
-  ),
-  fluidRow(
-    column(width = 6,
+    column(width = 3,
       div(class = "chart-card",
         withSpinner(plotlyOutput("chart_radiation_type", height = "380px"), type = 4, color = "#098ebb")
       )
     ),
-    column(width = 6,
+    column(width = 3,
       div(class = "chart-card",
         withSpinner(plotlyOutput("chart_factor_type", height = "380px"), type = 4, color = "#098ebb")
       )
-    )
-  ),
-  fluidRow(
-    column(width = 12,
+    ),
+    column(width = 3,
       div(class = "chart-card",
         withSpinner(plotlyOutput("chart_evidence", height = "380px"), type = 4, color = "#098ebb")
       )
