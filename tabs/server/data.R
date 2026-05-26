@@ -24,26 +24,6 @@ observeEvent(input$btn_reset, {
   updatePickerInput(session, "filter_evidence", selected = evidence_levels)
 })
 
-output$chart_tumor_type <- renderPlotly({
-  req(data_filtered())
-  proportion_pie(data_filtered(), "Tumor Type", "Tumor Type")
-})
-
-output$chart_radiation_type <- renderPlotly({
-  req(data_filtered())
-  proportion_pie(data_filtered(), "Radiation Type", "Radiation Type")
-})
-
-output$chart_factor_type <- renderPlotly({
-  req(data_filtered())
-  proportion_pie(data_filtered(), "Factor Type", "Factor Type")
-})
-
-output$chart_evidence <- renderPlotly({
-  req(data_filtered())
-  proportion_pie(data_filtered(), "Evidence Level", "Evidence Level")
-})
-
 output$data_table <- renderDT({
   req(data_filtered())
   df <- data_filtered() %>%

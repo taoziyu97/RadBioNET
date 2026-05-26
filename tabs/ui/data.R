@@ -2,9 +2,8 @@ data_tab <- tabPanel(
   title = "Data",
   value = "data",
   hr(),
-  br(),
   div(class = "filter-bar",
-    column(width = 2,
+    column(width = 3,
       pickerInput(
         inputId = "filter_tumor_type",
         label = "Tumor Type",
@@ -14,7 +13,7 @@ data_tab <- tabPanel(
         multiple = TRUE
       )
     ),
-    column(width = 2,
+    column(width = 3,
       pickerInput(
         inputId = "filter_radiation_type",
         label = "Radiation Type",
@@ -24,7 +23,7 @@ data_tab <- tabPanel(
         multiple = TRUE
       )
     ),
-    column(width = 2,
+    column(width = 3,
       pickerInput(
         inputId = "filter_factor_type",
         label = "Factor Type",
@@ -44,7 +43,7 @@ data_tab <- tabPanel(
         multiple = TRUE
       )
     ),
-    column(width = 1, style = "padding-top: 25px;",
+    column(width = 1, style = "padding-top: 18px;",
       actionBttn(
         inputId = "btn_reset",
         label = "Reset",
@@ -55,34 +54,6 @@ data_tab <- tabPanel(
       )
     )
   ),
-  br(),
-  p(style = "color: #888; font-size: 13px; margin: 5px 0 15px 5px;",
-    "Charts update automatically when filters change."),
-  div(class = "section-title", "Distribution Overview"),
-  hr(class = "section-divider"),
-  fluidRow(
-    column(width = 3,
-      div(class = "chart-card",
-        withSpinner(plotlyOutput("chart_tumor_type", height = "380px"), type = 4, color = "#098ebb")
-      )
-    ),
-    column(width = 3,
-      div(class = "chart-card",
-        withSpinner(plotlyOutput("chart_radiation_type", height = "380px"), type = 4, color = "#098ebb")
-      )
-    ),
-    column(width = 3,
-      div(class = "chart-card",
-        withSpinner(plotlyOutput("chart_factor_type", height = "380px"), type = 4, color = "#098ebb")
-      )
-    ),
-    column(width = 3,
-      div(class = "chart-card",
-        withSpinner(plotlyOutput("chart_evidence", height = "380px"), type = 4, color = "#098ebb")
-      )
-    )
-  ),
-  br(),
   div(class = "section-title", "Database Records"),
   hr(class = "section-divider"),
   fluidRow(
