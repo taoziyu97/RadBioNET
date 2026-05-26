@@ -88,23 +88,11 @@ chat_add <- function(role, content) {
 }
 
 chat_render <- function(hist) {
-  tags <- list()
   if (length(hist) == 0) {
-    tags[[1]] <- div(style = "text-align:center;padding:40px 20px 30px 20px;",
-      div(style = "font-size:28px;margin-bottom:10px;font-weight:300;color:#098ebb;", "Chat-Radbio"),
-      div(style = "font-size:18px;font-weight:700;color:#1a5276;margin-bottom:8px;",
-        "Welcome to Chat-Radbio"),
-      div(style = "font-size:14px;color:#666;max-width:400px;margin:0 auto 20px auto;line-height:1.6;",
-        "Ask questions about radiation biology, radiosensitivity and radioresistance factors, molecular mechanisms, and related research."),
-      div(style = "font-size:13px;color:#999;",
-        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "Radiation sensitivity biomarkers"),
-        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "DNA damage repair pathways"),
-        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "Radiosensitizers")),
-      div(style = "margin-top:12px;font-size:13px;color:#999;",
-        span(style = "background:#f0f0f0;padding:4px 12px;border-radius:12px;margin:0 4px;", "Clinical translation of radiobiology"))
-    )
-    return(do.call(tagList, tags))
+    return(div(class = "msg-system", style = "font-size: 14px; color: #555;",
+      "Welcome to Chat-Radbio! Ask about radiation biology, radiotherapy sensitivity/resistance factors, and related research."))
   }
+  tags <- list()
   for (msg in hist) {
     if (msg$role == "system_msg") {
       tags[[length(tags) + 1]] <- div(class = "msg-system", msg$content)
@@ -195,13 +183,13 @@ output$chat_history_ui <- renderUI({
 output$chat_status_ui <- renderUI({
   i <- info()
   if (chat_loading()) {
-    span(icon("spinner", class = "fa-spin"), " Thinking", style = "color: #098ebb; font-size: 13px; font-weight: 600;")
+    span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb;")
   } else if (i$ollama_ok) {
-    span(icon("circle", style = "color: #27ae60; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
+    span(icon("circle", style = "color: #27ae60;"), " ", i$label, style = "color: #666;")
   } else if (i$api_ok) {
-    span(icon("circle", style = "color: #fdc23a; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
+    span(icon("circle", style = "color: #fdc23a;"), " ", i$label, style = "color: #666;")
   } else {
-    span(icon("circle", style = "color: #e96449; font-size: 8px;"), " ", i$label, style = "color: #666; font-size: 12px;")
+    span(icon("circle", style = "color: #e96449;"), " ", i$label, style = "color: #666;")
   }
 })
 
@@ -258,7 +246,7 @@ observeEvent(input$chat_send, {
   updateTextAreaInput(session, "chat_input", value = "")
   chat_loading(TRUE)
 
-  hist <- isolate(chat_hist())
+  hist <- chat_hist()
   messages <- list(list(role = "system", content = SYSTEM_PROMPT))
   for (msg in hist) {
     if (msg$role %in% c("user", "assistant")) {
@@ -266,9 +254,9 @@ observeEvent(input$chat_send, {
     }
   }
 
-  session$sendCustomMessage("chat-thinking", list(show = TRUE))
-  result <- call_llm(messages)
-  session$sendCustomMessage("chat-thinking", list(show = FALSE))
+  result <- withProgress(value = NULL, message = "Thinking...", style = "old", {
+    call_llm(messages)
+  })
 
   if (!is.null(result$error)) {
     chat_add("system_msg", paste("Error:", result$error))

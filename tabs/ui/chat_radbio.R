@@ -26,43 +26,6 @@ chat_radbio_tab <- tabPanel(
       .msg-system { text-align: center; color: #888; font-size: 12px; clear: both; padding: 5px; }
       .chat-container::after { content: ''; display: table; clear: both; }
       .status-dot { font-size: 10px; vertical-align: middle; }
-      .thinking-bubble {
-        background-color: #e8e8e8; color: #888;
-        padding: 10px 18px; border-radius: 18px 18px 18px 4px;
-        margin: 8px 0; max-width: 75%;
-        float: left; clear: both;
-        font-size: 13px; font-style: italic;
-        display: flex; align-items: center; gap: 8px;
-      }
-      .thinking-dots { display: inline-flex; }
-      .thinking-dots span {
-        animation: dot-pulse 1.4s infinite; opacity: 0;
-        font-size: 22px; line-height: 0;
-      }
-      .thinking-dots span:nth-child(1) { animation-delay: 0s; }
-      .thinking-dots span:nth-child(2) { animation-delay: 0.2s; }
-      .thinking-dots span:nth-child(3) { animation-delay: 0.4s; }
-      @keyframes dot-pulse {
-        0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; }
-      }
-    ")),
-    tags$script(HTML("
-      Shiny.addCustomMessageHandler('chat-thinking', function(msg) {
-        var wrapper = document.getElementById('chat_history_wrapper');
-        if (!wrapper) return;
-        var existing = document.getElementById('thinking-bubble');
-        if (msg.show) {
-          if (existing) return;
-          var bubble = document.createElement('div');
-          bubble.id = 'thinking-bubble';
-          bubble.className = 'thinking-bubble';
-          bubble.innerHTML = 'Thinking<span class=\"thinking-dots\"><span>.</span><span>.</span><span>.</span></span>';
-          wrapper.appendChild(bubble);
-          wrapper.scrollTop = wrapper.scrollHeight;
-        } else {
-          if (existing) existing.remove();
-        }
-      });
     "))
   ),
   column(
@@ -86,7 +49,7 @@ chat_radbio_tab <- tabPanel(
           fluidRow(
             column(10,
               textAreaInput("chat_input", NULL,
-                placeholder = "Ask about radiation biology, radiosensitivity factors, molecular mechanisms...",
+                placeholder = "Ask about radiation biology...",
                 width = "100%", rows = 2, resize = "none")
             ),
             column(2, br(),

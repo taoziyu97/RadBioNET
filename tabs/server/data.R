@@ -28,9 +28,10 @@ output$data_table <- renderDT({
   req(data_filtered())
   df <- data_filtered() %>%
     select(
-      Title, `Tumor Type`, `Tumor Subtype`, `Radiation Type`,
+      `Tumor Type`, `Tumor Subtype`, `Radiation Type`,
       `Key Factor(s)`, `Effect Direction`, `Factor Type`,
-      `Evidence Level`, `Year`, Journal, DOI
+      `Evidence Level`, `Year`, Journal, DOI,
+      Title
     )
 
   datatable(
