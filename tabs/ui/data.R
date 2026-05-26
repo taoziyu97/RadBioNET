@@ -46,16 +46,16 @@ data_tab <- tabPanel(
           multiple = TRUE
         )
       ),
-      column(width = 2, style = "display:flex;align-items:flex-end;",
-        div(style = "width:100%;padding-bottom:1px;",
-          actionBttn(
-            inputId = "btn_reset",
-            label = "Reset",
-            style = "fill",
-            color = "danger",
-            icon = icon("refresh"),
-            size = "sm"
-          )
+      column(width = 2,
+        br(),
+        actionBttn(
+          inputId = "btn_reset",
+          label = "Reset",
+          style = "fill",
+          color = "danger",
+          icon = icon("refresh"),
+          size = "sm",
+          block = TRUE
         )
       )
     )
