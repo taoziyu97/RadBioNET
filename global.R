@@ -1,72 +1,33 @@
-##-- Pacotes ----
 library(dplyr)
-library(dbplyr)
 library(data.table)
-library(reshape2)
 library(tidyr)
-library(lubridate)
 library(shiny)
 library(shinydashboard)
 library(shinyWidgets)
-# library(rgeos)
 library(shinycssloaders)
+library(ggplot2)
 library(ggthemes)
 library(RColorBrewer)
-library(sf)
-library(sp)
 library(scales)
-library(leaflet)
 library(plotly)
-library(highcharter)
 library(DT)
-library(mapview)
-#devtools::install_github("lgsilvaesilva/mapsBR")
-library(mapsBR)
+library(shinyjs)
+library(htmltools)
+library(httr)
+library(jsonlite)
 
-##-- Chamando as funções criadas ----
+senres <- readRDS("dados/sensitive_resistance.RDS")
+
+tumor_types     <- sort(unique(senres[["Tumor Type"]]))
+tumor_subtypes  <- sort(unique(senres[["Tumor Subtype"]]))
+radiation_types <- sort(unique(senres[["Radiation Type"]]))
+factor_types    <- sort(unique(senres[["Factor Type"]]))
+evidence_levels <- sort(unique(senres[["Evidence Level"]]))
+years           <- sort(unique(senres[["Year"]]))
+
 source("functions/utils.R")
 source("functions/plot_functions.R")
-cores <- c("#098ebb", "#fdc23a", "#e96449", "#818286")
+source("functions/llm.R")
 
-##-- Dados do banco ----
-load(file = "dados/dados_gerais.RData")
-load(file = "dados/chaves.RData")
-## Radiotherapy data
-senres <- readRDS(file = "dados/sensitive_resistance.RDS")
-
-# anos <- senres %>% distinct(cancer_type) %>% .$cancer_type %>% sort
-cancers <- senres %>% distinct(cancer_type) %>% .$cancer_type %>% sort
-radiations <- senres %>% distinct(Radiation_type) %>% .$Radiation_type %>% sort
-factorcalss <- senres %>% distinct(factorcalss) %>% .$factorcalss %>% sort
-  # chaves %>% distinct(ANO_ELEICAO) %>% .$ANO_ELEICAO %>% as.numeric() %>% sort
-cargos <- chaves %>% mutate(DESCRICAO_CARGO = toupper(DESCRICAO_CARGO)) %>% distinct(CODIGO_CARGO, DESCRICAO_CARGO)
-cargos$DESCRICAO_CARGO_EN <- c("PRESIDENT", "SENATOR", "GOVERNOR", "FEDERAL DEPUTY", "STATE DEPUTY", "DISTRITAL DEPUTY", "MAYOR")
-chaves <- merge(chaves, cargos, by = c("CODIGO_CARGO", "DESCRICAO_CARGO"))
-cargos <- setNames(as.list(cargos$CODIGO_CARGO), cargos$DESCRICAO_CARGO_EN)
-partidos <- chaves %>% distinct(SIGLA_PARTIDO) %>% .$SIGLA_PARTIDO %>% sort
-
-# estados
-estados <- chaves %>% distinct(UF) %>% .$UF
-estados <- estados[!is.na(estados)]
-
-
-
-municipios_df <- chaves %>% filter(UF == "SP") %>% distinct(COD_MUN_IBGE, NOME_MUNICIPIO) %>% group_by(COD_MUN_IBGE) %>% summarise(NOME_MUNICIPIO = last(NOME_MUNICIPIO))
-municipios <- as.list(c(municipios_df$COD_MUN_IBGE, "TODOS MUNICIPIOS"))
-names(municipios) <- c(municipios_df$NOME_MUNICIPIO, "All cities")
-
-partidos_cores <- readRDS(file = "dados/cores_partidos.RDS")
-load("dados/voronoy/voronoi_est_sp.RData")
-
-
-
-##-- Chamando os componentes do header shiny ----
-tab_files <- list.files(path = "tabs", full.names = T, recursive = T)
-tab_files <- tab_files[-grep(x = tab_files, pattern = "server")]
-
+tab_files <- list.files(path = "tabs/ui", full.names = T, recursive = T)
 suppressMessages(lapply(tab_files, source))
-
-##-- Chamando os shapes do mapsBR ----
-data("regMun")
-data("regUF")
-

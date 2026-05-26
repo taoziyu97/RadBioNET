@@ -1,0 +1,26 @@
+## RadBioNet LLM Configuration
+## Copy this file, fill in your credentials, and save as llm_config.R
+## For web deployment, set the environment variables on your server (see below).
+## The app checks in this order:
+##   1. Environment variables (best for production servers)
+##   2. This config file (convenient for simple deployments)
+##   3. Manual UI settings (click gear icon in chat)
+
+## --- Option A: Set these environment variables on your server ---
+## In terminal before launching R:
+##   export RADBIO_API_URL=https://api.deepseek.com
+##   export RADBIO_API_KEY=sk-your-key-here
+##   export RADBIO_MODEL=deepseek-chat
+##   export RADBIO_BACKEND=openai
+
+## --- Option B: Uncomment and edit below for a simple config file ---
+
+# LLM_BACKEND <- "openai"              # "auto", "ollama", or "openai"
+# LLM_API_URL <- "https://api.deepseek.com"
+# LLM_API_KEY <- "sk-your-deepseek-api-key"
+# LLM_MODEL   <- "deepseek-chat"
+
+## --- Free API Providers ---
+## DeepSeek:    https://api.deepseek.com        model: deepseek-chat
+## SiliconFlow: https://api.siliconflow.cn      model: deepseek-ai/DeepSeek-V3
+## Groq:        https://api.groq.com/openai     model: llama3-70b-8192
