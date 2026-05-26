@@ -4,7 +4,7 @@ data_tab <- tabPanel(
   hr(),
   fluidRow(
     column(width = 10, offset = 1,
-      div(class = "filter-bar",
+      div(class = "filter-bar", style = "margin-top: 10px;",
         fluidRow(
           column(width = 6,
             pickerInput(
