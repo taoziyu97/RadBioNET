@@ -8,10 +8,10 @@ clinical_tab <- tabPanel(
         fluidRow(
           column(width = 6,
             pickerInput(
-              inputId = "clinical_tumor_type",
-              label = "Tumor Type",
-              choices = tumor_types,
-              selected = tumor_types,
+              inputId = "clinical_cancer_type",
+              label = "Cancer Type",
+              choices = cancer_types,
+              selected = cancer_types,
               options = list(`live-search` = TRUE, `actions-box` = TRUE, size = 10),
               multiple = TRUE
             )

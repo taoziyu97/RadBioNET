@@ -423,3 +423,40 @@ table.dataTable tbody tr:nth-child(even) {
   text-align: left;
 }
 .msg-ai th { background-color: #f0f0f0; }
+
+.stat-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 15px 10px;
+  text-align: center;
+  transition: box-shadow .3s;
+}
+.stat-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #098ebb;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 11px;
+  color: #888;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
+
+.filter-sidebar {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+}
+.filter-sidebar .pickerInput {
+  margin-bottom: 8px;
+}

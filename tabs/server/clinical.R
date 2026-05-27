@@ -1,46 +1,46 @@
 clinical_filtered <- reactive({
   df <- senres
 
-  if (!is.null(input$clinical_tumor_type)) {
-    df <- df %>% filter(`Tumor Type` %in% input$clinical_tumor_type)
+  if (!is.null(input$clinical_cancer_type)) {
+    df <- df %>% filter(`Cancer type` %in% input$clinical_cancer_type)
   }
   if (!is.null(input$clinical_factor_type)) {
-    df <- df %>% filter(`Factor Type` %in% input$clinical_factor_type)
+    df <- df %>% filter(`Factor type` %in% input$clinical_factor_type)
   }
   df
 })
 
 observeEvent(input$clinical_reset, {
-  updatePickerInput(session, "clinical_tumor_type", selected = tumor_types)
+  updatePickerInput(session, "clinical_cancer_type", selected = cancer_types)
   updatePickerInput(session, "clinical_factor_type", selected = factor_types)
 })
 
 output$clinical_effect <- renderPlotly({
   req(clinical_filtered())
-  proportion_pie(clinical_filtered(), "Effect Direction", "Effect Direction")
+  proportion_pie(clinical_filtered(), "Direction", "Direction")
 })
 
 output$clinical_evidence_tumor <- renderPlotly({
   req(clinical_filtered())
   df <- clinical_filtered() %>%
-    group_by(`Tumor Type`, `Evidence Level`) %>%
+    group_by(`Cancer type`, `Evidence type`) %>%
     summarise(n = n(), .groups = "drop") %>%
     na.omit()
 
   if (nrow(df) == 0) return(NULL)
 
-  ev_levels <- sort(unique(df$`Evidence Level`))
+  ev_levels <- sort(unique(df$`Evidence type`))
   n_colors <- length(ev_levels)
   bar_colors <- colorRampPalette(MODERN_COLORS)(n_colors)
   names(bar_colors) <- ev_levels
 
   p <- ggplot(df, aes(
-    x = reorder(`Tumor Type`, n, sum),
+    x = reorder(`Cancer type`, n, sum),
     y = n,
-    fill = `Evidence Level`,
+    fill = `Evidence type`,
     text = paste0(
-      "Tumor: ", `Tumor Type`, "<br>",
-      "Evidence: ", `Evidence Level`, "<br>",
+      "Cancer: ", `Cancer type`, "<br>",
+      "Evidence: ", `Evidence type`, "<br>",
       "Count: ", n
     )
   )) +
@@ -51,7 +51,7 @@ output$clinical_evidence_tumor <- renderPlotly({
     labs(
       x = "",
       y = "Proportion",
-      fill = "Evidence Level"
+      fill = "Evidence Type"
     ) +
     theme_minimal(base_family = "Open Sans") +
     theme(
@@ -71,7 +71,7 @@ output$clinical_evidence_tumor <- renderPlotly({
   ggplotly(p, tooltip = "text") %>%
     layout(
       title = list(
-        text = "<b>Evidence Level by Tumor Type</b>",
+        text = "<b>Evidence Type by Cancer Type</b>",
         font = list(size = 14, color = "#333", family = "Open Sans"),
         x = 0.05,
         xanchor = "left"

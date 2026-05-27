@@ -12,17 +12,17 @@ observeEvent(input$sobre, {
 })
 
 output$home_chart_tumor_type <- renderPlotly({
-  proportion_pie(senres, "Tumor Type", "Tumor Type")
+  proportion_pie(senres, "Cancer type", "Cancer Type")
 })
 
 output$home_chart_radiation_type <- renderPlotly({
-  proportion_pie(senres, "Radiation Type", "Radiation Type")
+  proportion_pie(senres, "Radiation type", "Radiation Type")
 })
 
 output$home_chart_factor_type <- renderPlotly({
-  proportion_pie(senres, "Factor Type", "Factor Type")
+  proportion_pie(senres, "Factor type", "Factor Type")
 })
 
 output$home_chart_evidence <- renderPlotly({
-  proportion_pie(senres, "Evidence Level", "Evidence Level")
+  proportion_pie(senres, "Evidence type", "Evidence Type")
 })
