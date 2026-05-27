@@ -66,15 +66,18 @@ output$data_table <- renderDT({
 
   datatable(
     df,
-    extensions = c("Buttons", "Scroller"),
+    extensions = c("Buttons"),
     options = list(
-      dom = "Bfrtip",
+      dom = "lBfrtip",
       buttons = c("copy", "csv", "excel", "print"),
       scrollX = TRUE,
       scrollY = "400px",
-      scroller = TRUE,
       pageLength = 10,
-      language = list(url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json")
+      lengthMenu = list(c(10, 25, 50, 100, -1), c("10", "25", "50", "100", "All")),
+      language = list(
+        url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json",
+        lengthMenu = "Show _MENU_ entries"
+      )
     ),
     rownames = FALSE,
     class = "display nowrap cell-border stripe"
