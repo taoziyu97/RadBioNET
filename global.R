@@ -15,8 +15,15 @@ library(shinyjs)
 library(htmltools)
 library(httr)
 library(jsonlite)
-library(readxl)
-senres <- read_excel("dados/factor_v4_proton_therapy.xlsx")
+cache_rds <- "dados/factor_v4_proton_therapy.rds"
+cache_xlsx <- "dados/factor_v4_proton_therapy.xlsx"
+if (file.exists(cache_rds)) {
+  senres <- readRDS(cache_rds)
+} else {
+  library(readxl)
+  senres <- read_excel(cache_xlsx)
+  saveRDS(senres, cache_rds)
+}
 
 cancer_types     <- sort(unique(senres[["Cancer type"]]))
 cancer_subtypes  <- sort(unique(senres[["Cancer subtype"]]))

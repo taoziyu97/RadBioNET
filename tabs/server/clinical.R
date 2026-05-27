@@ -22,10 +22,12 @@ output$clinical_effect <- renderPlotly({
 
 output$clinical_evidence_tumor <- renderPlotly({
   req(clinical_filtered())
-  df <- clinical_filtered() %>%
+  df <- clinical_filtered()
+  df[["Cancer type"]][is.na(df[["Cancer type"]])] <- "Unknown"
+  df[["Evidence type"]][is.na(df[["Evidence type"]])] <- "Unknown"
+  df <- df %>%
     group_by(`Cancer type`, `Evidence type`) %>%
-    summarise(n = n(), .groups = "drop") %>%
-    na.omit()
+    summarise(n = n(), .groups = "drop")
 
   if (nrow(df) == 0) return(NULL)
 

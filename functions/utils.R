@@ -28,6 +28,31 @@ nav_block <- function(title, subtitle, cor, icon, id) {
               </div>'))
 }
 
+get_factor_links <- function(factor_name, factor_type) {
+  links <- list()
+
+  encoded <- URLencode(factor_name, reserved = TRUE)
+
+  links[["GeneCards"]] <- paste0("https://www.genecards.org/Search/Keyword?queryString=", encoded)
+
+  if (grepl("Gene/Protein|Transcription factor", factor_type)) {
+    links[["NCBI Gene"]] <- paste0("https://www.ncbi.nlm.nih.gov/gene/?term=", encoded)
+    links[["UniProt"]] <- paste0("https://www.uniprot.org/uniprotkb?query=", encoded)
+    links[["STRING"]] <- paste0("https://string-db.org/api/network?identifier=", encoded)
+  }
+
+  if (grepl("Pathway", factor_type)) {
+    links[["KEGG"]] <- paste0("https://www.kegg.jp/kegg-bin/search?mode=pathway&keyword=", encoded)
+    links[["Reactome"]] <- paste0("https://reactome.org/content/query?q=", encoded)
+  }
+
+  if (grepl("Drug|Nanoparticle|Small molecule|Inhibitor", factor_type)) {
+    links[["DrugBank"]] <- paste0("https://go.drugbank.com/unearth/q?query=", encoded)
+  }
+
+  links
+}
+
 render_markdown <- function(text) {
   if (is.null(text) || is.na(text)) return("")
   text <- gsub("\\*\\*(\\S.*?\\S)\\*\\*", "<strong>\\1</strong>", text)
