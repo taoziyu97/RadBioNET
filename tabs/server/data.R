@@ -4,22 +4,46 @@ data_filtered <- reactive({
   df <- senres
 
   if (!is.null(input$filter_cancer_type)) {
-    df <- df %>% filter(`Cancer type` %in% input$filter_cancer_type)
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_cancer_type) {
+      mask <- mask | grepl(val, df[["Cancer type"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
-  if (!is.null(input$filter_radiation_type)) {
-    df <- df %>% filter(`Radiation type` %in% input$filter_radiation_type)
+  if (!is.null(input$filter_particle_type)) {
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_particle_type) {
+      mask <- mask | grepl(val, df[["Particle type"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
   if (!is.null(input$filter_factor_type)) {
-    df <- df %>% filter(`Factor type` %in% input$filter_factor_type)
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_factor_type) {
+      mask <- mask | grepl(val, df[["Factor type"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
   if (!is.null(input$filter_direction)) {
-    df <- df %>% filter(Direction %in% input$filter_direction)
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_direction) {
+      mask <- mask | grepl(val, df[["Direction"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
   if (!is.null(input$filter_evidence_type)) {
-    df <- df %>% filter(`Evidence type` %in% input$filter_evidence_type)
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_evidence_type) {
+      mask <- mask | grepl(val, df[["Evidence type"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
   if (!is.null(input$filter_quality)) {
-    df <- df %>% filter(`Quality flag` %in% input$filter_quality)
+    mask <- rep(FALSE, nrow(df))
+    for (val in input$filter_quality) {
+      mask <- mask | grepl(val, df[["Quality flag"]], fixed = TRUE)
+    }
+    df <- df[mask, ]
   }
   if (!is.null(input$filter_year)) {
     df <- df %>% filter(`Publication year` %in% input$filter_year)
@@ -29,12 +53,12 @@ data_filtered <- reactive({
 })
 
 observeEvent(input$btn_reset, {
-  updatePickerInput(session, "filter_cancer_type", selected = cancer_types)
-  updatePickerInput(session, "filter_radiation_type", selected = radiation_types)
-  updatePickerInput(session, "filter_factor_type", selected = factor_types)
-  updatePickerInput(session, "filter_direction", selected = directions)
-  updatePickerInput(session, "filter_evidence_type", selected = evidence_types)
-  updatePickerInput(session, "filter_quality", selected = quality_flags)
+  updatePickerInput(session, "filter_cancer_type", selected = cancer_type_choices)
+  updatePickerInput(session, "filter_particle_type", selected = particle_type_choices)
+  updatePickerInput(session, "filter_factor_type", selected = factor_type_choices)
+  updatePickerInput(session, "filter_direction", selected = direction_choices)
+  updatePickerInput(session, "filter_evidence_type", selected = evidence_type_choices)
+  updatePickerInput(session, "filter_quality", selected = quality_flag_choices)
   updatePickerInput(session, "filter_year", selected = years)
 })
 
@@ -70,12 +94,12 @@ output$data_table <- renderDT({
   df <- df %>%
     mutate(
       Factor = sprintf(
-        '<a href="#" onclick="Shiny.setInputValue(\'show_factor\', \'%s\', {priority: \'event\'}); return false;">%s</a>',
+        '<a href="#" onclick="Shiny.setInputValue(\'show_factor\', \'%s\', {priority: \'event\'}); return false;" style="color: #098ebb; font-weight: 600; text-decoration: underline; text-decoration-style: dotted;">%s</a>',
         safe_factor, htmlEscape(Factor)
       )
     ) %>%
     select(
-      Factor, `Cancer type`, `Cancer subtype`, `Radiation type`,
+      Factor, `Cancer type`, `Cancer subtype`,
       Direction, `Factor type`, `Evidence type`, `Quality flag`,
       `Biological mechanism`, Journal, `Publication year`,
       Title, DOI
@@ -120,7 +144,6 @@ observeEvent(input$show_factor, {
   n_cancer <- n_distinct(fd[["Cancer type"]], na.rm = TRUE)
   yr <- range(fd[["Publication year"]], na.rm = TRUE)
   n_ev <- n_distinct(fd[["Evidence type"]])
-  source_batches <- sort(unique(fd[["Source batch"]]))
 
   cancer_dist <- fd %>%
     group_by(`Cancer type`) %>%
@@ -164,7 +187,7 @@ observeEvent(input$show_factor, {
            paper_bgcolor = "rgba(0,0,0,0)", plot_bgcolor = "rgba(0,0,0,0)")
 
   showModal(modalDialog(
-    title = div(style = "border-bottom: 2px solid #098ebb; padding-bottom: 10px;",
+    title = div(style = "border-bottom: 2px solid #098ebb; padding-bottom: 10px; margin-bottom: 10px;",
       div(style = "display: flex; justify-content: space-between; align-items: center;",
         div(
           h3(style = "margin: 0; color: #098ebb; font-weight: 700; font-size: 20px; display: inline;", fname),
@@ -174,10 +197,8 @@ observeEvent(input$show_factor, {
     ),
     size = "l", easyClose = TRUE,
     footer = modalButton("Close"),
-
     tags$head(tags$style(HTML(".modal-dialog { width: 90% !important; max-width: 1100px; } .factor-link-btn { margin: 2px 4px; }"))),
 
-    # External links
     if (length(links) > 0) {
       div(style = "margin: 12px 0;",
         lapply(names(links), function(nm) {
@@ -189,47 +210,38 @@ observeEvent(input$show_factor, {
       )
     },
 
-    # Stats cards
     fluidRow(
       column(3, div(class = "stat-card", div(class = "stat-value", total_papers), div(class = "stat-label", "Papers"))),
       column(3, div(class = "stat-card", div(class = "stat-value", n_cancer), div(class = "stat-label", "Cancer Types"))),
-      column(3, div(class = "stat-card", div(class = "stat-value", paste0(yr[1], "–", yr[2])), div(class = "stat-label", "Year Range"))),
+      column(3, div(class = "stat-card", div(class = "stat-value", paste0(yr[1], "\U2013", yr[2])), div(class = "stat-label", "Year Range"))),
       column(3, div(class = "stat-card", div(class = "stat-value", n_ev), div(class = "stat-label", "Evidence Types")))
     ),
 
     br(),
 
-    # Charts row
     fluidRow(
       column(width = 7,
         h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Cancer Type Distribution"),
-        div(style = "height: 280px;", as_widget(cancer_plot))
+        div(style = "height: 220px;", as_widget(cancer_plot))
       ),
       column(width = 5,
         h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Direction Distribution"),
-        div(style = "height: 280px;", as_widget(dir_plot))
+        div(style = "height: 180px;", as_widget(dir_plot))
       )
     ),
 
     br(),
 
-    # Source batch
-    div(style = "font-size: 12px; color: #999; margin-bottom: 10px;",
-      "Source: ", paste(source_batches, collapse = ", ")
-    ),
-
-    # Papers table
     h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;",
       "Related Papers (", nrow(papers), ")"),
     div(style = "max-height: 300px; overflow-y: auto; border: 1px solid #e8e8e8; border-radius: 6px; padding: 5px;",
-      tableOutput("factor_papers")
+      tableOutput("factor_modal_papers")
     ),
 
     br()
   ))
 
-  output$factor_papers <- renderTable({
+  output$factor_modal_papers <- renderTable({
     papers
-  }, striped = TRUE, bordered = TRUE, hover = TRUE, spacing = "s", width = "100%",
-     digits = 0)
+  }, striped = TRUE, bordered = TRUE, hover = TRUE, spacing = "s", width = "100%", digits = 0)
 })

@@ -1,0 +1,6 @@
+Particle,N papers,Median (Gy),Q1 (Gy),Q3 (Gy)
+Photon,343,5.0,2.0,10.0
+Proton,119,15.0,5.0,51.5
+Carbon ion,36,4.0,2.7,10.0
+Heavy ion,10,1.0,0.8,4.2
+Neutron,8,8.5,3.8,11.5

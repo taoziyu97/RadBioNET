@@ -1,0 +1,8 @@
+_part,3D-CRT,Brachytherapy,Conventional EBRT,CyberKnife,FLASH,Gamma Knife,IMPT,IMRT,IORT,Radioisotope therapy,SBRT/SABR,SRS,Total body irradiation,VMAT
+Alpha,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+Carbon ion,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+Electron,0,0,0,0,0,0,0,0,4,0,0,0,0,0
+Heavy ion,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Photon,1,4,0,0,3,0,0,2,0,2,0,0,3,0
+Proton,1,3,0,0,4,0,13,11,0,0,1,0,2,3
+Unspecified,12,39,1,1,5,7,0,28,0,16,22,13,24,6

@@ -1,0 +1,37 @@
+# Knowledge Graph Schema
+
+## Entity types
+- Factor              — molecular factor (gene, protein, drug, nanoparticle)
+- BiologicalCategory  — pathway / process / drug class (e.g., "DNA damage response")
+- Cancer              — cancer type (e.g., "Pancreatic cancer")
+- Particle            — radiation particle category (Proton / Photon / Carbon ion etc)
+- Modality            — clinical technique (IMRT / SBRT / FLASH / BNCT etc)
+
+## Predicates (relationships)
+
+### Structural
+- belongs_to_category(Factor → BiologicalCategory)
+- targets(Factor → Factor)   — drug-target relationships (curated)
+
+### Direction-based (from strong same-sentence evidence)
+- radiosensitizes(Factor → Cancer)
+- confers_radioresistance_in(Factor → Cancer)
+- induces_anti_tumour_immunity_in(Factor → Cancer)
+- induces_immunogenic_cell_death_in(Factor → Cancer)
+- mediates_immunosuppression_in(Factor → Cancer)
+- contributes_to_radiation_toxicity_in(Factor → Cancer)
+- upregulated_by_radiation_in(Factor → Cancer)
+- downregulated_by_radiation_in(Factor → Cancer)
+- no_change_observed_in(Factor → Cancer)
+
+### Network
+- interacts_with(Factor → Factor)   — co-occurrence (Jaccard ≥ 0.1)
+
+### Methods
+- studied_with_particle(Factor → Particle)
+- used_with_modality(Factor → Modality)
+
+## Evidence
+Each triple has:
+- evidence_count: number of papers supporting it
+- sample_papers: up to 3 example DOIs

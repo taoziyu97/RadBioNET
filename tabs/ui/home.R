@@ -51,6 +51,27 @@ home <- tabPanel(
   fluidRow(
     column(width = 10, offset = 1,
       fluidRow(
+        column(width = 4,
+          div(class = "stat-card",
+            div(class = "stat-value", textOutput("home_stat_total")),
+            div(class = "stat-label", "Total Records")
+          )
+        ),
+        column(width = 4,
+          div(class = "stat-card",
+            div(class = "stat-value", textOutput("home_stat_years")),
+            div(class = "stat-label", "Year Range")
+          )
+        ),
+        column(width = 4,
+          div(class = "stat-card",
+            div(class = "stat-value", textOutput("home_stat_particles")),
+            div(class = "stat-label", "Particle Types")
+          )
+        )
+      ),
+      br(),
+      fluidRow(
         column(width = 3,
           div(class = "chart-card",
             withSpinner(plotlyOutput("home_chart_tumor_type", height = "300px"), type = 4, color = "#098ebb")

@@ -1,0 +1,81 @@
+community_id,size,dominant_category,top_factors,all_factors
+0,19,1. DNA damage response/repair,"γH2AX, PARP1, DNA-PK/PRKDC, ATM, RAD51, CHK1, ATR, CHK2","γH2AX, PARP1, DNA-PK/PRKDC, ATM, RAD51, CHK1, ATR, CHK2, BRCA1, 53BP1, Olaparib, Ku70/XRCC6, Ku80/XRCC5, BRCA2, NU7441, AZD6738, Veliparib, Talazoparib, VE-821"
+1,11,6. Signaling pathways,"AKT, MAPK/ERK, PI3K, EGFR, mTOR, HER2/ERBB2, PTEN, Cetuximab","AKT, MAPK/ERK, PI3K, EGFR, mTOR, HER2/ERBB2, PTEN, Cetuximab, AMPK, Metformin, Trastuzumab"
+2,11,9. Innate immune sensors / IFN response,"PD-L1/CD274, STING/TMEM173, PD-1/PDCD1, cGAS, IFN-γ/IFNG, anti-PD-L1, anti-PD-1, Type I IFN response","PD-L1/CD274, STING/TMEM173, PD-1/PDCD1, cGAS, IFN-γ/IFNG, anti-PD-L1, anti-PD-1, Type I IFN response, CXCL10, RIG-I, MAVS"
+3,7,3. Apoptosis / cell death,"TP53/p53, Caspase-3, BCL2, p21/CDKN1A, BAX, BCL-XL, MCL1","TP53/p53, Caspase-3, BCL2, p21/CDKN1A, BAX, BCL-XL, MCL1"
+4,7,13. Stemness / EMT,"CD44, CD133/PROM1, E-cadherin/CDH1, SOX2, Vimentin/VIM, Snail/SNAI1, Nanog","CD44, CD133/PROM1, E-cadherin/CDH1, SOX2, Vimentin/VIM, Snail/SNAI1, Nanog"
+5,5,11. Cytokines / chemokines,"NF-κB, TNF-α, IL-6, TGF-β, TRAIL/TNFSF10","NF-κB, TNF-α, IL-6, TGF-β, TRAIL/TNFSF10"
+6,5,4. Ferroptosis / Cuproptosis,"NRF2/NFE2L2, GPX4, SLC7A11/xCT, KEAP1, ACSL4","NRF2/NFE2L2, GPX4, SLC7A11/xCT, KEAP1, ACSL4"
+7,5,14. Autophagy,"LC3, Beclin1/BECN1, p62/SQSTM1, ATG5, ATG7","LC3, Beclin1/BECN1, p62/SQSTM1, ATG5, ATG7"
+8,3,16. Chemotherapy drugs,"Paclitaxel, Etoposide, Carboplatin","Paclitaxel, Etoposide, Carboplatin"
+9,3,2. Cell cycle,"Cyclin D1, CDK4, CDK6","Cyclin D1, CDK4, CDK6"
+10,3,3. Apoptosis / cell death,"Caspase-8, FAS, Caspase-9","Caspase-8, FAS, Caspase-9"
+11,3,1. DNA damage response/repair,"MRE11, NBS1/NBN, RAD50","MRE11, NBS1/NBN, RAD50"
+12,2,7. Hypoxia / metabolism,"HIF-1α, VEGF","HIF-1α, VEGF"
+13,2,20. Other / miscellaneous,"Temozolomide, MGMT","Temozolomide, MGMT"
+14,2,16. Chemotherapy drugs,"5-FU, Oxaliplatin","5-FU, Oxaliplatin"
+15,2,3. Apoptosis / cell death,"Survivin/BIRC5, XIAP","Survivin/BIRC5, XIAP"
+16,2,17. Targeted drugs / DDR inhibitors,"Bevacizumab, Atezolizumab","Bevacizumab, Atezolizumab"
+17,2,3. Apoptosis / cell death,"PUMA, NOXA","PUMA, NOXA"
+18,2,3. Apoptosis / cell death,"NLRP3, GSDMD","NLRP3, GSDMD"
+19,2,10. Immune checkpoints / antigen presentation,"CTLA-4, anti-CTLA-4","CTLA-4, anti-CTLA-4"
+20,2,15. Epigenetic regulators,"DNMT1, HDAC1","DNMT1, HDAC1"
+21,1,16. Chemotherapy drugs,Cisplatin,Cisplatin
+22,1,19. Nanoparticles,Gold nanoparticles,Gold nanoparticles
+23,1,16. Chemotherapy drugs,Doxorubicin,Doxorubicin
+24,1,6. Signaling pathways,STAT3,STAT3
+25,1,6. Signaling pathways,Wnt/β-catenin,Wnt/β-catenin
+26,1,16. Chemotherapy drugs,Gemcitabine,Gemcitabine
+27,1,3. Apoptosis / cell death,HMGB1,HMGB1
+28,1,5. Oncogenes / RTKs,MYC/c-Myc,MYC/c-Myc
+29,1,17. Targeted drugs / DDR inhibitors,Curcumin,Curcumin
+30,1,16. Chemotherapy drugs,Docetaxel,Docetaxel
+31,1,5. Oncogenes / RTKs,KRAS,KRAS
+32,1,1. DNA damage response/repair,MDM2,MDM2
+33,1,19. Nanoparticles,Iron oxide NPs,Iron oxide NPs
+34,1,6. Signaling pathways,STAT1,STAT1
+35,1,2. Cell cycle,Cyclin B1,Cyclin B1
+36,1,2. Cell cycle,p16/CDKN2A,p16/CDKN2A
+37,1,6. Signaling pathways,Notch,Notch
+38,1,5. Oncogenes / RTKs,IGF1R,IGF1R
+39,1,6. Signaling pathways,Hippo/YAP,Hippo/YAP
+40,1,1. DNA damage response/repair,WEE1,WEE1
+41,1,3. Apoptosis / cell death,GSDME,GSDME
+42,1,9. Innate immune sensors / IFN response,IFNB1/IFN-β,IFNB1/IFN-β
+43,1,5. Oncogenes / RTKs,MET/c-Met,MET/c-Met
+44,1,1. DNA damage response/repair,XRCC1,XRCC1
+45,1,20. Other / miscellaneous,FOXM1,FOXM1
+46,1,10. Immune checkpoints / antigen presentation,MHC-I,MHC-I
+47,1,7. Hypoxia / metabolism,GLUT1,GLUT1
+48,1,16. Chemotherapy drugs,Capecitabine,Capecitabine
+49,1,8. Oxidative stress,SOD2,SOD2
+50,1,15. Epigenetic regulators,EZH2,EZH2
+51,1,15. Epigenetic regulators,BMI1,BMI1
+52,1,17. Targeted drugs / DDR inhibitors,KU-55933,KU-55933
+53,1,7. Hypoxia / metabolism,CA9/CA-IX,CA9/CA-IX
+54,1,6. Signaling pathways,Hedgehog,Hedgehog
+55,1,16. Chemotherapy drugs,Irinotecan,Irinotecan
+56,1,11. Cytokines / chemokines,FOXP3,FOXP3
+57,1,2. Cell cycle,Rb,Rb
+58,1,1. DNA damage response/repair,BRD4,BRD4
+59,1,3. Apoptosis / cell death,BAK,BAK
+60,1,13. Stemness / EMT,ALDH1,ALDH1
+61,1,16. Chemotherapy drugs,Mitomycin-C,Mitomycin-C
+62,1,7. Hypoxia / metabolism,HIF-2α,HIF-2α
+63,1,18. Immune checkpoint inhibitors,Durvalumab,Durvalumab
+64,1,17. Targeted drugs / DDR inhibitors,Niraparib,Niraparib
+65,1,15. Epigenetic regulators,SIRT1,SIRT1
+66,1,17. Targeted drugs / DDR inhibitors,RSL3,RSL3
+67,1,6. Signaling pathways,IRE1α/XBP1,IRE1α/XBP1
+68,1,15. Epigenetic regulators,METTL3,METTL3
+69,1,7. Hypoxia / metabolism,LDHA,LDHA
+70,1,15. Epigenetic regulators,HDAC6,HDAC6
+71,1,1. DNA damage response/repair,XRCC4,XRCC4
+72,1,1. DNA damage response/repair,FANCD2,FANCD2
+73,1,15. Epigenetic regulators,YTHDF2,YTHDF2
+74,1,17. Targeted drugs / DDR inhibitors,Erastin,Erastin
+75,1,5. Oncogenes / RTKs,HER3/ERBB3,HER3/ERBB3
+76,1,20. Other / miscellaneous,IDH1,IDH1
+77,1,12. Immunosuppressive factors,Galectin-1,Galectin-1
+78,1,9. Innate immune sensors / IFN response,IRF3,IRF3
+79,1,13. Stemness / EMT,Twist1,Twist1

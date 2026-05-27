@@ -7,11 +7,13 @@ MODERN_COLORS <- c(
 
 proportion_pie <- function(data, category_col, title, top_n = 10) {
   df <- data
-  df[[category_col]][is.na(df[[category_col]])] <- "Unknown"
+  df[[category_col]][is.na(df[[category_col]])] <- "(Unknown)"
   df <- df %>%
     group_by(.data[[category_col]]) %>%
     summarise(n = n(), .groups = "drop") %>%
     arrange(desc(n))
+
+  df <- df %>% filter(!.data[[category_col]] %in% c("Unknown", "(Unknown)"))
 
   if (nrow(df) == 0) return(NULL)
 

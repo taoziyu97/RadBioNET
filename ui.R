@@ -45,7 +45,7 @@ shinyUI(
       fluid = T,
       home,
       data_tab,
-      clinical_tab,
+      analysis_tab,
       chat_radbio_tab,
       about_tab
     ),

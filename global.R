@@ -12,6 +12,7 @@ library(scales)
 library(plotly)
 library(DT)
 library(shinyjs)
+library(visNetwork)
 library(htmltools)
 library(httr)
 library(jsonlite)
@@ -25,20 +26,31 @@ if (file.exists(cache_rds)) {
 }
 
 # Replace NAs with "(Unknown)" in filter columns so no rows are silently dropped
-na_cols <- c("Cancer type", "Radiation type", "Evidence type")
+na_cols <- c("Cancer type", "Evidence type", "Particle type")
 for (col in na_cols) {
-  senres[[col]][is.na(senres[[col]])] <- "(Unknown)"
+  if (col %in% names(senres)) {
+    senres[[col]][is.na(senres[[col]])] <- "(Unknown)"
+  }
 }
 if (!file.exists(cache_rds)) saveRDS(senres, cache_rds)
 
 cancer_types     <- sort(unique(senres[["Cancer type"]]))
 cancer_subtypes  <- sort(unique(senres[["Cancer subtype"]]))
-radiation_types  <- sort(unique(senres[["Radiation type"]]))
+particle_types   <- sort(unique(senres[["Particle type"]]))
 factor_types     <- sort(unique(senres[["Factor type"]]))
 evidence_types   <- sort(unique(senres[["Evidence type"]]))
 directions       <- sort(unique(senres[["Direction"]]))
 quality_flags    <- sort(unique(senres[["Quality flag"]]))
 years            <- sort(unique(senres[["Publication year"]]))
+
+# Multi-value column choices (split on "; ", exclude Unknown)
+drop_unknown <- function(x) { setdiff(x, c("Unknown", "(Unknown)")) }
+cancer_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Cancer type"]], "; ")))))
+evidence_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Evidence type"]], "; ")))))
+direction_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Direction"]], "; ")))))
+quality_flag_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Quality flag"]], "; ")))))
+factor_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Factor type"]], "; ")))))
+particle_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Particle type"]], "; ")))))
 
 source("functions/utils.R")
 source("functions/plot_functions.R")

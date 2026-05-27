@@ -1,0 +1,8235 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "TP53/p53",
+        "label": "TP53/p53",
+        "papers": 1047,
+        "strong_papers": 509,
+        "category": "1. DNA damage response/repair",
+        "community": 3,
+        "size": 1047
+      }
+    },
+    {
+      "data": {
+        "id": "\u03b3H2AX",
+        "label": "\u03b3H2AX",
+        "papers": 758,
+        "strong_papers": 185,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 758
+      }
+    },
+    {
+      "data": {
+        "id": "AKT",
+        "label": "AKT",
+        "papers": 644,
+        "strong_papers": 304,
+        "category": "6. Signaling pathways",
+        "community": 1,
+        "size": 644
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin",
+        "label": "Cisplatin",
+        "papers": 463,
+        "strong_papers": 191,
+        "category": "16. Chemotherapy drugs",
+        "community": 21,
+        "size": 463
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3",
+        "label": "Caspase-3",
+        "papers": 462,
+        "strong_papers": 104,
+        "category": "3. Apoptosis / cell death",
+        "community": 3,
+        "size": 462
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB",
+        "label": "NF-\u03baB",
+        "papers": 386,
+        "strong_papers": 197,
+        "category": "6. Signaling pathways",
+        "community": 5,
+        "size": 386
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2",
+        "label": "BCL2",
+        "papers": 373,
+        "strong_papers": 121,
+        "category": "3. Apoptosis / cell death",
+        "community": 3,
+        "size": 373
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK",
+        "label": "MAPK/ERK",
+        "papers": 359,
+        "strong_papers": 153,
+        "category": "6. Signaling pathways",
+        "community": 1,
+        "size": 359
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1",
+        "label": "HIF-1\u03b1",
+        "papers": 350,
+        "strong_papers": 178,
+        "category": "7. Hypoxia / metabolism",
+        "community": 12,
+        "size": 350
+      }
+    },
+    {
+      "data": {
+        "id": "TNF-\u03b1",
+        "label": "TNF-\u03b1",
+        "papers": 337,
+        "strong_papers": 162,
+        "category": "11. Cytokines / chemokines",
+        "community": 5,
+        "size": 337
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274",
+        "label": "PD-L1/CD274",
+        "papers": 335,
+        "strong_papers": 191,
+        "category": "10. Immune checkpoints / antigen presentation",
+        "community": 2,
+        "size": 335
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K",
+        "label": "PI3K",
+        "papers": 335,
+        "strong_papers": 188,
+        "category": "6. Signaling pathways",
+        "community": 1,
+        "size": 335
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR",
+        "label": "EGFR",
+        "papers": 318,
+        "strong_papers": 197,
+        "category": "5. Oncogenes / RTKs",
+        "community": 1,
+        "size": 318
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1",
+        "label": "PARP1",
+        "papers": 312,
+        "strong_papers": 143,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 312
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC",
+        "label": "DNA-PK/PRKDC",
+        "papers": 295,
+        "strong_papers": 154,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 295
+      }
+    },
+    {
+      "data": {
+        "id": "p21/CDKN1A",
+        "label": "p21/CDKN1A",
+        "papers": 285,
+        "strong_papers": 96,
+        "category": "2. Cell cycle",
+        "community": 3,
+        "size": 285
+      }
+    },
+    {
+      "data": {
+        "id": "BAX",
+        "label": "BAX",
+        "papers": 276,
+        "strong_papers": 78,
+        "category": "3. Apoptosis / cell death",
+        "community": 3,
+        "size": 276
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173",
+        "label": "STING/TMEM173",
+        "papers": 258,
+        "strong_papers": 175,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 258
+      }
+    },
+    {
+      "data": {
+        "id": "ATM",
+        "label": "ATM",
+        "papers": 256,
+        "strong_papers": 83,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 256
+      }
+    },
+    {
+      "data": {
+        "id": "Gold nanoparticles",
+        "label": "Gold nanoparticles",
+        "papers": 251,
+        "strong_papers": 153,
+        "category": "19. Nanoparticles",
+        "community": 22,
+        "size": 251
+      }
+    },
+    {
+      "data": {
+        "id": "mTOR",
+        "label": "mTOR",
+        "papers": 244,
+        "strong_papers": 136,
+        "category": "6. Signaling pathways",
+        "community": 1,
+        "size": 244
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51",
+        "label": "RAD51",
+        "papers": 230,
+        "strong_papers": 89,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 230
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6",
+        "label": "IL-6",
+        "papers": 228,
+        "strong_papers": 130,
+        "category": "11. Cytokines / chemokines",
+        "community": 5,
+        "size": 228
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2",
+        "label": "TGF-\u03b2",
+        "papers": 222,
+        "strong_papers": 119,
+        "category": "6. Signaling pathways",
+        "community": 5,
+        "size": 222
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin",
+        "label": "Doxorubicin",
+        "papers": 215,
+        "strong_papers": 69,
+        "category": "16. Chemotherapy drugs",
+        "community": 23,
+        "size": 215
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1",
+        "label": "PD-1/PDCD1",
+        "papers": 203,
+        "strong_papers": 95,
+        "category": "10. Immune checkpoints / antigen presentation",
+        "community": 2,
+        "size": 203
+      }
+    },
+    {
+      "data": {
+        "id": "VEGF",
+        "label": "VEGF",
+        "papers": 178,
+        "strong_papers": 83,
+        "category": "5. Oncogenes / RTKs",
+        "community": 12,
+        "size": 178
+      }
+    },
+    {
+      "data": {
+        "id": "cGAS",
+        "label": "cGAS",
+        "papers": 171,
+        "strong_papers": 108,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 171
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1",
+        "label": "CHK1",
+        "papers": 170,
+        "strong_papers": 85,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 170
+      }
+    },
+    {
+      "data": {
+        "id": "STAT3",
+        "label": "STAT3",
+        "papers": 165,
+        "strong_papers": 102,
+        "category": "6. Signaling pathways",
+        "community": 24,
+        "size": 165
+      }
+    },
+    {
+      "data": {
+        "id": "Wnt/\u03b2-catenin",
+        "label": "Wnt/\u03b2-catenin",
+        "papers": 156,
+        "strong_papers": 85,
+        "category": "6. Signaling pathways",
+        "community": 25,
+        "size": 156
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5",
+        "label": "Survivin/BIRC5",
+        "papers": 153,
+        "strong_papers": 95,
+        "category": "3. Apoptosis / cell death",
+        "community": 15,
+        "size": 153
+      }
+    },
+    {
+      "data": {
+        "id": "ATR",
+        "label": "ATR",
+        "papers": 148,
+        "strong_papers": 78,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 148
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU",
+        "label": "5-FU",
+        "papers": 135,
+        "strong_papers": 64,
+        "category": "16. Chemotherapy drugs",
+        "community": 14,
+        "size": 135
+      }
+    },
+    {
+      "data": {
+        "id": "Temozolomide",
+        "label": "Temozolomide",
+        "papers": 134,
+        "strong_papers": 59,
+        "category": "16. Chemotherapy drugs",
+        "community": 13,
+        "size": 134
+      }
+    },
+    {
+      "data": {
+        "id": "Paclitaxel",
+        "label": "Paclitaxel",
+        "papers": 133,
+        "strong_papers": 66,
+        "category": "16. Chemotherapy drugs",
+        "community": 8,
+        "size": 133
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2",
+        "label": "HER2/ERBB2",
+        "papers": 128,
+        "strong_papers": 70,
+        "category": "5. Oncogenes / RTKs",
+        "community": 1,
+        "size": 128
+      }
+    },
+    {
+      "data": {
+        "id": "Gemcitabine",
+        "label": "Gemcitabine",
+        "papers": 124,
+        "strong_papers": 84,
+        "category": "16. Chemotherapy drugs",
+        "community": 26,
+        "size": 124
+      }
+    },
+    {
+      "data": {
+        "id": "NRF2/NFE2L2",
+        "label": "NRF2/NFE2L2",
+        "papers": 122,
+        "strong_papers": 79,
+        "category": "8. Oxidative stress",
+        "community": 6,
+        "size": 122
+      }
+    },
+    {
+      "data": {
+        "id": "HMGB1",
+        "label": "HMGB1",
+        "papers": 110,
+        "strong_papers": 87,
+        "category": "3. Apoptosis / cell death",
+        "community": 27,
+        "size": 110
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2",
+        "label": "CHK2",
+        "papers": 108,
+        "strong_papers": 56,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 108
+      }
+    },
+    {
+      "data": {
+        "id": "CD44",
+        "label": "CD44",
+        "papers": 108,
+        "strong_papers": 43,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 108
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1",
+        "label": "CD133/PROM1",
+        "papers": 104,
+        "strong_papers": 51,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 104
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc",
+        "label": "MYC/c-Myc",
+        "papers": 102,
+        "strong_papers": 56,
+        "category": "5. Oncogenes / RTKs",
+        "community": 28,
+        "size": 102
+      }
+    },
+    {
+      "data": {
+        "id": "PTEN",
+        "label": "PTEN",
+        "papers": 99,
+        "strong_papers": 66,
+        "category": "6. Signaling pathways",
+        "community": 1,
+        "size": 99
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1",
+        "label": "BRCA1",
+        "papers": 96,
+        "strong_papers": 41,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 96
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG",
+        "label": "IFN-\u03b3/IFNG",
+        "papers": 96,
+        "strong_papers": 42,
+        "category": "11. Cytokines / chemokines",
+        "community": 2,
+        "size": 96
+      }
+    },
+    {
+      "data": {
+        "id": "anti-PD-L1",
+        "label": "anti-PD-L1",
+        "papers": 95,
+        "strong_papers": 41,
+        "category": "18. Immune checkpoint inhibitors",
+        "community": 2,
+        "size": 95
+      }
+    },
+    {
+      "data": {
+        "id": "Curcumin",
+        "label": "Curcumin",
+        "papers": 94,
+        "strong_papers": 67,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 29,
+        "size": 94
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1",
+        "label": "53BP1",
+        "papers": 91,
+        "strong_papers": 22,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 91
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib",
+        "label": "Olaparib",
+        "papers": 83,
+        "strong_papers": 55,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 83
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab",
+        "label": "Cetuximab",
+        "papers": 79,
+        "strong_papers": 54,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 1,
+        "size": 79
+      }
+    },
+    {
+      "data": {
+        "id": "GPX4",
+        "label": "GPX4",
+        "papers": 79,
+        "strong_papers": 33,
+        "category": "4. Ferroptosis / Cuproptosis",
+        "community": 6,
+        "size": 79
+      }
+    },
+    {
+      "data": {
+        "id": "anti-PD-1",
+        "label": "anti-PD-1",
+        "papers": 78,
+        "strong_papers": 31,
+        "category": "18. Immune checkpoint inhibitors",
+        "community": 2,
+        "size": 78
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1",
+        "label": "Cyclin D1",
+        "papers": 77,
+        "strong_papers": 36,
+        "category": "2. Cell cycle",
+        "community": 9,
+        "size": 77
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6",
+        "label": "Ku70/XRCC6",
+        "papers": 76,
+        "strong_papers": 33,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 76
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK",
+        "label": "AMPK",
+        "papers": 70,
+        "strong_papers": 41,
+        "category": "7. Hypoxia / metabolism",
+        "community": 1,
+        "size": 70
+      }
+    },
+    {
+      "data": {
+        "id": "Docetaxel",
+        "label": "Docetaxel",
+        "papers": 62,
+        "strong_papers": 43,
+        "category": "16. Chemotherapy drugs",
+        "community": 30,
+        "size": 62
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1",
+        "label": "E-cadherin/CDH1",
+        "papers": 61,
+        "strong_papers": 20,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 61
+      }
+    },
+    {
+      "data": {
+        "id": "Metformin",
+        "label": "Metformin",
+        "papers": 57,
+        "strong_papers": 45,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 1,
+        "size": 57
+      }
+    },
+    {
+      "data": {
+        "id": "LC3",
+        "label": "LC3",
+        "papers": 55,
+        "strong_papers": 21,
+        "category": "14. Autophagy",
+        "community": 7,
+        "size": 55
+      }
+    },
+    {
+      "data": {
+        "id": "KRAS",
+        "label": "KRAS",
+        "papers": 53,
+        "strong_papers": 34,
+        "category": "5. Oncogenes / RTKs",
+        "community": 31,
+        "size": 53
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL",
+        "label": "BCL-XL",
+        "papers": 52,
+        "strong_papers": 29,
+        "category": "3. Apoptosis / cell death",
+        "community": 3,
+        "size": 52
+      }
+    },
+    {
+      "data": {
+        "id": "Ku80/XRCC5",
+        "label": "Ku80/XRCC5",
+        "papers": 51,
+        "strong_papers": 22,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 51
+      }
+    },
+    {
+      "data": {
+        "id": "SOX2",
+        "label": "SOX2",
+        "papers": 49,
+        "strong_papers": 19,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 49
+      }
+    },
+    {
+      "data": {
+        "id": "Etoposide",
+        "label": "Etoposide",
+        "papers": 49,
+        "strong_papers": 20,
+        "category": "16. Chemotherapy drugs",
+        "community": 8,
+        "size": 49
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4",
+        "label": "CDK4",
+        "papers": 48,
+        "strong_papers": 30,
+        "category": "2. Cell cycle",
+        "community": 9,
+        "size": 48
+      }
+    },
+    {
+      "data": {
+        "id": "MDM2",
+        "label": "MDM2",
+        "papers": 48,
+        "strong_papers": 29,
+        "category": "1. DNA damage response/repair",
+        "community": 32,
+        "size": 48
+      }
+    },
+    {
+      "data": {
+        "id": "Iron oxide NPs",
+        "label": "Iron oxide NPs",
+        "papers": 46,
+        "strong_papers": 28,
+        "category": "19. Nanoparticles",
+        "community": 33,
+        "size": 46
+      }
+    },
+    {
+      "data": {
+        "id": "Carboplatin",
+        "label": "Carboplatin",
+        "papers": 43,
+        "strong_papers": 20,
+        "category": "16. Chemotherapy drugs",
+        "community": 8,
+        "size": 43
+      }
+    },
+    {
+      "data": {
+        "id": "TRAIL/TNFSF10",
+        "label": "TRAIL/TNFSF10",
+        "papers": 41,
+        "strong_papers": 23,
+        "category": "3. Apoptosis / cell death",
+        "community": 5,
+        "size": 41
+      }
+    },
+    {
+      "data": {
+        "id": "STAT1",
+        "label": "STAT1",
+        "papers": 41,
+        "strong_papers": 28,
+        "category": "6. Signaling pathways",
+        "community": 34,
+        "size": 41
+      }
+    },
+    {
+      "data": {
+        "id": "Oxaliplatin",
+        "label": "Oxaliplatin",
+        "papers": 40,
+        "strong_papers": 28,
+        "category": "16. Chemotherapy drugs",
+        "community": 14,
+        "size": 40
+      }
+    },
+    {
+      "data": {
+        "id": "SLC7A11/xCT",
+        "label": "SLC7A11/xCT",
+        "papers": 40,
+        "strong_papers": 16,
+        "category": "4. Ferroptosis / Cuproptosis",
+        "community": 6,
+        "size": 40
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-8",
+        "label": "Caspase-8",
+        "papers": 40,
+        "strong_papers": 25,
+        "category": "3. Apoptosis / cell death",
+        "community": 10,
+        "size": 40
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin B1",
+        "label": "Cyclin B1",
+        "papers": 40,
+        "strong_papers": 15,
+        "category": "2. Cell cycle",
+        "community": 35,
+        "size": 40
+      }
+    },
+    {
+      "data": {
+        "id": "p16/CDKN2A",
+        "label": "p16/CDKN2A",
+        "papers": 40,
+        "strong_papers": 21,
+        "category": "2. Cell cycle",
+        "community": 36,
+        "size": 40
+      }
+    },
+    {
+      "data": {
+        "id": "Vimentin/VIM",
+        "label": "Vimentin/VIM",
+        "papers": 39,
+        "strong_papers": 14,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 39
+      }
+    },
+    {
+      "data": {
+        "id": "Notch",
+        "label": "Notch",
+        "papers": 39,
+        "strong_papers": 21,
+        "category": "6. Signaling pathways",
+        "community": 37,
+        "size": 39
+      }
+    },
+    {
+      "data": {
+        "id": "IGF1R",
+        "label": "IGF1R",
+        "papers": 38,
+        "strong_papers": 32,
+        "category": "5. Oncogenes / RTKs",
+        "community": 38,
+        "size": 38
+      }
+    },
+    {
+      "data": {
+        "id": "Trastuzumab",
+        "label": "Trastuzumab",
+        "papers": 38,
+        "strong_papers": 23,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 1,
+        "size": 38
+      }
+    },
+    {
+      "data": {
+        "id": "Beclin1/BECN1",
+        "label": "Beclin1/BECN1",
+        "papers": 37,
+        "strong_papers": 23,
+        "category": "14. Autophagy",
+        "community": 7,
+        "size": 37
+      }
+    },
+    {
+      "data": {
+        "id": "FAS",
+        "label": "FAS",
+        "papers": 35,
+        "strong_papers": 17,
+        "category": "3. Apoptosis / cell death",
+        "community": 10,
+        "size": 35
+      }
+    },
+    {
+      "data": {
+        "id": "Type I IFN response",
+        "label": "Type I IFN response",
+        "papers": 35,
+        "strong_papers": 34,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 35
+      }
+    },
+    {
+      "data": {
+        "id": "Hippo/YAP",
+        "label": "Hippo/YAP",
+        "papers": 35,
+        "strong_papers": 31,
+        "category": "6. Signaling pathways",
+        "community": 39,
+        "size": 35
+      }
+    },
+    {
+      "data": {
+        "id": "WEE1",
+        "label": "WEE1",
+        "papers": 34,
+        "strong_papers": 21,
+        "category": "1. DNA damage response/repair",
+        "community": 40,
+        "size": 34
+      }
+    },
+    {
+      "data": {
+        "id": "XIAP",
+        "label": "XIAP",
+        "papers": 34,
+        "strong_papers": 20,
+        "category": "3. Apoptosis / cell death",
+        "community": 15,
+        "size": 34
+      }
+    },
+    {
+      "data": {
+        "id": "MCL1",
+        "label": "MCL1",
+        "papers": 34,
+        "strong_papers": 22,
+        "category": "3. Apoptosis / cell death",
+        "community": 3,
+        "size": 34
+      }
+    },
+    {
+      "data": {
+        "id": "MRE11",
+        "label": "MRE11",
+        "papers": 33,
+        "strong_papers": 19,
+        "category": "1. DNA damage response/repair",
+        "community": 11,
+        "size": 33
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA2",
+        "label": "BRCA2",
+        "papers": 32,
+        "strong_papers": 21,
+        "category": "1. DNA damage response/repair",
+        "community": 0,
+        "size": 32
+      }
+    },
+    {
+      "data": {
+        "id": "GSDME",
+        "label": "GSDME",
+        "papers": 32,
+        "strong_papers": 16,
+        "category": "3. Apoptosis / cell death",
+        "community": 41,
+        "size": 32
+      }
+    },
+    {
+      "data": {
+        "id": "Snail/SNAI1",
+        "label": "Snail/SNAI1",
+        "papers": 31,
+        "strong_papers": 16,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 31
+      }
+    },
+    {
+      "data": {
+        "id": "p62/SQSTM1",
+        "label": "p62/SQSTM1",
+        "papers": 31,
+        "strong_papers": 15,
+        "category": "14. Autophagy",
+        "community": 7,
+        "size": 31
+      }
+    },
+    {
+      "data": {
+        "id": "NBS1/NBN",
+        "label": "NBS1/NBN",
+        "papers": 28,
+        "strong_papers": 16,
+        "category": "1. DNA damage response/repair",
+        "community": 11,
+        "size": 28
+      }
+    },
+    {
+      "data": {
+        "id": "MGMT",
+        "label": "MGMT",
+        "papers": 27,
+        "strong_papers": 17,
+        "category": "20. Other / miscellaneous",
+        "community": 13,
+        "size": 27
+      }
+    },
+    {
+      "data": {
+        "id": "IFNB1/IFN-\u03b2",
+        "label": "IFNB1/IFN-\u03b2",
+        "papers": 27,
+        "strong_papers": 14,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 42,
+        "size": 27
+      }
+    },
+    {
+      "data": {
+        "id": "MET/c-Met",
+        "label": "MET/c-Met",
+        "papers": 27,
+        "strong_papers": 24,
+        "category": "5. Oncogenes / RTKs",
+        "community": 43,
+        "size": 27
+      }
+    },
+    {
+      "data": {
+        "id": "XRCC1",
+        "label": "XRCC1",
+        "papers": 26,
+        "strong_papers": 15,
+        "category": "1. DNA damage response/repair",
+        "community": 44,
+        "size": 26
+      }
+    },
+    {
+      "data": {
+        "id": "Bevacizumab",
+        "label": "Bevacizumab",
+        "papers": 26,
+        "strong_papers": 9,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 16,
+        "size": 26
+      }
+    },
+    {
+      "data": {
+        "id": "CXCL10",
+        "label": "CXCL10",
+        "papers": 26,
+        "strong_papers": 12,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 26
+      }
+    },
+    {
+      "data": {
+        "id": "FOXM1",
+        "label": "FOXM1",
+        "papers": 25,
+        "strong_papers": 23,
+        "category": "20. Other / miscellaneous",
+        "community": 45,
+        "size": 25
+      }
+    },
+    {
+      "data": {
+        "id": "MHC-I",
+        "label": "MHC-I",
+        "papers": 25,
+        "strong_papers": 17,
+        "category": "10. Immune checkpoints / antigen presentation",
+        "community": 46,
+        "size": 25
+      }
+    },
+    {
+      "data": {
+        "id": "GLUT1",
+        "label": "GLUT1",
+        "papers": 24,
+        "strong_papers": 17,
+        "category": "7. Hypoxia / metabolism",
+        "community": 47,
+        "size": 24
+      }
+    },
+    {
+      "data": {
+        "id": "Capecitabine",
+        "label": "Capecitabine",
+        "papers": 24,
+        "strong_papers": 13,
+        "category": "16. Chemotherapy drugs",
+        "community": 48,
+        "size": 24
+      }
+    },
+    {
+      "data": {
+        "id": "SOD2",
+        "label": "SOD2",
+        "papers": 23,
+        "strong_papers": 15,
+        "category": "8. Oxidative stress",
+        "community": 49,
+        "size": 23
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-9",
+        "label": "Caspase-9",
+        "papers": 23,
+        "strong_papers": 13,
+        "category": "3. Apoptosis / cell death",
+        "community": 10,
+        "size": 23
+      }
+    },
+    {
+      "data": {
+        "id": "CTLA-4",
+        "label": "CTLA-4",
+        "papers": 23,
+        "strong_papers": 14,
+        "category": "10. Immune checkpoints / antigen presentation",
+        "community": 19,
+        "size": 23
+      }
+    },
+    {
+      "data": {
+        "id": "Nanog",
+        "label": "Nanog",
+        "papers": 22,
+        "strong_papers": 10,
+        "category": "13. Stemness / EMT",
+        "community": 4,
+        "size": 22
+      }
+    },
+    {
+      "data": {
+        "id": "EZH2",
+        "label": "EZH2",
+        "papers": 22,
+        "strong_papers": 18,
+        "category": "15. Epigenetic regulators",
+        "community": 50,
+        "size": 22
+      }
+    },
+    {
+      "data": {
+        "id": "BMI1",
+        "label": "BMI1",
+        "papers": 22,
+        "strong_papers": 16,
+        "category": "15. Epigenetic regulators",
+        "community": 51,
+        "size": 22
+      }
+    },
+    {
+      "data": {
+        "id": "KEAP1",
+        "label": "KEAP1",
+        "papers": 21,
+        "strong_papers": 17,
+        "category": "8. Oxidative stress",
+        "community": 6,
+        "size": 21
+      }
+    },
+    {
+      "data": {
+        "id": "PUMA",
+        "label": "PUMA",
+        "papers": 20,
+        "strong_papers": 16,
+        "category": "3. Apoptosis / cell death",
+        "community": 17,
+        "size": 20
+      }
+    },
+    {
+      "data": {
+        "id": "RAD50",
+        "label": "RAD50",
+        "papers": 20,
+        "strong_papers": 13,
+        "category": "1. DNA damage response/repair",
+        "community": 11,
+        "size": 20
+      }
+    },
+    {
+      "data": {
+        "id": "NLRP3",
+        "label": "NLRP3",
+        "papers": 20,
+        "strong_papers": 14,
+        "category": "3. Apoptosis / cell death",
+        "community": 18,
+        "size": 20
+      }
+    },
+    {
+      "data": {
+        "id": "KU-55933",
+        "label": "KU-55933",
+        "papers": 20,
+        "strong_papers": 10,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 52,
+        "size": 20
+      }
+    },
+    {
+      "data": {
+        "id": "CA9/CA-IX",
+        "label": "CA9/CA-IX",
+        "papers": 19,
+        "strong_papers": 11,
+        "category": "7. Hypoxia / metabolism",
+        "community": 53,
+        "size": 19
+      }
+    },
+    {
+      "data": {
+        "id": "ATG5",
+        "label": "ATG5",
+        "papers": 19,
+        "strong_papers": 8,
+        "category": "14. Autophagy",
+        "community": 7,
+        "size": 19
+      }
+    },
+    {
+      "data": {
+        "id": "Hedgehog",
+        "label": "Hedgehog",
+        "papers": 19,
+        "strong_papers": 10,
+        "category": "6. Signaling pathways",
+        "community": 54,
+        "size": 19
+      }
+    },
+    {
+      "data": {
+        "id": "Irinotecan",
+        "label": "Irinotecan",
+        "papers": 18,
+        "strong_papers": 12,
+        "category": "16. Chemotherapy drugs",
+        "community": 55,
+        "size": 18
+      }
+    },
+    {
+      "data": {
+        "id": "NU7441",
+        "label": "NU7441",
+        "papers": 18,
+        "strong_papers": 13,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 18
+      }
+    },
+    {
+      "data": {
+        "id": "FOXP3",
+        "label": "FOXP3",
+        "papers": 17,
+        "strong_papers": 11,
+        "category": "11. Cytokines / chemokines",
+        "community": 56,
+        "size": 17
+      }
+    },
+    {
+      "data": {
+        "id": "Rb",
+        "label": "Rb",
+        "papers": 17,
+        "strong_papers": 11,
+        "category": "2. Cell cycle",
+        "community": 57,
+        "size": 17
+      }
+    },
+    {
+      "data": {
+        "id": "BRD4",
+        "label": "BRD4",
+        "papers": 16,
+        "strong_papers": 8,
+        "category": "1. DNA damage response/repair",
+        "community": 58,
+        "size": 16
+      }
+    },
+    {
+      "data": {
+        "id": "BAK",
+        "label": "BAK",
+        "papers": 16,
+        "strong_papers": 8,
+        "category": "3. Apoptosis / cell death",
+        "community": 59,
+        "size": 16
+      }
+    },
+    {
+      "data": {
+        "id": "ALDH1",
+        "label": "ALDH1",
+        "papers": 15,
+        "strong_papers": 11,
+        "category": "13. Stemness / EMT",
+        "community": 60,
+        "size": 15
+      }
+    },
+    {
+      "data": {
+        "id": "AZD6738",
+        "label": "AZD6738",
+        "papers": 15,
+        "strong_papers": 12,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 15
+      }
+    },
+    {
+      "data": {
+        "id": "ACSL4",
+        "label": "ACSL4",
+        "papers": 12,
+        "strong_papers": 7,
+        "category": "4. Ferroptosis / Cuproptosis",
+        "community": 6,
+        "size": 12
+      }
+    },
+    {
+      "data": {
+        "id": "Mitomycin-C",
+        "label": "Mitomycin-C",
+        "papers": 12,
+        "strong_papers": 9,
+        "category": "16. Chemotherapy drugs",
+        "community": 61,
+        "size": 12
+      }
+    },
+    {
+      "data": {
+        "id": "Veliparib",
+        "label": "Veliparib",
+        "papers": 12,
+        "strong_papers": 10,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 12
+      }
+    },
+    {
+      "data": {
+        "id": "ATG7",
+        "label": "ATG7",
+        "papers": 11,
+        "strong_papers": 6,
+        "category": "14. Autophagy",
+        "community": 7,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-2\u03b1",
+        "label": "HIF-2\u03b1",
+        "papers": 11,
+        "strong_papers": 9,
+        "category": "7. Hypoxia / metabolism",
+        "community": 62,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "Durvalumab",
+        "label": "Durvalumab",
+        "papers": 11,
+        "strong_papers": 3,
+        "category": "18. Immune checkpoint inhibitors",
+        "community": 63,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "Niraparib",
+        "label": "Niraparib",
+        "papers": 11,
+        "strong_papers": 10,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 64,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "Talazoparib",
+        "label": "Talazoparib",
+        "papers": 11,
+        "strong_papers": 8,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "RIG-I",
+        "label": "RIG-I",
+        "papers": 11,
+        "strong_papers": 6,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "DNMT1",
+        "label": "DNMT1",
+        "papers": 11,
+        "strong_papers": 11,
+        "category": "15. Epigenetic regulators",
+        "community": 20,
+        "size": 11
+      }
+    },
+    {
+      "data": {
+        "id": "SIRT1",
+        "label": "SIRT1",
+        "papers": 10,
+        "strong_papers": 9,
+        "category": "15. Epigenetic regulators",
+        "community": 65,
+        "size": 10
+      }
+    },
+    {
+      "data": {
+        "id": "GSDMD",
+        "label": "GSDMD",
+        "papers": 10,
+        "strong_papers": 6,
+        "category": "3. Apoptosis / cell death",
+        "community": 18,
+        "size": 10
+      }
+    },
+    {
+      "data": {
+        "id": "RSL3",
+        "label": "RSL3",
+        "papers": 9,
+        "strong_papers": 4,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 66,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "IRE1\u03b1/XBP1",
+        "label": "IRE1\u03b1/XBP1",
+        "papers": 9,
+        "strong_papers": 9,
+        "category": "6. Signaling pathways",
+        "community": 67,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "METTL3",
+        "label": "METTL3",
+        "papers": 9,
+        "strong_papers": 8,
+        "category": "15. Epigenetic regulators",
+        "community": 68,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "LDHA",
+        "label": "LDHA",
+        "papers": 9,
+        "strong_papers": 6,
+        "category": "7. Hypoxia / metabolism",
+        "community": 69,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "HDAC6",
+        "label": "HDAC6",
+        "papers": 9,
+        "strong_papers": 8,
+        "category": "15. Epigenetic regulators",
+        "community": 70,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "XRCC4",
+        "label": "XRCC4",
+        "papers": 9,
+        "strong_papers": 7,
+        "category": "1. DNA damage response/repair",
+        "community": 71,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "VE-821",
+        "label": "VE-821",
+        "papers": 9,
+        "strong_papers": 9,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 0,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "anti-CTLA-4",
+        "label": "anti-CTLA-4",
+        "papers": 9,
+        "strong_papers": 7,
+        "category": "18. Immune checkpoint inhibitors",
+        "community": 19,
+        "size": 9
+      }
+    },
+    {
+      "data": {
+        "id": "CDK6",
+        "label": "CDK6",
+        "papers": 8,
+        "strong_papers": 7,
+        "category": "2. Cell cycle",
+        "community": 9,
+        "size": 8
+      }
+    },
+    {
+      "data": {
+        "id": "FANCD2",
+        "label": "FANCD2",
+        "papers": 8,
+        "strong_papers": 5,
+        "category": "1. DNA damage response/repair",
+        "community": 72,
+        "size": 8
+      }
+    },
+    {
+      "data": {
+        "id": "YTHDF2",
+        "label": "YTHDF2",
+        "papers": 8,
+        "strong_papers": 7,
+        "category": "15. Epigenetic regulators",
+        "community": 73,
+        "size": 8
+      }
+    },
+    {
+      "data": {
+        "id": "HDAC1",
+        "label": "HDAC1",
+        "papers": 7,
+        "strong_papers": 6,
+        "category": "15. Epigenetic regulators",
+        "community": 20,
+        "size": 7
+      }
+    },
+    {
+      "data": {
+        "id": "MAVS",
+        "label": "MAVS",
+        "papers": 7,
+        "strong_papers": 5,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 2,
+        "size": 7
+      }
+    },
+    {
+      "data": {
+        "id": "Erastin",
+        "label": "Erastin",
+        "papers": 7,
+        "strong_papers": 5,
+        "category": "17. Targeted drugs / DDR inhibitors",
+        "community": 74,
+        "size": 7
+      }
+    },
+    {
+      "data": {
+        "id": "NOXA",
+        "label": "NOXA",
+        "papers": 6,
+        "strong_papers": 5,
+        "category": "3. Apoptosis / cell death",
+        "community": 17,
+        "size": 6
+      }
+    },
+    {
+      "data": {
+        "id": "HER3/ERBB3",
+        "label": "HER3/ERBB3",
+        "papers": 6,
+        "strong_papers": 5,
+        "category": "5. Oncogenes / RTKs",
+        "community": 75,
+        "size": 6
+      }
+    },
+    {
+      "data": {
+        "id": "IDH1",
+        "label": "IDH1",
+        "papers": 6,
+        "strong_papers": 6,
+        "category": "20. Other / miscellaneous",
+        "community": 76,
+        "size": 6
+      }
+    },
+    {
+      "data": {
+        "id": "Atezolizumab",
+        "label": "Atezolizumab",
+        "papers": 5,
+        "strong_papers": 1,
+        "category": "18. Immune checkpoint inhibitors",
+        "community": 16,
+        "size": 5
+      }
+    },
+    {
+      "data": {
+        "id": "Galectin-1",
+        "label": "Galectin-1",
+        "papers": 5,
+        "strong_papers": 5,
+        "category": "12. Immunosuppressive factors",
+        "community": 77,
+        "size": 5
+      }
+    },
+    {
+      "data": {
+        "id": "IRF3",
+        "label": "IRF3",
+        "papers": 5,
+        "strong_papers": 4,
+        "category": "9. Innate immune sensors / IFN response",
+        "community": 78,
+        "size": 5
+      }
+    },
+    {
+      "data": {
+        "id": "Twist1",
+        "label": "Twist1",
+        "papers": 5,
+        "strong_papers": 4,
+        "category": "13. Stemness / EMT",
+        "community": 79,
+        "size": 5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "AKT__PI3K",
+        "source": "AKT",
+        "target": "PI3K",
+        "weight": 274,
+        "jaccard": 0.3887,
+        "pmi": 2.2922
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__BCL2",
+        "source": "BAX",
+        "target": "BCL2",
+        "weight": 178,
+        "jaccard": 0.3779,
+        "pmi": 2.6007
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173__cGAS",
+        "source": "STING/TMEM173",
+        "target": "cGAS",
+        "weight": 164,
+        "jaccard": 0.6189,
+        "pmi": 3.3661
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__p21/CDKN1A",
+        "source": "TP53/p53",
+        "target": "p21/CDKN1A",
+        "weight": 160,
+        "jaccard": 0.1365,
+        "pmi": 1.4299
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__mTOR",
+        "source": "AKT",
+        "target": "mTOR",
+        "weight": 132,
+        "jaccard": 0.1746,
+        "pmi": 1.8788
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__MAPK/ERK",
+        "source": "AKT",
+        "target": "MAPK/ERK",
+        "weight": 130,
+        "jaccard": 0.1489,
+        "pmi": 1.4774
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__\u03b3H2AX",
+        "source": "TP53/p53",
+        "target": "\u03b3H2AX",
+        "weight": 113,
+        "jaccard": 0.0668,
+        "pmi": 0.1039
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__mTOR",
+        "source": "PI3K",
+        "target": "mTOR",
+        "weight": 107,
+        "jaccard": 0.2267,
+        "pmi": 2.3224
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__TNF-\u03b1",
+        "source": "IL-6",
+        "target": "TNF-\u03b1",
+        "weight": 102,
+        "jaccard": 0.2203,
+        "pmi": 2.3364
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__anti-PD-L1",
+        "source": "PD-L1/CD274",
+        "target": "anti-PD-L1",
+        "weight": 95,
+        "jaccard": 0.2836,
+        "pmi": 3.1467
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__\u03b3H2AX",
+        "source": "DNA-PK/PRKDC",
+        "target": "\u03b3H2AX",
+        "weight": 90,
+        "jaccard": 0.0935,
+        "pmi": 1.143
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Caspase-3",
+        "source": "BCL2",
+        "target": "Caspase-3",
+        "weight": 87,
+        "jaccard": 0.1163,
+        "pmi": 1.3696
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__TP53/p53",
+        "source": "BCL2",
+        "target": "TP53/p53",
+        "weight": 87,
+        "jaccard": 0.0653,
+        "pmi": 0.5515
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__TP53/p53",
+        "source": "BAX",
+        "target": "TP53/p53",
+        "weight": 86,
+        "jaccard": 0.0695,
+        "pmi": 0.8411
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__TP53/p53",
+        "source": "ATM",
+        "target": "TP53/p53",
+        "weight": 86,
+        "jaccard": 0.0707,
+        "pmi": 0.9163
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51__\u03b3H2AX",
+        "source": "RAD51",
+        "target": "\u03b3H2AX",
+        "weight": 86,
+        "jaccard": 0.0953,
+        "pmi": 1.3464
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__PD-L1/CD274",
+        "source": "PD-1/PDCD1",
+        "target": "PD-L1/CD274",
+        "weight": 78,
+        "jaccard": 0.1696,
+        "pmi": 2.1902
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__anti-PD-1",
+        "source": "PD-1/PDCD1",
+        "target": "anti-PD-1",
+        "weight": 77,
+        "jaccard": 0.3775,
+        "pmi": 3.6347
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__TP53/p53",
+        "source": "Caspase-3",
+        "target": "TP53/p53",
+        "weight": 74,
+        "jaccard": 0.0516,
+        "pmi": 0.1757
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__PARP1",
+        "source": "Olaparib",
+        "target": "PARP1",
+        "weight": 74,
+        "jaccard": 0.2305,
+        "pmi": 3.1031
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Caspase-3",
+        "source": "BAX",
+        "target": "Caspase-3",
+        "weight": 71,
+        "jaccard": 0.1064,
+        "pmi": 1.4676
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__\u03b3H2AX",
+        "source": "ATM",
+        "target": "\u03b3H2AX",
+        "weight": 68,
+        "jaccard": 0.0719,
+        "pmi": 1.0045
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__\u03b3H2AX",
+        "source": "PARP1",
+        "target": "\u03b3H2AX",
+        "weight": 67,
+        "jaccard": 0.0668,
+        "pmi": 0.7919
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__EGFR",
+        "source": "AKT",
+        "target": "EGFR",
+        "weight": 65,
+        "jaccard": 0.0725,
+        "pmi": 0.9055
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__\u03b3H2AX",
+        "source": "53BP1",
+        "target": "\u03b3H2AX",
+        "weight": 64,
+        "jaccard": 0.0815,
+        "pmi": 1.9782
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__TP53/p53",
+        "source": "AKT",
+        "target": "TP53/p53",
+        "weight": 63,
+        "jaccard": 0.0387,
+        "pmi": -0.3174
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__\u03b3H2AX",
+        "source": "Caspase-3",
+        "target": "\u03b3H2AX",
+        "weight": 62,
+        "jaccard": 0.0535,
+        "pmi": 0.3217
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__TNF-\u03b1",
+        "source": "NF-\u03baB",
+        "target": "TNF-\u03b1",
+        "weight": 61,
+        "jaccard": 0.0921,
+        "pmi": 1.2958
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__\u03b3H2AX",
+        "source": "AKT",
+        "target": "\u03b3H2AX",
+        "weight": 60,
+        "jaccard": 0.0447,
+        "pmi": -0.0432
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__PI3K",
+        "source": "MAPK/ERK",
+        "target": "PI3K",
+        "weight": 56,
+        "jaccard": 0.0878,
+        "pmi": 1.2888
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__DNA-PK/PRKDC",
+        "source": "ATM",
+        "target": "DNA-PK/PRKDC",
+        "weight": 55,
+        "jaccard": 0.1109,
+        "pmi": 1.736
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__PARP1",
+        "source": "Caspase-3",
+        "target": "PARP1",
+        "weight": 53,
+        "jaccard": 0.0735,
+        "pmi": 1.0526
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__CHK1",
+        "source": "ATR",
+        "target": "CHK1",
+        "weight": 51,
+        "jaccard": 0.191,
+        "pmi": 2.7597
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__TP53/p53",
+        "source": "MAPK/ERK",
+        "target": "TP53/p53",
+        "weight": 50,
+        "jaccard": 0.0369,
+        "pmi": 0.0359
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__VEGF",
+        "source": "HIF-1\u03b1",
+        "target": "VEGF",
+        "weight": 50,
+        "jaccard": 0.1046,
+        "pmi": 1.8332
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Caspase-3",
+        "source": "AKT",
+        "target": "Caspase-3",
+        "weight": 49,
+        "jaccard": 0.0464,
+        "pmi": 0.2494
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__MAPK/ERK",
+        "source": "EGFR",
+        "target": "MAPK/ERK",
+        "weight": 48,
+        "jaccard": 0.0763,
+        "pmi": 1.1867
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__TP53/p53",
+        "source": "PARP1",
+        "target": "TP53/p53",
+        "weight": 48,
+        "jaccard": 0.0366,
+        "pmi": 0.1354
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__PTEN",
+        "source": "AKT",
+        "target": "PTEN",
+        "weight": 47,
+        "jaccard": 0.0675,
+        "pmi": 1.7482
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab__EGFR",
+        "source": "Cetuximab",
+        "target": "EGFR",
+        "weight": 47,
+        "jaccard": 0.1343,
+        "pmi": 2.6795
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__ATR",
+        "source": "ATM",
+        "target": "ATR",
+        "weight": 47,
+        "jaccard": 0.1317,
+        "pmi": 2.2686
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__TP53/p53",
+        "source": "NF-\u03baB",
+        "target": "TP53/p53",
+        "weight": 46,
+        "jaccard": 0.0332,
+        "pmi": -0.12
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__CHK2",
+        "source": "ATM",
+        "target": "CHK2",
+        "weight": 43,
+        "jaccard": 0.134,
+        "pmi": 2.4947
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__DNA-PK/PRKDC",
+        "source": "AKT",
+        "target": "DNA-PK/PRKDC",
+        "weight": 42,
+        "jaccard": 0.0468,
+        "pmi": 0.5438
+      }
+    },
+    {
+      "data": {
+        "id": "MDM2__TP53/p53",
+        "source": "MDM2",
+        "target": "TP53/p53",
+        "weight": 42,
+        "jaccard": 0.0399,
+        "pmi": 1.8736
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__CHK2",
+        "source": "CHK1",
+        "target": "CHK2",
+        "weight": 41,
+        "jaccard": 0.173,
+        "pmi": 2.8565
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__NF-\u03baB",
+        "source": "AKT",
+        "target": "NF-\u03baB",
+        "weight": 40,
+        "jaccard": 0.0404,
+        "pmi": 0.2262
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__RAD51",
+        "source": "DNA-PK/PRKDC",
+        "target": "RAD51",
+        "weight": 40,
+        "jaccard": 0.0825,
+        "pmi": 1.5247
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__NF-\u03baB",
+        "source": "IL-6",
+        "target": "NF-\u03baB",
+        "weight": 38,
+        "jaccard": 0.066,
+        "pmi": 1.2133
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__BCL2",
+        "source": "AKT",
+        "target": "BCL2",
+        "weight": 38,
+        "jaccard": 0.0388,
+        "pmi": 0.2092
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__TP53/p53",
+        "source": "CHK1",
+        "target": "TP53/p53",
+        "weight": 38,
+        "jaccard": 0.0322,
+        "pmi": 0.509
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__p21/CDKN1A",
+        "source": "Caspase-3",
+        "target": "p21/CDKN1A",
+        "weight": 35,
+        "jaccard": 0.0492,
+        "pmi": 0.7281
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__p21/CDKN1A",
+        "source": "AKT",
+        "target": "p21/CDKN1A",
+        "weight": 35,
+        "jaccard": 0.0391,
+        "pmi": 0.396
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__\u03b3H2AX",
+        "source": "CHK1",
+        "target": "\u03b3H2AX",
+        "weight": 35,
+        "jaccard": 0.0392,
+        "pmi": 0.7497
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__NF-\u03baB",
+        "source": "MAPK/ERK",
+        "target": "NF-\u03baB",
+        "weight": 34,
+        "jaccard": 0.0478,
+        "pmi": 0.6481
+      }
+    },
+    {
+      "data": {
+        "id": "mTOR__\u03b3H2AX",
+        "source": "mTOR",
+        "target": "\u03b3H2AX",
+        "weight": 33,
+        "jaccard": 0.0341,
+        "pmi": 0.3295
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__TP53/p53",
+        "source": "DNA-PK/PRKDC",
+        "target": "TP53/p53",
+        "weight": 33,
+        "jaccard": 0.0252,
+        "pmi": -0.1833
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__TP53/p53",
+        "source": "CHK2",
+        "target": "TP53/p53",
+        "weight": 33,
+        "jaccard": 0.0294,
+        "pmi": 0.8215
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__p21/CDKN1A",
+        "source": "BCL2",
+        "target": "p21/CDKN1A",
+        "weight": 32,
+        "jaccard": 0.0511,
+        "pmi": 0.8525
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__\u03b3H2AX",
+        "source": "EGFR",
+        "target": "\u03b3H2AX",
+        "weight": 32,
+        "jaccard": 0.0307,
+        "pmi": 0.0339
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6__Ku80/XRCC5",
+        "source": "Ku70/XRCC6",
+        "target": "Ku80/XRCC5",
+        "weight": 32,
+        "jaccard": 0.3368,
+        "pmi": 4.164
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__Ku70/XRCC6",
+        "source": "DNA-PK/PRKDC",
+        "target": "Ku70/XRCC6",
+        "weight": 32,
+        "jaccard": 0.0944,
+        "pmi": 2.4089
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__p21/CDKN1A",
+        "source": "BAX",
+        "target": "p21/CDKN1A",
+        "weight": 32,
+        "jaccard": 0.0605,
+        "pmi": 1.1537
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__STING/TMEM173",
+        "source": "PD-L1/CD274",
+        "target": "STING/TMEM173",
+        "weight": 32,
+        "jaccard": 0.057,
+        "pmi": 1.0595
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__MAPK/ERK",
+        "source": "BCL2",
+        "target": "MAPK/ERK",
+        "weight": 31,
+        "jaccard": 0.0442,
+        "pmi": 0.5899
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__PI3K",
+        "source": "EGFR",
+        "target": "PI3K",
+        "weight": 31,
+        "jaccard": 0.0498,
+        "pmi": 0.8187
+      }
+    },
+    {
+      "data": {
+        "id": "p21/CDKN1A__\u03b3H2AX",
+        "source": "p21/CDKN1A",
+        "target": "\u03b3H2AX",
+        "weight": 30,
+        "jaccard": 0.0296,
+        "pmi": 0.0789
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__NF-\u03baB",
+        "source": "BCL2",
+        "target": "NF-\u03baB",
+        "weight": 30,
+        "jaccard": 0.0412,
+        "pmi": 0.4846
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__PARP1",
+        "source": "DNA-PK/PRKDC",
+        "target": "PARP1",
+        "weight": 30,
+        "jaccard": 0.052,
+        "pmi": 0.9321
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__EGFR",
+        "source": "DNA-PK/PRKDC",
+        "target": "EGFR",
+        "weight": 29,
+        "jaccard": 0.0497,
+        "pmi": 0.8791
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__CHK1",
+        "source": "ATM",
+        "target": "CHK1",
+        "weight": 29,
+        "jaccard": 0.073,
+        "pmi": 1.6472
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__\u03b3H2AX",
+        "source": "ATR",
+        "target": "\u03b3H2AX",
+        "weight": 29,
+        "jaccard": 0.0331,
+        "pmi": 0.7003
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__\u03b3H2AX",
+        "source": "PI3K",
+        "target": "\u03b3H2AX",
+        "weight": 29,
+        "jaccard": 0.0273,
+        "pmi": -0.1167
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__\u03b3H2AX",
+        "source": "CHK2",
+        "target": "\u03b3H2AX",
+        "weight": 29,
+        "jaccard": 0.0346,
+        "pmi": 1.0153
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__BCL2",
+        "source": "BCL-XL",
+        "target": "BCL2",
+        "weight": 28,
+        "jaccard": 0.0705,
+        "pmi": 2.4202
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__TP53/p53",
+        "source": "Cisplatin",
+        "target": "TP53/p53",
+        "weight": 28,
+        "jaccard": 0.0189,
+        "pmi": -0.7984
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__Trastuzumab",
+        "source": "HER2/ERBB2",
+        "target": "Trastuzumab",
+        "weight": 28,
+        "jaccard": 0.2029,
+        "pmi": 3.8034
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__Vimentin/VIM",
+        "source": "E-cadherin/CDH1",
+        "target": "Vimentin/VIM",
+        "weight": 28,
+        "jaccard": 0.3889,
+        "pmi": 4.5186
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__TP53/p53",
+        "source": "PI3K",
+        "target": "TP53/p53",
+        "weight": 27,
+        "jaccard": 0.0199,
+        "pmi": -0.5111
+      }
+    },
+    {
+      "data": {
+        "id": "TNF-\u03b1__TP53/p53",
+        "source": "TNF-\u03b1",
+        "target": "TP53/p53",
+        "weight": 27,
+        "jaccard": 0.0199,
+        "pmi": -0.5171
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__TNF-\u03b1",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "TNF-\u03b1",
+        "weight": 27,
+        "jaccard": 0.0665,
+        "pmi": 1.8723
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Paclitaxel",
+        "source": "Cisplatin",
+        "target": "Paclitaxel",
+        "weight": 27,
+        "jaccard": 0.0475,
+        "pmi": 1.2286
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Cisplatin",
+        "source": "5-FU",
+        "target": "Cisplatin",
+        "weight": 27,
+        "jaccard": 0.0473,
+        "pmi": 1.2137
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__RAD51",
+        "source": "PARP1",
+        "target": "RAD51",
+        "weight": 27,
+        "jaccard": 0.0524,
+        "pmi": 1.0756
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Survivin/BIRC5",
+        "source": "Caspase-3",
+        "target": "Survivin/BIRC5",
+        "weight": 26,
+        "jaccard": 0.0441,
+        "pmi": 1.0529
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__BAX",
+        "source": "AKT",
+        "target": "BAX",
+        "weight": 26,
+        "jaccard": 0.0291,
+        "pmi": 0.1308
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__HER2/ERBB2",
+        "source": "EGFR",
+        "target": "HER2/ERBB2",
+        "weight": 26,
+        "jaccard": 0.0619,
+        "pmi": 1.6049
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__HIF-1\u03b1",
+        "source": "AKT",
+        "target": "HIF-1\u03b1",
+        "weight": 26,
+        "jaccard": 0.0269,
+        "pmi": -0.1067
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__TP53/p53",
+        "source": "Survivin/BIRC5",
+        "target": "TP53/p53",
+        "weight": 26,
+        "jaccard": 0.0221,
+        "pmi": 0.2348
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__MAPK/ERK",
+        "source": "Caspase-3",
+        "target": "MAPK/ERK",
+        "weight": 25,
+        "jaccard": 0.0314,
+        "pmi": 0.1608
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__PTEN",
+        "source": "PI3K",
+        "target": "PTEN",
+        "weight": 25,
+        "jaccard": 0.0611,
+        "pmi": 1.7705
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__DNA-PK/PRKDC",
+        "source": "ATR",
+        "target": "DNA-PK/PRKDC",
+        "weight": 24,
+        "jaccard": 0.0573,
+        "pmi": 1.4547
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__RAD51",
+        "source": "BRCA1",
+        "target": "RAD51",
+        "weight": 24,
+        "jaccard": 0.0795,
+        "pmi": 2.1365
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__PARP1",
+        "source": "BRCA1",
+        "target": "PARP1",
+        "weight": 24,
+        "jaccard": 0.0625,
+        "pmi": 1.8316
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__TP53/p53",
+        "source": "HIF-1\u03b1",
+        "target": "TP53/p53",
+        "weight": 24,
+        "jaccard": 0.0175,
+        "pmi": -0.6727
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__mTOR",
+        "source": "AMPK",
+        "target": "mTOR",
+        "weight": 23,
+        "jaccard": 0.079,
+        "pmi": 2.3507
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__TGF-\u03b2",
+        "source": "IL-6",
+        "target": "TGF-\u03b2",
+        "weight": 23,
+        "jaccard": 0.0539,
+        "pmi": 1.2643
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__RAD51",
+        "source": "ATM",
+        "target": "RAD51",
+        "weight": 23,
+        "jaccard": 0.0497,
+        "pmi": 1.1131
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__\u03b3H2AX",
+        "source": "BCL2",
+        "target": "\u03b3H2AX",
+        "weight": 23,
+        "jaccard": 0.0208,
+        "pmi": -0.4559
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__cGAS",
+        "source": "PD-L1/CD274",
+        "target": "cGAS",
+        "weight": 22,
+        "jaccard": 0.0455,
+        "pmi": 1.0961
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__STING/TMEM173",
+        "source": "PD-1/PDCD1",
+        "target": "STING/TMEM173",
+        "weight": 22,
+        "jaccard": 0.0501,
+        "pmi": 1.1857
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__TNF-\u03b1",
+        "source": "TGF-\u03b2",
+        "target": "TNF-\u03b1",
+        "weight": 22,
+        "jaccard": 0.041,
+        "pmi": 0.8291
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__TP53/p53",
+        "source": "TGF-\u03b2",
+        "target": "TP53/p53",
+        "weight": 22,
+        "jaccard": 0.0176,
+        "pmi": -0.3045
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__TP53/p53",
+        "source": "ATR",
+        "target": "TP53/p53",
+        "weight": 22,
+        "jaccard": 0.0188,
+        "pmi": 0.101
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__PI3K",
+        "source": "DNA-PK/PRKDC",
+        "target": "PI3K",
+        "weight": 22,
+        "jaccard": 0.0362,
+        "pmi": 0.5508
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__GSDME",
+        "source": "Caspase-3",
+        "target": "GSDME",
+        "weight": 21,
+        "jaccard": 0.0444,
+        "pmi": 2.4041
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__VEGF",
+        "source": "AKT",
+        "target": "VEGF",
+        "weight": 21,
+        "jaccard": 0.0262,
+        "pmi": 0.3559
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__PI3K",
+        "source": "NF-\u03baB",
+        "target": "PI3K",
+        "weight": 21,
+        "jaccard": 0.03,
+        "pmi": 0.2354
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__mTOR",
+        "source": "TP53/p53",
+        "target": "mTOR",
+        "weight": 21,
+        "jaccard": 0.0165,
+        "pmi": -0.4455
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__\u03b3H2AX",
+        "source": "HIF-1\u03b1",
+        "target": "\u03b3H2AX",
+        "weight": 21,
+        "jaccard": 0.0193,
+        "pmi": -0.4832
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__\u03b3H2AX",
+        "source": "MAPK/ERK",
+        "target": "\u03b3H2AX",
+        "weight": 21,
+        "jaccard": 0.0192,
+        "pmi": -0.5086
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__Ku80/XRCC5",
+        "source": "DNA-PK/PRKDC",
+        "target": "Ku80/XRCC5",
+        "weight": 21,
+        "jaccard": 0.0646,
+        "pmi": 2.3866
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__PARP1",
+        "source": "ATM",
+        "target": "PARP1",
+        "weight": 21,
+        "jaccard": 0.0384,
+        "pmi": 0.7172
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__\u03b3H2AX",
+        "source": "Cisplatin",
+        "target": "\u03b3H2AX",
+        "weight": 20,
+        "jaccard": 0.0167,
+        "pmi": -0.8118
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Gemcitabine",
+        "source": "Cisplatin",
+        "target": "Gemcitabine",
+        "weight": 20,
+        "jaccard": 0.0353,
+        "pmi": 0.9986
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51__TP53/p53",
+        "source": "RAD51",
+        "target": "TP53/p53",
+        "weight": 20,
+        "jaccard": 0.0159,
+        "pmi": -0.4352
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__mTOR",
+        "source": "HIF-1\u03b1",
+        "target": "mTOR",
+        "weight": 20,
+        "jaccard": 0.0348,
+        "pmi": 0.6015
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Wnt/\u03b2-catenin",
+        "source": "AKT",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 20,
+        "jaccard": 0.0256,
+        "pmi": 0.439
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__\u03b3H2AX",
+        "source": "BAX",
+        "target": "\u03b3H2AX",
+        "weight": 20,
+        "jaccard": 0.0197,
+        "pmi": -0.2945
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__TP53/p53",
+        "source": "EGFR",
+        "target": "TP53/p53",
+        "weight": 20,
+        "jaccard": 0.0149,
+        "pmi": -0.7592
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Cyclin D1",
+        "source": "AKT",
+        "target": "Cyclin D1",
+        "weight": 19,
+        "jaccard": 0.0271,
+        "pmi": 1.0938
+      }
+    },
+    {
+      "data": {
+        "id": "TNF-\u03b1__TRAIL/TNFSF10",
+        "source": "TNF-\u03b1",
+        "target": "TRAIL/TNFSF10",
+        "weight": 19,
+        "jaccard": 0.0529,
+        "pmi": 2.3716
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6__\u03b3H2AX",
+        "source": "Ku70/XRCC6",
+        "target": "\u03b3H2AX",
+        "weight": 19,
+        "jaccard": 0.0233,
+        "pmi": 0.9439
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Caspase-8",
+        "source": "Caspase-3",
+        "target": "Caspase-8",
+        "weight": 19,
+        "jaccard": 0.0393,
+        "pmi": 2.0808
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Cisplatin",
+        "source": "Caspase-3",
+        "target": "Cisplatin",
+        "weight": 19,
+        "jaccard": 0.021,
+        "pmi": -0.368
+      }
+    },
+    {
+      "data": {
+        "id": "Carboplatin__Paclitaxel",
+        "source": "Carboplatin",
+        "target": "Paclitaxel",
+        "weight": 19,
+        "jaccard": 0.121,
+        "pmi": 3.2537
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__PARP1",
+        "source": "BCL2",
+        "target": "PARP1",
+        "weight": 19,
+        "jaccard": 0.0285,
+        "pmi": 0.2407
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__TNF-\u03b1",
+        "source": "Caspase-3",
+        "target": "TNF-\u03b1",
+        "weight": 19,
+        "jaccard": 0.0244,
+        "pmi": -0.0504
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__NF-\u03baB",
+        "source": "Caspase-3",
+        "target": "NF-\u03baB",
+        "weight": 19,
+        "jaccard": 0.0229,
+        "pmi": -0.1861
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__TP53/p53",
+        "source": "53BP1",
+        "target": "TP53/p53",
+        "weight": 19,
+        "jaccard": 0.017,
+        "pmi": 0.4407
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__IL-6",
+        "source": "AKT",
+        "target": "IL-6",
+        "weight": 19,
+        "jaccard": 0.0223,
+        "pmi": 0.0082
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__PD-1/PDCD1",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "PD-1/PDCD1",
+        "weight": 18,
+        "jaccard": 0.0641,
+        "pmi": 1.9737
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173__Type I IFN response",
+        "source": "STING/TMEM173",
+        "target": "Type I IFN response",
+        "weight": 18,
+        "jaccard": 0.0655,
+        "pmi": 2.7429
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__\u03b3H2AX",
+        "source": "Olaparib",
+        "target": "\u03b3H2AX",
+        "weight": 18,
+        "jaccard": 0.0219,
+        "pmi": 0.8017
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__VEGF",
+        "source": "MAPK/ERK",
+        "target": "VEGF",
+        "weight": 18,
+        "jaccard": 0.0347,
+        "pmi": 0.7861
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__PARP1",
+        "source": "AKT",
+        "target": "PARP1",
+        "weight": 18,
+        "jaccard": 0.0192,
+        "pmi": -0.3595
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Cisplatin",
+        "source": "BCL2",
+        "target": "Cisplatin",
+        "weight": 17,
+        "jaccard": 0.0208,
+        "pmi": -0.2652
+      }
+    },
+    {
+      "data": {
+        "id": "KEAP1__NRF2/NFE2L2",
+        "source": "KEAP1",
+        "target": "NRF2/NFE2L2",
+        "weight": 17,
+        "jaccard": 0.1349,
+        "pmi": 3.9455
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__p21/CDKN1A",
+        "source": "ATM",
+        "target": "p21/CDKN1A",
+        "weight": 17,
+        "jaccard": 0.0324,
+        "pmi": 0.5964
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__TNF-\u03b1",
+        "source": "MAPK/ERK",
+        "target": "TNF-\u03b1",
+        "weight": 17,
+        "jaccard": 0.025,
+        "pmi": 0.0907
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__PARP1",
+        "source": "BAX",
+        "target": "PARP1",
+        "weight": 17,
+        "jaccard": 0.0298,
+        "pmi": 0.4307
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Cisplatin",
+        "source": "AKT",
+        "target": "Cisplatin",
+        "weight": 17,
+        "jaccard": 0.0156,
+        "pmi": -0.8114
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__anti-PD-1",
+        "source": "PD-L1/CD274",
+        "target": "anti-PD-1",
+        "weight": 17,
+        "jaccard": 0.0429,
+        "pmi": 1.6232
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__mTOR",
+        "source": "MAPK/ERK",
+        "target": "mTOR",
+        "weight": 17,
+        "jaccard": 0.029,
+        "pmi": 0.4136
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__MCL1",
+        "source": "BCL2",
+        "target": "MCL1",
+        "weight": 17,
+        "jaccard": 0.0436,
+        "pmi": 2.3461
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__STAT3",
+        "source": "AKT",
+        "target": "STAT3",
+        "weight": 17,
+        "jaccard": 0.0215,
+        "pmi": 0.2204
+      }
+    },
+    {
+      "data": {
+        "id": "GPX4__SLC7A11/xCT",
+        "source": "GPX4",
+        "target": "SLC7A11/xCT",
+        "weight": 17,
+        "jaccard": 0.1667,
+        "pmi": 3.7357
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__MAPK/ERK",
+        "source": "BAX",
+        "target": "MAPK/ERK",
+        "weight": 17,
+        "jaccard": 0.0275,
+        "pmi": 0.2903
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__VEGF",
+        "source": "PI3K",
+        "target": "VEGF",
+        "weight": 16,
+        "jaccard": 0.0322,
+        "pmi": 0.7375
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__RAD51",
+        "source": "53BP1",
+        "target": "RAD51",
+        "weight": 16,
+        "jaccard": 0.0525,
+        "pmi": 1.7845
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__NU7441",
+        "source": "DNA-PK/PRKDC",
+        "target": "NU7441",
+        "weight": 16,
+        "jaccard": 0.0539,
+        "pmi": 3.1561
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__CHK2",
+        "source": "ATR",
+        "target": "CHK2",
+        "weight": 16,
+        "jaccard": 0.0667,
+        "pmi": 2.0541
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__TNF-\u03b1",
+        "source": "AKT",
+        "target": "TNF-\u03b1",
+        "weight": 16,
+        "jaccard": 0.0166,
+        "pmi": -0.5543
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__TP53/p53",
+        "source": "Doxorubicin",
+        "target": "TP53/p53",
+        "weight": 16,
+        "jaccard": 0.0128,
+        "pmi": -0.5909
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__BRCA2",
+        "source": "BRCA1",
+        "target": "BRCA2",
+        "weight": 16,
+        "jaccard": 0.1429,
+        "pmi": 3.7034
+      }
+    },
+    {
+      "data": {
+        "id": "MRE11__NBS1/NBN",
+        "source": "MRE11",
+        "target": "NBS1/NBN",
+        "weight": 16,
+        "jaccard": 0.3556,
+        "pmi": 4.9047
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__Cyclin D1",
+        "source": "CDK4",
+        "target": "Cyclin D1",
+        "weight": 16,
+        "jaccard": 0.1468,
+        "pmi": 3.5184
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__SOX2",
+        "source": "CD133/PROM1",
+        "target": "SOX2",
+        "weight": 16,
+        "jaccard": 0.1168,
+        "pmi": 3.1972
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Survivin/BIRC5",
+        "source": "BCL2",
+        "target": "Survivin/BIRC5",
+        "weight": 16,
+        "jaccard": 0.0314,
+        "pmi": 0.7814
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__PI3K",
+        "source": "HIF-1\u03b1",
+        "target": "PI3K",
+        "weight": 16,
+        "jaccard": 0.0239,
+        "pmi": 0.0614
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__PD-L1/CD274",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "PD-L1/CD274",
+        "weight": 16,
+        "jaccard": 0.0386,
+        "pmi": 1.355
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__STAT3",
+        "source": "IL-6",
+        "target": "STAT3",
+        "weight": 16,
+        "jaccard": 0.0424,
+        "pmi": 1.1982
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__IL-6",
+        "source": "Caspase-3",
+        "target": "IL-6",
+        "weight": 16,
+        "jaccard": 0.0237,
+        "pmi": 0.1685
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__MAPK/ERK",
+        "source": "HER2/ERBB2",
+        "target": "MAPK/ERK",
+        "weight": 16,
+        "jaccard": 0.034,
+        "pmi": 0.9981
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__BRCA1",
+        "source": "ATM",
+        "target": "BRCA1",
+        "weight": 16,
+        "jaccard": 0.0476,
+        "pmi": 1.6239
+      }
+    },
+    {
+      "data": {
+        "id": "Gold nanoparticles__\u03b3H2AX",
+        "source": "Gold nanoparticles",
+        "target": "\u03b3H2AX",
+        "weight": 15,
+        "jaccard": 0.0151,
+        "pmi": -0.4872
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__CD44",
+        "source": "CD133/PROM1",
+        "target": "CD44",
+        "weight": 15,
+        "jaccard": 0.0761,
+        "pmi": 2.3424
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__AZD6738",
+        "source": "ATR",
+        "target": "AZD6738",
+        "weight": 15,
+        "jaccard": 0.1014,
+        "pmi": 3.9636
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Etoposide",
+        "source": "Cisplatin",
+        "target": "Etoposide",
+        "weight": 15,
+        "jaccard": 0.0302,
+        "pmi": 1.6394
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__IL-6",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "IL-6",
+        "weight": 15,
+        "jaccard": 0.0485,
+        "pmi": 1.6752
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc__TP53/p53",
+        "source": "MYC/c-Myc",
+        "target": "TP53/p53",
+        "weight": 15,
+        "jaccard": 0.0132,
+        "pmi": 0.0902
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__\u03b3H2AX",
+        "source": "Survivin/BIRC5",
+        "target": "\u03b3H2AX",
+        "weight": 15,
+        "jaccard": 0.0167,
+        "pmi": 0.0078
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__PARP1",
+        "source": "ATR",
+        "target": "PARP1",
+        "weight": 15,
+        "jaccard": 0.0337,
+        "pmi": 0.9287
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__mTOR",
+        "source": "Caspase-3",
+        "target": "mTOR",
+        "weight": 15,
+        "jaccard": 0.0217,
+        "pmi": 0.0362
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__NF-\u03baB",
+        "source": "BAX",
+        "target": "NF-\u03baB",
+        "weight": 15,
+        "jaccard": 0.0232,
+        "pmi": 0.0927
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__PI3K",
+        "source": "Caspase-3",
+        "target": "PI3K",
+        "weight": 15,
+        "jaccard": 0.0192,
+        "pmi": -0.2808
+      }
+    },
+    {
+      "data": {
+        "id": "MGMT__Temozolomide",
+        "source": "MGMT",
+        "target": "Temozolomide",
+        "weight": 15,
+        "jaccard": 0.1027,
+        "pmi": 3.4752
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__PD-L1/CD274",
+        "source": "NF-\u03baB",
+        "target": "PD-L1/CD274",
+        "weight": 15,
+        "jaccard": 0.0212,
+        "pmi": -0.1011
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__Metformin",
+        "source": "AMPK",
+        "target": "Metformin",
+        "weight": 14,
+        "jaccard": 0.1239,
+        "pmi": 3.3084
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__PARP1",
+        "source": "Cisplatin",
+        "target": "PARP1",
+        "weight": 14,
+        "jaccard": 0.0184,
+        "pmi": -0.2808
+      }
+    },
+    {
+      "data": {
+        "id": "MDM2__p21/CDKN1A",
+        "source": "MDM2",
+        "target": "p21/CDKN1A",
+        "weight": 14,
+        "jaccard": 0.0439,
+        "pmi": 2.0762
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6__RAD51",
+        "source": "Ku70/XRCC6",
+        "target": "RAD51",
+        "weight": 14,
+        "jaccard": 0.0479,
+        "pmi": 1.8311
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Caspase-9",
+        "source": "Caspase-3",
+        "target": "Caspase-9",
+        "weight": 14,
+        "jaccard": 0.0297,
+        "pmi": 2.3289
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Doxorubicin",
+        "source": "Caspase-3",
+        "target": "Doxorubicin",
+        "weight": 14,
+        "jaccard": 0.0211,
+        "pmi": 0.0937
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__DNA-PK/PRKDC",
+        "source": "Caspase-3",
+        "target": "DNA-PK/PRKDC",
+        "weight": 14,
+        "jaccard": 0.0188,
+        "pmi": -0.2226
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__cGAS",
+        "source": "PD-1/PDCD1",
+        "target": "cGAS",
+        "weight": 14,
+        "jaccard": 0.0389,
+        "pmi": 1.145
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__DNA-PK/PRKDC",
+        "source": "53BP1",
+        "target": "DNA-PK/PRKDC",
+        "weight": 14,
+        "jaccard": 0.0376,
+        "pmi": 1.4021
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__ATM",
+        "source": "AKT",
+        "target": "ATM",
+        "weight": 14,
+        "jaccard": 0.0158,
+        "pmi": -0.413
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__\u03b3H2AX",
+        "source": "BRCA1",
+        "target": "\u03b3H2AX",
+        "weight": 14,
+        "jaccard": 0.0167,
+        "pmi": 0.4049
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__VEGF",
+        "source": "TP53/p53",
+        "target": "VEGF",
+        "weight": 14,
+        "jaccard": 0.0116,
+        "pmi": -0.5356
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__p21/CDKN1A",
+        "source": "NF-\u03baB",
+        "target": "p21/CDKN1A",
+        "weight": 14,
+        "jaccard": 0.0213,
+        "pmi": -0.0084
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173__anti-PD-1",
+        "source": "STING/TMEM173",
+        "target": "anti-PD-1",
+        "weight": 14,
+        "jaccard": 0.0435,
+        "pmi": 1.6902
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173__anti-PD-L1",
+        "source": "STING/TMEM173",
+        "target": "anti-PD-L1",
+        "weight": 14,
+        "jaccard": 0.0413,
+        "pmi": 1.4931
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__HER2/ERBB2",
+        "source": "AKT",
+        "target": "HER2/ERBB2",
+        "weight": 14,
+        "jaccard": 0.0185,
+        "pmi": 0.2802
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__mTOR",
+        "source": "DNA-PK/PRKDC",
+        "target": "mTOR",
+        "weight": 14,
+        "jaccard": 0.0267,
+        "pmi": 0.4158
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__TGF-\u03b2",
+        "source": "PD-L1/CD274",
+        "target": "TGF-\u03b2",
+        "weight": 13,
+        "jaccard": 0.0239,
+        "pmi": 0.309
+      }
+    },
+    {
+      "data": {
+        "id": "PUMA__TP53/p53",
+        "source": "PUMA",
+        "target": "TP53/p53",
+        "weight": 13,
+        "jaccard": 0.0123,
+        "pmi": 1.5764
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__ATM",
+        "source": "53BP1",
+        "target": "ATM",
+        "weight": 13,
+        "jaccard": 0.0389,
+        "pmi": 1.4698
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Doxorubicin",
+        "source": "Cisplatin",
+        "target": "Doxorubicin",
+        "weight": 13,
+        "jaccard": 0.0195,
+        "pmi": 0.0174
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__DNA-PK/PRKDC",
+        "source": "BRCA1",
+        "target": "DNA-PK/PRKDC",
+        "weight": 13,
+        "jaccard": 0.0344,
+        "pmi": 1.2745
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__KU-55933",
+        "source": "ATM",
+        "target": "KU-55933",
+        "weight": 13,
+        "jaccard": 0.0494,
+        "pmi": 2.9849
+      }
+    },
+    {
+      "data": {
+        "id": "Type I IFN response__cGAS",
+        "source": "Type I IFN response",
+        "target": "cGAS",
+        "weight": 13,
+        "jaccard": 0.0674,
+        "pmi": 2.8288
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__PARP1",
+        "source": "NF-\u03baB",
+        "target": "PARP1",
+        "weight": 13,
+        "jaccard": 0.019,
+        "pmi": -0.173
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__TP53/p53",
+        "source": "Cyclin D1",
+        "target": "TP53/p53",
+        "weight": 13,
+        "jaccard": 0.0117,
+        "pmi": 0.2283
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__p21/CDKN1A",
+        "source": "DNA-PK/PRKDC",
+        "target": "p21/CDKN1A",
+        "weight": 13,
+        "jaccard": 0.0229,
+        "pmi": 0.1863
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__SOX2",
+        "source": "CD44",
+        "target": "SOX2",
+        "weight": 13,
+        "jaccard": 0.0903,
+        "pmi": 2.9519
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__PI3K",
+        "source": "BCL2",
+        "target": "PI3K",
+        "weight": 13,
+        "jaccard": 0.0187,
+        "pmi": -0.2099
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__RAD51",
+        "source": "CHK1",
+        "target": "RAD51",
+        "weight": 13,
+        "jaccard": 0.0336,
+        "pmi": 0.9519
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__VEGF",
+        "source": "IL-6",
+        "target": "VEGF",
+        "weight": 13,
+        "jaccard": 0.0331,
+        "pmi": 0.9147
+      }
+    },
+    {
+      "data": {
+        "id": "KRAS__TP53/p53",
+        "source": "KRAS",
+        "target": "TP53/p53",
+        "weight": 13,
+        "jaccard": 0.012,
+        "pmi": 0.6018
+      }
+    },
+    {
+      "data": {
+        "id": "LC3__p62/SQSTM1",
+        "source": "LC3",
+        "target": "p62/SQSTM1",
+        "weight": 13,
+        "jaccard": 0.1781,
+        "pmi": 4.0845
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__TP53/p53",
+        "source": "IL-6",
+        "target": "TP53/p53",
+        "weight": 13,
+        "jaccard": 0.0103,
+        "pmi": -0.8572
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__PD-L1/CD274",
+        "source": "HIF-1\u03b1",
+        "target": "PD-L1/CD274",
+        "weight": 12,
+        "jaccard": 0.0178,
+        "pmi": -0.2263
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__XIAP",
+        "source": "Caspase-3",
+        "target": "XIAP",
+        "weight": 12,
+        "jaccard": 0.0248,
+        "pmi": 1.7838
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__XIAP",
+        "source": "Survivin/BIRC5",
+        "target": "XIAP",
+        "weight": 12,
+        "jaccard": 0.0686,
+        "pmi": 2.889
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__BCL2",
+        "source": "ATM",
+        "target": "BCL2",
+        "weight": 12,
+        "jaccard": 0.0194,
+        "pmi": -0.021
+      }
+    },
+    {
+      "data": {
+        "id": "MRE11__RAD50",
+        "source": "MRE11",
+        "target": "RAD50",
+        "weight": 12,
+        "jaccard": 0.2927,
+        "pmi": 4.9535
+      }
+    },
+    {
+      "data": {
+        "id": "Etoposide__TP53/p53",
+        "source": "Etoposide",
+        "target": "TP53/p53",
+        "weight": 12,
+        "jaccard": 0.0111,
+        "pmi": 0.6003
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__\u03b3H2AX",
+        "source": "NF-\u03baB",
+        "target": "\u03b3H2AX",
+        "weight": 12,
+        "jaccard": 0.0106,
+        "pmi": -1.1408
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab__Cisplatin",
+        "source": "Cetuximab",
+        "target": "Cisplatin",
+        "weight": 12,
+        "jaccard": 0.0226,
+        "pmi": 0.9386
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__MAPK/ERK",
+        "source": "ATM",
+        "target": "MAPK/ERK",
+        "weight": 12,
+        "jaccard": 0.0199,
+        "pmi": 0.0173
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__Wnt/\u03b2-catenin",
+        "source": "PI3K",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 12,
+        "jaccard": 0.0251,
+        "pmi": 0.5818
+      }
+    },
+    {
+      "data": {
+        "id": "PTEN__TP53/p53",
+        "source": "PTEN",
+        "target": "TP53/p53",
+        "weight": 12,
+        "jaccard": 0.0106,
+        "pmi": -0.103
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__VEGF",
+        "source": "TGF-\u03b2",
+        "target": "VEGF",
+        "weight": 12,
+        "jaccard": 0.0309,
+        "pmi": 0.8613
+      }
+    },
+    {
+      "data": {
+        "id": "NBS1/NBN__RAD50",
+        "source": "NBS1/NBN",
+        "target": "RAD50",
+        "weight": 12,
+        "jaccard": 0.3333,
+        "pmi": 5.1178
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__MAPK/ERK",
+        "source": "DNA-PK/PRKDC",
+        "target": "MAPK/ERK",
+        "weight": 12,
+        "jaccard": 0.0187,
+        "pmi": -0.1245
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__STAT3",
+        "source": "MAPK/ERK",
+        "target": "STAT3",
+        "weight": 12,
+        "jaccard": 0.0234,
+        "pmi": 0.4565
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__DNA-PK/PRKDC",
+        "source": "CHK2",
+        "target": "DNA-PK/PRKDC",
+        "weight": 12,
+        "jaccard": 0.0307,
+        "pmi": 1.0767
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__TNF-\u03b1",
+        "source": "Cisplatin",
+        "target": "TNF-\u03b1",
+        "weight": 12,
+        "jaccard": 0.0152,
+        "pmi": -0.5121
+      }
+    },
+    {
+      "data": {
+        "id": "Carboplatin__Cisplatin",
+        "source": "Carboplatin",
+        "target": "Cisplatin",
+        "weight": 12,
+        "jaccard": 0.0243,
+        "pmi": 1.5468
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__MAPK/ERK",
+        "source": "IL-6",
+        "target": "MAPK/ERK",
+        "weight": 12,
+        "jaccard": 0.0209,
+        "pmi": 0.1331
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__AMPK",
+        "source": "AKT",
+        "target": "AMPK",
+        "weight": 11,
+        "jaccard": 0.0156,
+        "pmi": 0.6426
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__NF-\u03baB",
+        "source": "EGFR",
+        "target": "NF-\u03baB",
+        "weight": 11,
+        "jaccard": 0.0159,
+        "pmi": -0.3591
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__PARP1",
+        "source": "53BP1",
+        "target": "PARP1",
+        "weight": 11,
+        "jaccard": 0.0281,
+        "pmi": 1.1049
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__LC3",
+        "source": "Caspase-3",
+        "target": "LC3",
+        "weight": 11,
+        "jaccard": 0.0217,
+        "pmi": 1.2159
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__Wnt/\u03b2-catenin",
+        "source": "TP53/p53",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 11,
+        "jaccard": 0.0092,
+        "pmi": -0.6448
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__mTOR",
+        "source": "EGFR",
+        "target": "mTOR",
+        "weight": 11,
+        "jaccard": 0.02,
+        "pmi": 0.0995
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__STAT3",
+        "source": "NF-\u03baB",
+        "target": "STAT3",
+        "weight": 11,
+        "jaccard": 0.0204,
+        "pmi": 0.297
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__\u03b3H2AX",
+        "source": "5-FU",
+        "target": "\u03b3H2AX",
+        "weight": 11,
+        "jaccard": 0.0125,
+        "pmi": -0.1772
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__p21/CDKN1A",
+        "source": "PI3K",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0181,
+        "pmi": -0.1079
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__Temozolomide",
+        "source": "TP53/p53",
+        "target": "Temozolomide",
+        "weight": 11,
+        "jaccard": 0.0094,
+        "pmi": -0.4928
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__BCL-XL",
+        "source": "BAX",
+        "target": "BCL-XL",
+        "weight": 11,
+        "jaccard": 0.0347,
+        "pmi": 1.7871
+      }
+    },
+    {
+      "data": {
+        "id": "Ku80/XRCC5__\u03b3H2AX",
+        "source": "Ku80/XRCC5",
+        "target": "\u03b3H2AX",
+        "weight": 11,
+        "jaccard": 0.0138,
+        "pmi": 0.7962
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__p21/CDKN1A",
+        "source": "CHK2",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0288,
+        "pmi": 1.0241
+      }
+    },
+    {
+      "data": {
+        "id": "LC3__mTOR",
+        "source": "LC3",
+        "target": "mTOR",
+        "weight": 11,
+        "jaccard": 0.0382,
+        "pmi": 1.8542
+      }
+    },
+    {
+      "data": {
+        "id": "Curcumin__NF-\u03baB",
+        "source": "Curcumin",
+        "target": "NF-\u03baB",
+        "weight": 11,
+        "jaccard": 0.0235,
+        "pmi": 0.8596
+      }
+    },
+    {
+      "data": {
+        "id": "KRAS__MAPK/ERK",
+        "source": "KRAS",
+        "target": "MAPK/ERK",
+        "weight": 11,
+        "jaccard": 0.0274,
+        "pmi": 1.5051
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__STAT3",
+        "source": "PD-L1/CD274",
+        "target": "STAT3",
+        "weight": 11,
+        "jaccard": 0.0225,
+        "pmi": 0.4387
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__anti-PD-L1",
+        "source": "PD-1/PDCD1",
+        "target": "anti-PD-L1",
+        "weight": 11,
+        "jaccard": 0.0383,
+        "pmi": 1.4917
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__RAD51",
+        "source": "ATR",
+        "target": "RAD51",
+        "weight": 11,
+        "jaccard": 0.03,
+        "pmi": 0.9235
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__p21/CDKN1A",
+        "source": "PARP1",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0188,
+        "pmi": -0.0367
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab__MAPK/ERK",
+        "source": "Cetuximab",
+        "target": "MAPK/ERK",
+        "weight": 11,
+        "jaccard": 0.0258,
+        "pmi": 1.106
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__anti-PD-1",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "anti-PD-1",
+        "weight": 11,
+        "jaccard": 0.0675,
+        "pmi": 2.4377
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__Wnt/\u03b2-catenin",
+        "source": "MAPK/ERK",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 11,
+        "jaccard": 0.0218,
+        "pmi": 0.4256
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__RAD51",
+        "source": "MAPK/ERK",
+        "target": "RAD51",
+        "weight": 11,
+        "jaccard": 0.019,
+        "pmi": 0.0373
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__DNA-PK/PRKDC",
+        "source": "CHK1",
+        "target": "DNA-PK/PRKDC",
+        "weight": 11,
+        "jaccard": 0.0242,
+        "pmi": 0.536
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__\u03b3H2AX",
+        "source": "Cyclin D1",
+        "target": "\u03b3H2AX",
+        "weight": 11,
+        "jaccard": 0.0133,
+        "pmi": 0.3843
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Survivin/BIRC5",
+        "source": "AKT",
+        "target": "Survivin/BIRC5",
+        "weight": 11,
+        "jaccard": 0.014,
+        "pmi": -0.1394
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__p21/CDKN1A",
+        "source": "Cyclin D1",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0313,
+        "pmi": 1.3625
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__Caspase-3",
+        "source": "ATM",
+        "target": "Caspase-3",
+        "weight": 11,
+        "jaccard": 0.0156,
+        "pmi": -0.322
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__p21/CDKN1A",
+        "source": "MAPK/ERK",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0174,
+        "pmi": -0.1771
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__TNF-\u03b1",
+        "source": "BCL2",
+        "target": "TNF-\u03b1",
+        "weight": 11,
+        "jaccard": 0.0157,
+        "pmi": -0.3829
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__RAD51",
+        "source": "Olaparib",
+        "target": "RAD51",
+        "weight": 11,
+        "jaccard": 0.0364,
+        "pmi": 1.5018
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__STING/TMEM173",
+        "source": "NF-\u03baB",
+        "target": "STING/TMEM173",
+        "weight": 11,
+        "jaccard": 0.0174,
+        "pmi": -0.15
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__Survivin/BIRC5",
+        "source": "NF-\u03baB",
+        "target": "Survivin/BIRC5",
+        "weight": 11,
+        "jaccard": 0.0208,
+        "pmi": 0.3725
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Survivin/BIRC5",
+        "source": "BAX",
+        "target": "Survivin/BIRC5",
+        "weight": 11,
+        "jaccard": 0.0263,
+        "pmi": 0.7079
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__TGF-\u03b2",
+        "source": "NF-\u03baB",
+        "target": "TGF-\u03b2",
+        "weight": 11,
+        "jaccard": 0.0184,
+        "pmi": 0.0002
+      }
+    },
+    {
+      "data": {
+        "id": "TNF-\u03b1__VEGF",
+        "source": "TNF-\u03b1",
+        "target": "VEGF",
+        "weight": 11,
+        "jaccard": 0.0218,
+        "pmi": 0.3569
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Oxaliplatin",
+        "source": "5-FU",
+        "target": "Oxaliplatin",
+        "weight": 11,
+        "jaccard": 0.0671,
+        "pmi": 2.7646
+      }
+    },
+    {
+      "data": {
+        "id": "mTOR__p21/CDKN1A",
+        "source": "mTOR",
+        "target": "p21/CDKN1A",
+        "weight": 11,
+        "jaccard": 0.0212,
+        "pmi": 0.2091
+      }
+    },
+    {
+      "data": {
+        "id": "anti-PD-L1__cGAS",
+        "source": "anti-PD-L1",
+        "target": "cGAS",
+        "weight": 11,
+        "jaccard": 0.0431,
+        "pmi": 1.6632
+      }
+    },
+    {
+      "data": {
+        "id": "Wnt/\u03b2-catenin__\u03b3H2AX",
+        "source": "Wnt/\u03b2-catenin",
+        "target": "\u03b3H2AX",
+        "weight": 10,
+        "jaccard": 0.0111,
+        "pmi": -0.4171
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__Wnt/\u03b2-catenin",
+        "source": "E-cadherin/CDH1",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 10,
+        "jaccard": 0.0483,
+        "pmi": 2.1027
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__EGFR",
+        "source": "Cisplatin",
+        "target": "EGFR",
+        "weight": 10,
+        "jaccard": 0.013,
+        "pmi": -0.6363
+      }
+    },
+    {
+      "data": {
+        "id": "IFNB1/IFN-\u03b2__STING/TMEM173",
+        "source": "IFNB1/IFN-\u03b2",
+        "target": "STING/TMEM173",
+        "weight": 10,
+        "jaccard": 0.0364,
+        "pmi": 2.4146
+      }
+    },
+    {
+      "data": {
+        "id": "PTEN__mTOR",
+        "source": "PTEN",
+        "target": "mTOR",
+        "weight": 10,
+        "jaccard": 0.03,
+        "pmi": 1.1711
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__HIF-1\u03b1",
+        "source": "EGFR",
+        "target": "HIF-1\u03b1",
+        "weight": 10,
+        "jaccard": 0.0152,
+        "pmi": -0.3565
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__KRAS",
+        "source": "EGFR",
+        "target": "KRAS",
+        "weight": 10,
+        "jaccard": 0.0277,
+        "pmi": 1.5311
+      }
+    },
+    {
+      "data": {
+        "id": "BAK__BAX",
+        "source": "BAK",
+        "target": "BAX",
+        "weight": 10,
+        "jaccard": 0.0355,
+        "pmi": 2.8704
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__STAT3",
+        "source": "EGFR",
+        "target": "STAT3",
+        "weight": 10,
+        "jaccard": 0.0211,
+        "pmi": 0.3954
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__mTOR",
+        "source": "PARP1",
+        "target": "mTOR",
+        "weight": 10,
+        "jaccard": 0.0183,
+        "pmi": 0.0233
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__Talazoparib",
+        "source": "PARP1",
+        "target": "Talazoparib",
+        "weight": 10,
+        "jaccard": 0.0319,
+        "pmi": 3.1225
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__BRCA1",
+        "source": "ATR",
+        "target": "BRCA1",
+        "weight": 10,
+        "jaccard": 0.0427,
+        "pmi": 1.7019
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__MAPK/ERK",
+        "source": "HIF-1\u03b1",
+        "target": "MAPK/ERK",
+        "weight": 10,
+        "jaccard": 0.0143,
+        "pmi": -0.4778
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__PD-L1/CD274",
+        "source": "IL-6",
+        "target": "PD-L1/CD274",
+        "weight": 10,
+        "jaccard": 0.0181,
+        "pmi": 0.02
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__STING/TMEM173",
+        "source": "PARP1",
+        "target": "STING/TMEM173",
+        "weight": 10,
+        "jaccard": 0.0179,
+        "pmi": -0.0325
+      }
+    },
+    {
+      "data": {
+        "id": "CXCL10__cGAS",
+        "source": "CXCL10",
+        "target": "cGAS",
+        "weight": 10,
+        "jaccard": 0.0535,
+        "pmi": 2.8637
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__p21/CDKN1A",
+        "source": "Cisplatin",
+        "target": "p21/CDKN1A",
+        "weight": 10,
+        "jaccard": 0.0136,
+        "pmi": -0.5268
+      }
+    },
+    {
+      "data": {
+        "id": "STAT3__Survivin/BIRC5",
+        "source": "STAT3",
+        "target": "Survivin/BIRC5",
+        "weight": 10,
+        "jaccard": 0.0325,
+        "pmi": 1.1271
+      }
+    },
+    {
+      "data": {
+        "id": "STAT3__TP53/p53",
+        "source": "STAT3",
+        "target": "TP53/p53",
+        "weight": 10,
+        "jaccard": 0.0083,
+        "pmi": -0.7962
+      }
+    },
+    {
+      "data": {
+        "id": "Niraparib__PARP1",
+        "source": "Niraparib",
+        "target": "PARP1",
+        "weight": 10,
+        "jaccard": 0.0319,
+        "pmi": 3.1225
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__TP53/p53",
+        "source": "Olaparib",
+        "target": "TP53/p53",
+        "weight": 10,
+        "jaccard": 0.0089,
+        "pmi": -0.1091
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__MYC/c-Myc",
+        "source": "BCL2",
+        "target": "MYC/c-Myc",
+        "weight": 10,
+        "jaccard": 0.0215,
+        "pmi": 0.7169
+      }
+    },
+    {
+      "data": {
+        "id": "Nanog__SOX2",
+        "source": "Nanog",
+        "target": "SOX2",
+        "weight": 10,
+        "jaccard": 0.1639,
+        "pmi": 4.2806
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__HIF-2\u03b1",
+        "source": "HIF-1\u03b1",
+        "target": "HIF-2\u03b1",
+        "weight": 10,
+        "jaccard": 0.0285,
+        "pmi": 3.0076
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__Wnt/\u03b2-catenin",
+        "source": "Cyclin D1",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 10,
+        "jaccard": 0.0448,
+        "pmi": 1.8698
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Doxorubicin",
+        "source": "BCL2",
+        "target": "Doxorubicin",
+        "weight": 10,
+        "jaccard": 0.0173,
+        "pmi": -0.0288
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Cyclin D1",
+        "source": "BCL2",
+        "target": "Cyclin D1",
+        "weight": 10,
+        "jaccard": 0.0227,
+        "pmi": 0.9981
+      }
+    },
+    {
+      "data": {
+        "id": "Gemcitabine__\u03b3H2AX",
+        "source": "Gemcitabine",
+        "target": "\u03b3H2AX",
+        "weight": 10,
+        "jaccard": 0.0115,
+        "pmi": -0.1875
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc__Wnt/\u03b2-catenin",
+        "source": "MYC/c-Myc",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 10,
+        "jaccard": 0.0403,
+        "pmi": 1.5886
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__TP53/p53",
+        "source": "HER2/ERBB2",
+        "target": "TP53/p53",
+        "weight": 10,
+        "jaccard": 0.0086,
+        "pmi": -0.5423
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__Caspase-3",
+        "source": "BCL-XL",
+        "target": "Caspase-3",
+        "weight": 10,
+        "jaccard": 0.0198,
+        "pmi": 1.1766
+      }
+    },
+    {
+      "data": {
+        "id": "HMGB1__PD-L1/CD274",
+        "source": "HMGB1",
+        "target": "PD-L1/CD274",
+        "weight": 10,
+        "jaccard": 0.023,
+        "pmi": 0.7488
+      }
+    },
+    {
+      "data": {
+        "id": "GPX4__NRF2/NFE2L2",
+        "source": "GPX4",
+        "target": "NRF2/NFE2L2",
+        "weight": 10,
+        "jaccard": 0.0524,
+        "pmi": 2.09
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__TNF-\u03b1",
+        "source": "PD-1/PDCD1",
+        "target": "TNF-\u03b1",
+        "weight": 9,
+        "jaccard": 0.0169,
+        "pmi": 0.0248
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-8__Caspase-9",
+        "source": "Caspase-8",
+        "target": "Caspase-9",
+        "weight": 9,
+        "jaccard": 0.1667,
+        "pmi": 4.3337
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__PI3K",
+        "source": "ATM",
+        "target": "PI3K",
+        "weight": 9,
+        "jaccard": 0.0155,
+        "pmi": -0.2012
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__mTOR",
+        "source": "ATM",
+        "target": "mTOR",
+        "weight": 9,
+        "jaccard": 0.0183,
+        "pmi": 0.1157
+      }
+    },
+    {
+      "data": {
+        "id": "CXCL10__STING/TMEM173",
+        "source": "CXCL10",
+        "target": "STING/TMEM173",
+        "weight": 9,
+        "jaccard": 0.0327,
+        "pmi": 2.347
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__\u03b3H2AX",
+        "source": "CD133/PROM1",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0106,
+        "pmi": -0.117
+      }
+    },
+    {
+      "data": {
+        "id": "Metformin__TP53/p53",
+        "source": "Metformin",
+        "target": "TP53/p53",
+        "weight": 9,
+        "jaccard": 0.0082,
+        "pmi": 0.1613
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__mTOR",
+        "source": "BCL2",
+        "target": "mTOR",
+        "weight": 9,
+        "jaccard": 0.0148,
+        "pmi": -0.2607
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__HIF-1\u03b1",
+        "source": "DNA-PK/PRKDC",
+        "target": "HIF-1\u03b1",
+        "weight": 9,
+        "jaccard": 0.0142,
+        "pmi": -0.3868
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__Survivin/BIRC5",
+        "source": "PARP1",
+        "target": "Survivin/BIRC5",
+        "weight": 9,
+        "jaccard": 0.0197,
+        "pmi": 0.3846
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__Wnt/\u03b2-catenin",
+        "source": "CD44",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 9,
+        "jaccard": 0.0353,
+        "pmi": 1.4261
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__\u03b3H2AX",
+        "source": "CD44",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0105,
+        "pmi": -0.1547
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Docetaxel",
+        "source": "Cisplatin",
+        "target": "Docetaxel",
+        "weight": 9,
+        "jaccard": 0.0174,
+        "pmi": 0.8932
+      }
+    },
+    {
+      "data": {
+        "id": "PTEN__\u03b3H2AX",
+        "source": "PTEN",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0106,
+        "pmi": -0.0677
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__STING/TMEM173",
+        "source": "ATR",
+        "target": "STING/TMEM173",
+        "weight": 9,
+        "jaccard": 0.0227,
+        "pmi": 0.6079
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__PTEN",
+        "source": "EGFR",
+        "target": "PTEN",
+        "weight": 9,
+        "jaccard": 0.0221,
+        "pmi": 0.8009
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__VE-821",
+        "source": "ATR",
+        "target": "VE-821",
+        "weight": 9,
+        "jaccard": 0.0608,
+        "pmi": 3.9636
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__VEGF",
+        "source": "EGFR",
+        "target": "VEGF",
+        "weight": 9,
+        "jaccard": 0.0185,
+        "pmi": 0.2142
+      }
+    },
+    {
+      "data": {
+        "id": "FAS__TP53/p53",
+        "source": "FAS",
+        "target": "TP53/p53",
+        "weight": 9,
+        "jaccard": 0.0084,
+        "pmi": 0.649
+      }
+    },
+    {
+      "data": {
+        "id": "FAS__TNF-\u03b1",
+        "source": "FAS",
+        "target": "TNF-\u03b1",
+        "weight": 9,
+        "jaccard": 0.0248,
+        "pmi": 1.7826
+      }
+    },
+    {
+      "data": {
+        "id": "WEE1__\u03b3H2AX",
+        "source": "WEE1",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0115,
+        "pmi": 1.001
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__TP53/p53",
+        "source": "5-FU",
+        "target": "TP53/p53",
+        "weight": 9,
+        "jaccard": 0.0077,
+        "pmi": -0.7009
+      }
+    },
+    {
+      "data": {
+        "id": "Temozolomide__\u03b3H2AX",
+        "source": "Temozolomide",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0102,
+        "pmi": -0.3704
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__RAD51",
+        "source": "EGFR",
+        "target": "RAD51",
+        "weight": 9,
+        "jaccard": 0.0167,
+        "pmi": -0.0421
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__\u03b3H2AX",
+        "source": "AMPK",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.011,
+        "pmi": 0.2789
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__RAD51",
+        "source": "AKT",
+        "target": "RAD51",
+        "weight": 9,
+        "jaccard": 0.0104,
+        "pmi": -0.7477
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Temozolomide",
+        "source": "AKT",
+        "target": "Temozolomide",
+        "weight": 9,
+        "jaccard": 0.0117,
+        "pmi": -0.2075
+      }
+    },
+    {
+      "data": {
+        "id": "BMI1__\u03b3H2AX",
+        "source": "BMI1",
+        "target": "\u03b3H2AX",
+        "weight": 9,
+        "jaccard": 0.0117,
+        "pmi": 1.4364
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__Etoposide",
+        "source": "Doxorubicin",
+        "target": "Etoposide",
+        "weight": 9,
+        "jaccard": 0.0353,
+        "pmi": 1.8956
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__TP53/p53",
+        "source": "AMPK",
+        "target": "TP53/p53",
+        "weight": 9,
+        "jaccard": 0.0081,
+        "pmi": -0.0441
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__KRAS",
+        "source": "AKT",
+        "target": "KRAS",
+        "weight": 9,
+        "jaccard": 0.0131,
+        "pmi": 0.7201
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__CHK1",
+        "source": "AKT",
+        "target": "CHK1",
+        "weight": 9,
+        "jaccard": 0.0112,
+        "pmi": -0.4454
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__p21/CDKN1A",
+        "source": "CHK1",
+        "target": "p21/CDKN1A",
+        "weight": 9,
+        "jaccard": 0.0202,
+        "pmi": 0.3698
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Cyclin D1",
+        "source": "BAX",
+        "target": "Cyclin D1",
+        "weight": 9,
+        "jaccard": 0.0262,
+        "pmi": 1.1939
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__CDK4",
+        "source": "AKT",
+        "target": "CDK4",
+        "weight": 9,
+        "jaccard": 0.0132,
+        "pmi": 0.8192
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin B1__TP53/p53",
+        "source": "Cyclin B1",
+        "target": "TP53/p53",
+        "weight": 9,
+        "jaccard": 0.0083,
+        "pmi": 0.5155
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__PARP1",
+        "source": "CHK1",
+        "target": "PARP1",
+        "weight": 9,
+        "jaccard": 0.019,
+        "pmi": 0.2793
+      }
+    },
+    {
+      "data": {
+        "id": "Ku80/XRCC5__RAD51",
+        "source": "Ku80/XRCC5",
+        "target": "RAD51",
+        "weight": 9,
+        "jaccard": 0.0331,
+        "pmi": 1.7882
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__STAT3",
+        "source": "BCL2",
+        "target": "STAT3",
+        "weight": 9,
+        "jaccard": 0.017,
+        "pmi": 0.1306
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__PARP1",
+        "source": "MAPK/ERK",
+        "target": "PARP1",
+        "weight": 9,
+        "jaccard": 0.0136,
+        "pmi": -0.4682
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__cGAS",
+        "source": "PARP1",
+        "target": "cGAS",
+        "weight": 9,
+        "jaccard": 0.019,
+        "pmi": 0.2734
+      }
+    },
+    {
+      "data": {
+        "id": "VEGF__mTOR",
+        "source": "VEGF",
+        "target": "mTOR",
+        "weight": 9,
+        "jaccard": 0.0218,
+        "pmi": 0.4791
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__Olaparib",
+        "source": "BRCA1",
+        "target": "Olaparib",
+        "weight": 9,
+        "jaccard": 0.0529,
+        "pmi": 2.1749
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-8__TNF-\u03b1",
+        "source": "Caspase-8",
+        "target": "TNF-\u03b1",
+        "weight": 8,
+        "jaccard": 0.0217,
+        "pmi": 1.5313
+      }
+    },
+    {
+      "data": {
+        "id": "CXCL10__PD-L1/CD274",
+        "source": "CXCL10",
+        "target": "PD-L1/CD274",
+        "weight": 8,
+        "jaccard": 0.0227,
+        "pmi": 1.9681
+      }
+    },
+    {
+      "data": {
+        "id": "CTLA-4__anti-CTLA-4",
+        "source": "CTLA-4",
+        "target": "anti-CTLA-4",
+        "weight": 8,
+        "jaccard": 0.3333,
+        "pmi": 5.7076
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__Veliparib",
+        "source": "PARP1",
+        "target": "Veliparib",
+        "weight": 8,
+        "jaccard": 0.0253,
+        "pmi": 2.8124
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Cyclin D1",
+        "source": "Caspase-3",
+        "target": "Cyclin D1",
+        "weight": 8,
+        "jaccard": 0.0151,
+        "pmi": 0.5609
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc__NF-\u03baB",
+        "source": "MYC/c-Myc",
+        "target": "NF-\u03baB",
+        "weight": 8,
+        "jaccard": 0.0167,
+        "pmi": 0.4595
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__mTOR",
+        "source": "BAX",
+        "target": "mTOR",
+        "weight": 8,
+        "jaccard": 0.0156,
+        "pmi": -0.0773
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__E-cadherin/CDH1",
+        "source": "CD44",
+        "target": "E-cadherin/CDH1",
+        "weight": 8,
+        "jaccard": 0.0497,
+        "pmi": 2.2473
+      }
+    },
+    {
+      "data": {
+        "id": "NBS1/NBN__\u03b3H2AX",
+        "source": "NBS1/NBN",
+        "target": "\u03b3H2AX",
+        "weight": 8,
+        "jaccard": 0.0103,
+        "pmi": 1.0774
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__EGFR",
+        "source": "Caspase-3",
+        "target": "EGFR",
+        "weight": 8,
+        "jaccard": 0.0104,
+        "pmi": -0.8573
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc__p21/CDKN1A",
+        "source": "MYC/c-Myc",
+        "target": "p21/CDKN1A",
+        "weight": 8,
+        "jaccard": 0.0211,
+        "pmi": 0.7628
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__cGAS",
+        "source": "ATR",
+        "target": "cGAS",
+        "weight": 8,
+        "jaccard": 0.0257,
+        "pmi": 0.9014
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__TP53/p53",
+        "source": "CDK4",
+        "target": "TP53/p53",
+        "weight": 8,
+        "jaccard": 0.0074,
+        "pmi": 0.2154
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__NF-\u03baB",
+        "source": "ATM",
+        "target": "NF-\u03baB",
+        "weight": 8,
+        "jaccard": 0.0126,
+        "pmi": -0.4607
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__NF-\u03baB",
+        "source": "HIF-1\u03b1",
+        "target": "NF-\u03baB",
+        "weight": 8,
+        "jaccard": 0.011,
+        "pmi": -0.7735
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__EGFR",
+        "source": "ATM",
+        "target": "EGFR",
+        "weight": 8,
+        "jaccard": 0.0141,
+        "pmi": -0.2669
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__HIF-1\u03b1",
+        "source": "BAX",
+        "target": "HIF-1\u03b1",
+        "weight": 8,
+        "jaccard": 0.0129,
+        "pmi": -0.438
+      }
+    },
+    {
+      "data": {
+        "id": "LC3__PI3K",
+        "source": "LC3",
+        "target": "PI3K",
+        "weight": 8,
+        "jaccard": 0.0209,
+        "pmi": 1.2188
+      }
+    },
+    {
+      "data": {
+        "id": "Rb__TP53/p53",
+        "source": "Rb",
+        "target": "TP53/p53",
+        "weight": 8,
+        "jaccard": 0.0076,
+        "pmi": 1.2534
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__MCL1",
+        "source": "BCL-XL",
+        "target": "MCL1",
+        "weight": 8,
+        "jaccard": 0.1026,
+        "pmi": 3.5627
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__NF-\u03baB",
+        "source": "BCL-XL",
+        "target": "NF-\u03baB",
+        "weight": 8,
+        "jaccard": 0.0186,
+        "pmi": 1.1332
+      }
+    },
+    {
+      "data": {
+        "id": "SLC7A11/xCT__TP53/p53",
+        "source": "SLC7A11/xCT",
+        "target": "TP53/p53",
+        "weight": 8,
+        "jaccard": 0.0074,
+        "pmi": 0.3977
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Oxaliplatin",
+        "source": "Cisplatin",
+        "target": "Oxaliplatin",
+        "weight": 8,
+        "jaccard": 0.0162,
+        "pmi": 1.2137
+      }
+    },
+    {
+      "data": {
+        "id": "Paclitaxel__TP53/p53",
+        "source": "Paclitaxel",
+        "target": "TP53/p53",
+        "weight": 8,
+        "jaccard": 0.0068,
+        "pmi": -0.8037
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__PD-1/PDCD1",
+        "source": "Cisplatin",
+        "target": "PD-1/PDCD1",
+        "weight": 8,
+        "jaccard": 0.0122,
+        "pmi": -0.4106
+      }
+    },
+    {
+      "data": {
+        "id": "Curcumin__TNF-\u03b1",
+        "source": "Curcumin",
+        "target": "TNF-\u03b1",
+        "weight": 8,
+        "jaccard": 0.0189,
+        "pmi": 0.6769
+      }
+    },
+    {
+      "data": {
+        "id": "IFNB1/IFN-\u03b2__cGAS",
+        "source": "IFNB1/IFN-\u03b2",
+        "target": "cGAS",
+        "weight": 8,
+        "jaccard": 0.0421,
+        "pmi": 2.6028
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__PD-L1/CD274",
+        "source": "Cisplatin",
+        "target": "PD-L1/CD274",
+        "weight": 8,
+        "jaccard": 0.0101,
+        "pmi": -0.9116
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__NF-\u03baB",
+        "source": "Cisplatin",
+        "target": "NF-\u03baB",
+        "weight": 8,
+        "jaccard": 0.0095,
+        "pmi": -1.0533
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__PARP1",
+        "source": "CHK2",
+        "target": "PARP1",
+        "weight": 8,
+        "jaccard": 0.0194,
+        "pmi": 0.6152
+      }
+    },
+    {
+      "data": {
+        "id": "CTLA-4__PD-1/PDCD1",
+        "source": "CTLA-4",
+        "target": "PD-1/PDCD1",
+        "weight": 8,
+        "jaccard": 0.0367,
+        "pmi": 2.5916
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__TGF-\u03b2",
+        "source": "MAPK/ERK",
+        "target": "TGF-\u03b2",
+        "weight": 8,
+        "jaccard": 0.014,
+        "pmi": -0.2457
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__CHK2",
+        "source": "AKT",
+        "target": "CHK2",
+        "weight": 8,
+        "jaccard": 0.0108,
+        "pmi": -0.1095
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__Paclitaxel",
+        "source": "Doxorubicin",
+        "target": "Paclitaxel",
+        "weight": 8,
+        "jaccard": 0.0235,
+        "pmi": 0.7793
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__PI3K",
+        "source": "BAX",
+        "target": "PI3K",
+        "weight": 8,
+        "jaccard": 0.0133,
+        "pmi": -0.3942
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__HIF-1\u03b1",
+        "source": "BCL2",
+        "target": "HIF-1\u03b1",
+        "weight": 8,
+        "jaccard": 0.0112,
+        "pmi": -0.7392
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__TP53/p53",
+        "source": "BRCA1",
+        "target": "TP53/p53",
+        "weight": 8,
+        "jaccard": 0.007,
+        "pmi": -0.4777
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Cetuximab",
+        "source": "AKT",
+        "target": "Cetuximab",
+        "weight": 8,
+        "jaccard": 0.0112,
+        "pmi": 0.2031
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__Cisplatin",
+        "source": "ATM",
+        "target": "Cisplatin",
+        "weight": 8,
+        "jaccard": 0.0113,
+        "pmi": -0.6426
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__CD133/PROM1",
+        "source": "AKT",
+        "target": "CD133/PROM1",
+        "weight": 8,
+        "jaccard": 0.0108,
+        "pmi": -0.0718
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__PD-L1/CD274",
+        "source": "AKT",
+        "target": "PD-L1/CD274",
+        "weight": 8,
+        "jaccard": 0.0082,
+        "pmi": -1.2415
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__LC3",
+        "source": "AKT",
+        "target": "LC3",
+        "weight": 8,
+        "jaccard": 0.0116,
+        "pmi": 0.5653
+      }
+    },
+    {
+      "data": {
+        "id": "GLUT1__HIF-1\u03b1",
+        "source": "GLUT1",
+        "target": "HIF-1\u03b1",
+        "weight": 8,
+        "jaccard": 0.0219,
+        "pmi": 2.0043
+      }
+    },
+    {
+      "data": {
+        "id": "anti-PD-1__cGAS",
+        "source": "anti-PD-1",
+        "target": "cGAS",
+        "weight": 8,
+        "jaccard": 0.0332,
+        "pmi": 1.5419
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__p21/CDKN1A",
+        "source": "Survivin/BIRC5",
+        "target": "p21/CDKN1A",
+        "weight": 8,
+        "jaccard": 0.0186,
+        "pmi": 0.3574
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__\u03b3H2AX",
+        "source": "E-cadherin/CDH1",
+        "target": "\u03b3H2AX",
+        "weight": 7,
+        "jaccard": 0.0086,
+        "pmi": 0.1652
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__\u03b3H2AX",
+        "source": "Doxorubicin",
+        "target": "\u03b3H2AX",
+        "weight": 7,
+        "jaccard": 0.0072,
+        "pmi": -1.0946
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__Olaparib",
+        "source": "DNA-PK/PRKDC",
+        "target": "Olaparib",
+        "weight": 7,
+        "jaccard": 0.0189,
+        "pmi": 0.8009
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__MYC/c-Myc",
+        "source": "DNA-PK/PRKDC",
+        "target": "MYC/c-Myc",
+        "weight": 7,
+        "jaccard": 0.0179,
+        "pmi": 0.5948
+      }
+    },
+    {
+      "data": {
+        "id": "Gemcitabine__Paclitaxel",
+        "source": "Gemcitabine",
+        "target": "Paclitaxel",
+        "weight": 7,
+        "jaccard": 0.028,
+        "pmi": 1.1961
+      }
+    },
+    {
+      "data": {
+        "id": "Gemcitabine__TP53/p53",
+        "source": "Gemcitabine",
+        "target": "TP53/p53",
+        "weight": 7,
+        "jaccard": 0.006,
+        "pmi": -0.8672
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__RAD51",
+        "source": "BAX",
+        "target": "RAD51",
+        "weight": 7,
+        "jaccard": 0.014,
+        "pmi": -0.1517
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__p16/CDKN2A",
+        "source": "TP53/p53",
+        "target": "p16/CDKN2A",
+        "weight": 7,
+        "jaccard": 0.0065,
+        "pmi": 0.2642
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA2__PARP1",
+        "source": "BRCA2",
+        "target": "PARP1",
+        "weight": 7,
+        "jaccard": 0.0208,
+        "pmi": 1.698
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA2__RAD51",
+        "source": "BRCA2",
+        "target": "RAD51",
+        "weight": 7,
+        "jaccard": 0.0275,
+        "pmi": 2.0029
+      }
+    },
+    {
+      "data": {
+        "id": "VEGF__\u03b3H2AX",
+        "source": "VEGF",
+        "target": "\u03b3H2AX",
+        "weight": 7,
+        "jaccard": 0.0075,
+        "pmi": -0.9057
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__CD44",
+        "source": "AKT",
+        "target": "CD44",
+        "weight": 7,
+        "jaccard": 0.0094,
+        "pmi": -0.2431
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__IGF1R",
+        "source": "AKT",
+        "target": "IGF1R",
+        "weight": 7,
+        "jaccard": 0.0104,
+        "pmi": 0.8015
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Doxorubicin",
+        "source": "AKT",
+        "target": "Doxorubicin",
+        "weight": 7,
+        "jaccard": 0.0082,
+        "pmi": -0.9316
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__E-cadherin/CDH1",
+        "source": "AKT",
+        "target": "E-cadherin/CDH1",
+        "weight": 7,
+        "jaccard": 0.01,
+        "pmi": 0.3282
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__MCL1",
+        "source": "AKT",
+        "target": "MCL1",
+        "weight": 7,
+        "jaccard": 0.0104,
+        "pmi": 0.9127
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__VEGF",
+        "source": "NF-\u03baB",
+        "target": "VEGF",
+        "weight": 7,
+        "jaccard": 0.0126,
+        "pmi": -0.2309
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__Temozolomide",
+        "source": "PARP1",
+        "target": "Temozolomide",
+        "weight": 7,
+        "jaccard": 0.0159,
+        "pmi": 0.2659
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__PI3K",
+        "source": "CD133/PROM1",
+        "target": "PI3K",
+        "weight": 7,
+        "jaccard": 0.0162,
+        "pmi": 0.4482
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__XIAP",
+        "source": "PARP1",
+        "target": "XIAP",
+        "weight": 7,
+        "jaccard": 0.0206,
+        "pmi": 1.6374
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Gold nanoparticles",
+        "source": "Cisplatin",
+        "target": "Gold nanoparticles",
+        "weight": 7,
+        "jaccard": 0.0099,
+        "pmi": -0.7564
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__VEGF",
+        "source": "BCL2",
+        "target": "VEGF",
+        "weight": 7,
+        "jaccard": 0.0129,
+        "pmi": -0.1966
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__mTOR",
+        "source": "NF-\u03baB",
+        "target": "mTOR",
+        "weight": 7,
+        "jaccard": 0.0112,
+        "pmi": -0.5462
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Wnt/\u03b2-catenin",
+        "source": "BCL2",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 7,
+        "jaccard": 0.0134,
+        "pmi": -0.0647
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__IGF1R",
+        "source": "EGFR",
+        "target": "IGF1R",
+        "weight": 7,
+        "jaccard": 0.0201,
+        "pmi": 1.5071
+      }
+    },
+    {
+      "data": {
+        "id": "BAK__BCL2",
+        "source": "BAK",
+        "target": "BCL2",
+        "weight": 7,
+        "jaccard": 0.0183,
+        "pmi": 2.2126
+      }
+    },
+    {
+      "data": {
+        "id": "MCL1__STAT3",
+        "source": "MCL1",
+        "target": "STAT3",
+        "weight": 7,
+        "jaccard": 0.0365,
+        "pmi": 2.2745
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__HIF-1\u03b1",
+        "source": "Caspase-3",
+        "target": "HIF-1\u03b1",
+        "weight": 7,
+        "jaccard": 0.0087,
+        "pmi": -1.0867
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__WEE1",
+        "source": "CHK1",
+        "target": "WEE1",
+        "weight": 7,
+        "jaccard": 0.0355,
+        "pmi": 2.2446
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__WEE1",
+        "source": "TP53/p53",
+        "target": "WEE1",
+        "weight": 7,
+        "jaccard": 0.0065,
+        "pmi": 0.4267
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Doxorubicin",
+        "source": "BAX",
+        "target": "Doxorubicin",
+        "weight": 7,
+        "jaccard": 0.0145,
+        "pmi": -0.0843
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Ku70/XRCC6",
+        "source": "Caspase-3",
+        "target": "Ku70/XRCC6",
+        "weight": 7,
+        "jaccard": 0.0132,
+        "pmi": 0.4405
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Survivin/BIRC5",
+        "source": "Cisplatin",
+        "target": "Survivin/BIRC5",
+        "weight": 7,
+        "jaccard": 0.0115,
+        "pmi": -0.2614
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Caspase-8",
+        "source": "BCL2",
+        "target": "Caspase-8",
+        "weight": 7,
+        "jaccard": 0.0172,
+        "pmi": 1.2963
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Caspase-9",
+        "source": "BCL2",
+        "target": "Caspase-9",
+        "weight": 7,
+        "jaccard": 0.018,
+        "pmi": 1.8497
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__PI3K",
+        "source": "Cisplatin",
+        "target": "PI3K",
+        "weight": 7,
+        "jaccard": 0.0088,
+        "pmi": -1.0451
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin B1__p21/CDKN1A",
+        "source": "Cyclin B1",
+        "target": "p21/CDKN1A",
+        "weight": 7,
+        "jaccard": 0.022,
+        "pmi": 1.5654
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__PI3K",
+        "source": "HER2/ERBB2",
+        "target": "PI3K",
+        "weight": 7,
+        "jaccard": 0.0154,
+        "pmi": 0.2406
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__PI3K",
+        "source": "PARP1",
+        "target": "PI3K",
+        "weight": 7,
+        "jaccard": 0.0109,
+        "pmi": -0.6504
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__\u03b3H2AX",
+        "source": "CDK4",
+        "target": "\u03b3H2AX",
+        "weight": 7,
+        "jaccard": 0.0088,
+        "pmi": 0.4049
+      }
+    },
+    {
+      "data": {
+        "id": "KRAS__PI3K",
+        "source": "KRAS",
+        "target": "PI3K",
+        "weight": 7,
+        "jaccard": 0.0184,
+        "pmi": 1.1223
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__p21/CDKN1A",
+        "source": "IL-6",
+        "target": "p21/CDKN1A",
+        "weight": 7,
+        "jaccard": 0.0138,
+        "pmi": -0.1751
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__Cisplatin",
+        "source": "ATR",
+        "target": "Cisplatin",
+        "weight": 7,
+        "jaccard": 0.0116,
+        "pmi": -0.2282
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__FAS",
+        "source": "Caspase-3",
+        "target": "FAS",
+        "weight": 7,
+        "jaccard": 0.0143,
+        "pmi": 1.2159
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__NF-\u03baB",
+        "source": "Cyclin D1",
+        "target": "NF-\u03baB",
+        "weight": 7,
+        "jaccard": 0.0154,
+        "pmi": 0.6071
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__MYC/c-Myc",
+        "source": "Cyclin D1",
+        "target": "MYC/c-Myc",
+        "weight": 7,
+        "jaccard": 0.0407,
+        "pmi": 1.938
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__mTOR",
+        "source": "Cyclin D1",
+        "target": "mTOR",
+        "weight": 7,
+        "jaccard": 0.0223,
+        "pmi": 1.0658
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__NRF2/NFE2L2",
+        "source": "AKT",
+        "target": "NRF2/NFE2L2",
+        "weight": 7,
+        "jaccard": 0.0092,
+        "pmi": -0.365
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__NBS1/NBN",
+        "source": "ATM",
+        "target": "NBS1/NBN",
+        "weight": 7,
+        "jaccard": 0.0253,
+        "pmi": 2.0294
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__Ku70/XRCC6",
+        "source": "ATM",
+        "target": "Ku70/XRCC6",
+        "weight": 7,
+        "jaccard": 0.0215,
+        "pmi": 1.0309
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-8__FAS",
+        "source": "Caspase-8",
+        "target": "FAS",
+        "weight": 7,
+        "jaccard": 0.1029,
+        "pmi": 3.6625
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__\u03b3H2AX",
+        "source": "HER2/ERBB2",
+        "target": "\u03b3H2AX",
+        "weight": 7,
+        "jaccard": 0.008,
+        "pmi": -0.576
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__Nanog",
+        "source": "CD133/PROM1",
+        "target": "Nanog",
+        "weight": 7,
+        "jaccard": 0.0588,
+        "pmi": 3.1713
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__TP53/p53",
+        "source": "CD133/PROM1",
+        "target": "TP53/p53",
+        "weight": 7,
+        "jaccard": 0.0061,
+        "pmi": -0.6913
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__TNF-\u03b1",
+        "source": "BAX",
+        "target": "TNF-\u03b1",
+        "weight": 7,
+        "jaccard": 0.0116,
+        "pmi": -0.5337
+      }
+    },
+    {
+      "data": {
+        "id": "Beclin1/BECN1__LC3",
+        "source": "Beclin1/BECN1",
+        "target": "LC3",
+        "weight": 7,
+        "jaccard": 0.0824,
+        "pmi": 3.2885
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__Olaparib",
+        "source": "ATR",
+        "target": "Olaparib",
+        "weight": 7,
+        "jaccard": 0.0312,
+        "pmi": 1.4907
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Irinotecan",
+        "source": "Cisplatin",
+        "target": "Irinotecan",
+        "weight": 7,
+        "jaccard": 0.0148,
+        "pmi": 1.8787
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__Snail/SNAI1",
+        "source": "E-cadherin/CDH1",
+        "target": "Snail/SNAI1",
+        "weight": 7,
+        "jaccard": 0.0824,
+        "pmi": 3.3619
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Gemcitabine",
+        "source": "5-FU",
+        "target": "Gemcitabine",
+        "weight": 7,
+        "jaccard": 0.0278,
+        "pmi": 1.1812
+      }
+    },
+    {
+      "data": {
+        "id": "Metformin__mTOR",
+        "source": "Metformin",
+        "target": "mTOR",
+        "weight": 7,
+        "jaccard": 0.0238,
+        "pmi": 1.3665
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__STAT3",
+        "source": "Caspase-3",
+        "target": "STAT3",
+        "weight": 7,
+        "jaccard": 0.0113,
+        "pmi": -0.3347
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__\u03b3H2AX",
+        "source": "TGF-\u03b2",
+        "target": "\u03b3H2AX",
+        "weight": 6,
+        "jaccard": 0.0062,
+        "pmi": -1.2807
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__BRCA1",
+        "source": "53BP1",
+        "target": "BRCA1",
+        "weight": 6,
+        "jaccard": 0.0331,
+        "pmi": 1.6774
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__BAX",
+        "source": "ATM",
+        "target": "BAX",
+        "weight": 6,
+        "jaccard": 0.0114,
+        "pmi": -0.413
+      }
+    },
+    {
+      "data": {
+        "id": "Docetaxel__Gold nanoparticles",
+        "source": "Docetaxel",
+        "target": "Gold nanoparticles",
+        "weight": 6,
+        "jaccard": 0.0195,
+        "pmi": 1.1
+      }
+    },
+    {
+      "data": {
+        "id": "Gold nanoparticles__HER2/ERBB2",
+        "source": "Gold nanoparticles",
+        "target": "HER2/ERBB2",
+        "weight": 6,
+        "jaccard": 0.0161,
+        "pmi": 0.3751
+      }
+    },
+    {
+      "data": {
+        "id": "Gemcitabine__RAD51",
+        "source": "Gemcitabine",
+        "target": "RAD51",
+        "weight": 6,
+        "jaccard": 0.0172,
+        "pmi": 0.4943
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__NF-\u03baB",
+        "source": "Doxorubicin",
+        "target": "NF-\u03baB",
+        "weight": 6,
+        "jaccard": 0.0101,
+        "pmi": -0.5739
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__PD-L1/CD274",
+        "source": "Doxorubicin",
+        "target": "PD-L1/CD274",
+        "weight": 6,
+        "jaccard": 0.011,
+        "pmi": -0.4322
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__EGFR",
+        "source": "E-cadherin/CDH1",
+        "target": "EGFR",
+        "weight": 6,
+        "jaccard": 0.0161,
+        "pmi": 0.8797
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__Survivin/BIRC5",
+        "source": "DNA-PK/PRKDC",
+        "target": "Survivin/BIRC5",
+        "weight": 6,
+        "jaccard": 0.0136,
+        "pmi": 0.0352
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__Nanog",
+        "source": "CD44",
+        "target": "Nanog",
+        "weight": 6,
+        "jaccard": 0.0484,
+        "pmi": 2.9794
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__PI3K",
+        "source": "CD44",
+        "target": "PI3K",
+        "weight": 6,
+        "jaccard": 0.0137,
+        "pmi": 0.2564
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__PTEN",
+        "source": "MAPK/ERK",
+        "target": "PTEN",
+        "weight": 6,
+        "jaccard": 0.0133,
+        "pmi": 0.2742
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__Caspase-3",
+        "source": "CDK4",
+        "target": "Caspase-3",
+        "weight": 6,
+        "jaccard": 0.0119,
+        "pmi": 0.7458
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__LC3",
+        "source": "BCL2",
+        "target": "LC3",
+        "weight": 6,
+        "jaccard": 0.0142,
+        "pmi": 0.8237
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__DNA-PK/PRKDC",
+        "source": "BCL2",
+        "target": "DNA-PK/PRKDC",
+        "weight": 6,
+        "jaccard": 0.0091,
+        "pmi": -0.8559
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__EGFR",
+        "source": "BCL2",
+        "target": "EGFR",
+        "weight": 6,
+        "jaccard": 0.0088,
+        "pmi": -0.931
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__CD133/PROM1",
+        "source": "ATM",
+        "target": "CD133/PROM1",
+        "weight": 6,
+        "jaccard": 0.0169,
+        "pmi": 0.563
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Snail/SNAI1",
+        "source": "AKT",
+        "target": "Snail/SNAI1",
+        "weight": 6,
+        "jaccard": 0.009,
+        "pmi": 0.8509
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin B1__\u03b3H2AX",
+        "source": "Cyclin B1",
+        "target": "\u03b3H2AX",
+        "weight": 6,
+        "jaccard": 0.0076,
+        "pmi": 0.433
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__PUMA",
+        "source": "BCL2",
+        "target": "PUMA",
+        "weight": 6,
+        "jaccard": 0.0155,
+        "pmi": 1.8353
+      }
+    },
+    {
+      "data": {
+        "id": "NU7441__\u03b3H2AX",
+        "source": "NU7441",
+        "target": "\u03b3H2AX",
+        "weight": 6,
+        "jaccard": 0.0078,
+        "pmi": 1.2316
+      }
+    },
+    {
+      "data": {
+        "id": "STAT3__VEGF",
+        "source": "STAT3",
+        "target": "VEGF",
+        "weight": 6,
+        "jaccard": 0.0178,
+        "pmi": 0.4649
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Olaparib",
+        "source": "Cisplatin",
+        "target": "Olaparib",
+        "weight": 6,
+        "jaccard": 0.0111,
+        "pmi": 0.196
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__TGF-\u03b2",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "TGF-\u03b2",
+        "weight": 6,
+        "jaccard": 0.0192,
+        "pmi": 0.7856
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__Temozolomide",
+        "source": "Cisplatin",
+        "target": "Temozolomide",
+        "weight": 6,
+        "jaccard": 0.0102,
+        "pmi": -0.283
+      }
+    },
+    {
+      "data": {
+        "id": "HMGB1__PD-1/PDCD1",
+        "source": "HMGB1",
+        "target": "PD-1/PDCD1",
+        "weight": 6,
+        "jaccard": 0.0195,
+        "pmi": 0.7389
+      }
+    },
+    {
+      "data": {
+        "id": "HMGB1__TNF-\u03b1",
+        "source": "HMGB1",
+        "target": "TNF-\u03b1",
+        "weight": 6,
+        "jaccard": 0.0136,
+        "pmi": 0.232
+      }
+    },
+    {
+      "data": {
+        "id": "Ku80/XRCC5__PARP1",
+        "source": "Ku80/XRCC5",
+        "target": "PARP1",
+        "weight": 6,
+        "jaccard": 0.0168,
+        "pmi": 1.0778
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__PI3K",
+        "source": "CHK1",
+        "target": "PI3K",
+        "weight": 6,
+        "jaccard": 0.012,
+        "pmi": -0.1973
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__STAT3",
+        "source": "BCL-XL",
+        "target": "STAT3",
+        "weight": 6,
+        "jaccard": 0.0284,
+        "pmi": 1.6954
+      }
+    },
+    {
+      "data": {
+        "id": "STAT3__\u03b3H2AX",
+        "source": "STAT3",
+        "target": "\u03b3H2AX",
+        "weight": 6,
+        "jaccard": 0.0065,
+        "pmi": -0.984
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51__mTOR",
+        "source": "RAD51",
+        "target": "mTOR",
+        "weight": 6,
+        "jaccard": 0.0128,
+        "pmi": -0.1826
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51__p21/CDKN1A",
+        "source": "RAD51",
+        "target": "p21/CDKN1A",
+        "weight": 6,
+        "jaccard": 0.0118,
+        "pmi": -0.338
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__PI3K",
+        "source": "PD-L1/CD274",
+        "target": "PI3K",
+        "weight": 6,
+        "jaccard": 0.009,
+        "pmi": -0.8756
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__MYC/c-Myc",
+        "source": "CHK1",
+        "target": "MYC/c-Myc",
+        "weight": 6,
+        "jaccard": 0.0226,
+        "pmi": 0.9918
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__TP53/p53",
+        "source": "BCL-XL",
+        "target": "TP53/p53",
+        "weight": 6,
+        "jaccard": 0.0055,
+        "pmi": -0.1523
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Capecitabine",
+        "source": "5-FU",
+        "target": "Capecitabine",
+        "weight": 6,
+        "jaccard": 0.0392,
+        "pmi": 2.6693
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__MET/c-Met",
+        "source": "AKT",
+        "target": "MET/c-Met",
+        "weight": 6,
+        "jaccard": 0.009,
+        "pmi": 0.9891
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Vimentin/VIM",
+        "source": "AKT",
+        "target": "Vimentin/VIM",
+        "weight": 6,
+        "jaccard": 0.0089,
+        "pmi": 0.6214
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__DNA-PK/PRKDC",
+        "source": "BAX",
+        "target": "DNA-PK/PRKDC",
+        "weight": 6,
+        "jaccard": 0.0106,
+        "pmi": -0.5548
+      }
+    },
+    {
+      "data": {
+        "id": "TNF-\u03b1__p21/CDKN1A",
+        "source": "TNF-\u03b1",
+        "target": "p21/CDKN1A",
+        "weight": 6,
+        "jaccard": 0.0097,
+        "pmi": -0.72
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__FAS",
+        "source": "BAX",
+        "target": "FAS",
+        "weight": 6,
+        "jaccard": 0.0197,
+        "pmi": 1.5769
+      }
+    },
+    {
+      "data": {
+        "id": "CHK2__Caspase-3",
+        "source": "CHK2",
+        "target": "Caspase-3",
+        "weight": 6,
+        "jaccard": 0.0106,
+        "pmi": -0.0651
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__TRAIL/TNFSF10",
+        "source": "TP53/p53",
+        "target": "TRAIL/TNFSF10",
+        "weight": 6,
+        "jaccard": 0.0055,
+        "pmi": 0.0854
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__Survivin/BIRC5",
+        "source": "MAPK/ERK",
+        "target": "Survivin/BIRC5",
+        "weight": 6,
+        "jaccard": 0.0119,
+        "pmi": -0.1611
+      }
+    },
+    {
+      "data": {
+        "id": "CTLA-4__PD-L1/CD274",
+        "source": "CTLA-4",
+        "target": "PD-L1/CD274",
+        "weight": 6,
+        "jaccard": 0.017,
+        "pmi": 1.803
+      }
+    },
+    {
+      "data": {
+        "id": "Carboplatin__Etoposide",
+        "source": "Carboplatin",
+        "target": "Etoposide",
+        "weight": 6,
+        "jaccard": 0.0698,
+        "pmi": 3.0996
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__TGF-\u03b2",
+        "source": "Caspase-3",
+        "target": "TGF-\u03b2",
+        "weight": 6,
+        "jaccard": 0.0088,
+        "pmi": -0.7856
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__MRE11",
+        "source": "ATM",
+        "target": "MRE11",
+        "weight": 6,
+        "jaccard": 0.0212,
+        "pmi": 1.7109
+      }
+    },
+    {
+      "data": {
+        "id": "Beclin1/BECN1__mTOR",
+        "source": "Beclin1/BECN1",
+        "target": "mTOR",
+        "weight": 6,
+        "jaccard": 0.0218,
+        "pmi": 1.6445
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__Cisplatin",
+        "source": "CD133/PROM1",
+        "target": "Cisplatin",
+        "weight": 6,
+        "jaccard": 0.0107,
+        "pmi": -0.0295
+      }
+    },
+    {
+      "data": {
+        "id": "MYC/c-Myc__\u03b3H2AX",
+        "source": "MYC/c-Myc",
+        "target": "\u03b3H2AX",
+        "weight": 6,
+        "jaccard": 0.007,
+        "pmi": -0.503
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Ku80/XRCC5",
+        "source": "Caspase-3",
+        "target": "Ku80/XRCC5",
+        "weight": 6,
+        "jaccard": 0.0118,
+        "pmi": 0.6852
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__TGF-\u03b2",
+        "source": "PD-1/PDCD1",
+        "target": "TGF-\u03b2",
+        "weight": 6,
+        "jaccard": 0.0143,
+        "pmi": 0.0367
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-9__TP53/p53",
+        "source": "Caspase-9",
+        "target": "TP53/p53",
+        "weight": 6,
+        "jaccard": 0.0056,
+        "pmi": 0.6634
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__PI3K",
+        "source": "IL-6",
+        "target": "PI3K",
+        "weight": 6,
+        "jaccard": 0.0108,
+        "pmi": -0.4909
+      }
+    },
+    {
+      "data": {
+        "id": "IFNB1/IFN-\u03b2__PD-L1/CD274",
+        "source": "IFNB1/IFN-\u03b2",
+        "target": "PD-L1/CD274",
+        "weight": 6,
+        "jaccard": 0.0169,
+        "pmi": 1.6426
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__E-cadherin/CDH1",
+        "source": "Caspase-3",
+        "target": "E-cadherin/CDH1",
+        "weight": 6,
+        "jaccard": 0.0116,
+        "pmi": 0.5062
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__STAT3",
+        "source": "HIF-1\u03b1",
+        "target": "STAT3",
+        "weight": 6,
+        "jaccard": 0.0118,
+        "pmi": -0.2113
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__TGF-\u03b2",
+        "source": "AKT",
+        "target": "TGF-\u03b2",
+        "weight": 6,
+        "jaccard": 0.007,
+        "pmi": -1.1178
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-8__TP53/p53",
+        "source": "Caspase-8",
+        "target": "TP53/p53",
+        "weight": 6,
+        "jaccard": 0.0056,
+        "pmi": 0.11
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__VEGF",
+        "source": "Caspase-3",
+        "target": "VEGF",
+        "weight": 6,
+        "jaccard": 0.0095,
+        "pmi": -0.5647
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__cGAS",
+        "source": "NF-\u03baB",
+        "target": "cGAS",
+        "weight": 6,
+        "jaccard": 0.0109,
+        "pmi": -0.3449
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__Caspase-3",
+        "source": "CHK1",
+        "target": "Caspase-3",
+        "weight": 6,
+        "jaccard": 0.0096,
+        "pmi": -0.5188
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__CHK1",
+        "source": "BRCA1",
+        "target": "CHK1",
+        "weight": 6,
+        "jaccard": 0.0231,
+        "pmi": 1.0525
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__HIF-1\u03b1",
+        "source": "Cisplatin",
+        "target": "HIF-1\u03b1",
+        "weight": 6,
+        "jaccard": 0.0074,
+        "pmi": -1.243
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__p21/CDKN1A",
+        "source": "CDK4",
+        "target": "p21/CDKN1A",
+        "weight": 6,
+        "jaccard": 0.0183,
+        "pmi": 1.2289
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__CDK6",
+        "source": "CDK4",
+        "target": "CDK6",
+        "weight": 6,
+        "jaccard": 0.12,
+        "pmi": 4.802
+      }
+    },
+    {
+      "data": {
+        "id": "MHC-I__PD-L1/CD274",
+        "source": "MHC-I",
+        "target": "PD-L1/CD274",
+        "weight": 6,
+        "jaccard": 0.0169,
+        "pmi": 1.7196
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__Cisplatin",
+        "source": "CHK1",
+        "target": "Cisplatin",
+        "weight": 6,
+        "jaccard": 0.0096,
+        "pmi": -0.5209
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__NRF2/NFE2L2",
+        "source": "NF-\u03baB",
+        "target": "NRF2/NFE2L2",
+        "weight": 6,
+        "jaccard": 0.012,
+        "pmi": -0.0072
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__DNA-PK/PRKDC",
+        "source": "Cisplatin",
+        "target": "DNA-PK/PRKDC",
+        "weight": 6,
+        "jaccard": 0.008,
+        "pmi": -1.0721
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__mTOR",
+        "source": "ATR",
+        "target": "mTOR",
+        "weight": 6,
+        "jaccard": 0.0155,
+        "pmi": 0.2582
+      }
+    },
+    {
+      "data": {
+        "id": "PI3K__SOX2",
+        "source": "PI3K",
+        "target": "SOX2",
+        "weight": 6,
+        "jaccard": 0.0159,
+        "pmi": 1.0467
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__VEGF",
+        "source": "PD-L1/CD274",
+        "target": "VEGF",
+        "weight": 6,
+        "jaccard": 0.0118,
+        "pmi": -0.2433
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__Survivin/BIRC5",
+        "source": "EGFR",
+        "target": "Survivin/BIRC5",
+        "weight": 6,
+        "jaccard": 0.0129,
+        "pmi": -0.0399
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__Ku70/XRCC6",
+        "source": "EGFR",
+        "target": "Ku70/XRCC6",
+        "weight": 6,
+        "jaccard": 0.0155,
+        "pmi": 0.6598
+      }
+    },
+    {
+      "data": {
+        "id": "Vimentin/VIM__Wnt/\u03b2-catenin",
+        "source": "Vimentin/VIM",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 6,
+        "jaccard": 0.0317,
+        "pmi": 2.0392
+      }
+    },
+    {
+      "data": {
+        "id": "Wnt/\u03b2-catenin__mTOR",
+        "source": "Wnt/\u03b2-catenin",
+        "target": "mTOR",
+        "weight": 6,
+        "jaccard": 0.0152,
+        "pmi": 0.2056
+      }
+    },
+    {
+      "data": {
+        "id": "mTOR__p62/SQSTM1",
+        "source": "mTOR",
+        "target": "p62/SQSTM1",
+        "weight": 6,
+        "jaccard": 0.0223,
+        "pmi": 1.8215
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__AKT",
+        "source": "5-FU",
+        "target": "AKT",
+        "weight": 6,
+        "jaccard": 0.0078,
+        "pmi": -0.6204
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__TNF-\u03b1",
+        "source": "Doxorubicin",
+        "target": "TNF-\u03b1",
+        "weight": 5,
+        "jaccard": 0.0091,
+        "pmi": -0.6204
+      }
+    },
+    {
+      "data": {
+        "id": "Wnt/\u03b2-catenin__p21/CDKN1A",
+        "source": "Wnt/\u03b2-catenin",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.0115,
+        "pmi": -0.1321
+      }
+    },
+    {
+      "data": {
+        "id": "TP53/p53__XRCC1",
+        "source": "TP53/p53",
+        "target": "XRCC1",
+        "weight": 5,
+        "jaccard": 0.0047,
+        "pmi": 0.3585
+      }
+    },
+    {
+      "data": {
+        "id": "ACSL4__GPX4",
+        "source": "ACSL4",
+        "target": "GPX4",
+        "weight": 5,
+        "jaccard": 0.0581,
+        "pmi": 3.7159
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__Caspase-3",
+        "source": "53BP1",
+        "target": "Caspase-3",
+        "weight": 5,
+        "jaccard": 0.0091,
+        "pmi": -0.0761
+      }
+    },
+    {
+      "data": {
+        "id": "53BP1__Olaparib",
+        "source": "53BP1",
+        "target": "Olaparib",
+        "weight": 5,
+        "jaccard": 0.0296,
+        "pmi": 1.6406
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__Curcumin",
+        "source": "BCL2",
+        "target": "Curcumin",
+        "weight": 5,
+        "jaccard": 0.0108,
+        "pmi": 0.1054
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__E-cadherin/CDH1",
+        "source": "BCL2",
+        "target": "E-cadherin/CDH1",
+        "weight": 5,
+        "jaccard": 0.0117,
+        "pmi": 0.5378
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Curcumin",
+        "source": "AKT",
+        "target": "Curcumin",
+        "weight": 5,
+        "jaccard": 0.0068,
+        "pmi": -0.4407
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__GLUT1",
+        "source": "AKT",
+        "target": "GLUT1",
+        "weight": 5,
+        "jaccard": 0.0075,
+        "pmi": 0.9245
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Paclitaxel",
+        "source": "AKT",
+        "target": "Paclitaxel",
+        "weight": 5,
+        "jaccard": 0.0065,
+        "pmi": -0.7878
+      }
+    },
+    {
+      "data": {
+        "id": "EGFR__PD-L1/CD274",
+        "source": "EGFR",
+        "target": "PD-L1/CD274",
+        "weight": 5,
+        "jaccard": 0.0077,
+        "pmi": -1.0059
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__TGF-\u03b2",
+        "source": "E-cadherin/CDH1",
+        "target": "TGF-\u03b2",
+        "weight": 5,
+        "jaccard": 0.018,
+        "pmi": 1.0567
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__TNF-\u03b1",
+        "source": "E-cadherin/CDH1",
+        "target": "TNF-\u03b1",
+        "weight": 5,
+        "jaccard": 0.0127,
+        "pmi": 0.6393
+      }
+    },
+    {
+      "data": {
+        "id": "PD-L1/CD274__TNF-\u03b1",
+        "source": "PD-L1/CD274",
+        "target": "TNF-\u03b1",
+        "weight": 5,
+        "jaccard": 0.0075,
+        "pmi": -1.0639
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__Vimentin/VIM",
+        "source": "Caspase-3",
+        "target": "Vimentin/VIM",
+        "weight": 5,
+        "jaccard": 0.0101,
+        "pmi": 0.7712
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__PD-L1/CD274",
+        "source": "Caspase-3",
+        "target": "PD-L1/CD274",
+        "weight": 5,
+        "jaccard": 0.0063,
+        "pmi": -1.3794
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__RAD51",
+        "source": "Caspase-3",
+        "target": "RAD51",
+        "weight": 5,
+        "jaccard": 0.0073,
+        "pmi": -1.0034
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__MAPK/ERK",
+        "source": "Cisplatin",
+        "target": "MAPK/ERK",
+        "weight": 5,
+        "jaccard": 0.0061,
+        "pmi": -1.4508
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab__KRAS",
+        "source": "Cetuximab",
+        "target": "KRAS",
+        "weight": 5,
+        "jaccard": 0.0394,
+        "pmi": 2.2306
+      }
+    },
+    {
+      "data": {
+        "id": "Cetuximab__TP53/p53",
+        "source": "Cetuximab",
+        "target": "TP53/p53",
+        "weight": 5,
+        "jaccard": 0.0045,
+        "pmi": -0.7528
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__NRF2/NFE2L2",
+        "source": "IL-6",
+        "target": "NRF2/NFE2L2",
+        "weight": 5,
+        "jaccard": 0.0145,
+        "pmi": 0.3369
+      }
+    },
+    {
+      "data": {
+        "id": "IL-6__PD-1/PDCD1",
+        "source": "IL-6",
+        "target": "PD-1/PDCD1",
+        "weight": 5,
+        "jaccard": 0.0117,
+        "pmi": -0.1723
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__PTEN",
+        "source": "PARP1",
+        "target": "PTEN",
+        "weight": 5,
+        "jaccard": 0.0123,
+        "pmi": 0.2322
+      }
+    },
+    {
+      "data": {
+        "id": "CXCL10__IL-6",
+        "source": "CXCL10",
+        "target": "IL-6",
+        "weight": 5,
+        "jaccard": 0.0201,
+        "pmi": 1.8828
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__TRAIL/TNFSF10",
+        "source": "Caspase-3",
+        "target": "TRAIL/TNFSF10",
+        "weight": 5,
+        "jaccard": 0.01,
+        "pmi": 0.7212
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__HIF-1\u03b1",
+        "source": "ATM",
+        "target": "HIF-1\u03b1",
+        "weight": 5,
+        "jaccard": 0.0083,
+        "pmi": -0.8328
+      }
+    },
+    {
+      "data": {
+        "id": "IFN-\u03b3/IFNG__anti-PD-L1",
+        "source": "IFN-\u03b3/IFNG",
+        "target": "anti-PD-L1",
+        "weight": 5,
+        "jaccard": 0.0269,
+        "pmi": 1.4521
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__mTOR",
+        "source": "Cisplatin",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0071,
+        "pmi": -1.0646
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__RAD51",
+        "source": "Cisplatin",
+        "target": "RAD51",
+        "weight": 5,
+        "jaccard": 0.0073,
+        "pmi": -1.0055
+      }
+    },
+    {
+      "data": {
+        "id": "Cisplatin__STAT3",
+        "source": "Cisplatin",
+        "target": "STAT3",
+        "weight": 5,
+        "jaccard": 0.008,
+        "pmi": -0.6734
+      }
+    },
+    {
+      "data": {
+        "id": "ALDH1__CD133/PROM1",
+        "source": "ALDH1",
+        "target": "CD133/PROM1",
+        "weight": 5,
+        "jaccard": 0.0439,
+        "pmi": 3.2178
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__ATM",
+        "source": "AMPK",
+        "target": "ATM",
+        "weight": 5,
+        "jaccard": 0.0156,
+        "pmi": 0.7766
+      }
+    },
+    {
+      "data": {
+        "id": "Paclitaxel__p21/CDKN1A",
+        "source": "Paclitaxel",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.0121,
+        "pmi": 0.0275
+      }
+    },
+    {
+      "data": {
+        "id": "RAD51__Temozolomide",
+        "source": "RAD51",
+        "target": "Temozolomide",
+        "weight": 5,
+        "jaccard": 0.0139,
+        "pmi": 0.2344
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__CDK4",
+        "source": "BAX",
+        "target": "CDK4",
+        "weight": 5,
+        "jaccard": 0.0157,
+        "pmi": 1.0787
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__CD133/PROM1",
+        "source": "BCL2",
+        "target": "CD133/PROM1",
+        "weight": 5,
+        "jaccard": 0.0106,
+        "pmi": 0.0043
+      }
+    },
+    {
+      "data": {
+        "id": "BCL-XL__PARP1",
+        "source": "BCL-XL",
+        "target": "PARP1",
+        "weight": 5,
+        "jaccard": 0.0139,
+        "pmi": 0.876
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__MAPK/ERK",
+        "source": "CHK1",
+        "target": "MAPK/ERK",
+        "weight": 5,
+        "jaccard": 0.0095,
+        "pmi": -0.4488
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6__TP53/p53",
+        "source": "Ku70/XRCC6",
+        "target": "TP53/p53",
+        "weight": 5,
+        "jaccard": 0.0045,
+        "pmi": -0.7141
+      }
+    },
+    {
+      "data": {
+        "id": "LC3__PARP1",
+        "source": "LC3",
+        "target": "PARP1",
+        "weight": 5,
+        "jaccard": 0.0138,
+        "pmi": 0.82
+      }
+    },
+    {
+      "data": {
+        "id": "KRAS__mTOR",
+        "source": "KRAS",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0171,
+        "pmi": 1.1028
+      }
+    },
+    {
+      "data": {
+        "id": "Ku70/XRCC6__PARP1",
+        "source": "Ku70/XRCC6",
+        "target": "PARP1",
+        "weight": 5,
+        "jaccard": 0.0131,
+        "pmi": 0.4966
+      }
+    },
+    {
+      "data": {
+        "id": "Caspase-3__HMGB1",
+        "source": "Caspase-3",
+        "target": "HMGB1",
+        "weight": 5,
+        "jaccard": 0.0088,
+        "pmi": -0.2658
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__PD-L1/CD274",
+        "source": "ATR",
+        "target": "PD-L1/CD274",
+        "weight": 5,
+        "jaccard": 0.0105,
+        "pmi": -0.2411
+      }
+    },
+    {
+      "data": {
+        "id": "ATR__PI3K",
+        "source": "ATR",
+        "target": "PI3K",
+        "weight": 5,
+        "jaccard": 0.0105,
+        "pmi": -0.2411
+      }
+    },
+    {
+      "data": {
+        "id": "PD-1/PDCD1__mTOR",
+        "source": "PD-1/PDCD1",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0113,
+        "pmi": -0.2401
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__Snail/SNAI1",
+        "source": "CD44",
+        "target": "Snail/SNAI1",
+        "weight": 5,
+        "jaccard": 0.0373,
+        "pmi": 2.4542
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__TGF-\u03b2",
+        "source": "CD44",
+        "target": "TGF-\u03b2",
+        "weight": 5,
+        "jaccard": 0.0154,
+        "pmi": 0.4855
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__TP53/p53",
+        "source": "CD44",
+        "target": "TP53/p53",
+        "weight": 5,
+        "jaccard": 0.0043,
+        "pmi": -1.0655
+      }
+    },
+    {
+      "data": {
+        "id": "MCL1__PARP1",
+        "source": "MCL1",
+        "target": "PARP1",
+        "weight": 5,
+        "jaccard": 0.0147,
+        "pmi": 1.3009
+      }
+    },
+    {
+      "data": {
+        "id": "MAPK/ERK__Snail/SNAI1",
+        "source": "MAPK/ERK",
+        "target": "Snail/SNAI1",
+        "weight": 5,
+        "jaccard": 0.013,
+        "pmi": 1.253
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__mTOR",
+        "source": "CHK1",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0122,
+        "pmi": -0.0627
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__PUMA",
+        "source": "BAX",
+        "target": "PUMA",
+        "weight": 5,
+        "jaccard": 0.0172,
+        "pmi": 1.9542
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Ku70/XRCC6",
+        "source": "BAX",
+        "target": "Ku70/XRCC6",
+        "weight": 5,
+        "jaccard": 0.0144,
+        "pmi": 0.6192
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__LC3",
+        "source": "BAX",
+        "target": "LC3",
+        "weight": 5,
+        "jaccard": 0.0153,
+        "pmi": 0.9426
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Caspase-9",
+        "source": "BAX",
+        "target": "Caspase-9",
+        "weight": 5,
+        "jaccard": 0.017,
+        "pmi": 1.8144
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Cisplatin",
+        "source": "BAX",
+        "target": "Cisplatin",
+        "weight": 5,
+        "jaccard": 0.0068,
+        "pmi": -1.1878
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Curcumin",
+        "source": "BAX",
+        "target": "Curcumin",
+        "weight": 5,
+        "jaccard": 0.0137,
+        "pmi": 0.4066
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__RAD50",
+        "source": "ATM",
+        "target": "RAD50",
+        "weight": 5,
+        "jaccard": 0.0185,
+        "pmi": 2.0294
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__Olaparib",
+        "source": "ATM",
+        "target": "Olaparib",
+        "weight": 5,
+        "jaccard": 0.015,
+        "pmi": 0.6063
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__p21/CDKN1A",
+        "source": "HIF-1\u03b1",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.0079,
+        "pmi": -0.9401
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__Survivin/BIRC5",
+        "source": "HIF-1\u03b1",
+        "target": "Survivin/BIRC5",
+        "weight": 5,
+        "jaccard": 0.01,
+        "pmi": -0.3181
+      }
+    },
+    {
+      "data": {
+        "id": "HIF-1\u03b1__Metformin",
+        "source": "HIF-1\u03b1",
+        "target": "Metformin",
+        "weight": 5,
+        "jaccard": 0.0124,
+        "pmi": 0.6693
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__HER2/ERBB2",
+        "source": "DNA-PK/PRKDC",
+        "target": "HER2/ERBB2",
+        "weight": 5,
+        "jaccard": 0.012,
+        "pmi": 0.0313
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__Survivin/BIRC5",
+        "source": "Cyclin D1",
+        "target": "Survivin/BIRC5",
+        "weight": 5,
+        "jaccard": 0.0222,
+        "pmi": 1.196
+      }
+    },
+    {
+      "data": {
+        "id": "Cyclin D1__RAD51",
+        "source": "Cyclin D1",
+        "target": "RAD51",
+        "weight": 5,
+        "jaccard": 0.0166,
+        "pmi": 0.7884
+      }
+    },
+    {
+      "data": {
+        "id": "HER2/ERBB2__NF-\u03baB",
+        "source": "HER2/ERBB2",
+        "target": "NF-\u03baB",
+        "weight": 5,
+        "jaccard": 0.0098,
+        "pmi": -0.2376
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__Veliparib",
+        "source": "Olaparib",
+        "target": "Veliparib",
+        "weight": 5,
+        "jaccard": 0.0556,
+        "pmi": 3.6665
+      }
+    },
+    {
+      "data": {
+        "id": "PARP1__PD-L1/CD274",
+        "source": "PARP1",
+        "target": "PD-L1/CD274",
+        "weight": 5,
+        "jaccard": 0.0078,
+        "pmi": -0.9868
+      }
+    },
+    {
+      "data": {
+        "id": "NRF2/NFE2L2__PD-L1/CD274",
+        "source": "NRF2/NFE2L2",
+        "target": "PD-L1/CD274",
+        "weight": 5,
+        "jaccard": 0.0111,
+        "pmi": -0.0479
+      }
+    },
+    {
+      "data": {
+        "id": "NRF2/NFE2L2__TGF-\u03b2",
+        "source": "NRF2/NFE2L2",
+        "target": "TGF-\u03b2",
+        "weight": 5,
+        "jaccard": 0.0147,
+        "pmi": 0.3636
+      }
+    },
+    {
+      "data": {
+        "id": "NRF2/NFE2L2__TP53/p53",
+        "source": "NRF2/NFE2L2",
+        "target": "TP53/p53",
+        "weight": 5,
+        "jaccard": 0.0043,
+        "pmi": -1.1874
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__RAD51",
+        "source": "BCL2",
+        "target": "RAD51",
+        "weight": 5,
+        "jaccard": 0.0084,
+        "pmi": -0.7894
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__TGF-\u03b2",
+        "source": "BCL2",
+        "target": "TGF-\u03b2",
+        "weight": 5,
+        "jaccard": 0.0085,
+        "pmi": -0.754
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__FAS",
+        "source": "BCL2",
+        "target": "FAS",
+        "weight": 5,
+        "jaccard": 0.0124,
+        "pmi": 1.0934
+      }
+    },
+    {
+      "data": {
+        "id": "Metformin__\u03b3H2AX",
+        "source": "Metformin",
+        "target": "\u03b3H2AX",
+        "weight": 5,
+        "jaccard": 0.0062,
+        "pmi": -0.1034
+      }
+    },
+    {
+      "data": {
+        "id": "MRE11__\u03b3H2AX",
+        "source": "MRE11",
+        "target": "\u03b3H2AX",
+        "weight": 5,
+        "jaccard": 0.0064,
+        "pmi": 0.4431
+      }
+    },
+    {
+      "data": {
+        "id": "MHC-I__PD-1/PDCD1",
+        "source": "MHC-I",
+        "target": "PD-1/PDCD1",
+        "weight": 5,
+        "jaccard": 0.0224,
+        "pmi": 2.0382
+      }
+    },
+    {
+      "data": {
+        "id": "CHK1__Gemcitabine",
+        "source": "CHK1",
+        "target": "Gemcitabine",
+        "weight": 5,
+        "jaccard": 0.0173,
+        "pmi": 0.6142
+      }
+    },
+    {
+      "data": {
+        "id": "CDK4__mTOR",
+        "source": "CDK4",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0174,
+        "pmi": 1.2019
+      }
+    },
+    {
+      "data": {
+        "id": "BRCA1__CHK2",
+        "source": "BRCA1",
+        "target": "CHK2",
+        "weight": 5,
+        "jaccard": 0.0251,
+        "pmi": 1.3238
+      }
+    },
+    {
+      "data": {
+        "id": "BCL2__TRAIL/TNFSF10",
+        "source": "BCL2",
+        "target": "TRAIL/TNFSF10",
+        "weight": 5,
+        "jaccard": 0.0122,
+        "pmi": 0.9351
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__Wnt/\u03b2-catenin",
+        "source": "NF-\u03baB",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 5,
+        "jaccard": 0.0093,
+        "pmi": -0.4354
+      }
+    },
+    {
+      "data": {
+        "id": "NF-\u03baB__XIAP",
+        "source": "NF-\u03baB",
+        "target": "XIAP",
+        "weight": 5,
+        "jaccard": 0.012,
+        "pmi": 1.0881
+      }
+    },
+    {
+      "data": {
+        "id": "CD44__MAPK/ERK",
+        "source": "CD44",
+        "target": "MAPK/ERK",
+        "weight": 5,
+        "jaccard": 0.0108,
+        "pmi": 0.0048
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__Temozolomide",
+        "source": "CD133/PROM1",
+        "target": "Temozolomide",
+        "weight": 5,
+        "jaccard": 0.0215,
+        "pmi": 1.0281
+      }
+    },
+    {
+      "data": {
+        "id": "CD133/PROM1__Wnt/\u03b2-catenin",
+        "source": "CD133/PROM1",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 5,
+        "jaccard": 0.0196,
+        "pmi": 0.876
+      }
+    },
+    {
+      "data": {
+        "id": "BAX__Wnt/\u03b2-catenin",
+        "source": "BAX",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 5,
+        "jaccard": 0.0117,
+        "pmi": -0.1
+      }
+    },
+    {
+      "data": {
+        "id": "Olaparib__Talazoparib",
+        "source": "Olaparib",
+        "target": "Talazoparib",
+        "weight": 5,
+        "jaccard": 0.0562,
+        "pmi": 3.7536
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__MYC/c-Myc",
+        "source": "AKT",
+        "target": "MYC/c-Myc",
+        "weight": 5,
+        "jaccard": 0.0067,
+        "pmi": -0.5224
+      }
+    },
+    {
+      "data": {
+        "id": "ATM__Cyclin D1",
+        "source": "ATM",
+        "target": "Cyclin D1",
+        "weight": 5,
+        "jaccard": 0.0152,
+        "pmi": 0.6813
+      }
+    },
+    {
+      "data": {
+        "id": "ATG5__Beclin1/BECN1",
+        "source": "ATG5",
+        "target": "Beclin1/BECN1",
+        "weight": 5,
+        "jaccard": 0.098,
+        "pmi": 4.0149
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__HIF-1\u03b1",
+        "source": "AMPK",
+        "target": "HIF-1\u03b1",
+        "weight": 5,
+        "jaccard": 0.012,
+        "pmi": 0.4639
+      }
+    },
+    {
+      "data": {
+        "id": "AMPK__p21/CDKN1A",
+        "source": "AMPK",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.0143,
+        "pmi": 0.6693
+      }
+    },
+    {
+      "data": {
+        "id": "Docetaxel__Paclitaxel",
+        "source": "Docetaxel",
+        "target": "Paclitaxel",
+        "weight": 5,
+        "jaccard": 0.0263,
+        "pmi": 1.5528
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__Gold nanoparticles",
+        "source": "Doxorubicin",
+        "target": "Gold nanoparticles",
+        "weight": 5,
+        "jaccard": 0.0108,
+        "pmi": -0.3258
+      }
+    },
+    {
+      "data": {
+        "id": "Doxorubicin__HIF-1\u03b1",
+        "source": "Doxorubicin",
+        "target": "HIF-1\u03b1",
+        "weight": 5,
+        "jaccard": 0.0089,
+        "pmi": -0.6583
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__cGAS",
+        "source": "DNA-PK/PRKDC",
+        "target": "cGAS",
+        "weight": 5,
+        "jaccard": 0.0108,
+        "pmi": -0.2583
+      }
+    },
+    {
+      "data": {
+        "id": "DNA-PK/PRKDC__STING/TMEM173",
+        "source": "DNA-PK/PRKDC",
+        "target": "STING/TMEM173",
+        "weight": 5,
+        "jaccard": 0.0091,
+        "pmi": -0.6696
+      }
+    },
+    {
+      "data": {
+        "id": "AKT__Hippo/YAP",
+        "source": "AKT",
+        "target": "Hippo/YAP",
+        "weight": 5,
+        "jaccard": 0.0074,
+        "pmi": 0.5472
+      }
+    },
+    {
+      "data": {
+        "id": "STING/TMEM173__TNF-\u03b1",
+        "source": "STING/TMEM173",
+        "target": "TNF-\u03b1",
+        "weight": 5,
+        "jaccard": 0.0085,
+        "pmi": -0.8028
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__mTOR",
+        "source": "Survivin/BIRC5",
+        "target": "mTOR",
+        "weight": 5,
+        "jaccard": 0.0128,
+        "pmi": 0.0427
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__IL-6",
+        "source": "E-cadherin/CDH1",
+        "target": "IL-6",
+        "weight": 5,
+        "jaccard": 0.0176,
+        "pmi": 1.0301
+      }
+    },
+    {
+      "data": {
+        "id": "E-cadherin/CDH1__MAPK/ERK",
+        "source": "E-cadherin/CDH1",
+        "target": "MAPK/ERK",
+        "weight": 5,
+        "jaccard": 0.012,
+        "pmi": 0.5761
+      }
+    },
+    {
+      "data": {
+        "id": "Survivin/BIRC5__VEGF",
+        "source": "Survivin/BIRC5",
+        "target": "VEGF",
+        "weight": 5,
+        "jaccard": 0.0153,
+        "pmi": 0.3581
+      }
+    },
+    {
+      "data": {
+        "id": "Snail/SNAI1__Wnt/\u03b2-catenin",
+        "source": "Snail/SNAI1",
+        "target": "Wnt/\u03b2-catenin",
+        "weight": 5,
+        "jaccard": 0.0275,
+        "pmi": 2.0864
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__anti-PD-L1",
+        "source": "TGF-\u03b2",
+        "target": "anti-PD-L1",
+        "weight": 5,
+        "jaccard": 0.016,
+        "pmi": 0.6137
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Mitomycin-C",
+        "source": "5-FU",
+        "target": "Mitomycin-C",
+        "weight": 5,
+        "jaccard": 0.0352,
+        "pmi": 3.1801
+      }
+    },
+    {
+      "data": {
+        "id": "TGF-\u03b2__p21/CDKN1A",
+        "source": "TGF-\u03b2",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.01,
+        "pmi": -0.4849
+      }
+    },
+    {
+      "data": {
+        "id": "5-FU__Paclitaxel",
+        "source": "5-FU",
+        "target": "Paclitaxel",
+        "weight": 5,
+        "jaccard": 0.019,
+        "pmi": 0.7747
+      }
+    },
+    {
+      "data": {
+        "id": "p16/CDKN2A__p21/CDKN1A",
+        "source": "p16/CDKN2A",
+        "target": "p21/CDKN1A",
+        "weight": 5,
+        "jaccard": 0.0156,
+        "pmi": 1.2289
+      }
+    }
+  ]
+}
