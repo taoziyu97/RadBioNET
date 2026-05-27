@@ -22,8 +22,14 @@ if (file.exists(cache_rds)) {
 } else {
   library(readxl)
   senres <- read_excel(cache_xlsx)
-  saveRDS(senres, cache_rds)
 }
+
+# Replace NAs with "(Unknown)" in filter columns so no rows are silently dropped
+na_cols <- c("Cancer type", "Radiation type", "Evidence type")
+for (col in na_cols) {
+  senres[[col]][is.na(senres[[col]])] <- "(Unknown)"
+}
+if (!file.exists(cache_rds)) saveRDS(senres, cache_rds)
 
 cancer_types     <- sort(unique(senres[["Cancer type"]]))
 cancer_subtypes  <- sort(unique(senres[["Cancer subtype"]]))
