@@ -16,7 +16,6 @@ library(htmltools)
 library(httr)
 library(jsonlite)
 library(readxl)
-
 senres <- read_excel("dados/factor_v4_proton_therapy.xlsx")
 
 cancer_types     <- sort(unique(senres[["Cancer type"]]))
