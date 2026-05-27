@@ -460,3 +460,7 @@ table.dataTable tbody tr:nth-child(even) {
 .filter-sidebar .pickerInput {
   margin-bottom: 8px;
 }
+.filter-sidebar .selectize-input {
+  min-height: 42px;
+  padding: 8px 10px;
+}

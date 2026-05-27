@@ -77,8 +77,7 @@ output$data_table <- renderDT({
       language = list(url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json")
     ),
     rownames = FALSE,
-    class = "display nowrap cell-border stripe",
-    filter = "top"
+    class = "display nowrap cell-border stripe"
   ) %>%
     formatStyle(
       columns = names(df),
