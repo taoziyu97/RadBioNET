@@ -71,30 +71,6 @@ These fields are visible in the **Data** tab and power all filtering and visuali
 - **Data**: dplyr, data.table
 - **AI Integration**: httr, jsonlite (OpenAI-compatible API / Ollama)
 
-## Project Structure
-
-```
-radbionet/
-├── global.R              # Package imports, data loading, global variables
-├── ui.R                  # Shiny UI: navbar with tabs
-├── server.R              # Server logic dispatcher
-├── functions/
-│   ├── utils.R           # UI helper functions & utilities
-│   ├── plot_functions.R  # Plotly chart generators
-│   └── llm.R             # LLM API functions (Ollama / OpenAI-compatible)
-├── tabs/
-│   ├── ui/               # UI definitions per tab
-│   └── server/           # Server logic per tab
-├── config/
-│   └── llm_config.R.example  # LLM configuration template
-├── dados/
-│   ├── factor_v4_proton_therapy.rds   # Core database (RDS)
-│   └── factor_v4_proton_therapy.xlsx  # Core database (Excel)
-└── www/
-    ├── styles.css
-    └── img/              # Logos and images
-```
-
 ## Local Development
 
 ### Prerequisites
