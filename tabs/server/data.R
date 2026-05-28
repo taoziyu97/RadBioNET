@@ -45,21 +45,49 @@ data_filtered <- reactive({
     }
     df <- df[mask, ]
   }
-  if (!is.null(input$filter_year)) {
-    df <- df %>% filter(`Publication year` %in% input$filter_year)
-  }
-
   df
 })
 
 observeEvent(input$btn_reset, {
-  updatePickerInput(session, "filter_cancer_type", selected = cancer_type_choices)
-  updatePickerInput(session, "filter_particle_type", selected = particle_type_choices)
-  updatePickerInput(session, "filter_factor_type", selected = factor_type_choices)
-  updatePickerInput(session, "filter_direction", selected = direction_choices)
-  updatePickerInput(session, "filter_evidence_type", selected = evidence_type_choices)
-  updatePickerInput(session, "filter_quality", selected = quality_flag_choices)
-  updatePickerInput(session, "filter_year", selected = years)
+  lapply(filter_config, function(cfg) {
+    updatePrettyCheckboxGroup(session, cfg$filter_id, selected = cfg$choices)
+    updateTextInput(session, cfg$search_id, value = "")
+  })
+})
+
+`%||%` <- function(a, b) if (is.null(a)) b else a
+
+filter_config <- list(
+  list(filter_id = "filter_cancer_type",    search_id = "search_cancer_type",    choices = cancer_type_choices),
+  list(filter_id = "filter_particle_type",  search_id = "search_particle_type",  choices = particle_type_choices),
+  list(filter_id = "filter_factor_type",    search_id = "search_factor_type",    choices = factor_type_choices),
+  list(filter_id = "filter_direction",      search_id = "search_direction",      choices = direction_choices),
+  list(filter_id = "filter_evidence_type",  search_id = "search_evidence_type",  choices = evidence_type_choices),
+  list(filter_id = "filter_quality",        search_id = "search_quality",        choices = quality_flag_choices)
+)
+
+lapply(filter_config, function(cfg) {
+  observeEvent(input[[cfg$search_id]], {
+    s <- input[[cfg$search_id]] %||% ""
+    choices <- if (s == "") cfg$choices else grep(s, cfg$choices, value = TRUE, ignore.case = TRUE)
+    current_sel <- isolate(input[[cfg$filter_id]] %||% character(0))
+    kept <- intersect(current_sel, choices)
+    updatePrettyCheckboxGroup(session, cfg$filter_id, choices = choices, selected = kept,
+      prettyOptions = list(status = "success", outline = TRUE, animation = "smooth", shape = "curve"))
+  })
+})
+
+lapply(filter_config, function(cfg) {
+  sa_id <- sub("filter_", "sa_", cfg$filter_id)
+  da_id <- sub("filter_", "da_", cfg$filter_id)
+  observeEvent(input[[sa_id]], {
+    updatePrettyCheckboxGroup(session, cfg$filter_id, selected = cfg$choices,
+      prettyOptions = list(status = "success", outline = TRUE, animation = "smooth", shape = "curve"))
+  })
+  observeEvent(input[[da_id]], {
+    updatePrettyCheckboxGroup(session, cfg$filter_id, selected = character(0),
+      prettyOptions = list(status = "success", outline = TRUE, animation = "smooth", shape = "curve"))
+  })
 })
 
 # ---- Statistics cards ----
@@ -123,6 +151,7 @@ output$data_table <- renderDT({
       scrollY = "400px",
       pageLength = 10,
       lengthMenu = list(c(10, 25, 50, 100, -1), c("10", "25", "50", "100", "All")),
+      searchHighlight = TRUE,
       language = list(
         url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json",
         lengthMenu = "Show _MENU_ entries"
