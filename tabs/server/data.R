@@ -222,21 +222,25 @@ observeEvent(input$show_factor, {
 
     fluidRow(
       column(width = 7,
-        h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Cancer Type Distribution"),
-        div(style = "height: 190px;", as_widget(cancer_plot))
+        div(class = "chart-card", style = "padding: 8px 10px; margin-bottom: 0;",
+          h5(style = "font-weight: 600; color: #333; margin: 0 0 5px 0;", "Cancer Type Distribution"),
+          div(style = "height: 190px;", as_widget(cancer_plot))
+        )
       ),
       column(width = 5,
-        h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Direction Distribution"),
-        div(style = "height: 130px;", as_widget(dir_plot))
+        div(class = "chart-card", style = "padding: 8px 10px; margin-bottom: 0;",
+          h5(style = "font-weight: 600; color: #333; margin: 0 0 5px 0;", "Direction Distribution"),
+          div(style = "height: 130px;", as_widget(dir_plot))
+        )
       )
     ),
 
-    br(), br(),
-
-    h5(style = "font-weight: 600; color: #333; margin-bottom: 8px; margin-top: 5px;",
-      "Related Papers (", nrow(papers), ")"),
-    div(style = "max-height: 300px; overflow-y: auto; border: 1px solid #e8e8e8; border-radius: 6px; padding: 5px;",
-      tableOutput("factor_modal_papers")
+    div(style = "margin-top: 20px;",
+      h5(style = "font-weight: 600; color: #333; margin-bottom: 8px;",
+        "Related Papers (", nrow(papers), ")"),
+      div(style = "max-height: 300px; overflow-y: auto; border: 1px solid #e8e8e8; border-radius: 6px; padding: 5px;",
+        tableOutput("factor_modal_papers")
+      )
     ),
 
     br()
