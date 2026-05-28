@@ -47,7 +47,8 @@ shinyUI(
       data_tab,
       analysis_tab,
       chat_radbio_tab,
-      about_tab
+      about_tab,
+      factor_tab
     ),
     div(class = "footer",
         div(style = "text-align:center; padding: 20px; background-color: #f8f8f8;",

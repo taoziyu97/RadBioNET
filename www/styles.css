@@ -431,6 +431,7 @@ table.dataTable tbody tr:nth-child(even) {
   padding: 15px 10px;
   text-align: center;
   transition: box-shadow .3s;
+  min-height: 92px;
 }
 .stat-card:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -463,4 +464,77 @@ table.dataTable tbody tr:nth-child(even) {
 .filter-sidebar .selectize-input {
   min-height: 42px;
   padding: 8px 10px;
+}
+
+/* Factor detail page */
+
+.factor-page {
+  max-width: 960px;
+  width: 68%;
+  margin: 30px auto 36px auto;
+  padding: 10px 10px 25px 10px;
+}
+
+.factor-header {
+  border-bottom: 3px solid #098ebb;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
+  margin-top: 18px;
+}
+
+.factor-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.factor-stats {
+  margin-bottom: 24px;
+}
+
+.factor-charts {
+  margin-bottom: 24px;
+}
+
+.factor-chart-title {
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 6px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #098ebb;
+}
+
+.factor-section-title {
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #098ebb;
+}
+
+.factor-table {
+  margin-top: 24px;
+}
+
+.factor-table-wrap {
+  max-height: 320px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px;
+  background: #fff;
+}
+
+.factor-extra {
+  margin-top: 24px;
+}
+
+.factor-extra .chart-card {
+  margin-bottom: 16px;
+}
+
+.factor-charts .chart-card,
+.factor-extra .chart-card {
+  min-height: 230px;
 }
