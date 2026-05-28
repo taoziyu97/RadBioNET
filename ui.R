@@ -31,6 +31,20 @@ shinyUI(
           $('body').append(msg);
           setTimeout(function() { window.location.reload(); }, 5000);
         });
+        $(document).on('shown.bs.collapse', '.navbar-collapse', function() {
+          $('body').addClass('nav-open');
+        });
+        $(document).on('hidden.bs.collapse', '.navbar-collapse', function() {
+          $('body').removeClass('nav-open');
+        });
+        $(document).on('click', '#nav-overlay', function() {
+          $('.navbar-collapse').collapse('hide');
+        });
+        $(document).on('click', '.navbar-collapse a', function() {
+          if ($(window).width() <= 768) {
+            $('.navbar-collapse').collapse('hide');
+          }
+        });
       "))
     ),
     list(tags$head(HTML('<link rel="icon", href="img/favicon.png",
@@ -40,6 +54,7 @@ shinyUI(
           title = "", windowTitle = "RadBioNet"
         )
     ),
+    tags$div(id = "nav-overlay"),
     navbarPage(
       title = div(style = "padding-left:100px; cursor:pointer;",
         onclick = "Shiny.setInputValue('navbar', 'home', {priority: 'event'});",
@@ -48,6 +63,7 @@ shinyUI(
       id = "navbar",
       selected = "home",
       theme = "styles.css",
+      collapsible = TRUE,
       fluid = T,
       home,
       data_tab,
