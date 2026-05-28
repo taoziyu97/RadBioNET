@@ -90,12 +90,13 @@ output$data_table <- renderDT({
   safe_factor <- vapply(df[["Factor"]], function(f) {
     gsub("'", "\\\\u0027", f)
   }, character(1), USE.NAMES = FALSE)
+  url_factor <- URLencode(df[["Factor"]], reserved = TRUE)
 
   df <- df %>%
     mutate(
       Factor = sprintf(
-        '<a href="#" onclick="Shiny.setInputValue(\'show_factor\', \'%s\', {priority: \'event\'}); return false;" style="color: #098ebb; font-weight: 600; text-decoration: underline; text-decoration-style: dotted;">%s</a>',
-        safe_factor, htmlEscape(Factor)
+        '<a href="?factor=%s" onclick="Shiny.setInputValue(\'show_factor\', \'%s\', {priority: \'event\'}); return false;" style="color: #098ebb; font-weight: 600; text-decoration: underline; text-decoration-style: dotted;">%s</a>',
+        url_factor, safe_factor, htmlEscape(Factor)
       )
     ) %>%
     select(
@@ -172,18 +173,18 @@ observeEvent(input$show_factor, {
     layout(
       xaxis = list(title = "Records", tickfont = list(size = 10)),
       yaxis = list(title = "", automargin = TRUE, tickfont = list(size = 10)),
-      margin = list(l = 10, r = 10, t = 5, b = 40),
+      margin = list(l = 10, r = 10, t = 5, b = 30),
       paper_bgcolor = "rgba(0,0,0,0)", plot_bgcolor = "rgba(0,0,0,0)"
     )
 
   dir_plot <- plot_ly(dir_dist,
-    labels = ~Direction, values = ~n, type = "pie", hole = 0.4,
-    textinfo = "label+percent", textfont = list(size = 10),
+    labels = ~Direction, values = ~n, type = "pie", hole = 0.45,
+    textinfo = "label+percent", textfont = list(size = 9),
     marker = list(colors = MODERN_COLORS),
     showlegend = FALSE,
     hovertemplate = "<b>%{label}</b>: %{value} records (%{percent})<extra></extra>"
   ) %>%
-    layout(margin = list(t = 5, b = 5, l = 5, r = 5),
+    layout(margin = list(t = 1, b = 1, l = 1, r = 1),
            paper_bgcolor = "rgba(0,0,0,0)", plot_bgcolor = "rgba(0,0,0,0)")
 
   showModal(modalDialog(
@@ -222,17 +223,17 @@ observeEvent(input$show_factor, {
     fluidRow(
       column(width = 7,
         h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Cancer Type Distribution"),
-        div(style = "height: 220px;", as_widget(cancer_plot))
+        div(style = "height: 190px;", as_widget(cancer_plot))
       ),
       column(width = 5,
         h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;", "Direction Distribution"),
-        div(style = "height: 180px;", as_widget(dir_plot))
+        div(style = "height: 130px;", as_widget(dir_plot))
       )
     ),
 
-    br(),
+    br(), br(),
 
-    h5(style = "font-weight: 600; color: #333; margin-bottom: 5px;",
+    h5(style = "font-weight: 600; color: #333; margin-bottom: 8px; margin-top: 5px;",
       "Related Papers (", nrow(papers), ")"),
     div(style = "max-height: 300px; overflow-y: auto; border: 1px solid #e8e8e8; border-radius: 6px; padding: 5px;",
       tableOutput("factor_modal_papers")
@@ -244,4 +245,12 @@ observeEvent(input$show_factor, {
   output$factor_modal_papers <- renderTable({
     papers
   }, striped = TRUE, bordered = TRUE, hover = TRUE, spacing = "s", width = "100%", digits = 0)
+})
+
+observe({
+  q <- parseQueryString(session$clientData$url_search)
+  if (!is.null(q$factor) && nchar(q$factor) > 0) {
+    updateNavbarPage(session, "navbar", selected = "data")
+    session$sendInputMessage("show_factor", list(value = q$factor, priority = "event"))
+  }
 })
