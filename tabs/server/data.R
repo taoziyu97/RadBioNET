@@ -93,18 +93,22 @@ lapply(filter_config, function(cfg) {
 # ---- Statistics cards ----
 
 output$stat_total <- renderText({
+  req(input$navbar == "data")
   nrow(data_filtered())
 })
 
 output$stat_factors <- renderText({
+  req(input$navbar == "data")
   length(unique(data_filtered()[["Factor"]]))
 })
 
 output$stat_cancers <- renderText({
+  req(input$navbar == "data")
   length(unique(data_filtered()[["Cancer type"]]))
 })
 
 output$stat_years <- renderText({
+  req(input$navbar == "data")
   r <- range(data_filtered()[["Publication year"]], na.rm = TRUE)
   paste(r[1], "–", r[2])
 })
@@ -112,6 +116,7 @@ output$stat_years <- renderText({
 # ---- Data table with clickable Factor column ----
 
 output$data_table <- renderDT({
+  req(input$navbar == "data")
   req(data_filtered())
 
   df <- data_filtered()
@@ -149,6 +154,7 @@ output$data_table <- renderDT({
       buttons = c("copy", "csv", "excel", "print"),
       scrollX = TRUE,
       scrollY = "400px",
+      deferRender = TRUE,
       pageLength = 10,
       lengthMenu = list(c(10, 25, 50, 100, -1), c("10", "25", "50", "100", "All")),
       searchHighlight = TRUE,
@@ -165,7 +171,7 @@ output$data_table <- renderDT({
       fontSize = "12px",
       fontFamily = "Open Sans"
     )
-})
+}, server = TRUE)
 
 # ---- Factor detail modal ----
 

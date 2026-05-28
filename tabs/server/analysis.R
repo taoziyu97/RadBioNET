@@ -1,42 +1,42 @@
 # Reactive data loading
 timeline_data <- reactive({
-  read.csv("dados/trends/timeline_per_factor.csv", stringsAsFactors = FALSE)
+  analysis_data$timeline
 })
 
 factor_trends_data <- reactive({
-  read.csv("dados/trends/factor_trends.csv", stringsAsFactors = FALSE)
+  analysis_data$factor_trends
 })
 
 modality_data <- reactive({
-  read.csv("dados/equipment_dose/modality_counts.csv", stringsAsFactors = FALSE)
+  analysis_data$modality
 })
 
 device_data <- reactive({
-  read.csv("dados/equipment_dose/device_counts.csv", stringsAsFactors = FALSE)
+  analysis_data$device
 })
 
 dose_model_data <- reactive({
-  read.csv("dados/equipment_dose/dose_by_model.csv", stringsAsFactors = FALSE)
+  analysis_data$dose_model
 })
 
 dose_particle_data <- reactive({
-  read.csv("dados/equipment_dose/dose_by_particle.csv", stringsAsFactors = FALSE)
+  analysis_data$dose_particle
 })
 
 nodes_data <- reactive({
-  read.csv("dados/network/nodes.csv", stringsAsFactors = FALSE)
+  analysis_data$nodes
 })
 
 edges_data <- reactive({
-  read.csv("dados/network/edges.csv", stringsAsFactors = FALSE)
+  analysis_data$edges
 })
 
 triples_data <- reactive({
-  read.csv("dados/knowledge_graph/triples.csv", stringsAsFactors = FALSE)
+  analysis_data$triples
 })
 
 entities_data <- reactive({
-  read.csv("dados/knowledge_graph/entities.csv", stringsAsFactors = FALSE)
+  analysis_data$entities
 })
 
 # Factor choices for picker
@@ -53,6 +53,7 @@ observe({
 
 # Timeline chart
 output$analysis_timeline <- renderPlotly({
+  req(input$navbar == "analysis")
   req(input$analysis_factors)
   td <- timeline_data()
   td <- td[td$Factor %in% input$analysis_factors, ]
@@ -75,6 +76,7 @@ output$analysis_timeline <- renderPlotly({
 
 # Trends table
 output$analysis_trends_table <- renderDT({
+  req(input$navbar == "analysis")
   ft <- factor_trends_data()
   ft <- ft[, c("Factor", "Total_papers", "Total_strong", "Trend_tag",
                "Trend_slope_2010_26", "Trend_p_value", "Peak_year", "Peak_year_count")]
@@ -99,6 +101,7 @@ output$analysis_trends_table <- renderDT({
 
 # Modality bar chart
 output$analysis_modality <- renderPlotly({
+  req(input$navbar == "analysis")
   md <- modality_data()
   plot_ly(md, x = ~reorder(Modality, Papers), y = ~Papers,
     type = "bar", orientation = "v",
@@ -115,6 +118,7 @@ output$analysis_modality <- renderPlotly({
 
 # Device bar chart
 output$analysis_device <- renderPlotly({
+  req(input$navbar == "analysis")
   dd <- device_data()
   names(dd)[1] <- "Device"
   plot_ly(dd, x = ~reorder(Device, Papers), y = ~Papers,
@@ -132,6 +136,7 @@ output$analysis_device <- renderPlotly({
 
 # Dose by model
 output$analysis_dose_model <- renderPlotly({
+  req(input$navbar == "analysis")
   dm <- dose_model_data()
   dm <- dm[!is.na(dm$`Median.single.dose..Gy.`), ]
 
@@ -159,6 +164,7 @@ output$analysis_dose_model <- renderPlotly({
 
 # Dose by particle
 output$analysis_dose_particle <- renderPlotly({
+  req(input$navbar == "analysis")
   dp <- dose_particle_data()
   dp <- dp[!is.na(dp$Median..Gy.), ]
 
@@ -186,6 +192,7 @@ output$analysis_dose_particle <- renderPlotly({
 
 # Knowledge graph
 output$analysis_knowledge_graph <- renderVisNetwork({
+  req(input$navbar == "analysis")
   nd <- nodes_data()
   ed <- edges_data()
 

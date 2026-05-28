@@ -56,6 +56,19 @@ source("functions/utils.R")
 source("functions/plot_functions.R")
 source("functions/llm.R")
 
+analysis_data <- list(
+  timeline = fread("dados/trends/timeline_per_factor.csv", data.table = FALSE),
+  factor_trends = fread("dados/trends/factor_trends.csv", data.table = FALSE),
+  modality = fread("dados/equipment_dose/modality_counts.csv", data.table = FALSE),
+  device = fread("dados/equipment_dose/device_counts.csv", data.table = FALSE),
+  dose_model = fread("dados/equipment_dose/dose_by_model.csv", data.table = FALSE),
+  dose_particle = fread("dados/equipment_dose/dose_by_particle.csv", data.table = FALSE),
+  nodes = fread("dados/network/nodes.csv", data.table = FALSE),
+  edges = fread("dados/network/edges.csv", data.table = FALSE),
+  triples = fread("dados/knowledge_graph/triples.csv", data.table = FALSE),
+  entities = fread("dados/knowledge_graph/entities.csv", data.table = FALSE)
+)
+
 # Gene symbol lookup for DepMap and other gene-level external links
 factor_gene_map <- NULL
 extlinks_path <- "dados/external_links/factor_external_links.csv"

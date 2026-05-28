@@ -180,10 +180,12 @@ info <- reactive({
 })
 
 output$chat_history_ui <- renderUI({
+  req(input$navbar == "chat_radbio")
   chat_render(chat_hist())
 })
 
 output$chat_status_ui <- renderUI({
+  req(input$navbar == "chat_radbio")
   i <- info()
   if (chat_loading()) {
     span(icon("spinner", class = "fa-spin"), " Thinking...", style = "color: #098ebb; font-size: 14px;")
