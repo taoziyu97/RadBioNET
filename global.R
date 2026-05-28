@@ -56,5 +56,17 @@ source("functions/utils.R")
 source("functions/plot_functions.R")
 source("functions/llm.R")
 
+# Gene symbol lookup for DepMap and other gene-level external links
+factor_gene_map <- NULL
+extlinks_path <- "dados/external_links/factor_external_links.csv"
+if (file.exists(extlinks_path)) {
+  extlinks <- fread(extlinks_path, data.table = FALSE)
+  gsym_col <- grep("Gene symbol", names(extlinks), value = TRUE)[1]
+  if (!is.null(gsym_col)) {
+    idx <- which(!is.na(extlinks[[gsym_col]]) & extlinks[[gsym_col]] != "")
+    factor_gene_map <- setNames(extlinks[[gsym_col]][idx], extlinks[["Factor"]][idx])
+  }
+}
+
 tab_files <- list.files(path = "tabs/ui", full.names = T, recursive = T)
 suppressMessages(lapply(tab_files, source))

@@ -28,7 +28,7 @@ nav_block <- function(title, subtitle, cor, icon, id) {
               </div>'))
 }
 
-get_factor_links <- function(factor_name, factor_type) {
+get_factor_links <- function(factor_name, factor_type, gene_symbol = NULL) {
   links <- list()
 
   encoded <- URLencode(factor_name, reserved = TRUE)
@@ -48,6 +48,11 @@ get_factor_links <- function(factor_name, factor_type) {
 
   if (grepl("Drug|Nanoparticle|Small molecule|Inhibitor", factor_type)) {
     links[["DrugBank"]] <- paste0("https://go.drugbank.com/unearth/q?query=", encoded)
+  }
+
+  if (!is.null(gene_symbol) && nchar(gene_symbol) > 0) {
+    gsym_enc <- URLencode(gene_symbol, reserved = TRUE)
+    links[["DepMap"]] <- paste0("https://depmap.org/portal/gene/", gsym_enc)
   }
 
   links

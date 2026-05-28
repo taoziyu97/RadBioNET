@@ -14,6 +14,20 @@
     padding-top: 10px;
 }
 
+@media (max-width: 768px) {
+  .navbar .navbar-nav {
+    float: none;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .navbar .navbar-nav > li {
+    float: none;
+  }
+  .navbar .navbar-nav > li > a {
+    padding: 8px 15px;
+  }
+}
+
 .navbar-default .navbar-nav>li>a {
   	font-family: 'Open Sans', sans-serif;
   	font-size: 13px;
@@ -28,6 +42,16 @@
 .navbar-default .navbar-brand {
     font-size: 50px;
     color: #7d7da9;
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-brand {
+    font-size: 30px;
+    padding: 5px;
+  }
+  .navbar-brand img {
+    max-height: 40px !important;
+  }
 }
 
 .navbar-brand img {
@@ -122,9 +146,10 @@ a:focus, a:hover {
 .voronoys-block {
     position: relative;
     display: table;
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     height: 110px;
-    margin-bottom: 12px;
+    margin: 0 auto 12px auto;
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;

@@ -1,6 +1,7 @@
 shinyUI(
   fluidPage(
     tags$head(
+      tags$meta(name = "viewport", content = "width=device-width, initial-scale=1.0"),
       tags$link(rel = "shortcut icon", href = "img/favicon.png"),
       tags$link(rel = "stylesheet", type = "text/css",
                 href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"),
@@ -37,8 +38,10 @@ shinyUI(
         )
     ),
     navbarPage(
-      title = div(img(src = "img/ChatGPT_logo_RADBIONET_all4.png",
-                       height = "75px"), style = "padding-left:100px;"),
+      title = div(style = "padding-left:100px; cursor:pointer;",
+        onclick = "Shiny.setInputValue('navbar', 'home', {priority: 'event'});",
+        img(src = "img/ChatGPT_logo_RADBIONET_all4.png", height = "75px")
+      ),
       id = "navbar",
       selected = "home",
       theme = "styles.css",

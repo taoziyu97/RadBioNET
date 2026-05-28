@@ -17,28 +17,28 @@ home <- tabPanel(
   fluidRow(
     column(width = 10, offset = 1,
       fluidRow(
-        column(width = 3, align = "center",
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3", align = "center",
           nav_block(
             title = "Browse & Filter",
             subtitle = "Curated research data on radiation sensitivity and resistance factors",
             cor = "#098ebb", icon = "brasil.png", id = "analise_geral"
           )
         ),
-        column(width = 3, align = "center",
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3", align = "center",
           nav_block(
             title = "Visualizations",
             subtitle = "Interactive charts and statistics for data exploration",
             cor = "#fdc23a", icon = "flag.png", id = "analise_partidos"
           )
         ),
-        column(width = 3, align = "center",
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3", align = "center",
           nav_block(
             title = "AI Assistant",
             subtitle = "Chat-Radbio Q&A powered by large language models",
             cor = "#e96449", icon = "person.png", id = "analise_candidatos"
           )
         ),
-        column(width = 3, align = "center",
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3", align = "center",
           nav_block(
             title = "Collaboration",
             subtitle = "Global research network for radiation oncology",
@@ -51,19 +51,19 @@ home <- tabPanel(
   fluidRow(
     column(width = 10, offset = 1,
       fluidRow(
-        column(width = 4,
+        column(width = 4, class = "col-xs-12 col-sm-4",
           div(class = "stat-card",
             div(class = "stat-value", textOutput("home_stat_total")),
             div(class = "stat-label", "Total Records")
           )
         ),
-        column(width = 4,
+        column(width = 4, class = "col-xs-12 col-sm-4",
           div(class = "stat-card",
             div(class = "stat-value", textOutput("home_stat_years")),
             div(class = "stat-label", "Year Range")
           )
         ),
-        column(width = 4,
+        column(width = 4, class = "col-xs-12 col-sm-4",
           div(class = "stat-card",
             div(class = "stat-value", textOutput("home_stat_particles")),
             div(class = "stat-label", "Particle Types")
@@ -72,22 +72,22 @@ home <- tabPanel(
       ),
       br(),
       fluidRow(
-        column(width = 3,
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3",
           div(class = "chart-card",
             withSpinner(plotlyOutput("home_chart_tumor_type", height = "300px"), type = 4, color = "#098ebb")
           )
         ),
-        column(width = 3,
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3",
           div(class = "chart-card",
             withSpinner(plotlyOutput("home_chart_radiation_type", height = "300px"), type = 4, color = "#098ebb")
           )
         ),
-        column(width = 3,
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3",
           div(class = "chart-card",
             withSpinner(plotlyOutput("home_chart_factor_type", height = "300px"), type = 4, color = "#098ebb")
           )
         ),
-        column(width = 3,
+        column(width = 3, class = "col-xs-12 col-sm-6 col-md-3",
           div(class = "chart-card",
             withSpinner(plotlyOutput("home_chart_evidence", height = "300px"), type = 4, color = "#098ebb")
           )

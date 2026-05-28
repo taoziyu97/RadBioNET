@@ -97,6 +97,12 @@ output$data_table <- renderDT({
       Factor = sprintf(
         '<a href="?factor=%s" onclick="Shiny.setInputValue(\'open_factor\', \'%s\', {priority: \'event\'}); return false;" style="color: #098ebb; font-weight: 600; text-decoration: underline; text-decoration-style: dotted;">%s</a>',
         url_factor, safe_factor, htmlEscape(Factor)
+      ),
+      DOI = ifelse(
+        is.na(DOI) | DOI == "",
+        "",
+        sprintf('<a href="https://doi.org/%s" target="_blank" style="color: #098ebb; text-decoration: underline;">%s</a>',
+                htmlEscape(DOI), htmlEscape(DOI))
       )
     ) %>%
     select(
@@ -165,7 +171,13 @@ observeEvent(input$open_factor, {
   papers <- fd %>%
     select(Title, Journal, `Publication year`, DOI, Direction, `Quality flag`) %>%
     distinct() %>%
-    arrange(desc(`Publication year`))
+    arrange(desc(`Publication year`)) %>%
+    mutate(DOI = ifelse(
+      is.na(DOI) | DOI == "",
+      "",
+      sprintf('<a href="https://doi.org/%s" target="_blank" style="color: #098ebb; text-decoration: underline;">%s</a>',
+              htmlEscape(DOI), htmlEscape(DOI))
+    ))
 
   subtypes <- fd %>%
     mutate(`Cancer subtype` = ifelse(is.na(`Cancer subtype`) | `Cancer subtype` == "", "(Unknown)", `Cancer subtype`)) %>%
@@ -179,7 +191,8 @@ observeEvent(input$open_factor, {
     arrange(desc(n))
 
 
-  links <- get_factor_links(fname, ftype)
+  gsym <- if (!is.null(factor_gene_map) && fname %in% names(factor_gene_map)) factor_gene_map[[fname]] else NULL
+  links <- get_factor_links(fname, ftype, gene_symbol = gsym)
 
   cancer_plot <- plot_ly(cancer_dist,
     x = ~n, y = ~reorder(`Cancer type`, n),
@@ -267,10 +280,11 @@ observeEvent(input$open_factor, {
   output$factor_papers <- renderDT({
     datatable(
       papers,
+      escape = FALSE,
       options = list(
         pageLength = 10,
         lengthMenu = list(c(10, 25, 50), c("10", "25", "50")),
-        dom = "tip",
+        dom = "ftip",
         scrollX = TRUE
       ),
       rownames = FALSE
