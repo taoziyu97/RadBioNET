@@ -469,9 +469,9 @@ table.dataTable tbody tr:nth-child(even) {
 /* Factor detail page */
 
 .factor-page {
-  max-width: 960px;
-  width: 68%;
-  margin: 30px auto 36px auto;
+  max-width: none;
+  width: 100%;
+  margin: 20px auto 30px auto;
   padding: 10px 10px 25px 10px;
 }
 
