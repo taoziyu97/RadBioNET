@@ -171,8 +171,10 @@ data_tab <- tabPanel(
       ),
       br(),
       div(class = "section-title", "Database Records"),
-      div(style = "font-size: 12px; color: #888; margin: 2px 0 8px 0;",
+      div(style = "font-size: 12px; color: #888; margin: 2px 0 0 0;",
         icon("info-circle"), " Click on any ", strong("Factor"), " name to view detailed information"),
+      div(style = "font-size: 11px; color: #999; margin: 0 0 8px 0;",
+        icon("info-circle"), " Hover over ", strong("Supporting sentence"), " to read the full text"),
       hr(class = "section-divider"),
       div(class = "chart-card",
         withSpinner(DTOutput("data_table"), type = 4, color = "#098ebb")

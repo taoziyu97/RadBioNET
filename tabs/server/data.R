@@ -110,7 +110,9 @@ output$data_table <- renderDT({
       ),
       `Supporting sentence` = ifelse(
         nchar(`Supporting sentence`) > 200,
-        paste0(substr(`Supporting sentence`, 1, 200), "..."),
+        sprintf('<span data-tip="%s">%s...</span>',
+                htmlEscape(`Supporting sentence`),
+                htmlEscape(substr(`Supporting sentence`, 1, 200))),
         `Supporting sentence`
       )
     ) %>%

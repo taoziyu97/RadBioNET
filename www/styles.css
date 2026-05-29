@@ -561,7 +561,12 @@ table.dataTable tbody tr:nth-child(even) {
 }
 
 @media (max-width: 768px) {
-  .filter-sidebar {
+table.dataTable td span[data-tip] {
+  cursor: help;
+  border-bottom: 1px dotted #ccc;
+}
+
+.filter-sidebar {
     margin-bottom: 12px;
   }
   .filter-card > div:first-child {

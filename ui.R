@@ -45,6 +45,34 @@ shinyUI(
             $('.navbar-collapse').collapse('hide');
           }
         });
+        $(document).on('mouseenter', '[data-tip]', function() {
+          var $el = $(this);
+          if ($el.data('tip-active')) return;
+          var $tip = $('<div>').css({
+            position: 'fixed', zIndex: 99999,
+            background: '#2c3e50', color: '#f0f0f0',
+            fontSize: '12px', lineHeight: '1.6',
+            padding: '10px 14px', borderRadius: '8px',
+            maxWidth: '420px', wordWrap: 'break-word',
+            textAlign: 'left', pointerEvents: 'none',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.25)'
+          }).text($el.attr('data-tip')).appendTo('body');
+          function pos() {
+            var o = $el.offset();
+            var t = o.top - $tip.outerHeight() - 8;
+            var l = Math.max(4, Math.min(o.left, $(window).width() - $tip.outerWidth() - 4));
+            $tip.css({top: t, left: l});
+          }
+          pos();
+          $el.data('tip-active', true);
+          $el.on('mouseleave.tip', function() {
+            $tip.remove();
+            $el.removeData('tip-active').off('mouseleave.tip');
+          });
+          $(window).on('scroll.tip resize.tip', function() {
+            if ($el.data('tip-active')) pos();
+          });
+        });
       "))
     ),
     list(tags$head(HTML('<link rel="icon", href="img/favicon.png",
