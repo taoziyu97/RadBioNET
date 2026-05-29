@@ -1,50 +1,21 @@
 # ---- Filter reactive ----
 
+filter_exact <- function(data, col, selected) {
+  if (is.null(selected)) return(data)
+  if (length(selected) == 0) return(data[0, , drop = FALSE])
+  parts <- strsplit(data[[col]], ";\\s*")
+  mask <- vapply(parts, function(x) any(x %in% selected), logical(1))
+  data[mask, , drop = FALSE]
+}
+
 data_filtered <- reactive({
   df <- senres
-
-  if (!is.null(input$filter_cancer_type)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_cancer_type) {
-      mask <- mask | grepl(val, df[["Cancer type"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
-  if (!is.null(input$filter_particle_type)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_particle_type) {
-      mask <- mask | grepl(val, df[["Particle type"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
-  if (!is.null(input$filter_factor_type)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_factor_type) {
-      mask <- mask | grepl(val, df[["Factor type"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
-  if (!is.null(input$filter_direction)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_direction) {
-      mask <- mask | grepl(val, df[["Direction"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
-  if (!is.null(input$filter_evidence_type)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_evidence_type) {
-      mask <- mask | grepl(val, df[["Evidence type"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
-  if (!is.null(input$filter_quality)) {
-    mask <- rep(FALSE, nrow(df))
-    for (val in input$filter_quality) {
-      mask <- mask | grepl(val, df[["Quality flag"]], fixed = TRUE)
-    }
-    df <- df[mask, ]
-  }
+  df <- filter_exact(df, "Cancer type",    input$filter_cancer_type)
+  df <- filter_exact(df, "Particle type",  input$filter_particle_type)
+  df <- filter_exact(df, "Factor type",    input$filter_factor_type)
+  df <- filter_exact(df, "Direction",      input$filter_direction)
+  df <- filter_exact(df, "Evidence type",  input$filter_evidence_type)
+  df <- filter_exact(df, "Quality flag",   input$filter_quality)
   df
 })
 
@@ -136,13 +107,20 @@ output$data_table <- renderDT({
         "",
         sprintf('<a href="https://doi.org/%s" target="_blank" style="color: #098ebb; text-decoration: underline;">%s</a>',
                 htmlEscape(DOI), htmlEscape(DOI))
+      ),
+      `Supporting sentence` = ifelse(
+        nchar(`Supporting sentence`) > 200,
+        paste0(substr(`Supporting sentence`, 1, 200), "..."),
+        `Supporting sentence`
       )
     ) %>%
     select(
       Factor, `Cancer type`, `Cancer subtype`,
-      Direction, `Factor type`, `Evidence type`, `Quality flag`,
-      `Biological mechanism`, Journal, `Publication year`,
-      Title, DOI
+      `Particle type`, `Radiation modality`, `Radiation dose`, Direction,
+      `Factor type`, `Evidence type`, `Quality flag`,
+      `Clinical outcome association`,
+      `Biological mechanism`, `Supporting sentence`,
+      Journal, `Publication year`, Title, DOI
     )
 
   datatable(
