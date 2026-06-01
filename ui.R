@@ -6,8 +6,6 @@ shinyUI(
       tags$link(rel = "stylesheet", type = "text/css",
                 href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"),
       tags$link(rel = "stylesheet", type = "text/css",
-                href = "https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro"),
-      tags$link(rel = "stylesheet", type = "text/css",
                 href = "https://cdn.datatables.net/plug-ins/1.10.25/features/searchHighlight/dataTables.searchHighlight.min.css"),
       tags$script(src = "https://cdn.datatables.net/plug-ins/1.10.25/features/searchHighlight/dataTables.searchHighlight.min.js"),
       tags$script(HTML("
@@ -19,7 +17,7 @@ shinyUI(
             position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
             background: 'rgba(255,255,255,0.95)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            zIndex: 9999, fontFamily: 'Open Sans',
+            zIndex: 9999, fontFamily: 'system-ui, -apple-system, sans-serif',
             fontSize: '18px', color: '#555', flexDirection: 'column'
           }).html(
             '<div style=\"text-align:center\">' +
@@ -97,6 +95,7 @@ shinyUI(
       data_tab,
       analysis_tab,
       chat_radbio_tab,
+      resources_tab,
       about_tab,
       factor_tab
     ),
