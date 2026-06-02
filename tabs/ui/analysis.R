@@ -59,6 +59,16 @@ analysis_tab <- tabPanel(
         )
       ),
       br(),
+      div(class = "section-title", "Toxicity Endpoint Distribution"),
+      hr(class = "section-divider"),
+      fluidRow(
+        column(width = 12,
+          div(class = "chart-card",
+            withSpinner(plotlyOutput("analysis_toxicity_endpoint", height = "400px"), type = 4, color = "#098ebb")
+          )
+        )
+      ),
+      br(),
       div(class = "section-title", "Knowledge Graph"),
       hr(class = "section-divider"),
       fluidRow(

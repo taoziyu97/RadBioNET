@@ -44,7 +44,7 @@ quality_flags    <- sort(unique(senres[["Quality flag"]]))
 years            <- sort(unique(senres[["Publication year"]]))
 
 # Multi-value column choices (split on "; ", exclude Unknown)
-drop_unknown <- function(x) { setdiff(x, c("Unknown", "(Unknown)")) }
+drop_unknown <- function(x) { setdiff(x, c("Unknown", "(Unknown)", "(none)")) }
 cancer_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Cancer type"]], "; ")))))
 evidence_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Evidence type"]], "; ")))))
 direction_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Direction"]], "; ")))))
@@ -52,21 +52,25 @@ quality_flag_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Qualit
 factor_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Factor type"]], "; ")))))
 particle_type_choices <- drop_unknown(sort(unique(unlist(strsplit(senres[["Particle type"]], "; ")))))
 
+# Toxicity endpoint choices (semicolon-separated, already clean)
+toxicity_endpoint_choices <- sort(unique(unlist(strsplit(senres[["Toxicity endpoint"]], "; "))))
+toxicity_endpoint_choices <- toxicity_endpoint_choices[!is.na(toxicity_endpoint_choices) & toxicity_endpoint_choices != ""]
+
 source("functions/utils.R")
 source("functions/plot_functions.R")
 source("functions/llm.R")
 
 analysis_data <- list(
-  timeline = fread("dados/trends/timeline_per_factor.csv", data.table = FALSE),
-  factor_trends = fread("dados/trends/factor_trends.csv", data.table = FALSE),
-  modality = fread("dados/equipment_dose/modality_counts.csv", data.table = FALSE),
-  device = fread("dados/equipment_dose/device_counts.csv", data.table = FALSE),
-  dose_model = fread("dados/equipment_dose/dose_by_model.csv", data.table = FALSE),
-  dose_particle = fread("dados/equipment_dose/dose_by_particle.csv", data.table = FALSE),
-  nodes = fread("dados/network/nodes.csv", data.table = FALSE),
-  edges = fread("dados/network/edges.csv", data.table = FALSE),
-  triples = fread("dados/knowledge_graph/triples.csv", data.table = FALSE),
-  entities = fread("dados/knowledge_graph/entities.csv", data.table = FALSE)
+  timeline = fread("dados/trends/timeline_per_factor.csv", data.table = FALSE, check.names = TRUE),
+  factor_trends = fread("dados/trends/factor_trends.csv", data.table = FALSE, check.names = TRUE),
+  modality = fread("dados/equipment_dose/modality_counts.csv", data.table = FALSE, check.names = TRUE),
+  device = fread("dados/equipment_dose/device_counts.csv", data.table = FALSE, check.names = TRUE),
+  dose_model = fread("dados/equipment_dose/dose_by_model.csv", data.table = FALSE, check.names = TRUE),
+  dose_particle = fread("dados/equipment_dose/dose_by_particle.csv", data.table = FALSE, check.names = TRUE),
+  nodes = fread("dados/network/nodes.csv", data.table = FALSE, check.names = TRUE),
+  edges = fread("dados/network/edges.csv", data.table = FALSE, check.names = TRUE),
+  triples = fread("dados/knowledge_graph/triples.csv", data.table = FALSE, check.names = TRUE),
+  entities = fread("dados/knowledge_graph/entities.csv", data.table = FALSE, check.names = TRUE)
 )
 
 # Gene symbol lookup for DepMap and other gene-level external links

@@ -1,8 +1,7 @@
 # ---- Filter reactive ----
 
 filter_exact <- function(data, col, selected) {
-  if (is.null(selected)) return(data)
-  if (length(selected) == 0) return(data[0, , drop = FALSE])
+  if (is.null(selected) || length(selected) == 0) return(data)
   parts <- strsplit(data[[col]], ";\\s*")
   mask <- vapply(parts, function(x) any(x %in% selected), logical(1))
   data[mask, , drop = FALSE]
@@ -14,6 +13,7 @@ data_filtered <- reactive({
   df <- filter_exact(df, "Particle type",  input$filter_particle_type)
   df <- filter_exact(df, "Factor type",    input$filter_factor_type)
   df <- filter_exact(df, "Direction",      input$filter_direction)
+  df <- filter_exact(df, "Toxicity endpoint", input$filter_toxicity_endpoint)
   df <- filter_exact(df, "Evidence type",  input$filter_evidence_type)
   df <- filter_exact(df, "Quality flag",   input$filter_quality)
   df
@@ -21,7 +21,7 @@ data_filtered <- reactive({
 
 observeEvent(input$btn_reset, {
   lapply(filter_config, function(cfg) {
-    updatePrettyCheckboxGroup(session, cfg$filter_id, selected = cfg$choices)
+    updatePrettyCheckboxGroup(session, cfg$filter_id, selected = character(0))
     updateTextInput(session, cfg$search_id, value = "")
   })
 })
@@ -32,8 +32,9 @@ filter_config <- list(
   list(filter_id = "filter_cancer_type",    search_id = "search_cancer_type",    choices = cancer_type_choices),
   list(filter_id = "filter_particle_type",  search_id = "search_particle_type",  choices = particle_type_choices),
   list(filter_id = "filter_factor_type",    search_id = "search_factor_type",    choices = factor_type_choices),
-  list(filter_id = "filter_direction",      search_id = "search_direction",      choices = direction_choices),
-  list(filter_id = "filter_evidence_type",  search_id = "search_evidence_type",  choices = evidence_type_choices),
+  list(filter_id = "filter_direction",          search_id = "search_direction",          choices = direction_choices),
+  list(filter_id = "filter_toxicity_endpoint",  search_id = "search_toxicity_endpoint",  choices = toxicity_endpoint_choices),
+  list(filter_id = "filter_evidence_type",      search_id = "search_evidence_type",      choices = evidence_type_choices),
   list(filter_id = "filter_quality",        search_id = "search_quality",        choices = quality_flag_choices)
 )
 
@@ -75,7 +76,9 @@ output$stat_factors <- renderText({
 
 output$stat_cancers <- renderText({
   req(input$navbar == "data")
-  length(unique(data_filtered()[["Cancer type"]]))
+  types <- unique(unlist(strsplit(data_filtered()[["Cancer type"]], "; ")))
+  types <- setdiff(types, c("Unknown", "(Unknown)", "(none)", ""))
+  length(types)
 })
 
 output$stat_years <- renderText({
@@ -121,6 +124,7 @@ output$data_table <- renderDT({
       `Particle type`, `Radiation modality`, `Radiation dose`, Direction,
       `Factor type`, `Evidence type`, `Quality flag`,
       `Clinical outcome association`,
+      `Toxicity endpoint`,
       `Biological mechanism`, `Supporting sentence`,
       Journal, `Publication year`, Title, DOI
     )

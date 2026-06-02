@@ -190,6 +190,31 @@ output$analysis_dose_particle <- renderPlotly({
     )
 })
 
+# Toxicity endpoint distribution
+output$analysis_toxicity_endpoint <- renderPlotly({
+  req(input$navbar == "analysis")
+  ep_raw <- senres[["Toxicity endpoint"]]
+  ep_raw <- ep_raw[!is.na(ep_raw)]
+  ep_list <- unlist(strsplit(ep_raw, "; "))
+  ep_tbl <- as.data.frame(table(ep_list), stringsAsFactors = FALSE)
+  names(ep_tbl) <- c("Endpoint", "Count")
+  ep_tbl <- ep_tbl[order(ep_tbl$Count, decreasing = TRUE), ]
+
+  plot_ly(ep_tbl,
+    x = ~reorder(Endpoint, Count),
+    y = ~Count,
+    type = "bar",
+    marker = list(color = MODERN_COLORS[5], line = list(color = "#fff", width = 0.5)),
+    hovertemplate = "<b>%{x}</b><br>Count: %{y}<extra></extra>"
+  ) %>%
+    layout(
+      xaxis = list(title = "", tickfont = list(size = 10), tickangle = -35),
+      yaxis = list(title = "Entries", tickfont = list(size = 10)),
+      margin = list(l = 10, r = 10, t = 5, b = 80),
+      paper_bgcolor = "rgba(0,0,0,0)", plot_bgcolor = "rgba(0,0,0,0)"
+    )
+})
+
 # Knowledge graph
 output$analysis_knowledge_graph <- renderVisNetwork({
   req(input$navbar == "analysis")

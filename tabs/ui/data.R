@@ -24,7 +24,7 @@ data_tab <- tabPanel(
           ),
           div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
             prettyCheckboxGroup("filter_cancer_type", NULL,
-              choices = cancer_type_choices, selected = cancer_type_choices,
+              choices = cancer_type_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )
@@ -46,7 +46,7 @@ data_tab <- tabPanel(
           ),
           div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
             prettyCheckboxGroup("filter_particle_type", NULL,
-              choices = particle_type_choices, selected = particle_type_choices,
+              choices = particle_type_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )
@@ -68,7 +68,7 @@ data_tab <- tabPanel(
           ),
           div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
             prettyCheckboxGroup("filter_factor_type", NULL,
-              choices = factor_type_choices, selected = factor_type_choices,
+              choices = factor_type_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )
@@ -90,7 +90,29 @@ data_tab <- tabPanel(
           ),
           div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
             prettyCheckboxGroup("filter_direction", NULL,
-              choices = direction_choices, selected = direction_choices,
+              choices = direction_choices, selected = character(0),
+              shape = "curve", outline = TRUE, animation = "smooth", status = "success"
+            )
+          )
+        ),
+        div(class = "filter-card",
+          div(style = "display: flex; align-items: center; gap: 6px;",
+            tags$label("Toxicity Endpoint", style = "font-weight: 700; font-size: 13px; color: #333; margin-bottom: 0; white-space: nowrap;"),
+            div(style = "flex: 1;"),
+            div(style = "font-size: 11px; white-space: nowrap; flex-shrink: 0;",
+              actionLink("sa_toxicity_endpoint", "Select All", style = "padding: 0;"),
+              span(style = "color: #ccc; margin: 0 3px;", "|"),
+              actionLink("da_toxicity_endpoint", "Deselect All", style = "padding: 0;")
+            ),
+            tags$a(href = "#", icon("search"), style = "color: #098ebb; font-size: 13px; text-decoration: none;",
+              onclick = "$(this).hide().next('.filter-search-input').show().find('input').focus().on('blur',function(){$(this).val('').trigger('input');$(this).closest('.filter-search-input').hide().prev().show();}); return false;"),
+            div(class = "filter-search-input", style = "display: none;",
+              textInput("search_toxicity_endpoint", NULL, placeholder = "search...", width = "100%")
+            )
+          ),
+          div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
+            prettyCheckboxGroup("filter_toxicity_endpoint", NULL,
+              choices = toxicity_endpoint_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )
@@ -112,7 +134,7 @@ data_tab <- tabPanel(
           ),
           div(style = "max-height: 80px; overflow-y: auto; border: 1px solid #ddd; border-radius: 6px; padding: 4px 8px; background: #fff;",
             prettyCheckboxGroup("filter_evidence_type", NULL,
-              choices = evidence_type_choices, selected = evidence_type_choices,
+              choices = evidence_type_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )
@@ -129,7 +151,7 @@ data_tab <- tabPanel(
           ),
           div(style = "border: 1px solid #ddd; border-radius: 6px; padding: 12px 8px 4px; background: #fff;",
             prettyCheckboxGroup("filter_quality", NULL,
-              choices = quality_flag_choices, selected = quality_flag_choices,
+              choices = quality_flag_choices, selected = character(0),
               shape = "curve", outline = TRUE, animation = "smooth", status = "success"
             )
           )

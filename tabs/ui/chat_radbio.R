@@ -2,9 +2,28 @@ chat_radbio_tab <- tabPanel(
   title = "Chat-radbio",
   value = "chat_radbio",
   hr(),
-  br(),
+  fluidRow(
+    column(width = 10, offset = 1,
+      div(style = "background: linear-gradient(135deg, #f0f7ff, #e8f4f8); border-radius: 14px; padding: 20px 35px; margin-top: 6px; margin-bottom: 20px; border: 1px solid #d0e8f0; box-shadow: 0 3px 15px rgba(9, 142, 187, 0.08);",
+        h2(style = "margin: 0 0 6px 0; font-weight: 700; color: #1a5276;", "Chat-Radbio"),
+        p(style = "margin: 0 0 6px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
+          "An AI assistant specialized in radiation biology. Ask questions about radiation sensitivity, resistance mechanisms, treatment outcomes, or any topic covered in the RadBioNet database."),
+        p(style = "margin: 0; font-size: 13px; color: #888;",
+          icon("info-circle"), " Supports local Ollama models or OpenAI-compatible APIs. Configure via the ",
+          tags$b("gear icon"), " above the chat panel.")
+      )
+    )
+  ),
   useShinyjs(),
   tags$head(
+    tags$script(HTML("
+      Shiny.addCustomMessageHandler('ls_save', function(msg) {
+        localStorage.setItem(msg.key, msg.value);
+      });
+      Shiny.addCustomMessageHandler('ls_remove', function(msg) {
+        localStorage.removeItem(msg.key);
+      });
+    ")),
     tags$style(HTML("
       #chat_history_wrapper {
         height: 500px; overflow-y: auto; padding: 15px;

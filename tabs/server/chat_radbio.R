@@ -1,5 +1,13 @@
 chat_hist <- reactiveVal(list())
 chat_loading <- reactiveVal(FALSE)
+chat_restored <- reactiveVal(FALSE)
+
+ls_save <- function(key, value) {
+  session$sendCustomMessage("ls_save", list(key = key, value = value))
+}
+ls_remove <- function(key) {
+  session$sendCustomMessage("ls_remove", list(key = key))
+}
 
 render_markdown <- function(text) {
   if (is.null(text) || is.na(text)) return("")
@@ -85,6 +93,11 @@ chat_add <- function(role, content) {
   h <- chat_hist()
   h[[length(h) + 1]] <- list(role = role, content = content)
   chat_hist(h)
+  if (chat_restored()) {
+    h_save <- h
+    if (length(h_save) > 20) h_save <- h_save[(length(h_save) - 19):length(h_save)]
+    ls_save("radbio_chat_history", toJSON(h_save, auto_unbox = TRUE, null = "null"))
+  }
 }
 
 chat_render <- function(hist) {
@@ -161,8 +174,42 @@ observeEvent(input$chat_save_settings, {
   config$api_url <- input$chat_api_url
   config$api_key <- input$chat_api_key
   config$model <- input$chat_model
+  ls_save("radbio_llm_config", toJSON(list(
+    backend = config$backend,
+    api_url = config$api_url,
+    api_key = config$api_key,
+    model = config$model
+  ), auto_unbox = TRUE))
   removeModal()
 })
+
+# Restore settings & chat history from localStorage on page load
+session$onFlushed(function() {
+  runjs("
+    (function() {
+      var cfg = localStorage.getItem('radbio_llm_config');
+      if (cfg) Shiny.setInputValue('llm_config_from_storage', cfg, {priority: 'event'});
+      var hist = localStorage.getItem('radbio_chat_history');
+      if (hist) Shiny.setInputValue('chat_history_from_storage', hist, {priority: 'event'});
+    })();
+  ")
+}, once = TRUE)
+
+observeEvent(input$llm_config_from_storage, {
+  cfg <- fromJSON(input$llm_config_from_storage)
+  if (!is.null(cfg$backend) && nchar(cfg$backend) > 0) config$backend <- cfg$backend
+  if (!is.null(cfg$api_url) && nchar(cfg$api_url) > 0) config$api_url <- cfg$api_url
+  if (!is.null(cfg$api_key) && nchar(cfg$api_key) > 0) config$api_key <- cfg$api_key
+  if (!is.null(cfg$model) && nchar(cfg$model) > 0) config$model <- cfg$model
+})
+
+observeEvent(input$chat_history_from_storage, {
+  h <- fromJSON(input$chat_history_from_storage, simplifyVector = FALSE)
+  if (length(h) > 0) chat_hist(h)
+  chat_restored(TRUE)
+})
+
+
 
 info <- reactive({
   ollama_ok <- llm_check_ollama()
@@ -274,4 +321,5 @@ observeEvent(input$chat_send, {
 
 observeEvent(input$chat_clear, {
   chat_hist(list())
+  ls_remove("radbio_chat_history")
 })
