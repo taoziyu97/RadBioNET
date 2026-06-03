@@ -1,6 +1,15 @@
 Particle,N papers,Median (Gy),Q1 (Gy),Q3 (Gy)
-Photon,343,5.0,2.0,10.0
-Proton,119,15.0,5.0,51.5
-Carbon ion,36,4.0,2.7,10.0
-Heavy ion,10,1.0,0.8,4.2
-Neutron,8,8.5,3.8,11.5
+Unspecified,3310,6,2,13.875
+X-ray,475,5,2,9.5
+Gamma-ray,105,4,2,8
+Proton,85,10,4,54
+Photon (generic),59,10,4,12
+Carbon ion,55,5,2.9,10
+Electron beam,11,10,5,10
+Heavy ion (unspec.),7,5,1.35,5.5
+Alpha particle,6,3,1.3125,5.4375
+BNCT,5,9,3,11
+Gamma-ray; X-ray,5,7.5,0.6225,9.5
+Neutron (generic),5,4,4,8
+Iron ion,4,1,1,1
+Silicon ion,3,0.5,0.5,0.5

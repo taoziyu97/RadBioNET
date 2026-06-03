@@ -1,160 +1,179 @@
 factor,papers,strong_papers,category,refined_classification,community
-TP53/p53,1047,509,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up; Radiation-induced down,3
-γH2AX,758,185,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity factor; Radiation-induced up; Radiation-induced down,0
-AKT,644,304,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,1
-Cisplatin,463,191,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,21
-Caspase-3,462,104,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity factor; Radiation-induced up; Radiation-induced down,3
-NF-κB,386,197,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,5
-BCL2,373,121,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor; Radiation-induced up,3
-MAPK/ERK,359,153,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up; Radiation-induced down,1
-HIF-1α,350,178,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,12
-TNF-α,337,162,11. Cytokines / chemokines,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up; Radiation-induced down,5
-PD-L1/CD274,335,191,10. Immune checkpoints / antigen presentation,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,2
-PI3K,335,188,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity factor; Radiation-induced up,1
-EGFR,318,197,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,1
-PARP1,312,143,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,0
-DNA-PK/PRKDC,295,154,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor; Radiation-induced up,0
-p21/CDKN1A,285,96,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report); No-change/null finding; Toxicity factor; Radiation-induced up,3
-BAX,276,78,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,3
-STING/TMEM173,258,175,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; Toxicity factor; Radiation-induced up,2
-ATM,256,83,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity factor; Radiation-induced up,0
-Gold nanoparticles,251,153,19. Nanoparticles,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor,22
-mTOR,244,136,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,1
-RAD51,230,89,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity factor; Radiation-induced up,0
-IL-6,228,130,11. Cytokines / chemokines,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up; Radiation-induced down,5
-TGF-β,222,119,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,5
-Doxorubicin,215,69,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,23
-PD-1/PDCD1,203,95,10. Immune checkpoints / antigen presentation,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; Toxicity factor,2
-VEGF,178,83,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,12
-cGAS,171,108,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; Toxicity (limited evidence); Radiation-induced up,2
-CHK1,170,85,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,0
-STAT3,165,102,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,24
-Wnt/β-catenin,156,85,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,25
-Survivin/BIRC5,153,95,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up; Radiation-induced down,15
-ATR,148,78,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor; Radiation-induced up,0
-5-FU,135,64,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,14
-Temozolomide,134,59,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity factor,13
-Paclitaxel,133,66,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; No-change/null finding; Toxicity factor,8
-HER2/ERBB2,128,70,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,1
-Gemcitabine,124,84,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity factor; Radiation-induced up,26
-NRF2/NFE2L2,122,79,8. Oxidative stress,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity factor; Radiation-induced up,6
-HMGB1,110,87,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; Toxicity (limited evidence); Radiation-induced up,27
-CHK2,108,56,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Immunogenic cell death; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,0
-CD44,108,43,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,4
-CD133/PROM1,104,51,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,4
-MYC/c-Myc,102,56,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,28
-PTEN,99,66,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,1
-BRCA1,96,41,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,0
-IFN-γ/IFNG,96,42,11. Cytokines / chemokines,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,2
-anti-PD-L1,95,41,18. Immune checkpoint inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence),2
-Curcumin,94,67,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor; Radiation-induced up,29
-53BP1,91,22,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,0
-Olaparib,83,55,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding; Toxicity factor,0
-Cetuximab,79,54,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; No-change/null finding; Toxicity factor; Radiation-induced up,1
-GPX4,79,33,4. Ferroptosis / Cuproptosis,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Toxicity factor,6
-anti-PD-1,78,31,18. Immune checkpoint inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; Toxicity (limited evidence),2
-Cyclin D1,77,36,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding; Radiation-induced up,9
-Ku70/XRCC6,76,33,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding,0
-AMPK,70,41,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,1
-Docetaxel,62,43,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Toxicity factor,30
-E-cadherin/CDH1,61,20,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding; Radiation-induced up,4
-Metformin,57,45,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced down,1
-LC3,55,21,14. Autophagy,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,7
-KRAS,53,34,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence),31
-BCL-XL,52,29,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence),3
-Ku80/XRCC5,51,22,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,0
-SOX2,49,19,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding,4
-Etoposide,49,20,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity factor; Radiation-induced up,8
-CDK4,48,30,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence),9
-MDM2,48,29,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,32
-Iron oxide NPs,46,28,19. Nanoparticles,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); Toxicity (limited evidence),33
-Carboplatin,43,20,16. Chemotherapy drugs,Radiosensitization target; Anti-tumour immune effect (single report); No-change/null finding; Toxicity factor,8
-TRAIL/TNFSF10,41,23,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive factor; No-change/null finding; Toxicity factor; Radiation-induced up,5
-STAT1,41,28,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor,34
-Oxaliplatin,40,28,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding; Toxicity factor,14
-SLC7A11/xCT,40,16,4. Ferroptosis / Cuproptosis,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Toxicity (limited evidence),6
-Caspase-8,40,25,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,10
-Cyclin B1,40,15,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,35
-p16/CDKN2A,40,21,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,36
-Vimentin/VIM,39,14,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; Immunosuppressive (single report); Radiation-induced up,4
-Notch,39,21,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,37
-IGF1R,38,32,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence); Radiation-induced up,38
-Trastuzumab,38,23,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity factor,1
-Beclin1/BECN1,37,23,14. Autophagy,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,7
-FAS,35,17,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,10
-Type I IFN response,35,34,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death,2
-Hippo/YAP,35,31,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; Immunosuppressive factor,39
-WEE1,34,21,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence),40
-XIAP,34,20,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,15
-MCL1,34,22,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding,3
-MRE11,33,19,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,11
-BRCA2,32,21,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence),0
-GSDME,32,16,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); Toxicity (limited evidence),41
-Snail/SNAI1,31,16,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,4
-p62/SQSTM1,31,15,14. Autophagy,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,7
-NBS1/NBN,28,16,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Immunogenic cell death; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,11
-MGMT,27,17,20. Other / miscellaneous,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,13
-IFNB1/IFN-β,27,14,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding,42
-MET/c-Met,27,24,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced down,43
-XRCC1,26,15,1. DNA damage response/repair,Radiosensitization candidate (single strong report); Toxicity factor; Radiation-induced up,44
-Bevacizumab,26,9,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Toxicity factor,16
-CXCL10,26,12,9. Innate immune sensors / IFN response,Radioresistance factor; Anti-tumour immune driver; Toxicity (limited evidence); Radiation-induced up,2
-FOXM1,25,23,20. Other / miscellaneous,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,45
-MHC-I,25,17,10. Immune checkpoints / antigen presentation,Radioresistance factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); No-change/null finding,46
-GLUT1,24,17,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; No-change/null finding; Radiation-induced up,47
-Capecitabine,24,13,16. Chemotherapy drugs,Radiosensitization target; Toxicity factor,48
-SOD2,23,15,8. Oxidative stress,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence),49
-Caspase-9,23,13,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,10
-CTLA-4,23,14,10. Immune checkpoints / antigen presentation,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive factor; No-change/null finding; Toxicity (limited evidence),19
-Nanog,22,10,13. Stemness / EMT,Radioresistance factor; No-change/null finding,4
-EZH2,22,18,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,50
-BMI1,22,16,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence); Radiation-induced up,51
-KEAP1,21,17,8. Oxidative stress,Bidirectional DNA-repair / context-dependent factor,6
-PUMA,20,16,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence); Radiation-induced up,17
-RAD50,20,13,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Radiation-induced up,11
-NLRP3,20,14,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Toxicity (limited evidence),18
-KU-55933,20,10,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence),52
-CA9/CA-IX,19,11,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence),53
-ATG5,19,8,14. Autophagy,Radiosensitization target; No-change/null finding; Radiation-induced up,7
-Hedgehog,19,10,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Toxicity (limited evidence),54
-Irinotecan,18,12,16. Chemotherapy drugs,Bidirectional DNA-repair / context-dependent factor; Toxicity factor,55
-NU7441,18,13,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence),0
-FOXP3,17,11,11. Cytokines / chemokines,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunosuppressive factor,56
-Rb,17,11,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,57
-BRD4,16,8,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence),58
-BAK,16,8,3. Apoptosis / cell death,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,59
-ALDH1,15,11,13. Stemness / EMT,Bidirectional DNA-repair / context-dependent factor,60
-AZD6738,15,12,17. Targeted drugs / DDR inhibitors,Radiosensitization target; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding; Toxicity factor,0
-ACSL4,12,7,4. Ferroptosis / Cuproptosis,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); No-change/null finding,6
-Mitomycin-C,12,9,16. Chemotherapy drugs,Radiosensitization target; No-change/null finding; Toxicity (limited evidence),61
-Veliparib,12,10,17. Targeted drugs / DDR inhibitors,Radiosensitization target; Anti-tumour immune driver; Immunosuppressive (single report); No-change/null finding,0
-ATG7,11,6,14. Autophagy,Bidirectional DNA-repair / context-dependent factor,7
-HIF-2α,11,9,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding; Toxicity (limited evidence),62
-Durvalumab,11,3,18. Immune checkpoint inhibitors,Toxicity (limited evidence),63
-Niraparib,11,10,17. Targeted drugs / DDR inhibitors,Radiosensitization target; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report); Toxicity (limited evidence),64
-Talazoparib,11,8,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report),0
-RIG-I,11,6,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report),2
-DNMT1,11,11,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver; No-change/null finding; Toxicity (limited evidence); Radiation-induced up,20
-SIRT1,10,9,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor,65
-GSDMD,10,6,3. Apoptosis / cell death,Anti-tumour immune driver; Immunogenic cell death; Toxicity (limited evidence),18
-RSL3,9,4,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence),66
-IRE1α/XBP1,9,9,6. Signaling pathways,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunogenic cell death; Radiation-induced up,67
-METTL3,9,8,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor,68
-LDHA,9,6,7. Hypoxia / metabolism,Bidirectional DNA-repair / context-dependent factor,69
-HDAC6,9,8,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report),70
-XRCC4,9,7,1. DNA damage response/repair,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,71
-VE-821,9,9,17. Targeted drugs / DDR inhibitors,Radiosensitization target; No-change/null finding,0
-anti-CTLA-4,9,7,18. Immune checkpoint inhibitors,Radiosensitization target; Anti-tumour immune driver; Immunogenic cell death; No-change/null finding,19
-CDK6,8,7,2. Cell cycle,Bidirectional DNA-repair / context-dependent factor; Immunosuppressive (single report); No-change/null finding,9
-FANCD2,8,5,1. DNA damage response/repair,Radiosensitization target; Toxicity (limited evidence); Radiation-induced up,72
-YTHDF2,8,7,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report),73
-HDAC1,7,6,15. Epigenetic regulators,Bidirectional DNA-repair / context-dependent factor; No-change/null finding,20
-MAVS,7,5,9. Innate immune sensors / IFN response,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune driver,2
-Erastin,7,5,17. Targeted drugs / DDR inhibitors,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence),74
-NOXA,6,5,3. Apoptosis / cell death,Radiosensitization target; No-change/null finding; Radiation-induced up,17
-HER3/ERBB3,6,5,5. Oncogenes / RTKs,Bidirectional DNA-repair / context-dependent factor; Toxicity (limited evidence),75
-IDH1,6,6,20. Other / miscellaneous,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive (single report),76
-Atezolizumab,5,1,18. Immune checkpoint inhibitors,Toxicity (limited evidence),16
-Galectin-1,5,5,12. Immunosuppressive factors,Bidirectional DNA-repair / context-dependent factor; Anti-tumour immune effect (single report); Immunosuppressive factor; No-change/null finding,77
-IRF3,5,4,9. Innate immune sensors / IFN response,Anti-tumour immune driver; Immunogenic cell death; Immunosuppressive (single report),78
-Twist1,5,4,13. Stemness / EMT,Radioresistance factor,79
+TP53/p53,1047,509,Gene/Protein,1; 2; 3,0
+γH2AX,758,185,Protein (DNA damage marker),1; 2; 3; 4,0
+AKT,644,304,Pathway/Protein,1; 2; 3; 4,0
+Cisplatin,463,191,Drug,1; 2; 3; 4,0
+Caspase-3,462,104,Gene/Protein,1; 2; 3,0
+NF-κB,386,197,Pathway/Protein,1; 2; 3; 4,0
+BCL2,373,121,Gene/Protein,1; 2; 4,0
+MAPK/ERK,359,153,Pathway/Protein,1; 2; 3,0
+HIF-1α,350,178,Gene/Protein,1; 2; 3; 4,0
+TNF-α,337,162,Cytokine,1; 2; 3,0
+PD-L1/CD274,336,191,Immune factor,1; 2; 3; 4,0
+PI3K,335,188,Pathway/Protein,1; 2; 3,0
+EGFR,318,197,Gene/Protein,1; 2; 3,0
+PARP1,312,143,Gene/Protein,1; 2; 3,0
+DNA-PK/PRKDC,295,154,Gene/Protein (kinase),1; 2; 3,0
+p21/CDKN1A,285,96,Gene/Protein,1; 2; 3,0
+BAX,276,78,Gene/Protein,1; 2,0
+STING/TMEM173,258,175,Pathway/Protein,1; 2; 3; 4; 5,0
+ATM,257,83,Gene/Protein (kinase),1; 2; 3,0
+Gold nanoparticles,251,153,Nanoparticle,1; 2; 3,0
+mTOR,244,136,Pathway/Protein,1; 2; 3,0
+RAD51,231,89,Gene/Protein,1; 2; 3,0
+IL-6,228,130,Cytokine,1; 2,0
+TGF-β,222,119,Gene/Protein/Pathway,1; 2; 3; 4,0
+Doxorubicin,215,69,Drug,1; 2; 3,0
+PD-1/PDCD1,203,95,Immune factor,1; 2; 3; 4,0
+VEGF,178,83,Gene/Protein,1; 2; 3; 4,0
+cGAS,171,108,Pathway/Protein,1; 2; 3; 4,0
+CHK1,170,85,Gene/Protein (kinase),1; 2; 3,0
+STAT3,165,102,Pathway/Protein,1; 2; 3; 4,0
+Wnt/β-catenin,156,85,Pathway,1; 2,0
+Survivin/BIRC5,153,95,Gene/Protein,1; 2,0
+ATR,148,78,Gene/Protein (kinase),1; 2; 3,0
+5-FU,135,64,Drug,1; 2,0
+Temozolomide,134,59,Drug,1; 2,0
+Paclitaxel,133,66,Drug,1; 2,0
+HER2/ERBB2,128,70,Gene/Protein,1; 2,0
+Gemcitabine,124,84,Drug,1; 2; 3,0
+NRF2/NFE2L2,122,79,Gene/Protein,1; 2; 3,0
+HMGB1,110,87,DAMP,1; 2; 3,0
+CD44,108,43,Gene/Protein,1; 2; 3,0
+CHK2,108,56,Gene/Protein (kinase),1; 2,0
+CD133/PROM1,104,51,Gene/Protein,1; 2,0
+MYC/c-Myc,102,56,Gene/Protein,1; 2; 3,0
+PTEN,99,66,Gene/Protein,1; 2,0
+BRCA1,96,41,Gene/Protein,1; 2,0
+IFN-γ/IFNG,96,42,Cytokine,1; 2; 3; 4,0
+anti-PD-L1,95,41,ICI,1; 2; 3; 4,0
+Curcumin,94,67,Small molecule,1; 2; 3,0
+53BP1,91,22,Gene/Protein,1; 2,0
+Olaparib,83,55,PARP inhibitor,1; 2,0
+Cetuximab,79,54,Targeted antibody,1; 2,0
+GPX4,79,33,Gene/Protein (ferroptosis),1; 2; 3,0
+anti-PD-1,78,31,ICI,1; 2; 3; 4,0
+Cyclin D1,77,36,Gene/Protein,1; 2,0
+Ku70/XRCC6,76,33,Gene/Protein,1; 2,0
+AMPK,70,41,Pathway/Protein,1; 2,0
+Docetaxel,62,43,Drug,1; 2,0
+E-cadherin/CDH1,61,20,Gene/Protein,1; 2,0
+Metformin,57,45,Small molecule,1; 2; 3,0
+LC3,55,21,Gene/Protein,1; 2,0
+KRAS,53,34,Gene/Protein,1; 2; 3,0
+BCL-XL,52,29,Gene/Protein,1; 2,0
+Ku80/XRCC5,51,22,Gene/Protein,1; 2,0
+Etoposide,49,20,Drug,1; 2,0
+SOX2,49,19,Gene/Protein,1; 2,0
+CDK4,48,30,Gene/Protein,1; 2; 3,0
+MDM2,48,29,Gene/Protein,1; 2,0
+Iron oxide NPs,46,28,Nanoparticle,1; 2,0
+Carboplatin,43,20,Drug,1,0
+STAT1,41,28,Pathway/Protein,1; 2,0
+TRAIL/TNFSF10,41,23,Gene/Protein,1; 2,0
+Caspase-8,40,25,Gene/Protein,1; 2,0
+Cyclin B1,40,15,Gene/Protein,1; 2,0
+Oxaliplatin,40,28,Drug,1; 2; 3,0
+SLC7A11/xCT,40,16,Gene/Protein (ferroptosis),1; 2,0
+Notch,39,21,Pathway,1; 2,0
+Vimentin/VIM,39,14,Gene/Protein,1; 2,0
+IGF1R,38,32,Gene/Protein,1; 2,0
+Trastuzumab,38,23,Targeted antibody,1; 2,0
+Beclin1/BECN1,37,23,Gene/Protein,1; 2,0
+FAS,35,17,Gene/Protein,1; 2,0
+Hippo/YAP,35,31,Pathway/Protein,1; 2; 3,0
+Type I IFN response,35,34,Pathway,1; 2,0
+MCL1,34,22,Gene/Protein,1; 2; 4,0
+WEE1,34,21,Gene/Protein (kinase),1; 2,0
+XIAP,34,20,Gene/Protein,1; 2,0
+MRE11,33,19,Gene/Protein,1; 2,0
+BRCA2,32,21,Gene/Protein,1; 2,0
+GSDME,32,16,Gene/Protein (pyroptosis),1; 2; 3,0
+p16/CDKN2A,32,20,Gene/Protein,1; 2,0
+Snail/SNAI1,31,16,Gene/Protein,1; 2,0
+p62/SQSTM1,31,15,Gene/Protein,1; 2,0
+NBS1/NBN,28,16,Gene/Protein,1; 2,0
+IFNB1/IFN-β,27,14,Cytokine,1; 2,0
+MET/c-Met,27,24,Gene/Protein,1; 2,0
+MGMT,27,17,Gene/Protein,1; 2,0
+Bevacizumab,26,9,Targeted antibody,1,0
+CXCL10,26,12,Chemokine,1,0
+XRCC1,26,15,Gene/Protein,1,0
+FOXM1,25,23,Gene/Protein,1; 2,0
+MHC-I,25,17,Antigen presentation,1; 2; 3,0
+Capecitabine,24,13,Drug,1; 2,0
+GLUT1,24,17,Gene/Protein,1; 2,0
+CTLA-4,23,14,Immune factor,1; 2; 3,0
+Caspase-9,23,13,Gene/Protein,1,0
+SOD2,23,15,Gene/Protein,1; 2,0
+BMI1,22,16,Gene/Protein (epigenetic),1; 2,0
+EZH2,22,18,Gene/Protein (epigenetic),1,0
+Nanog,22,10,Gene/Protein,1,0
+KEAP1,21,17,Gene/Protein,1; 2,0
+KU-55933,20,10,ATM inhibitor,1; 2,0
+NLRP3,20,14,Gene/Protein (inflammasome),1; 2,0
+PUMA,20,16,Gene/Protein,1,0
+RAD50,20,13,Gene/Protein,1; 2,0
+ATG5,19,8,Gene/Protein,1,0
+CA9/CA-IX,19,11,Gene/Protein,1; 2,0
+Hedgehog,19,10,Pathway,1; 2,0
+Irinotecan,18,12,Drug,1; 2,0
+NU7441,18,13,DNA-PK inhibitor,1; 2; 3,0
+FOXP3,17,11,Gene/Protein (Treg),1; 2,0
+Rb,17,11,Gene/Protein,1,0
+BAK,16,8,Gene/Protein,1,0
+BRD4,16,8,Gene/Protein,1; 2; 3,0
+ALDH1,15,11,Gene/Protein,1; 2,0
+AZD6738,15,12,ATR inhibitor,1; 2; 3,0
+ACSL4,12,7,Gene/Protein (ferroptosis),1; 2,0
+Mitomycin-C,12,9,Drug,1,0
+Veliparib,12,10,PARP inhibitor,1; 2,0
+ATG7,11,6,Gene/Protein,1; 2,0
+DNMT1,11,11,Gene/Protein (epigenetic),1,0
+Durvalumab,11,3,Immune checkpoint inhibitor,1,0
+HIF-2α,11,9,Gene/Protein,1; 2,0
+Niraparib,11,10,PARP inhibitor,1; 2; 3,0
+RIG-I,11,6,Pathway/Protein,1; 2; 3,0
+Talazoparib,11,8,PARP inhibitor,1; 2,0
+GSDMD,10,6,Gene/Protein (pyroptosis),1; 2,0
+SIRT1,10,9,Gene/Protein (epigenetic),1; 2,0
+HDAC6,9,8,Gene/Protein (epigenetic),1; 2,0
+IRE1α/XBP1,9,9,Pathway (UPR),1; 2,0
+LDHA,9,6,Gene/Protein,1; 2,0
+METTL3,9,8,Gene/Protein (epigenetic),1,0
+RSL3,9,4,Ferroptosis inducer,1; 2,0
+VE-821,9,9,ATR inhibitor,1,0
+XRCC4,9,7,Gene/Protein,1,0
+anti-CTLA-4,9,7,ICI,1; 2,0
+CDK6,8,7,Gene/Protein,1; 2,0
+FANCD2,8,5,Gene/Protein,1,0
+YTHDF2,8,7,Gene/Protein (epigenetic),1; 2; 3,0
+Erastin,7,5,Ferroptosis inducer,1; 2,0
+HDAC1,7,6,Gene/Protein (epigenetic),1,0
+MAVS,7,5,Pathway/Protein,1,0
+HER3/ERBB3,6,5,Gene/Protein,1,0
+IDH1,6,6,Gene/Protein,1; 2,0
+NOXA,6,5,Gene/Protein,1,0
+Atezolizumab,5,1,Immune checkpoint inhibitor,1,0
+Galectin-1,5,5,Immunosuppressive factor,1; 2,0
+IRF3,5,4,Transcription factor,1; 2,0
+Twist1,5,4,Gene/Protein,1,0
+ALKBH5,4,4,Gene/Protein (epigenetic),1; 2,0
+AZD1775,4,4,WEE1 inhibitor,1; 2,0
+FTO,4,4,Gene/Protein (epigenetic),1,0
+Pembrolizumab,4,2,Immune checkpoint inhibitor,1,0
+Bismuth NPs,3,3,Nanoparticle,1,0
+FSP1,3,3,Gene/Protein (ferroptosis),1; 2,0
+RAD52,3,3,Gene/Protein,1,0
+YTHDF1,3,3,Gene/Protein (epigenetic),1,0
+AZD2281,2,1,PARP inhibitor,1,0
+FDX1,2,1,Gene/Protein (cuproptosis),1; 2,0
+OTUD4,2,2,Gene/Protein,1,0
+TERT,2,2,Gene/Protein,1,0
+Vorinostat/SAHA,2,1,HDAC inhibitor,1,0
+IRF7,1,1,Transcription factor,1,0
+NCOA4,1,1,Gene/Protein (ferritinophagy),1,0
+Nivolumab,1,1,ICI,1,0
+PARP2,1,1,Gene/Protein,1,0
+PRKCSH,1,1,Gene/Protein,2,0
+Panobinostat,1,1,HDAC inhibitor,1,0

@@ -1,26 +1,77 @@
 entity_id,type
-1. DNA damage response/repair,BiologicalCategory
-10. Immune checkpoints / antigen presentation,BiologicalCategory
-11. Cytokines / chemokines,BiologicalCategory
-12. Immunosuppressive factors,BiologicalCategory
-13. Stemness / EMT,BiologicalCategory
-14. Autophagy,BiologicalCategory
-15. Epigenetic regulators,BiologicalCategory
-16. Chemotherapy drugs,BiologicalCategory
-17. Targeted drugs / DDR inhibitors,BiologicalCategory
-18. Immune checkpoint inhibitors,BiologicalCategory
-19. Nanoparticles,BiologicalCategory
-2. Cell cycle,BiologicalCategory
-20. Other / miscellaneous,BiologicalCategory
-3. Apoptosis / cell death,BiologicalCategory
-4. Ferroptosis / Cuproptosis,BiologicalCategory
+ATM inhibitor,BiologicalCategory
+ATR inhibitor,BiologicalCategory
+Antigen presentation,BiologicalCategory
+Chemokine,BiologicalCategory
+Cytokine,BiologicalCategory
+DAMP,BiologicalCategory
+DNA-PK inhibitor,BiologicalCategory
+Damage-associated molecular pattern (DAMP),BiologicalCategory
+Drug,BiologicalCategory
+Ferroptosis inducer,BiologicalCategory
+Gene/Protein,BiologicalCategory
+Gene/Protein (Treg),BiologicalCategory
+Gene/Protein (cuproptosis),BiologicalCategory
+Gene/Protein (epigenetic),BiologicalCategory
+Gene/Protein (ferritinophagy),BiologicalCategory
+Gene/Protein (ferroptosis),BiologicalCategory
+Gene/Protein (inflammasome),BiologicalCategory
+Gene/Protein (kinase),BiologicalCategory
+Gene/Protein (pyroptosis),BiologicalCategory
+Gene/Protein/Pathway,BiologicalCategory
+HDAC inhibitor,BiologicalCategory
+ICI,BiologicalCategory
+Immune checkpoint inhibitor,BiologicalCategory
+Immune factor,BiologicalCategory
+Immunosuppressive factor,BiologicalCategory
+Nanoparticle,BiologicalCategory
+PARP inhibitor,BiologicalCategory
+Pathway,BiologicalCategory
+Pathway (UPR),BiologicalCategory
+Pathway/Protein,BiologicalCategory
+Protein (DNA damage marker),BiologicalCategory
+Small molecule,BiologicalCategory
+Targeted antibody,BiologicalCategory
+Transcription factor,BiologicalCategory
+WEE1 inhibitor,BiologicalCategory
+Anal cancer,Cancer
+Biliary tract cancer,Cancer
+Bladder cancer,Cancer
+Breast cancer,Cancer
+Cervical cancer,Cancer
+Chondrosarcoma,Cancer
+Chordoma,Cancer
+Colorectal cancer,Cancer
+Endometrial cancer,Cancer
+Esophageal cancer,Cancer
+Gastric cancer,Cancer
+Glioma,Cancer
+Head and neck cancer,Cancer
+Leukemia,Cancer
+Liver cancer,Cancer
+Lung cancer,Cancer
+Lymphoma,Cancer
+Medulloblastoma,Cancer
+Melanoma,Cancer
+Meningioma,Cancer
+Multiple myeloma,Cancer
+Nasopharyngeal cancer,Cancer
+Neuroblastoma,Cancer
+Oral cancer,Cancer
+Ovarian cancer,Cancer
+Pancreatic cancer,Cancer
+Pediatric cancer,Cancer
+Prostate cancer,Cancer
+Renal cancer,Cancer
+Retinoblastoma,Cancer
+Salivary gland cancer,Cancer
+Sarcoma,Cancer
+Skin cancer,Cancer
+Skull base tumor,Cancer
+Thyroid cancer,Cancer
+Uveal melanoma,Cancer
 5-FU,Factor
-5. Oncogenes / RTKs,BiologicalCategory
 53BP1,Factor
-6. Signaling pathways,BiologicalCategory
-7. Hypoxia / metabolism,BiologicalCategory
-8. Oxidative stress,BiologicalCategory
-9. Innate immune sensors / IFN response,BiologicalCategory
 ACSL4,Factor
 AKT,Factor
 ALDH1,Factor
@@ -33,8 +84,6 @@ ATR,Factor
 AZD1775,Factor
 AZD2281,Factor
 AZD6738,Factor
-Alpha,Particle
-Anal cancer,Cancer
 Atezolizumab,Factor
 BAK,Factor
 BAX,Factor
@@ -46,11 +95,7 @@ BRCA2,Factor
 BRD4,Factor
 Beclin1/BECN1,Factor
 Bevacizumab,Factor
-Biliary tract cancer,Cancer
 Bismuth NPs,Factor
-Bladder cancer,Cancer
-Brachytherapy,Modality
-Breast cancer,Cancer
 CA9/CA-IX,Factor
 CD133/PROM1,Factor
 CD44,Factor
@@ -61,17 +106,12 @@ CHK2,Factor
 CTLA-4,Factor
 CXCL10,Factor
 Capecitabine,Factor
-Carbon ion,Particle
 Carboplatin,Factor
 Caspase-3,Factor
 Caspase-8,Factor
 Caspase-9,Factor
-Cervical cancer,Cancer
 Cetuximab,Factor
-Chondrosarcoma,Cancer
-Chordoma,Cancer
 Cisplatin,Factor
-Colorectal cancer,Cancer
 Curcumin,Factor
 Cyclin B1,Factor
 Cyclin D1,Factor
@@ -83,15 +123,11 @@ Durvalumab,Factor
 E-cadherin/CDH1,Factor
 EGFR,Factor
 EZH2,Factor
-Electron,Particle
-Endometrial cancer,Cancer
 Erastin,Factor
-Esophageal cancer,Cancer
 Etoposide,Factor
 FANCD2,Factor
 FAS,Factor
 FDX1,Factor
-FLASH,Modality
 FOXM1,Factor
 FOXP3,Factor
 FSP1,Factor
@@ -101,9 +137,7 @@ GPX4,Factor
 GSDMD,Factor
 GSDME,Factor
 Galectin-1,Factor
-Gastric cancer,Cancer
 Gemcitabine,Factor
-Glioma,Cancer
 Gold nanoparticles,Factor
 HDAC1,Factor
 HDAC6,Factor
@@ -112,8 +146,6 @@ HER3/ERBB3,Factor
 HIF-1α,Factor
 HIF-2α,Factor
 HMGB1,Factor
-Head and neck cancer,Cancer
-Heavy ion,Particle
 Hedgehog,Factor
 Hippo/YAP,Factor
 IDH1,Factor
@@ -121,8 +153,6 @@ IFN-γ/IFNG,Factor
 IFNB1/IFN-β,Factor
 IGF1R,Factor
 IL-6,Factor
-IMPT,Modality
-IMRT,Modality
 IRE1α/XBP1,Factor
 IRF3,Factor
 IRF7,Factor
@@ -135,10 +165,6 @@ Ku70/XRCC6,Factor
 Ku80/XRCC5,Factor
 LC3,Factor
 LDHA,Factor
-Leukemia,Cancer
-Liver cancer,Cancer
-Lung cancer,Cancer
-Lymphoma,Cancer
 MAPK/ERK,Factor
 MAVS,Factor
 MCL1,Factor
@@ -149,12 +175,8 @@ MGMT,Factor
 MHC-I,Factor
 MRE11,Factor
 MYC/c-Myc,Factor
-Medulloblastoma,Cancer
-Melanoma,Cancer
-Meningioma,Cancer
 Metformin,Factor
 Mitomycin-C,Factor
-Multiple myeloma,Cancer
 NBS1/NBN,Factor
 NCOA4,Factor
 NF-κB,Factor
@@ -163,16 +185,11 @@ NOXA,Factor
 NRF2/NFE2L2,Factor
 NU7441,Factor
 Nanog,Factor
-Nasopharyngeal cancer,Cancer
-Neuroblastoma,Cancer
-Neutron,Particle
 Niraparib,Factor
 Nivolumab,Factor
 Notch,Factor
 OTUD4,Factor
 Olaparib,Factor
-Oral cancer,Cancer
-Ovarian cancer,Cancer
 Oxaliplatin,Factor
 PARP1,Factor
 PARP2,Factor
@@ -183,23 +200,14 @@ PRKCSH,Factor
 PTEN,Factor
 PUMA,Factor
 Paclitaxel,Factor
-Pancreatic cancer,Cancer
 Panobinostat,Factor
-Pediatric cancer,Cancer
 Pembrolizumab,Factor
-Photon,Particle
-Prostate cancer,Cancer
-Proton,Particle
 RAD50,Factor
 RAD51,Factor
 RAD52,Factor
 RIG-I,Factor
 RSL3,Factor
-Radioisotope therapy,Modality
 Rb,Factor
-Renal cancer,Cancer
-Retinoblastoma,Cancer
-SBRT/SABR,Modality
 SIRT1,Factor
 SLC7A11/xCT,Factor
 SOD2,Factor
@@ -207,10 +215,6 @@ SOX2,Factor
 STAT1,Factor
 STAT3,Factor
 STING/TMEM173,Factor
-Salivary gland cancer,Cancer
-Sarcoma,Cancer
-Skin cancer,Cancer
-Skull base tumor,Cancer
 Snail/SNAI1,Factor
 Survivin/BIRC5,Factor
 TERT,Factor
@@ -220,12 +224,9 @@ TP53/p53,Factor
 TRAIL/TNFSF10,Factor
 Talazoparib,Factor
 Temozolomide,Factor
-Thyroid cancer,Cancer
-Total body irradiation,Modality
 Trastuzumab,Factor
 Twist1,Factor
 Type I IFN response,Factor
-Uveal melanoma,Cancer
 VE-821,Factor
 VEGF,Factor
 Veliparib,Factor
@@ -247,3 +248,44 @@ p16/CDKN2A,Factor
 p21/CDKN1A,Factor
 p62/SQSTM1,Factor
 γH2AX,Factor
+3D-CRT,Modality
+Brachytherapy,Modality
+Conventional EBRT,Modality
+CyberKnife,Modality
+FLASH,Modality
+Gamma Knife,Modality
+IMPT,Modality
+IMRT,Modality
+IORT,Modality
+Radioisotope therapy,Modality
+SBRT/SABR,Modality
+SRS,Modality
+Total body irradiation,Modality
+VMAT,Modality
+Alpha particle,Particle
+BNCT,Particle
+Carbon ion,Particle
+Electron beam,Particle
+Gamma-ray,Particle
+Heavy ion (unspec.),Particle
+Iron ion,Particle
+Neutron (generic),Particle
+Photon (generic),Particle
+Proton,Particle
+Silicon ion,Particle
+X-ray,Particle
+Bladder / GU,ToxicityEndpoint
+Cardiac / Heart,ToxicityEndpoint
+Dermatitis / Skin,ToxicityEndpoint
+Esophagitis / Dysphagia,ToxicityEndpoint
+Fatigue / Constitutional,ToxicityEndpoint
+Fibrosis,ToxicityEndpoint
+Hematologic,ToxicityEndpoint
+Hepatic / Liver,ToxicityEndpoint
+Mucositis / Oral,ToxicityEndpoint
+Nausea / Vomiting,ToxicityEndpoint
+Necrosis,ToxicityEndpoint
+Neurologic / CNS,ToxicityEndpoint
+Pneumonitis / Pulmonary,ToxicityEndpoint
+Rectal / GI,ToxicityEndpoint
+Renal / Kidney,ToxicityEndpoint

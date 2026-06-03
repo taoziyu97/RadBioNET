@@ -1,5 +1,5 @@
 Model,N papers (with parsable dose),Median single dose (Gy),Q1 single dose (Gy),Q3 single dose (Gy),Min,Max,Most common single dose (Gy)
-Cell line,1217,4.0,2.0,8.0,0.0,85.0,2.0
-Mouse/Animal,2589,6.0,2.0,15.0,0.0,90.0,2.0
-Patient/clinical,10371,20.0,4.0,50.0,0.0,99.9,2.0
-Unspecified,2071,5.0,2.0,10.0,0.0,98.6,2.0
+Cell line,628,4,2,8,0.045,120,2
+Mouse/Animal,1053,6,2.3,10,0.0136,150,2
+Patient/clinical,1230,9,2.48,41.55,0,180,2
+Unspecified,1224,5,2,10,0.03,115,2
