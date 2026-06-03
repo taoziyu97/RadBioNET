@@ -50,20 +50,34 @@ about_tab <- tabPanel(
               `data-toggle` = "collapse", `data-parent` = "#changelog-accordion", href = "#changelog-2026-06",
               h4(class = "panel-title", style = "font-size: 14px; font-weight: 700; color: #1a5276;",
                 icon("chevron-right", class = "chevron-icon"), " June 2026  —  v1.1"),
-              p(style = "margin: 2px 0 0 0; font-size: 12px; color: #888;", "Toxicity endpoints, chat persistence, UI polish, bug fixes")
+              p(style = "margin: 2px 0 0 0; font-size: 12px; color: #888;", "Toxicity endpoints, China CDN, chat persistence, multi-bug fixes")
             ),
             div(id = "changelog-2026-06", class = "panel-collapse collapse",
               div(class = "panel-body", style = "padding: 12px 18px; font-size: 13px; color: #444; line-height: 1.8;",
-                tags$ul(style = "margin: 0; padding-left: 18px;",
-                  tags$li(HTML("<b>New:</b> Toxicity endpoint extraction &mdash; 2,123 entries classified into 15 endpoint categories (Rectal/GI, Dermatitis, Necrosis, Hematologic, Fibrosis, etc.)")),
-                  tags$li(HTML("<b>New:</b> Toxicity Endpoint filter added to Data page &amp; distribution chart on Analysis page")),
-                  tags$li(HTML("<b>New:</b> Chat-Radbio settings &amp; chat history now persist in browser (localStorage)")),
+                h5(style = "font-weight: 700; color: #1a5276; margin: 0 0 6px 0;", "Infrastructure &amp; Deployment"),
+                tags$ul(style = "margin: 0 0 10px 0; padding-left: 18px;",
+                  tags$li(HTML("<b>New:</b> Cloudflare Worker proxy deployed at <code>app.radbionet.com</code> for China accessibility &mdash; routes all RadBioNET traffic through Cloudflare HK node")),
+                  tags$li(HTML("<b>Infra:</b> Custom domain <code>app.radbionet.com</code> bound to Worker, replacing direct shinyapps.io access in iframe")),
+                  tags$li(HTML("<b>Infra:</b> Deployed updated index.html to Netlify with Worker proxy URL")),
+                  tags$li(HTML("<b>Infra:</b> fread column name parsing fixed for all analysis CSVs (<code>check.names = TRUE</code>)"))
+                ),
+                h5(style = "font-weight: 700; color: #1a5276; margin: 0 0 6px 0;", "New Features"),
+                tags$ul(style = "margin: 0 0 10px 0; padding-left: 18px;",
+                  tags$li(HTML("<b>New:</b> Toxicity endpoint extraction &mdash; 2,123 entries classified into 15 endpoint categories (Rectal/GI, Dermatitis, Necrosis, Hematologic, Fibrosis, etc.) from free-text supporting sentences")),
+                  tags$li(HTML("<b>New:</b> Toxicity Endpoint filter added to Data page sidebar")),
+                  tags$li(HTML("<b>New:</b> Toxicity Endpoint Distribution bar chart on Analysis page")),
+                  tags$li(HTML("<b>New:</b> Chat-Radbio settings (backend, API URL, key, model) persist in browser localStorage")),
+                  tags$li(HTML("<b>New:</b> Chat-Radbio chat history persists in localStorage (last 20 messages)")),
                   tags$li(HTML("<b>New:</b> Collapsible changelog with version history on About Us page")),
-                  tags$li(HTML("<b>Fix:</b> Dose Distribution (Modality &amp; Equipment) charts not displaying")),
-                  tags$li(HTML("<b>Fix:</b> Particle type filter logic &mdash; empty selection shows all data, specific selection filters correctly")),
+                  tags$li(HTML("<b>New:</b> RadioPharm &mdash; comprehensive radiopharmaceutical database &mdash; added to Resource Hub"))
+                ),
+                h5(style = "font-weight: 700; color: #1a5276; margin: 0 0 6px 0;", "Bug Fixes"),
+                tags$ul(style = "margin: 0; padding-left: 18px;",
+                  tags$li(HTML("<b>Fix:</b> Dose Distribution (Modality &amp; Equipment) charts on Analysis page not displaying")),
+                  tags$li(HTML("<b>Fix:</b> Particle type filter logic &mdash; empty selection now shows all data, specific selection filters correctly")),
                   tags$li(HTML("<b>Fix:</b> Cancer Type stat card count corrected (was counting semicolon-separated values as distinct entries)")),
                   tags$li(HTML("<b>Fix:</b> Removed robot icon from Chat-Radbio header")),
-                  tags$li(HTML("<b>Change:</b> About Us page updated with version info &amp; changelog"))
+                  tags$li(HTML("<b>Fix:</b> Chat-Radbio settings reopening no longer requires re-entering credentials"))
                 )
               )
             )
