@@ -290,7 +290,7 @@
     },
     {
       "id": "HER2/ERBB2",
-      "papers": 128,
+      "papers": 127,
       "strong_papers": 70,
       "category": "Gene/Protein",
       "refined_classification": "1; 2",
@@ -1969,8 +1969,8 @@
       "source": "HER2/ERBB2",
       "target": "Trastuzumab",
       "weight": 28,
-      "jaccard": 0.2029,
-      "pmi": 5.4857
+      "jaccard": 0.2044,
+      "pmi": 5.497
     },
     {
       "source": "5-FU",
@@ -2039,8 +2039,8 @@
       "source": "EGFR",
       "target": "HER2/ERBB2",
       "weight": 26,
-      "jaccard": 0.0619,
-      "pmi": 2.3139
+      "jaccard": 0.0621,
+      "pmi": 2.3252
     },
     {
       "source": "Survivin/BIRC5",
@@ -2544,7 +2544,7 @@
       "target": "MAPK/ERK",
       "weight": 16,
       "jaccard": 0.034,
-      "pmi": 1.4385
+      "pmi": 1.4498
     },
     {
       "source": "HIF-1α",
@@ -2691,7 +2691,7 @@
       "target": "HER2/ERBB2",
       "weight": 14,
       "jaccard": 0.0185,
-      "pmi": 0.4027
+      "pmi": 0.414
     },
     {
       "source": "AMPK",
@@ -3429,13 +3429,6 @@
       "pmi": 3.0137
     },
     {
-      "source": "HER2/ERBB2",
-      "target": "TP53/p53",
-      "weight": 10,
-      "jaccard": 0.0086,
-      "pmi": -0.7838
-    },
-    {
       "source": "HIF-1α",
       "target": "HIF-2α",
       "weight": 10,
@@ -3756,6 +3749,13 @@
       "weight": 9,
       "jaccard": 0.0084,
       "pmi": 0.9349
+    },
+    {
+      "source": "HER2/ERBB2",
+      "target": "TP53/p53",
+      "weight": 9,
+      "jaccard": 0.0077,
+      "pmi": -0.9245
     },
     {
       "source": "Ku80/XRCC5",
@@ -4490,7 +4490,7 @@
       "target": "PI3K",
       "weight": 7,
       "jaccard": 0.0154,
-      "pmi": 0.3456
+      "pmi": 0.3569
     },
     {
       "source": "IL-6",
@@ -4595,7 +4595,7 @@
       "target": "HER2/ERBB2",
       "weight": 7,
       "jaccard": 0.008,
-      "pmi": -0.8324
+      "pmi": -0.8211
     },
     {
       "source": "γH2AX",
@@ -4973,7 +4973,7 @@
       "target": "HER2/ERBB2",
       "weight": 6,
       "jaccard": 0.0161,
-      "pmi": 0.5397
+      "pmi": 0.551
     },
     {
       "source": "HIF-1α",
@@ -5617,7 +5617,7 @@
       "target": "HER2/ERBB2",
       "weight": 5,
       "jaccard": 0.012,
-      "pmi": 0.0437
+      "pmi": 0.055
     },
     {
       "source": "DNA-PK/PRKDC",
@@ -5701,7 +5701,7 @@
       "target": "NF-κB",
       "weight": 5,
       "jaccard": 0.0098,
-      "pmi": -0.3442
+      "pmi": -0.3329
     },
     {
       "source": "HIF-1α",
@@ -6687,15 +6687,15 @@
       "source": "HER2/ERBB2",
       "target": "MYC/c-Myc",
       "weight": 4,
-      "jaccard": 0.0177,
-      "pmi": 1.2539
+      "jaccard": 0.0178,
+      "pmi": 1.2652
     },
     {
       "source": "HER2/ERBB2",
       "target": "Wnt/β-catenin",
       "weight": 4,
       "jaccard": 0.0143,
-      "pmi": 0.6409
+      "pmi": 0.6522
     },
     {
       "source": "HIF-1α",
@@ -7378,13 +7378,6 @@
     },
     {
       "source": "ATM",
-      "target": "HER2/ERBB2",
-      "weight": 3,
-      "jaccard": 0.0079,
-      "pmi": -0.4944
-    },
-    {
-      "source": "ATM",
       "target": "Ku80/XRCC5",
       "weight": 3,
       "jaccard": 0.0098,
@@ -7521,7 +7514,7 @@
       "target": "HER2/ERBB2",
       "weight": 3,
       "jaccard": 0.0075,
-      "pmi": -0.5973
+      "pmi": -0.586
     },
     {
       "source": "BAX",
@@ -7612,7 +7605,7 @@
       "target": "HER2/ERBB2",
       "weight": 3,
       "jaccard": 0.006,
-      "pmi": -1.0318
+      "pmi": -1.0205
     },
     {
       "source": "BCL2",
@@ -7779,8 +7772,8 @@
       "source": "CDK4",
       "target": "HER2/ERBB2",
       "weight": 3,
-      "jaccard": 0.0173,
-      "pmi": 1.9263
+      "jaccard": 0.0174,
+      "pmi": 1.9376
     },
     {
       "source": "CDK4",
@@ -8003,8 +7996,8 @@
       "source": "Cetuximab",
       "target": "HER2/ERBB2",
       "weight": 3,
-      "jaccard": 0.0147,
-      "pmi": 1.2075
+      "jaccard": 0.0148,
+      "pmi": 1.2188
     },
     {
       "source": "Cetuximab",
@@ -8046,7 +8039,7 @@
       "target": "HER2/ERBB2",
       "weight": 3,
       "jaccard": 0.0051,
-      "pmi": -1.3436
+      "pmi": -1.3323
     },
     {
       "source": "Cisplatin",
@@ -8249,7 +8242,7 @@
       "target": "HER2/ERBB2",
       "weight": 3,
       "jaccard": 0.0088,
-      "pmi": -0.2369
+      "pmi": -0.2256
     },
     {
       "source": "Doxorubicin",
@@ -8458,22 +8451,22 @@
       "source": "HER2/ERBB2",
       "target": "STAT3",
       "weight": 3,
-      "jaccard": 0.0103,
-      "pmi": 0.1449
+      "jaccard": 0.0104,
+      "pmi": 0.1563
     },
     {
       "source": "HER2/ERBB2",
       "target": "Survivin/BIRC5",
       "weight": 3,
       "jaccard": 0.0108,
-      "pmi": 0.2539
+      "pmi": 0.2652
     },
     {
       "source": "HER2/ERBB2",
       "target": "mTOR",
       "weight": 3,
-      "jaccard": 0.0081,
-      "pmi": -0.4195
+      "jaccard": 0.0082,
+      "pmi": -0.4082
     },
     {
       "source": "HIF-1α",
@@ -9583,6 +9576,13 @@
     },
     {
       "source": "ATM",
+      "target": "HER2/ERBB2",
+      "weight": 2,
+      "jaccard": 0.0052,
+      "pmi": -1.068
+    },
+    {
+      "source": "ATM",
       "target": "Hedgehog",
       "weight": 2,
       "jaccard": 0.0073,
@@ -10341,8 +10341,8 @@
       "source": "CD44",
       "target": "HER2/ERBB2",
       "weight": 2,
-      "jaccard": 0.0085,
-      "pmi": 0.1714
+      "jaccard": 0.0086,
+      "pmi": 0.1827
     },
     {
       "source": "CD44",
@@ -11384,8 +11384,8 @@
       "source": "FAS",
       "target": "HER2/ERBB2",
       "weight": 2,
-      "jaccard": 0.0124,
-      "pmi": 1.797
+      "jaccard": 0.0125,
+      "pmi": 1.8083
     },
     {
       "source": "FAS",
@@ -11398,8 +11398,8 @@
       "source": "FOXM1",
       "target": "HER2/ERBB2",
       "weight": 2,
-      "jaccard": 0.0132,
-      "pmi": 2.2824
+      "jaccard": 0.0133,
+      "pmi": 2.2938
     },
     {
       "source": "FOXM1",
@@ -11559,57 +11559,57 @@
       "source": "HER2/ERBB2",
       "target": "HER3/ERBB3",
       "weight": 2,
-      "jaccard": 0.0152,
-      "pmi": 4.3413
+      "jaccard": 0.0153,
+      "pmi": 4.3526
     },
     {
       "source": "HER2/ERBB2",
       "target": "HIF-1α",
       "weight": 2,
       "jaccard": 0.0042,
-      "pmi": -1.5249
+      "pmi": -1.5136
     },
     {
       "source": "HER2/ERBB2",
       "target": "KRAS",
       "weight": 2,
       "jaccard": 0.0112,
-      "pmi": 1.1984
+      "pmi": 1.2097
     },
     {
       "source": "HER2/ERBB2",
       "target": "Ku70/XRCC6",
       "weight": 2,
-      "jaccard": 0.0099,
-      "pmi": 0.6784
+      "jaccard": 0.01,
+      "pmi": 0.6897
     },
     {
       "source": "HER2/ERBB2",
       "target": "PD-1/PDCD1",
       "weight": 2,
       "jaccard": 0.0061,
-      "pmi": -0.739
+      "pmi": -0.7277
     },
     {
       "source": "HER2/ERBB2",
       "target": "Paclitaxel",
       "weight": 2,
-      "jaccard": 0.0077,
-      "pmi": -0.129
+      "jaccard": 0.0078,
+      "pmi": -0.1177
     },
     {
       "source": "HER2/ERBB2",
       "target": "RAD51",
       "weight": 2,
       "jaccard": 0.0056,
-      "pmi": -0.9255
+      "pmi": -0.9141
     },
     {
       "source": "HER2/ERBB2",
       "target": "VEGF",
       "weight": 2,
       "jaccard": 0.0066,
-      "pmi": -0.5494
+      "pmi": -0.5381
     },
     {
       "source": "HIF-1α",
@@ -13142,7 +13142,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0046,
-      "pmi": -0.5815
+      "pmi": -0.5702
     },
     {
       "source": "53BP1",
@@ -13296,7 +13296,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0072,
-      "pmi": 2.3413
+      "pmi": 2.3526
     },
     {
       "source": "ACSL4",
@@ -14164,7 +14164,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0036,
-      "pmi": -1.2832
+      "pmi": -1.2718
     },
     {
       "source": "ATR",
@@ -15053,7 +15053,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0045,
-      "pmi": -0.6587
+      "pmi": -0.6474
     },
     {
       "source": "BRCA1",
@@ -15913,8 +15913,8 @@
       "source": "CDK6",
       "target": "HER2/ERBB2",
       "weight": 1,
-      "jaccard": 0.0074,
-      "pmi": 2.9263
+      "jaccard": 0.0075,
+      "pmi": 2.9376
     },
     {
       "source": "CDK6",
@@ -15998,7 +15998,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0034,
-      "pmi": -1.4831
+      "pmi": -1.4718
     },
     {
       "source": "CHK1",
@@ -16481,7 +16481,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0059,
-      "pmi": 0.5
+      "pmi": 0.5113
     },
     {
       "source": "Carboplatin",
@@ -16565,7 +16565,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0017,
-      "pmi": -2.9255
+      "pmi": -2.9141
     },
     {
       "source": "Caspase-3",
@@ -17244,7 +17244,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.006,
-      "pmi": 0.6044
+      "pmi": 0.6157
     },
     {
       "source": "Cyclin B1",
@@ -19218,7 +19218,7 @@
       "target": "HER2/ERBB2",
       "weight": 1,
       "jaccard": 0.0074,
-      "pmi": 2.7564
+      "pmi": 2.7677
     },
     {
       "source": "HDAC6",
@@ -19245,78 +19245,78 @@
       "source": "HER2/ERBB2",
       "target": "Hedgehog",
       "weight": 1,
-      "jaccard": 0.0068,
-      "pmi": 1.6784
+      "jaccard": 0.0069,
+      "pmi": 1.6897
     },
     {
       "source": "HER2/ERBB2",
       "target": "IL-6",
       "weight": 1,
       "jaccard": 0.0028,
-      "pmi": -1.9066
+      "pmi": -1.8953
     },
     {
       "source": "HER2/ERBB2",
       "target": "Iron oxide NPs",
       "weight": 1,
       "jaccard": 0.0058,
-      "pmi": 0.4027
+      "pmi": 0.414
     },
     {
       "source": "HER2/ERBB2",
       "target": "Ku80/XRCC5",
       "weight": 1,
       "jaccard": 0.0056,
-      "pmi": 0.2539
+      "pmi": 0.2652
     },
     {
       "source": "HER2/ERBB2",
       "target": "NBS1/NBN",
       "weight": 1,
       "jaccard": 0.0065,
-      "pmi": 1.1189
+      "pmi": 1.1303
     },
     {
       "source": "HER2/ERBB2",
       "target": "NRF2/NFE2L2",
       "weight": 1,
       "jaccard": 0.004,
-      "pmi": -1.0044
+      "pmi": -0.9931
     },
     {
       "source": "HER2/ERBB2",
       "target": "PARP1",
       "weight": 1,
       "jaccard": 0.0023,
-      "pmi": -2.3591
+      "pmi": -2.3478
     },
     {
       "source": "HER2/ERBB2",
       "target": "PD-L1/CD274",
       "weight": 1,
       "jaccard": 0.0022,
-      "pmi": -2.466
+      "pmi": -2.4547
     },
     {
       "source": "HER2/ERBB2",
       "target": "PTEN",
       "weight": 1,
       "jaccard": 0.0044,
-      "pmi": -0.7031
+      "pmi": -0.6917
     },
     {
       "source": "HER2/ERBB2",
       "target": "TNF-α",
       "weight": 1,
       "jaccard": 0.0022,
-      "pmi": -2.4703
+      "pmi": -2.459
     },
     {
       "source": "HER2/ERBB2",
       "target": "p21/CDKN1A",
       "weight": 1,
       "jaccard": 0.0024,
-      "pmi": -2.2285
+      "pmi": -2.2172
     },
     {
       "source": "HER3/ERBB3",

@@ -2,4 +2,4 @@ Model,N papers (with parsable dose),Median single dose (Gy),Q1 single dose (Gy),
 Cell line,628,4,2,8,0.045,120,2
 Mouse/Animal,1053,6,2.3,10,0.0136,150,2
 Patient/clinical,1230,9,2.48,41.55,0,180,2
-Unspecified,1224,5,2,10,0.03,115,2
+Unspecified,1222,5,2,10,0.03,115,2

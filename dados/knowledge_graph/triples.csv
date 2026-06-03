@@ -1485,7 +1485,7 @@ HDAC6,Factor,associated_with_toxicity_endpoint,Bladder / GU,ToxicityEndpoint,1,1
 HDAC6,Factor,associated_with_toxicity_endpoint,Rectal / GI,ToxicityEndpoint,1,10.1016/j.xcrm.2023.101311
 HDAC6,Factor,belongs_to_category,Gene/Protein (epigenetic),BiologicalCategory,9,10.1007/s11033-024-10084-9; 10.1016/j.canlet.2017.12.005; 10.1016/j.canlet.2026.218322
 HDAC6,Factor,studied_with_particle,X-ray,Particle,1,10.1007/s11033-024-10084-9
-HER2/ERBB2,Factor,associated_with_cancer,Breast cancer,Cancer,81,10.1002/1878-0261.12635; 10.1007/s00066-025-02411-1; 10.1007/s00210-019-01725-z
+HER2/ERBB2,Factor,associated_with_cancer,Breast cancer,Cancer,80,10.1002/1878-0261.12635; 10.1007/s00210-019-01725-z; 10.1007/s00259-007-0713-x
 HER2/ERBB2,Factor,associated_with_cancer,Lung cancer,Cancer,5,10.1016/j.radonc.2010.03.008; 10.1093/jleuko/qiag030; 10.1186/s13014-020-01493-8
 HER2/ERBB2,Factor,associated_with_cancer,Head and neck cancer,Cancer,4,10.1007/s10637-010-9389-3; 10.1016/j.radonc.2012.08.010; 10.1038/s41598-017-12367-7
 HER2/ERBB2,Factor,associated_with_cancer,Colorectal cancer,Cancer,3,10.1080/09553002.2020.1820610; 10.1089/cbr.2009.0699; 10.3389/fonc.2022.840241
@@ -1508,7 +1508,7 @@ HER2/ERBB2,Factor,associated_with_toxicity_endpoint,Bladder / GU,ToxicityEndpoin
 HER2/ERBB2,Factor,associated_with_toxicity_endpoint,Fatigue / Constitutional,ToxicityEndpoint,1,10.1089/cbr.2012.1423
 HER2/ERBB2,Factor,associated_with_toxicity_endpoint,Hematologic,ToxicityEndpoint,1,10.3390/cancers16183122
 HER2/ERBB2,Factor,associated_with_toxicity_endpoint,Necrosis,ToxicityEndpoint,1,10.1158/1078-0432.CCR-18-2851
-HER2/ERBB2,Factor,belongs_to_category,Gene/Protein,BiologicalCategory,128,10.1002/1878-0261.12635; 10.1007/s00066-007-1696-z; 10.1007/s00066-025-02411-1
+HER2/ERBB2,Factor,belongs_to_category,Gene/Protein,BiologicalCategory,127,10.1002/1878-0261.12635; 10.1007/s00066-007-1696-z; 10.1007/s00210-019-01725-z
 HER2/ERBB2,Factor,studied_with_particle,X-ray,Particle,9,10.1007/s10549-012-2338-4; 10.1016/j.apradiso.2026.112454; 10.1016/j.bbrc.2018.12.016
 HER2/ERBB2,Factor,studied_with_particle,Alpha particle,Particle,4,10.1016/j.ijrobp.2007.06.023; 10.1080/09553002.2022.2033341; 10.1089/cbr.2012.1423
 HER2/ERBB2,Factor,studied_with_particle,Photon (generic),Particle,2,10.1007/s00259-007-0713-x; 10.1038/s41598-017-12367-7
@@ -1516,7 +1516,6 @@ HER2/ERBB2,Factor,studied_with_particle,BNCT,Particle,1,10.32607/actanaturae.277
 HER2/ERBB2,Factor,used_with_modality,SRS,Modality,2,10.1158/1078-0432.CCR-18-2851; 10.1186/s13014-018-0991-4
 HER2/ERBB2,Factor,used_with_modality,Brachytherapy,Modality,1,10.1016/j.prro.2026.04.012
 HER2/ERBB2,Factor,used_with_modality,CyberKnife,Modality,1,10.1186/s13014-018-0991-4
-HER2/ERBB2,Factor,used_with_modality,IMPT,Modality,1,10.1007/s00066-025-02411-1
 HER2/ERBB2,Factor,used_with_modality,Radioisotope therapy,Modality,1,10.2174/18744710113069990017
 HER3/ERBB3,Factor,associated_with_cancer,Lung cancer,Cancer,2,10.1016/j.radonc.2022.07.008; 10.1080/15384047.2016.1139232
 HER3/ERBB3,Factor,associated_with_cancer,Breast cancer,Cancer,1,10.1111/cas.13810

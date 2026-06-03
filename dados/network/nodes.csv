@@ -35,7 +35,7 @@ ATR,148,78,Gene/Protein (kinase),1; 2; 3,0
 5-FU,135,64,Drug,1; 2,0
 Temozolomide,134,59,Drug,1; 2,0
 Paclitaxel,133,66,Drug,1; 2,0
-HER2/ERBB2,128,70,Gene/Protein,1; 2,0
+HER2/ERBB2,127,70,Gene/Protein,1; 2,0
 Gemcitabine,124,84,Drug,1; 2; 3,0
 NRF2/NFE2L2,122,79,Gene/Protein,1; 2; 3,0
 HMGB1,110,87,DAMP,1; 2; 3,0

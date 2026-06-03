@@ -119,12 +119,12 @@ output$data_table <- renderDT({
         `Supporting sentence`
       )
     ) %>%
-    select(
-      Factor, `Cancer type`, `Cancer subtype`,
-      `Particle type`, `Radiation modality`, `Radiation dose`, Direction,
-      `Factor type`, `Evidence type`, `Quality flag`,
-      `Clinical outcome association`,
-      `Toxicity endpoint`,
+      select(
+        Factor, `Cancer type`, `Cancer subtype`,
+        `Particle type`, `Particle evidence level`, `Radiation modality`, `Radiation dose`, Direction,
+        `Factor type`, `Evidence type`, `Quality flag`,
+        `Clinical outcome association`,
+        `Toxicity endpoint`,
       `Biological mechanism`, `Supporting sentence`,
       Journal, `Publication year`, Title, DOI
     )
