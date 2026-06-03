@@ -267,11 +267,11 @@ resources_tab <- tabPanel(
       br(),
       div(class = "chart-card", style = "padding: 15px 20px;",
         tags$h4(style = "font-weight: 700; color: #098ebb; margin: 0 0 2px 0;",
-          tags$a(href = "https://mpharm.tencent.com", target = "_blank", "RadioPharm"),
-          tags$span(style = "font-size: 12px; font-weight: 400; color: #888; margin-left: 8px;", "— mpharm.tencent.com")
+          tags$a(href = "https://idrblab.org/radiopharm/", target = "_blank", "RadioPharm"),
+          tags$span(style = "font-size: 12px; font-weight: 400; color: #888; margin-left: 8px;", "— idrblab.org/radiopharm")
         ),
         p(style = "font-size: 13px; color: #555; margin: 4px 0 6px 0; line-height: 1.6;",
-          "A comprehensive database of radiopharmaceuticals, covering therapeutic and diagnostic radioactive drugs, their isotopes, targeting mechanisms, and clinical applications. Developed by Tencent AI Lab and collaborating medical institutions.")
+          "A comprehensive database of radiopharmaceuticals, covering therapeutic and diagnostic radioactive drugs, their isotopes, targeting mechanisms, and clinical applications. Developed by the Innovative Drug Research and Bioinformatics Lab (IDRBLab) at Zhejiang University.")
       ),
       br(),
       div(class = "section-title", "8. Molecular & Omics Data"),
