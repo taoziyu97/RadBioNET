@@ -8,7 +8,7 @@ home <- tabPanel(
         h1(style = "margin: 0 0 12px 0; font-size: 26px; font-weight: 700; color: #1a5276;",
           "RadBioNet"),
         p(style = "margin: 0 0 10px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
-          HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform developed by the <span style='color:#19509A;font-weight:bold'>Department of Radiation Oncology at Ruijin Hospital</span>, Shanghai JiaoTong University School of Medicine.")),
+          HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform supporting the global radiation oncology research community.")),
         p(style = "margin: 0 0 5px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
           "The platform serves as a central hub for collecting, visualizing, and exploring factors associated with radiation sensitivity and resistance in cancer, supporting the global radiation oncology research community.")
       )
