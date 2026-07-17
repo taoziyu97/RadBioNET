@@ -42,6 +42,33 @@ about_tab <- tabPanel(
         div(class = "panel-group", id = "changelog-accordion",
           style = "margin-bottom: 0;",
 
+          # ---- 2026-07 ----
+          div(class = "panel panel-default", style = "border-color: #d0e8f0; border-radius: 8px; margin-bottom: 8px;",
+            div(class = "panel-heading", style = "background: #f0f7ff; padding: 10px 15px; cursor: pointer;",
+              `data-toggle` = "collapse", `data-parent` = "#changelog-accordion", href = "#changelog-2026-07",
+              h4(class = "panel-title", style = "font-size: 14px; font-weight: 700; color: #1a5276;",
+                icon("chevron-right", class = "chevron-icon"), " July 2026  —  v1.2"),
+              p(style = "margin: 2px 0 0 0; font-size: 12px; color: #888;", "Hong Kong deployment, HTTPS, faster China access, chart compatibility fix")
+            ),
+            div(id = "changelog-2026-07", class = "panel-collapse collapse",
+              div(class = "panel-body", style = "padding: 12px 18px; font-size: 13px; color: #444; line-height: 1.8;",
+                h5(style = "font-weight: 700; color: #1a5276; margin: 0 0 6px 0;", "Infrastructure &amp; Deployment"),
+                tags$ul(style = "margin: 0 0 10px 0; padding-left: 18px;",
+                  tags$li(HTML("<b>New:</b> Deployed a dedicated RadBioNET Shiny instance on an Alibaba Cloud Hong Kong server for faster access from China")),
+                  tags$li(HTML("<b>Infra:</b> Added Nginx reverse proxy with WebSocket support and a systemd service with automatic startup and restart")),
+                  tags$li(HTML("<b>Infra:</b> Added <code>hk-app.radbionet.com</code> as a direct DNS endpoint for the Hong Kong deployment")),
+                  tags$li(HTML("<b>Security:</b> Enabled HTTPS with a Let's Encrypt certificate and automatic renewal")),
+                  tags$li(HTML("<b>Reliability:</b> Added 2 GB swap space for stable package installation and operation on the validation server")),
+                  tags$li(HTML("<b>Routing:</b> Updated the Netlify landing page at <code>radbionet.com</code> to load the Hong Kong Shiny endpoint; the previous shinyapps.io/Cloudflare Worker route remains available as a fallback"))
+                ),
+                h5(style = "font-weight: 700; color: #1a5276; margin: 0 0 6px 0;", "Bug Fixes"),
+                tags$ul(style = "margin: 0; padding-left: 18px;",
+                  tags$li(HTML("<b>Fix:</b> Upgraded Plotly, HTMLWidgets, DT, dplyr, tidyr, ggplot2, and scales to resolve homepage statistical charts remaining in a loading state"))
+                )
+              )
+            )
+          ),
+
           # ---- 2026-06 ----
           div(class = "panel panel-default", style = "border-color: #d0e8f0; border-radius: 8px; margin-bottom: 8px;",
             div(class = "panel-heading", style = "background: #f0f7ff; padding: 10px 15px; cursor: pointer;",
