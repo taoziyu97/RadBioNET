@@ -1,0 +1,23 @@
+[Unit]
+Description=RadBioNET Shiny application
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=radbionet
+Group=radbionet
+WorkingDirectory=/opt/RadBioNET
+EnvironmentFile=-/etc/radbionet/radbionet.env
+ExecStart=/usr/bin/Rscript -e "shiny::runApp('/opt/RadBioNET', host='127.0.0.1', port=3838, launch.browser=FALSE)"
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/opt/RadBioNET
+
+[Install]
+WantedBy=multi-user.target
