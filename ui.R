@@ -99,10 +99,18 @@ shinyUI(
       about_tab,
       factor_tab
     ),
-    div(class = "footer",
-        div(style = "text-align:center; padding: 20px; background-color: #f8f8f8;",
-            img(src = "img/jiaotongmedicine.png", height = "50px", style = "margin: 0 10px;"),
-            img(src = "img/ruijin.png", height = "50px", style = "margin: 0 10px;")
+    div(class = "footer institutional-footer",
+        div(class = "institutional-logos",
+            div(class = "institutional-logo",
+                img(src = "img/jiaotongmedicine.png",
+                    alt = "Shanghai Jiao Tong University School of Medicine logo"),
+                span("Shanghai Jiao Tong University School of Medicine")
+            ),
+            div(class = "institutional-logo",
+                img(src = "img/ruijin.png",
+                    alt = "Ruijin Hospital logo"),
+                span("Ruijin Hospital")
+            )
         )
     )
   )

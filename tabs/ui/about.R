@@ -29,6 +29,8 @@ about_tab <- tabPanel(
           "About RadBioNet"),
         p(style = "margin: 0 0 10px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
           HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform supporting the global radiation oncology research community.")),
+        p(style = "margin: 0 0 10px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
+          HTML("<b>RadBioNet was developed by the Department of Radiation Oncology, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.</b>")),
         p(style = "margin: 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
           "Our mission is to provide a comprehensive, curated database of factors associated with radiation sensitivity and resistance in cancer, supporting the global radiation oncology research community."),
         p(style = "margin: 12px 0 0 0; font-size: 13px; color: #5d6d7e; line-height: 1.6;",
@@ -195,7 +197,8 @@ about_tab <- tabPanel(
       hr(class = "section-divider"),
       div(class = "chart-card", style = "padding: 20px; text-align: center;",
         p(style = "font-size: 14px; color: #555; margin: 0;",
-          icon("envelope"), " Contact us at radbionet@outlook.com"
+          icon("envelope"), " Contact us at ",
+          tags$a(href = "mailto:taozy@sjtu.edu.cn", "taozy@sjtu.edu.cn")
         )
       ),
       br()

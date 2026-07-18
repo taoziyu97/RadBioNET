@@ -323,10 +323,6 @@ hr {
     text-align: center;
 }
 
-.footer img {
-  height: 35px !important;
-}
-
 .img_footer{
     padding-top: 10px;
     padding-right: 100px;
@@ -350,6 +346,59 @@ hr {
 
 .logoContainerFooter img {
    height: 50px;
+}
+
+.institutional-footer {
+  position: static;
+  height: auto;
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 0;
+  border-top: 1px solid #dce7ed;
+  background: #f8fafb;
+}
+
+.institutional-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 22px 20px;
+}
+
+.institutional-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #425466;
+  font-size: 13px;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.institutional-logo img {
+  display: block;
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  flex: 0 0 68px;
+}
+
+@media (max-width: 640px) {
+  .institutional-logos {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 24px;
+  }
+
+  .institutional-logo img {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
 }
 
 .h3, h3 {
