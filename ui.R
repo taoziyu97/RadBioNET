@@ -88,7 +88,7 @@ shinyUI(
       ),
       id = "navbar",
       selected = "home",
-      theme = "styles.css",
+      theme = "styles.css?v=20260719-logos-row",
       collapsible = TRUE,
       fluid = T,
       home,
