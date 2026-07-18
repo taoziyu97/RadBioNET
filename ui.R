@@ -96,6 +96,7 @@ shinyUI(
       analysis_tab,
       chat_radbio_tab,
       resources_tab,
+      help_tab,
       about_tab,
       factor_tab
     ),
