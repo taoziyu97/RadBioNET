@@ -389,9 +389,19 @@ hr {
 @media (max-width: 640px) {
   .institutional-logos {
     align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    padding: 18px 16px;
+  }
+
+  .institutional-logo {
+    flex: 1 1 0;
+    min-width: 0;
     flex-direction: column;
-    gap: 16px;
-    padding: 18px 24px;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 11px;
+    text-align: center;
   }
 
   .institutional-logo img {
