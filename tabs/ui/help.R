@@ -17,14 +17,14 @@ help_tab <- tabPanel(
         div(
           style = "display: flex; flex-wrap: wrap; gap: 10px;",
           tags$a(
-            href = "pdf/RadBioNET_User_Guide_V1.2.pdf",
+            href = "pdf/RadBioNET_User_Guide_V1.2.pdf?v=20260719-0224",
             target = "_blank",
             class = "btn btn-primary",
             style = "background-color: #098ebb; border-color: #098ebb;",
             icon("external-link"), " Read online"
           ),
           tags$a(
-            href = "pdf/RadBioNET_User_Guide_V1.2.pdf",
+            href = "pdf/RadBioNET_User_Guide_V1.2.pdf?v=20260719-0224",
             download = "RadBioNET_User_Guide_V1.2.pdf",
             class = "btn btn-default",
             icon("download"), " Download PDF"
