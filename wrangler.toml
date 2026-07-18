@@ -1,0 +1,7 @@
+name = "radbionet-main-proxy"
+main = "cloudflare-worker.js"
+compatibility_date = "2026-07-18"
+
+routes = [
+  { pattern = "radbionet.com/*", zone_name = "radbionet.com" }
+]

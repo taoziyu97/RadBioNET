@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.wrangler/
 
 # Local software-copyright application materials (never commit)
 软著材料/
