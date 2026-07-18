@@ -18,7 +18,10 @@ chat_radbio_tab <- tabPanel(
   tags$head(
     tags$script(HTML("
       Shiny.addCustomMessageHandler('ls_save', function(msg) {
-        localStorage.setItem(msg.key, msg.value);
+        var value = (typeof msg.value === 'string')
+          ? msg.value
+          : JSON.stringify(msg.value);
+        localStorage.setItem(msg.key, value);
       });
       Shiny.addCustomMessageHandler('ls_remove', function(msg) {
         localStorage.removeItem(msg.key);

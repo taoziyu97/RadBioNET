@@ -9,6 +9,15 @@ ls_remove <- function(key) {
   session$sendCustomMessage("ls_remove", list(key = key))
 }
 
+parse_stored_json <- function(value, simplify_vector = TRUE) {
+  if (is.list(value)) return(value)
+  if (!is.character(value) || length(value) != 1 || !nzchar(value)) return(NULL)
+  tryCatch(
+    fromJSON(value, simplifyVector = simplify_vector),
+    error = function(e) NULL
+  )
+}
+
 render_markdown <- function(text) {
   if (is.null(text) || is.na(text)) return("")
   text <- gsub("\\*\\*(\\S.*?\\S)\\*\\*", "<strong>\\1</strong>", text)
@@ -187,16 +196,28 @@ observeEvent(input$chat_save_settings, {
 session$onFlushed(function() {
   runjs("
     (function() {
-      var cfg = localStorage.getItem('radbio_llm_config');
-      if (cfg) Shiny.setInputValue('llm_config_from_storage', cfg, {priority: 'event'});
-      var hist = localStorage.getItem('radbio_chat_history');
-      if (hist) Shiny.setInputValue('chat_history_from_storage', hist, {priority: 'event'});
+      function restoreJson(key, inputId) {
+        var value = localStorage.getItem(key);
+        if (!value) return;
+        try {
+          JSON.parse(value);
+          Shiny.setInputValue(inputId, value, {priority: 'event'});
+        } catch (e) {
+          localStorage.removeItem(key);
+        }
+      }
+      restoreJson('radbio_llm_config', 'llm_config_from_storage');
+      restoreJson('radbio_chat_history', 'chat_history_from_storage');
     })();
   ")
 }, once = TRUE)
 
 observeEvent(input$llm_config_from_storage, {
-  cfg <- fromJSON(input$llm_config_from_storage)
+  cfg <- parse_stored_json(input$llm_config_from_storage)
+  if (is.null(cfg)) {
+    ls_remove("radbio_llm_config")
+    return()
+  }
   if (!is.null(cfg$backend) && nchar(cfg$backend) > 0) config$backend <- cfg$backend
   if (!is.null(cfg$api_url) && nchar(cfg$api_url) > 0) config$api_url <- cfg$api_url
   if (!is.null(cfg$api_key) && nchar(cfg$api_key) > 0) config$api_key <- cfg$api_key
@@ -204,7 +225,12 @@ observeEvent(input$llm_config_from_storage, {
 })
 
 observeEvent(input$chat_history_from_storage, {
-  h <- fromJSON(input$chat_history_from_storage, simplifyVector = FALSE)
+  h <- parse_stored_json(input$chat_history_from_storage, simplify_vector = FALSE)
+  if (is.null(h)) {
+    ls_remove("radbio_chat_history")
+    chat_restored(TRUE)
+    return()
+  }
   if (length(h) > 0) chat_hist(h)
   chat_restored(TRUE)
 })
