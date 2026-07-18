@@ -1,0 +1,10 @@
+.RData
+.Rhistory
+.Rproj.user/
+.DS_Store
+Scientific_Data_submission/
+analysis/
+build_scientific_data_draft.py
+deploy/
+pic/
+scripts/
