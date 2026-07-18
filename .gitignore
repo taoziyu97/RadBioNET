@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Local software-copyright application materials (never commit)
+软著材料/
+软著模板/
+*软著*
+*软件著作权*

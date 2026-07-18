@@ -84,7 +84,7 @@ shinyUI(
     navbarPage(
       title = div(style = "padding-left:100px; cursor:pointer;",
         onclick = "Shiny.setInputValue('navbar', 'home', {priority: 'event'});",
-        img(src = "img/ChatGPT_logo_RADBIONET_all4.png", height = "75px", style = "visibility: hidden;")
+        img(src = "img/ChatGPT_logo_RADBIONET_all4.png", height = "75px")
       ),
       id = "navbar",
       selected = "home",
@@ -100,9 +100,9 @@ shinyUI(
       factor_tab
     ),
     div(class = "footer",
-        div(style = "text-align:center; padding: 20px; background-color: #f8f8f8; display: none;",
-            img(src = "img/jiaotongmedicine.png", height = "50px"),
-            img(src = "img/ruijin.png", height = "50px")
+        div(style = "text-align:center; padding: 20px; background-color: #f8f8f8;",
+            img(src = "img/jiaotongmedicine.png", height = "50px", style = "margin: 0 10px;"),
+            img(src = "img/ruijin.png", height = "50px", style = "margin: 0 10px;")
         )
     )
   )

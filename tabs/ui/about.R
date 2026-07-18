@@ -30,7 +30,9 @@ about_tab <- tabPanel(
         p(style = "margin: 0 0 10px 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
           HTML("<b>RadBioNet</b> (Radiation Biology Network) is a curated database and interactive platform supporting the global radiation oncology research community.")),
         p(style = "margin: 0; font-size: 14px; color: #2c3e50; line-height: 1.7;",
-          "Our mission is to provide a comprehensive, curated database of factors associated with radiation sensitivity and resistance in cancer, supporting the global radiation oncology research community.")
+          "Our mission is to provide a comprehensive, curated database of factors associated with radiation sensitivity and resistance in cancer, supporting the global radiation oncology research community."),
+        p(style = "margin: 12px 0 0 0; font-size: 13px; color: #5d6d7e; line-height: 1.6;",
+          icon("calendar"), HTML(" <b>Version 1.2 first published:</b> July 17, 2026"))
       )
     )
   ),
