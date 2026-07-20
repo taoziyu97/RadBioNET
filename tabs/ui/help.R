@@ -17,15 +17,15 @@ help_tab <- tabPanel(
         div(
           style = "display: flex; flex-wrap: wrap; gap: 10px;",
           tags$a(
-            href = "pdf/RadBioNET_User_Guide_V1.2.pdf?v=20260719-0224",
+            href = "pdf/RadBioNET_User_Guide_V1.0.pdf?v=20260720",
             target = "_blank",
             class = "btn btn-primary",
             style = "background-color: #098ebb; border-color: #098ebb;",
             icon("external-link"), " Read online"
           ),
           tags$a(
-            href = "pdf/RadBioNET_User_Guide_V1.2.pdf?v=20260719-0224",
-            download = "RadBioNET_User_Guide_V1.2.pdf",
+            href = "pdf/RadBioNET_User_Guide_V1.0.pdf?v=20260720",
+            download = "RadBioNET_User_Guide_V1.0.pdf",
             class = "btn btn-default",
             icon("download"), " Download PDF"
           )
@@ -45,11 +45,11 @@ help_tab <- tabPanel(
             width = 8,
             h3(
               style = "margin-top: 0; color: #1a5276; font-weight: 700;",
-              "Supplementary Information - Version 1.2"
+              "Supplementary Information - Version 1.0"
             ),
             p(
               style = "font-size: 14px; color: #555; line-height: 1.7;",
-              "This 22-page guide provides a structured introduction to RadBioNET, recommended research workflows, field definitions, worked examples, and troubleshooting guidance."
+              "This 23-page guide provides a structured introduction to RadBioNET, recommended research workflows, field definitions, worked examples, and troubleshooting guidance."
             ),
             tags$ul(
               style = "font-size: 13px; color: #555; line-height: 1.9; padding-left: 20px; margin-bottom: 0;",
@@ -66,8 +66,8 @@ help_tab <- tabPanel(
             div(
               style = "background: #f7fafc; border: 1px solid #dce7ed; border-radius: 10px; padding: 18px 20px; margin-top: 4px;",
               p(style = "margin: 0 0 10px 0; color: #1a5276; font-weight: 700;", icon("file-pdf-o"), " Document details"),
-              p(style = "margin: 5px 0; font-size: 13px; color: #555;", strong("Version: "), "1.2"),
-              p(style = "margin: 5px 0; font-size: 13px; color: #555;", strong("Pages: "), "22"),
+              p(style = "margin: 5px 0; font-size: 13px; color: #555;", strong("Version: "), "1.0"),
+              p(style = "margin: 5px 0; font-size: 13px; color: #555;", strong("Pages: "), "23"),
               p(style = "margin: 5px 0; font-size: 13px; color: #555;", strong("Format: "), "PDF"),
               p(style = "margin: 5px 0 0 0; font-size: 13px; color: #555;", strong("Language: "), "English")
             )
