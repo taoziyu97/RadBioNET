@@ -110,7 +110,7 @@ shinyUI(
             div(class = "institutional-logo",
                 img(src = "img/ruijin.png",
                     alt = "Ruijin Hospital logo"),
-                span("Ruijin Hospital")
+                span("Department of Radiation Oncology, Ruijin Hospital")
             )
         )
     )
