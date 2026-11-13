@@ -142,10 +142,7 @@ output$data_table <- renderDT({
       pageLength = 10,
       lengthMenu = list(c(10, 25, 50, 100, -1), c("10", "25", "50", "100", "All")),
       searchHighlight = TRUE,
-      language = list(
-        url = "//cdn.datatables.net/plug-ins/1.10.25/i18n/English.json",
-        lengthMenu = "Show _MENU_ entries"
-      )
+      language = list(lengthMenu = "Show _MENU_ entries")
     ),
     rownames = FALSE,
     class = "display nowrap cell-border stripe"

@@ -3,11 +3,6 @@ shinyUI(
     tags$head(
       tags$meta(name = "viewport", content = "width=device-width, initial-scale=1.0"),
       tags$link(rel = "shortcut icon", href = "img/favicon.png"),
-      tags$link(rel = "stylesheet", type = "text/css",
-                href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"),
-      tags$link(rel = "stylesheet", type = "text/css",
-                href = "https://cdn.datatables.net/plug-ins/1.10.25/features/searchHighlight/dataTables.searchHighlight.min.css"),
-      tags$script(src = "https://cdn.datatables.net/plug-ins/1.10.25/features/searchHighlight/dataTables.searchHighlight.min.js"),
       tags$script(HTML("
         Shiny.addCustomMessageHandler('reconnect', function(msg) {
           setTimeout(function() { window.location.reload(); }, 3000);
