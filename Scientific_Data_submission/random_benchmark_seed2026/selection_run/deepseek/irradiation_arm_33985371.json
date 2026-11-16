@@ -1,0 +1,51 @@
+{
+  "case_id": "irradiation_arm_33985371",
+  "pmid": "33985371",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Wafer",
+  "completion_id": "gen-1794810591-RUi79Kpu2qGQkEmEHrIl",
+  "recorded_utc": "2026-11-16T06:29:52+00:00",
+  "elapsed_seconds": 2.092,
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 72,
+    "total_tokens": 1121,
+    "cost": 7.477e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 512,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 7.477e-05,
+      "upstream_inference_prompt_cost": 3.877e-05,
+      "upstream_inference_completions_cost": 3.6e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"photon\",\"comparator\":\"none\",\"direction\":\"descriptive\",\"dose\":\"6 Gy\",\"dose_role\":\"dose_rate\",\"endpoint\":\"irradiation_schedule\",\"evidence\":[\"after exposure to an acute dose of γ-radiation (6 Gy)\"],\"factor\":\"\",\"role\":\"exposure\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "6 Gy",
+      "dose_role": "dose_rate",
+      "endpoint": "irradiation_schedule",
+      "evidence": [
+        "after exposure to an acute dose of γ-radiation (6 Gy)"
+      ],
+      "factor": "",
+      "role": "exposure"
+    }
+  ]
+}

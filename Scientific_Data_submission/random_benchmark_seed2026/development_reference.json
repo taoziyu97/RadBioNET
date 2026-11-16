@@ -1,0 +1,459 @@
+{
+  "benchmark_version": "radbionet-random-2026-development-1",
+  "reference_status": "AI-assisted abstract annotation before model inference. Independent expert verification pending.",
+  "cases": [
+    {
+      "case_id": "factor_role_19929413",
+      "pmid": "19929413",
+      "task_type": "factor_role",
+      "sampling_pool": "factor_role",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:e5425b0d4174110beb624952",
+          "label": "title",
+          "sha256": "9b187ec7ef6090c5ab235b1615610c9dbc2daebab7df4036bec39aa57b51e12b"
+        },
+        {
+          "block_id": "block:8cbedf0b83be51f5a7ee939d",
+          "label": "abstract",
+          "sha256": "9770ca504af2596fd9871f0ea6993ceaac7257b68a5b92ff9b9bd310f7b81896"
+        }
+      ],
+      "focus": "Extract the effect of 3-AP on radiosensitivity in cervical or colon cancer cells as one overall intervention record. Do not extract its molecular targets.",
+      "expected": [
+        {
+          "factor": "3-AP",
+          "role": "drug",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "3-AP treatment significantly enhanced radiation-related cytotoxicity"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "factor_role_38229577",
+      "pmid": "38229577",
+      "task_type": "factor_role",
+      "sampling_pool": "factor_role",
+      "draw_rank": "2",
+      "source_blocks": [
+        {
+          "block_id": "block:4606dd30ed74ac7e2bbf43be",
+          "label": "title",
+          "sha256": "6ffd8b6ea922e4383f31757c153bab2d771d13acf54712420274ed424dd02b6e"
+        },
+        {
+          "block_id": "block:db9066f468e074627e46c341",
+          "label": "abstract",
+          "sha256": "6fbff2493e09829ed2506e935e6eb3a202f2c9a7ebac4f2ab867705838e93a3e"
+        }
+      ],
+      "focus": "Extract the reported sensitizing effect of Tpp-Met@MnO(2)@Alb on irradiated tumors as one overall radiosensitivity finding. Distinguish the experimental intervention from the molecular pathways discussed.",
+      "expected": [
+        {
+          "factor": "Tpp-Met@MnO(2)@Alb",
+          "role": "drug",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "effectively enhances the efficiency of radiotherapy",
+            "irradiated local"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "factor_role_23902763",
+      "pmid": "23902763",
+      "task_type": "factor_role",
+      "sampling_pool": "factor_role",
+      "draw_rank": "3",
+      "source_blocks": [
+        {
+          "block_id": "block:4c68593587d96d690a4d1eeb",
+          "label": "title",
+          "sha256": "08376a82f85eb0db7a74ccce4887231c1a2a073f31012d59c31f5981e3dada69"
+        },
+        {
+          "block_id": "block:5b1c111e4789d563a6d53af4",
+          "label": "abstract",
+          "sha256": "73314db54ac472ad2f81a77b70ee63de19ad50e898ebbe9735e231e43bf4f0c4"
+        }
+      ],
+      "focus": "Extract the radiosensitizing effects of the two flavonoids tested in NSCLC cells. Return one record per compound and exclude expression and pathway findings.",
+      "expected": [
+        {
+          "factor": "rhamnetin",
+          "role": "drug",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "rhamnetin and cirsiliol can act as promising radiosensitizers"
+          ],
+          "beam": "unreported"
+        },
+        {
+          "factor": "cirsiliol",
+          "role": "drug",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "rhamnetin and cirsiliol can act as promising radiosensitizers"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "factor_role_30606609",
+      "pmid": "30606609",
+      "task_type": "factor_role",
+      "sampling_pool": "factor_role",
+      "draw_rank": "4",
+      "source_blocks": [
+        {
+          "block_id": "block:9d05351122e7ca5ef2ed0481",
+          "label": "title",
+          "sha256": "94f7db9a10b644988eee53b32fddf314fa53d8a88898bf9a6314cb1dc64e1324"
+        },
+        {
+          "block_id": "block:7f946ccb63a12095cca74023",
+          "label": "abstract",
+          "sha256": "39ad81af0ceaf2c74bac4fc278c0fc907e0b31c8a36a54b2e38d1974873cf2ad"
+        }
+      ],
+      "focus": "Extract the reported effect of DNA-PKcs genetic inactivation on radiosensitivity in the low-dose mouse investigation. Exclude prior studies and the pharmacological intervention in human cells.",
+      "expected": [
+        {
+          "factor": "DNA-PKcs",
+          "role": "perturbation",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "DNA-PKcs genetic inactivation confers a remarkable radiation hypersensitivity"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "outcome_25962492",
+      "pmid": "25962492",
+      "task_type": "outcome",
+      "sampling_pool": "outcome",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:95c3ca4ed831aa490ced2a65",
+          "label": "title",
+          "sha256": "8ec39d93e1af45cd61d336a11547717fdf8cd45029118fee97480c136dba0d51"
+        },
+        {
+          "block_id": "block:f0b8043dfa1ed008f0c39a06",
+          "label": "abstract",
+          "sha256": "4dc428d242c4881c319d4f1a03a2d3d2007bf7fd93948ee99988e90b832fc592"
+        }
+      ],
+      "focus": "Extract the radioresistance finding for SHP-1 overexpression in CNE-2 cells. Exclude downstream mechanistic findings.",
+      "expected": [
+        {
+          "factor": "SHP-1",
+          "role": "perturbation",
+          "endpoint": "radioresistance",
+          "direction": "increase",
+          "evidence_terms": [
+            "Overexpression of SHP-1 in the CNE-2 cells led to radioresistance"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "outcome_31869663",
+      "pmid": "31869663",
+      "task_type": "outcome",
+      "sampling_pool": "outcome",
+      "draw_rank": "2",
+      "source_blocks": [
+        {
+          "block_id": "block:5ba533788f151b363d950201",
+          "label": "title",
+          "sha256": "a9df54e82a30c9e0a85d42e1754dc1717db29551ea0e4c8c36ea466496c0ad46"
+        },
+        {
+          "block_id": "block:742436291f1300d59a64bc23",
+          "label": "abstract",
+          "sha256": "23d5592b44b75290c93d0d576cab689df3f1b920605b421b7b96321de10d12e2"
+        }
+      ],
+      "focus": "Extract the reported direction of the radiosensitivity finding after CHAF1B silencing. Exclude the overexpression and patient-expression results.",
+      "expected": [
+        {
+          "factor": "CHAF1B",
+          "role": "perturbation",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "silencing of CHAF1B enhanced",
+            "radiosensitivity of NPC cells"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "outcome_16142356",
+      "pmid": "16142356",
+      "task_type": "outcome",
+      "sampling_pool": "outcome",
+      "draw_rank": "3",
+      "source_blocks": [
+        {
+          "block_id": "block:b9318b7470c3db7f1cd9462a",
+          "label": "title",
+          "sha256": "04fd9dc38bdc402e208e460ad7ad2e97a3a2db81689d4bf2acf6f3da429e28c4"
+        },
+        {
+          "block_id": "block:c6c428e426c4f99b7ad76462",
+          "label": "abstract",
+          "sha256": "d668d2782f7d0feabd4edab886f15de057cefc829542268b14accd2ca49f70f1"
+        }
+      ],
+      "focus": "Extract the reported relationship between measured DAPK protein expression and radiosensitivity in the comparative cell-line analysis. Exclude DAPK promoter methylation and interferon effects.",
+      "expected": [
+        {
+          "factor": "DAPK",
+          "role": "measured_marker",
+          "endpoint": "radiosensitivity",
+          "direction": "no_detected_difference",
+          "evidence_terms": [
+            "no significant relationships between cellular radiosensitivity and DAPK protein expression"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "outcome_29525603",
+      "pmid": "29525603",
+      "task_type": "outcome",
+      "sampling_pool": "outcome",
+      "draw_rank": "4",
+      "source_blocks": [
+        {
+          "block_id": "block:79a8b3b6201a963a278d0c2c",
+          "label": "title",
+          "sha256": "cc463423d1ea2fa28cba516f8a46396a2e474dc9a9f2cdb4cc8b5ad87c7a4f49"
+        },
+        {
+          "block_id": "block:dc77df7b63c0243a88fbae1e",
+          "label": "abstract",
+          "sha256": "93eae74e23fba659a72a3b2808c7ab525a0d1d125da14b831762d3f207f06d85"
+        }
+      ],
+      "focus": "Extract the reported radiosensitizing effect of melatonin in thyroid cancer. Exclude molecular readouts and the effects of melatonin alone.",
+      "expected": [
+        {
+          "factor": "melatonin",
+          "role": "drug",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "melatonin synergized with irradiation to induce cytotoxicity"
+          ],
+          "beam": "unreported"
+        }
+      ]
+    },
+    {
+      "case_id": "irradiation_arm_33573176",
+      "pmid": "33573176",
+      "task_type": "irradiation_arm",
+      "sampling_pool": "photon",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:5aee51dd684ed358fa970b6a",
+          "label": "title",
+          "sha256": "0f4a5968f45f1180ac444df6aaf028bb3c73a24e4e978dcac4544ff7d4bb93f8"
+        },
+        {
+          "block_id": "block:5a7ebe42a8d76adeba85162a",
+          "label": "abstract",
+          "sha256": "38fc35c00c55deafe4443c8f3e878aaa0980266e29844bc5fda0a2b7607ae784"
+        }
+      ],
+      "focus": "Extract the irradiation dose delivered to the photon-treated pancreatic xenografts as one exposure record with endpoint irradiation_schedule. Exclude the proton arm and drug effects.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "endpoint": "irradiation_schedule",
+          "direction": "descriptive",
+          "evidence_terms": [
+            "10 Gy photon"
+          ],
+          "beam": "photon",
+          "dose": "10 Gy",
+          "dose_role": "irradiation_dose",
+          "comparator": "none"
+        }
+      ]
+    },
+    {
+      "case_id": "irradiation_arm_12377343",
+      "pmid": "12377343",
+      "task_type": "irradiation_arm",
+      "sampling_pool": "photon",
+      "draw_rank": "2",
+      "source_blocks": [
+        {
+          "block_id": "block:d7265bbbbf49418ed321b708",
+          "label": "title",
+          "sha256": "dbbcb5885d330ce32161a753b9566b89080ec2bb3285cb01c42d245b3d03344f"
+        },
+        {
+          "block_id": "block:cf95f37539f14f763aa6f1bd",
+          "label": "abstract",
+          "sha256": "795893ac648f35e9aa8fd1d473b5f070b3f6a8fbc373906dba928ea20d43d19b"
+        }
+      ],
+      "focus": "Extract the accumulated X-ray dose used to generate H69/R38, as one exposure record with endpoint irradiation_schedule. Exclude the separate acute X-ray treatment and record the accumulated dose alone.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "endpoint": "irradiation_schedule",
+          "direction": "descriptive",
+          "evidence_terms": [
+            "fractionated X-rays",
+            "accumulated dose of 37.5 Gy",
+            "H69/R38"
+          ],
+          "beam": "photon",
+          "dose": "37.5 Gy",
+          "dose_role": "irradiation_dose",
+          "comparator": "none"
+        }
+      ]
+    },
+    {
+      "case_id": "irradiation_arm_36367724",
+      "pmid": "36367724",
+      "task_type": "irradiation_arm",
+      "sampling_pool": "proton",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:479b35391390ad3ab3573795",
+          "label": "title",
+          "sha256": "89f2f2c19994fb8de89de451465488fdbb80a0b3a1e1fabc2c9a48f164950ad8"
+        },
+        {
+          "block_id": "block:3dcb3ddadb9f75bd89554cf8",
+          "label": "abstract",
+          "sha256": "1e94e4d3cb7ac21b5efdf171cee9476205f165a6999164f35e360dc02388b485"
+        }
+      ],
+      "focus": "Extract the comparison of acute grade 2 or higher oral pain incidence for proton therapy relative to photon therapy. Use one cohort-exposure record. Record a numerical irradiation dose only if explicitly assigned to the proton arm.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "endpoint": "toxicity",
+          "direction": "decrease",
+          "evidence_terms": [
+            "oral pain of grade 2 or greater",
+            "acute toxic effects was significantly higher for IMRT compared with IMPT"
+          ],
+          "beam": "proton",
+          "dose": "",
+          "dose_role": "unreported",
+          "comparator": "photon"
+        }
+      ]
+    },
+    {
+      "case_id": "irradiation_arm_37057285",
+      "pmid": "37057285",
+      "task_type": "irradiation_arm",
+      "sampling_pool": "carbon_ion",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:a0cc0935358523b4b14d2188",
+          "label": "title",
+          "sha256": "9bcf2545eb02b2bf5ad66c156150c0d32f459a48febcf260802b382929c089c7"
+        },
+        {
+          "block_id": "block:4e02ea8a57d4d85f30f635b9",
+          "label": "abstract",
+          "sha256": "f680f9eabddaad4305b0ea0416531fe1463a6c6ea5c17b12999b44840e9636f0"
+        }
+      ],
+      "focus": "Extract the effect of carbon-ion irradiation on clonogenic survival in ECA109 cells relative to the zero-dose control. Use a single exposure record and exclude LIF-related interventions.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "endpoint": "clonogenic_survival",
+          "direction": "decrease",
+          "evidence_terms": [
+            "When compared with the control (0Gy)",
+            "clonogenic survival by 2 Gy carbon ions"
+          ],
+          "beam": "carbon_ion",
+          "dose": "2 Gy",
+          "dose_role": "irradiation_dose",
+          "comparator": "untreated"
+        }
+      ]
+    },
+    {
+      "case_id": "unsupported_30197580",
+      "pmid": "30197580",
+      "task_type": "unsupported",
+      "sampling_pool": "unsupported_dose",
+      "draw_rank": "1",
+      "source_blocks": [
+        {
+          "block_id": "block:ee54b0de21c36f521b55f457",
+          "label": "title",
+          "sha256": "f48d11588a334533298b91f69f67d6ee1778cd6bdeac273b53d7bcab0e0d8268"
+        },
+        {
+          "block_id": "block:330540841551665da1dc7295",
+          "label": "abstract",
+          "sha256": "9d6b91a37487ddc32c256964447876ee949cea3a317225ea7fd77d4856b3c03e"
+        }
+      ],
+      "focus": "Extract the numerical therapeutic irradiation dose delivered to a proton-treatment cohort. Return an empty array if the abstract does not report such a dose.",
+      "expected": []
+    },
+    {
+      "case_id": "unsupported_37202212",
+      "pmid": "37202212",
+      "task_type": "unsupported",
+      "sampling_pool": "unsupported_comparison",
+      "draw_rank": "2",
+      "source_blocks": [
+        {
+          "block_id": "block:7df6a87b3d1446b1c398e9ad",
+          "label": "title",
+          "sha256": "f097b066c55b4f73083957eb4beab8beac9248c3bf6cc91c6950b8857c8fb19f"
+        },
+        {
+          "block_id": "block:4cd4f89d62d5ad8d5dd94ead",
+          "label": "abstract",
+          "sha256": "1713b3e831ac75c640a674de6c984133e111e3c31b84e8efa7a5f7b757d6c13d"
+        }
+      ],
+      "focus": "Extract an observed comparison of clinical toxicity between proton-treated and photon-treated patient groups. Return an empty array if the abstract does not report this comparison.",
+      "expected": []
+    }
+  ]
+}

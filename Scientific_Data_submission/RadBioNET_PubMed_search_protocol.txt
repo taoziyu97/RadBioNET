@@ -1,0 +1,170 @@
+RadBioNET archived PubMed search specifications
+
+Source material
+Project workflow presentation 数据库开发流程.pptx, slides 4, 5 and 7.
+These blocks transcribe the archived search specification. Historical PubMed
+Search Details and exact run timestamps were not recovered. The preserved
+NBIB exports are the reference inputs for the manuscript's archive counts.
+
+Transcription
+Smart quotation marks were converted to straight quotation marks. Spaces were
+restored around the concatenated OR operators in the focused proton block.
+The four general date clauses shown on one slide are presented as separate
+alternatives, matching the four retained general export filenames. The broad
+proton slide states a 2000–2026 publication-year range in prose. The focused
+proton slide does not display a separate publication-date clause.
+
+General radiotherapy and radiobiology query
+Append exactly one date clause from the list below to the base query.
+
+(
+  "radiotherapy"[tiab] OR "radiation therapy"[tiab] OR "irradiation"[tiab]
+  OR "ionizing radiation"[tiab] OR "external beam radiotherapy"[tiab]
+  OR "EBRT"[tiab] OR "chemoradiotherapy"[tiab] OR "chemoradiation"[tiab]
+  OR "photon therapy"[tiab] OR "X-ray therapy"[tiab] OR "photon irradiation"[tiab]
+  OR "carbon ion"[tiab] OR "carbon-ion"[tiab] OR "C-ion"[tiab]
+  OR "helium ion"[tiab] OR "neon ion"[tiab] OR "oxygen ion"[tiab]
+  OR "iron ion"[tiab] OR "silicon ion"[tiab] OR "argon ion"[tiab]
+  OR "heavy ion"[tiab] OR "heavy-ion"[tiab]
+  OR "high-LET"[tiab] OR "particle therapy"[tiab] OR "ion beam"[tiab]
+  OR "hadron therapy"[tiab] OR "hadrontherapy"[tiab]
+  OR "IMRT"[tiab] OR "VMAT"[tiab] OR "SBRT"[tiab] OR "SRS"[tiab]
+  OR "stereotactic radiosurgery"[tiab] OR "stereotactic body radiotherapy"[tiab]
+  OR "brachytherapy"[tiab] OR "gamma ray"[tiab] OR "gamma-ray"[tiab]
+  OR "cobalt-60"[tiab] OR "Co-60"[tiab]
+  OR "electron beam"[tiab] OR "electron irradiation"[tiab]
+  OR "fast neutron"[tiab] OR "neutron therapy"[tiab]
+  OR "Radiotherapy"[MeSH] OR "Radiation, Ionizing"[MeSH]
+)
+AND
+(
+  "radiobiology"[tiab] OR "radiation biology"[tiab]
+  OR "radiosensitiv*"[tiab] OR "radioresist*"[tiab] OR "radiosensitization"[tiab]
+  OR "RBE"[tiab] OR "relative biological effectiveness"[tiab]
+  OR "linear energy transfer"[tiab] OR "OER"[tiab] OR "oxygen enhancement ratio"[tiab]
+  OR "DNA damage"[tiab] OR "DNA repair"[tiab]
+  OR "double strand break"[tiab] OR "single strand break"[tiab]
+  OR "clonogenic"[tiab] OR "clonogenic survival"[tiab] OR "cell survival"[tiab]
+  OR "cell cycle"[tiab] OR "G2/M arrest"[tiab] OR "cell cycle arrest"[tiab]
+  OR "apoptosis"[tiab] OR "autophagy"[tiab] OR "ferroptosis"[tiab] OR "pyroptosis"[tiab]
+  OR "immunogenic cell death"[tiab]
+  OR "radiation response"[tiab] OR "radiation-induced"[tiab]
+  OR "radiation toxicity"[tiab] OR "normal tissue toxicity"[tiab]
+  OR "radiation sensitivity"[tiab] OR "radiation resistance"[tiab]
+  OR "hypoxia"[tiab] OR "oxidative stress"[tiab]
+  OR "fractionation"[tiab] OR "hypofractionation"[tiab] OR "dose fractionation"[tiab]
+  OR "dose-response"[tiab] OR "dose response"[tiab]
+  OR "radiation sensitizer"[tiab] OR "radiosensitizer"[tiab]
+  OR "transcriptome"[tiab] OR "proteome"[tiab] OR "metabolome"[tiab]
+  OR "senescence"[tiab]
+  OR "Radiation Tolerance"[MeSH] OR "Radiobiology"[MeSH]
+)
+AND
+(
+  "tumor"[tiab] OR "tumour"[tiab] OR "cancer"[tiab]
+  OR "neoplasm"[tiab] OR "carcinoma"[tiab] OR "sarcoma"[tiab]
+  OR "glioma"[tiab] OR "glioblastoma"[tiab] OR "lymphoma"[tiab]
+  OR "melanoma"[tiab] OR "adenocarcinoma"[tiab]
+  OR "Neoplasms"[MeSH]
+)
+NOT
+(
+  "proton therapy"[tiab] OR "proton beam"[tiab] OR "proton irradiation"[tiab]
+  OR "proton radiotherapy"[tiab] OR "proton treatment"[tiab]
+)
+NOT
+(
+  "Review"[pt] OR "Case Reports"[pt]
+  OR "Systematic Review"[pt] OR "Meta-Analysis"[pt]
+  OR "Editorial"[pt] OR "Letter"[pt] OR "Comment"[pt]
+  OR "News"[pt] OR "Biography"[pt] OR "Congress"[pt]
+  OR "Retracted Publication"[pt] OR "Erratum"[pt]
+)
+NOT
+(
+  "dosimetry"[tiab] OR "dose calculation"[tiab]
+  OR "treatment planning"[tiab] OR "treatment plan"[tiab]
+  OR "Monte Carlo"[tiab] OR "beam delivery"[tiab]
+  OR "accelerator"[tiab] OR "linac"[tiab]
+  OR "quality assurance"[tiab] OR "CT simulation"[tiab]
+  OR "overall survival"[tiab] OR "progression-free survival"[tiab]
+  OR "local control"[tiab] OR "locoregional control"[tiab]
+  OR "clinical outcome"[tiab] OR "treatment outcome"[tiab]
+  OR "retrospective"[tiab] OR "prospective study"[tiab]
+  OR "clinical trial"[tiab] OR "randomized"[tiab]
+  OR "cohort study"[tiab] OR "observational study"[tiab]
+  OR "in silico"[tiab] OR "mathematical model"[tiab]
+  OR "epidemiology"[tiab] OR "questionnaire"[tiab]
+  OR "health-related quality of life"[tiab] OR "cost-effectiveness"[tiab]
+  OR "radiation worker"[tiab] OR "occupational exposure"[tiab]
+  OR "radiodiagnosis"[tiab] OR "diagnostic radiology"[tiab]
+  OR "chemotherapy alone"[tiab] OR "immunotherapy alone"[tiab]
+)
+
+General date clauses and corresponding retained exports
+
+AND ("2000/01/01"[PDAT] : "2009/12/31"[PDAT])
+  pubmed-radiothera-set_2000-2009.nbib
+AND ("2010/01/01"[PDAT] : "2016/12/31"[PDAT])
+  pubmed-radiothera-set_2010-2016.nbib
+AND ("2017/01/01"[PDAT] : "2021/12/31"[PDAT])
+  pubmed-radiothera-set_2017-2021.nbib
+AND ("2022/01/01"[PDAT] : "2026/12/31"[PDAT])
+  pubmed-radiothera-set_2022-2026.nbib
+
+Broad proton search
+
+( "proton therapy" OR "proton irradiation" OR "proton beam" OR "particle radiation" OR "high LET radiation" ) AND ( biology OR biological OR mechanism OR response OR effect )  AND ( tumor OR cancer OR neoplasm OR carcinoma )  NOT ( review[Publication Type] OR review[Title] )
+
+Focused proton search
+
+(
+"proton therapy"
+OR "proton irradiation"
+OR "proton beam irradiation"
+OR "proton radiotherapy"
+OR "particle radiation"
+OR "charged particle radiation"
+OR "high LET radiation"
+)
+AND
+(
+genomic
+OR genome
+OR mutation
+OR mutational
+OR transcriptomic
+OR transcriptome
+OR RNA-seq
+OR proteomic
+OR proteomics
+OR phosphoproteomics
+OR epigenetic
+OR methylation
+OR chromatin
+OR "DNA damage"
+OR "DNA repair"
+OR radiosensitivity
+OR radioresistance
+OR toxicity
+OR immune
+OR immunity
+OR metabolism
+OR ferroptosis
+OR apoptosis
+OR autophagy
+OR pyroptosis
+OR necroptosis
+OR biomarker
+OR pathway
+OR signaling
+OR microenvironment
+) 
+AND 
+(
+tumor OR cancer 
+OR neoplasm OR carcinoma OR melanoma OR glioma OR glioblastoma OR sarcoma OR leukemia
+)  
+NOT (
+review[Publication Type] OR review[Title] 
+)

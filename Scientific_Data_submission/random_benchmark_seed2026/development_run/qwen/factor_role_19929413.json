@@ -1,0 +1,52 @@
+{
+  "case_id": "factor_role_19929413",
+  "pmid": "19929413",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794810584-UWYowZypxuQYIHKaqtwf",
+  "recorded_utc": "2026-11-16T06:29:46+00:00",
+  "elapsed_seconds": 3.366,
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 178,
+    "total_tokens": 1165,
+    "cost": 0.00071942,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00071942,
+      "upstream_inference_prompt_cost": 0.00025662,
+      "upstream_inference_completions_cost": 0.0004628
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"increase\",\n      \"factor\": \"3-AP\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"3-AP treatment significantly enhanced radiation-related cytotoxicity in cervical and colon cancer cells.\",\n        \"We conclude that inhibition of ribonucleotide reductase by 3-AP enhances radiation-mediated cytotoxicity independent of p53 regulation by impairing repair processes that rely on deoxyribonucleotide production, thereby substantially increasing the radiation sensitivity of human cancers.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "3-AP",
+      "dose": "",
+      "evidence": [
+        "3-AP treatment significantly enhanced radiation-related cytotoxicity in cervical and colon cancer cells.",
+        "We conclude that inhibition of ribonucleotide reductase by 3-AP enhances radiation-mediated cytotoxicity independent of p53 regulation by impairing repair processes that rely on deoxyribonucleotide production, thereby substantially increasing the radiation sensitivity of human cancers."
+      ]
+    }
+  ]
+}

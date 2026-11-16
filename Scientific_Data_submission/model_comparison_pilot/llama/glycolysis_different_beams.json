@@ -1,0 +1,64 @@
+{
+  "case_id": "glycolysis_different_beams",
+  "pmid": "36628255",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "SambaNova",
+  "completion_id": "gen-1794803466-wmVqZRo80fgOm2SbILX0",
+  "recorded_utc": "2026-11-16T04:31:10+00:00",
+  "elapsed_seconds": 3.959,
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 227,
+    "total_tokens": 1836,
+    "cost": 0.0012378,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0012378,
+      "upstream_inference_prompt_cost": 0.0009654,
+      "upstream_inference_completions_cost": 0.0002724
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"photon\",\n      \"comparator\": \"none\",\n      \"direction\": \"increase\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"clonogenic_survival\",\n      \"evidence\": [\n        \"Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines\"\n      ],\n      \"factor\": \"enhanced glycolysis\",\n      \"role\": \"perturbation\"\n    },\n    {\n      \"beam\": \"carbon_ion\",\n      \"comparator\": \"none\",\n      \"direction\": \"no_detected_difference\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"clonogenic_survival\",\n      \"evidence\": [\n        \"while no significant changes were noted following CII\"\n      ],\n      \"factor\": \"enhanced glycolysis\",\n      \"role\": \"perturbation\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines"
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    },
+    {
+      "beam": "carbon_ion",
+      "comparator": "none",
+      "direction": "no_detected_difference",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "while no significant changes were noted following CII"
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    }
+  ]
+}

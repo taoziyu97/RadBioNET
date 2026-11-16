@@ -1,0 +1,51 @@
+{
+  "case_id": "azd7648_skin_toxicity",
+  "pmid": "38781104",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Darkbloom",
+  "completion_id": "gen-1794804651-6v2GYXYjX94JcyuxJZXo",
+  "recorded_utc": "2026-11-16T04:50:53+00:00",
+  "elapsed_seconds": 2.68,
+  "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 218,
+    "total_tokens": 1676,
+    "cost": 4.5864e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 4.5864e-05,
+      "upstream_inference_prompt_cost": 2.6244e-05,
+      "upstream_inference_completions_cost": 1.962e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 91,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"photon\",\"comparator\":\"none\",\"direction\":\"increase\",\"dose\":\"10 to 15 Gy\",\"dose_role\":\"irradiation_dose\",\"endpoint\":\"toxicity\",\"evidence\":[\"FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648. A dose-dependent increase in time to tumor volume doubling following AZD7648 was proportional to an increase in toxicity scores of the overlying skin.\"],\"factor\":\"overlying skin\",\"role\":\"exposure\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "10 to 15 Gy",
+      "dose_role": "irradiation_dose",
+      "endpoint": "toxicity",
+      "evidence": [
+        "FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648. A dose-dependent increase in time to tumor volume doubling following AZD7648 was proportional to an increase in toxicity scores of the overlying skin."
+      ],
+      "factor": "overlying skin",
+      "role": "exposure"
+    }
+  ]
+}

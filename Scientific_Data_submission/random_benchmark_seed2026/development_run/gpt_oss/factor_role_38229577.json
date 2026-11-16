@@ -1,0 +1,51 @@
+{
+  "case_id": "factor_role_38229577",
+  "pmid": "38229577",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794810587-9vFGrudnEI6LnBIiXwpw",
+  "recorded_utc": "2026-11-16T06:29:50+00:00",
+  "elapsed_seconds": 4.149,
+  "usage": {
+    "prompt_tokens": 969,
+    "completion_tokens": 432,
+    "total_tokens": 1401,
+    "cost": 8.955e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 8.955e-05,
+      "upstream_inference_prompt_cost": 2.907e-05,
+      "upstream_inference_completions_cost": 6.048e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 323,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"Tpp-Met@MnO(2)@Alb\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Tpp-Met@MnO(2)@Alb effectively enhances the efficiency of radiotherapy to inhibit the progression of irradiated local and abscopal tumors and tumor lung metastases\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "Tpp-Met@MnO(2)@Alb",
+      "dose": "",
+      "evidence": [
+        "Tpp-Met@MnO(2)@Alb effectively enhances the efficiency of radiotherapy to inhibit the progression of irradiated local and abscopal tumors and tumor lung metastases"
+      ]
+    }
+  ]
+}

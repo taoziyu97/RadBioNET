@@ -1,0 +1,66 @@
+{
+  "case_id": "hdac3_two_interventions",
+  "pmid": "40899441",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794803439-y60NbrUQ81FW6133qnqm",
+  "recorded_utc": "2026-11-16T04:30:53+00:00",
+  "elapsed_seconds": 14.493,
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 1887,
+    "total_tokens": 2851,
+    "cost": 0.0002931,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0002931,
+      "upstream_inference_prompt_cost": 2.892e-05,
+      "upstream_inference_completions_cost": 0.00026418
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1793,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"perturbation\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"HDAC3\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).\",\n        \"treated with ionizing radiation (IR)\"\n      ]\n    },\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"RGFP966\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).\",\n        \"treated with ionizing radiation (IR)\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "HDAC3",
+      "dose": "",
+      "evidence": [
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).",
+        "treated with ionizing radiation (IR)"
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "RGFP966",
+      "dose": "",
+      "evidence": [
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).",
+        "treated with ionizing radiation (IR)"
+      ]
+    }
+  ]
+}

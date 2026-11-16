@@ -1,0 +1,65 @@
+{
+  "case_id": "carbon_ion_parp_inhibitors",
+  "pmid": "39486351",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794803477-Bh8E1eq8dj1hthxdQTOT",
+  "recorded_utc": "2026-11-16T04:31:20+00:00",
+  "elapsed_seconds": 3.624,
+  "usage": {
+    "prompt_tokens": 937,
+    "completion_tokens": 293,
+    "total_tokens": 1230,
+    "cost": 0.00035264,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00035264,
+      "upstream_inference_prompt_cost": 0.00020614,
+      "upstream_inference_completions_cost": 0.0001465
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"olaparib\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization\",\n        \"olaparib pre-treatment with (12)C-ion markedly inhibits both HR and NHEJ pathways, culminating in DNA damage-induced apoptotic and autophagic cell death\"\n      ]\n    },\n    {\n      \"role\": \"drug\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"rucaparib\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "olaparib",
+      "dose": "",
+      "evidence": [
+        "both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization",
+        "olaparib pre-treatment with (12)C-ion markedly inhibits both HR and NHEJ pathways, culminating in DNA damage-induced apoptotic and autophagic cell death"
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "rucaparib",
+      "dose": "",
+      "evidence": [
+        "both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization"
+      ]
+    }
+  ]
+}

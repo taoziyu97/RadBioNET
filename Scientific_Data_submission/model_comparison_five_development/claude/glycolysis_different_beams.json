@@ -1,0 +1,65 @@
+{
+  "case_id": "glycolysis_different_beams",
+  "pmid": "36628255",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794806281-bwVDZ6xI9pPDf349Olr6",
+  "recorded_utc": "2026-11-16T05:18:06+00:00",
+  "elapsed_seconds": 5.805,
+  "usage": {
+    "prompt_tokens": 2476,
+    "completion_tokens": 268,
+    "total_tokens": 2744,
+    "cost": 0.015264,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015264,
+      "upstream_inference_prompt_cost": 0.009904,
+      "upstream_inference_completions_cost": 0.00536
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"perturbation\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"untreated\",\"endpoint\":\"clonogenic_survival\",\"direction\":\"increase\",\"factor\":\"enhanced glycolysis\",\"dose\":\"\",\"evidence\":[\"Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines\",\"Enhanced glycolysis confers resistance against photon\"]},{\"role\":\"perturbation\",\"beam\":\"carbon_ion\",\"dose_role\":\"unreported\",\"comparator\":\"untreated\",\"endpoint\":\"clonogenic_survival\",\"direction\":\"no_detected_difference\",\"factor\":\"enhanced glycolysis\",\"dose\":\"\",\"evidence\":[\"while no significant changes were noted following CII\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "untreated",
+      "endpoint": "clonogenic_survival",
+      "direction": "increase",
+      "factor": "enhanced glycolysis",
+      "dose": "",
+      "evidence": [
+        "Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines",
+        "Enhanced glycolysis confers resistance against photon"
+      ]
+    },
+    {
+      "role": "perturbation",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "untreated",
+      "endpoint": "clonogenic_survival",
+      "direction": "no_detected_difference",
+      "factor": "enhanced glycolysis",
+      "dose": "",
+      "evidence": [
+        "while no significant changes were noted following CII"
+      ]
+    }
+  ]
+}

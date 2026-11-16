@@ -1,0 +1,67 @@
+{
+  "case_id": "flash_rate_and_marker",
+  "pmid": "39724928",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794804462-EkzqK3gGErFvBiQXottU",
+  "recorded_utc": "2026-11-16T04:47:49+00:00",
+  "elapsed_seconds": 7.508,
+  "usage": {
+    "prompt_tokens": 853,
+    "completion_tokens": 334,
+    "total_tokens": 1187,
+    "cost": 0.0003089,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0003089,
+      "upstream_inference_prompt_cost": 0.0001419,
+      "upstream_inference_completions_cost": 0.000167
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"dose_rate\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"expression\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"PD-L1\",\n      \"dose\": \"40 Gy/s\",\n      \"evidence\": [\n        \"Recently, ultra-high dose rate (> 40 Gy/s, uHDR; FLASH) radiation therapy (RT) has attracted interest\",\n        \"The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation\",\n        \"Notably, PD-L1 on B16F10 was increased after irradiation with both γ-ray and C-ion, while uHDR C-ion suppressed the expression of PD-L1 on Pan02\"\n      ]\n    },\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"dose_rate\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"\",\n      \"dose\": \"380 Gy/s\",\n      \"evidence\": [\n        \"The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation\",\n        \"Notably, PD-L1 on B16F10 was increased after irradiation with both γ-ray and C-ion, while uHDR C-ion suppressed the expression of PD-L1 on Pan02\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "measured_marker",
+      "beam": "unreported",
+      "dose_role": "dose_rate",
+      "comparator": "none",
+      "endpoint": "expression",
+      "direction": "descriptive",
+      "factor": "PD-L1",
+      "dose": "40 Gy/s",
+      "evidence": [
+        "Recently, ultra-high dose rate (> 40 Gy/s, uHDR; FLASH) radiation therapy (RT) has attracted interest",
+        "The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation",
+        "Notably, PD-L1 on B16F10 was increased after irradiation with both γ-ray and C-ion, while uHDR C-ion suppressed the expression of PD-L1 on Pan02"
+      ]
+    },
+    {
+      "role": "exposure",
+      "beam": "unreported",
+      "dose_role": "dose_rate",
+      "comparator": "none",
+      "endpoint": "irradiation_schedule",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "380 Gy/s",
+      "evidence": [
+        "The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation",
+        "Notably, PD-L1 on B16F10 was increased after irradiation with both γ-ray and C-ion, while uHDR C-ion suppressed the expression of PD-L1 on Pan02"
+      ]
+    }
+  ]
+}

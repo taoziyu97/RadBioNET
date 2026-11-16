@@ -1,0 +1,51 @@
+{
+  "case_id": "ctrp1_expression_photons",
+  "pmid": "39515408",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794806251-zsKcPCHYkXqt6xaHq7fI",
+  "recorded_utc": "2026-11-16T05:17:34+00:00",
+  "elapsed_seconds": 3.37,
+  "usage": {
+    "prompt_tokens": 2430,
+    "completion_tokens": 113,
+    "total_tokens": 2543,
+    "cost": 0.01198,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.01198,
+      "upstream_inference_prompt_cost": 0.00972,
+      "upstream_inference_completions_cost": 0.00226
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"measured_marker\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"unreported\",\"endpoint\":\"expression\",\"direction\":\"increase\",\"factor\":\"CTRP1\",\"dose\":\"\",\"evidence\":[\"CTRP1 expression increased following radiation exposure, especially after X-ray treatment.\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "measured_marker",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "expression",
+      "direction": "increase",
+      "factor": "CTRP1",
+      "dose": "",
+      "evidence": [
+        "CTRP1 expression increased following radiation exposure, especially after X-ray treatment."
+      ]
+    }
+  ]
+}

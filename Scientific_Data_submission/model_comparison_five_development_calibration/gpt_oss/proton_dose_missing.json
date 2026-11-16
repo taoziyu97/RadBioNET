@@ -1,0 +1,37 @@
+{
+  "case_id": "proton_dose_missing",
+  "pmid": "39372406",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794804474-MjcfQIBjeK6WfuxHoLl0",
+  "recorded_utc": "2026-11-16T04:47:56+00:00",
+  "elapsed_seconds": 2.545,
+  "usage": {
+    "prompt_tokens": 1045,
+    "completion_tokens": 250,
+    "total_tokens": 1295,
+    "cost": 6.635e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 6.635e-05,
+      "upstream_inference_prompt_cost": 3.135e-05,
+      "upstream_inference_completions_cost": 3.5e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 279,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\": []}",
+  "status": "ok",
+  "records": []
+}

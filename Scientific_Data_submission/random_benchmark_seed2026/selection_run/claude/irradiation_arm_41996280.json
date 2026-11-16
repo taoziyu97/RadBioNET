@@ -1,0 +1,51 @@
+{
+  "case_id": "irradiation_arm_41996280",
+  "pmid": "41996280",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794810603-nf5LUZny73XPdrVxAc5r",
+  "recorded_utc": "2026-11-16T06:30:06+00:00",
+  "elapsed_seconds": 3.395,
+  "usage": {
+    "prompt_tokens": 2474,
+    "completion_tokens": 117,
+    "total_tokens": 2591,
+    "cost": 0.012236,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.012236,
+      "upstream_inference_prompt_cost": 0.009896,
+      "upstream_inference_completions_cost": 0.00234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"exposure\",\"beam\":\"proton\",\"dose_role\":\"irradiation_dose\",\"comparator\":\"none\",\"endpoint\":\"irradiation_schedule\",\"direction\":\"descriptive\",\"factor\":\"\",\"dose\":\"10 Gy\",\"evidence\":[\"irradiated with a total dose of 10 Gy using a proton microbeam\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "exposure",
+      "beam": "proton",
+      "dose_role": "irradiation_dose",
+      "comparator": "none",
+      "endpoint": "irradiation_schedule",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "10 Gy",
+      "evidence": [
+        "irradiated with a total dose of 10 Gy using a proton microbeam"
+      ]
+    }
+  ]
+}

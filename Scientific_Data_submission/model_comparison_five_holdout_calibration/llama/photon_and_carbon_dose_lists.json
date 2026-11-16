@@ -1,0 +1,64 @@
+{
+  "case_id": "photon_and_carbon_dose_lists",
+  "pmid": "24192264",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794804455-4wya55vDAynMuAcQuzb2",
+  "recorded_utc": "2026-11-16T04:47:38+00:00",
+  "elapsed_seconds": 4.059,
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 223,
+    "total_tokens": 1383,
+    "cost": 0.00030334,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 576,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030334,
+      "upstream_inference_prompt_cost": 0.00019184,
+      "upstream_inference_completions_cost": 0.0001115
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"photon\",\n      \"dose_role\": \"fractionation\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"\",\n      \"dose\": \"2, 4, 6 and 8 Gy\",\n      \"evidence\": [\"Cells were irradiated with photon doses of 2, 4, 6 and 8 Gy\"]\n    },\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"fractionation\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"\",\n      \"dose\": \"0.5, 1, 2 and 3 Gy\",\n      \"evidence\": [\"carbon ion doses of 0.5, 1, 2 and 3 Gy\"]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "exposure",
+      "beam": "photon",
+      "dose_role": "fractionation",
+      "comparator": "none",
+      "endpoint": "irradiation_schedule",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "2, 4, 6 and 8 Gy",
+      "evidence": [
+        "Cells were irradiated with photon doses of 2, 4, 6 and 8 Gy"
+      ]
+    },
+    {
+      "role": "exposure",
+      "beam": "carbon_ion",
+      "dose_role": "fractionation",
+      "comparator": "none",
+      "endpoint": "irradiation_schedule",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "0.5, 1, 2 and 3 Gy",
+      "evidence": [
+        "carbon ion doses of 0.5, 1, 2 and 3 Gy"
+      ]
+    }
+  ]
+}

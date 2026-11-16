@@ -1,0 +1,51 @@
+{
+  "case_id": "outcome_25523631",
+  "pmid": "25523631",
+  "model_requested": "anthropic/claude-opus-5",
+  "model_reported": "anthropic/claude-opus-5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794819046-svmxJTb71mUmTVSe3gEG",
+  "recorded_utc": "2026-11-16T08:50:48+00:00",
+  "elapsed_seconds": 2.858,
+  "usage": {
+    "prompt_tokens": 2540,
+    "completion_tokens": 129,
+    "total_tokens": 2669,
+    "cost": 0.015925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015925,
+      "upstream_inference_prompt_cost": 0.0127,
+      "upstream_inference_completions_cost": 0.003225
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"perturbation\",\"beam\":\"unreported\",\"dose_role\":\"unreported\",\"comparator\":\"unreported\",\"endpoint\":\"radioresistance\",\"direction\":\"increase\",\"factor\":\"miR-196a\",\"dose\":\"\",\"evidence\":[\"overexpression of miR-196a increased radioresistance of cells as measured by gamma H2AX staining and MTT survival assay\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radioresistance",
+      "direction": "increase",
+      "factor": "miR-196a",
+      "dose": "",
+      "evidence": [
+        "overexpression of miR-196a increased radioresistance of cells as measured by gamma H2AX staining and MTT survival assay"
+      ]
+    }
+  ]
+}

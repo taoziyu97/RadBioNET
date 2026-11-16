@@ -1,0 +1,64 @@
+{
+  "case_id": "glycolysis_different_beams",
+  "pmid": "36628255",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Groq",
+  "completion_id": "gen-1794803475-iHDfw29DHqAeEnwpjjIX",
+  "recorded_utc": "2026-11-16T04:31:16+00:00",
+  "elapsed_seconds": 2.164,
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 1078,
+    "total_tokens": 2443,
+    "cost": 0.000425775,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000425775,
+      "upstream_inference_prompt_cost": 0.000102375,
+      "upstream_inference_completions_cost": 0.0003234
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 910,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"photon\",\"comparator\":\"unreported\",\"direction\":\"increase\",\"dose\":\"\",\"dose_role\":\"irradiation_dose\",\"endpoint\":\"clonogenic_survival\",\"evidence\":[\"Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines\"],\"factor\":\"enhanced glycolysis\",\"role\":\"perturbation\"},{\"beam\":\"carbon_ion\",\"comparator\":\"unreported\",\"direction\":\"no_detected_difference\",\"dose\":\"\",\"dose_role\":\"irradiation_dose\",\"endpoint\":\"clonogenic_survival\",\"evidence\":[\"no significant changes were noted following CII\"],\"factor\":\"enhanced glycolysis\",\"role\":\"perturbation\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "unreported",
+      "direction": "increase",
+      "dose": "",
+      "dose_role": "irradiation_dose",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines"
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    },
+    {
+      "beam": "carbon_ion",
+      "comparator": "unreported",
+      "direction": "no_detected_difference",
+      "dose": "",
+      "dose_role": "irradiation_dose",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "no significant changes were noted following CII"
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    }
+  ]
+}

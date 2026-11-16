@@ -1,0 +1,132 @@
+{
+  "benchmark_sha256": "7d1b9d30f89afb54a1f007a0af871e7fb452edde7807edf9176f930fbe079832",
+  "benchmark_version": "radbionet-abstract-pilot-1",
+  "prompt_version": "radbionet-fact-extraction-1",
+  "system_sha256": "3aceae778081146c12e9ec8bda866dab0e2aa5bd43498e22d479ecb191bd545f",
+  "models": {
+    "llama": "meta-llama/llama-3.3-70b-instruct",
+    "qwen": "qwen/qwen3.5-27b",
+    "gpt_oss": "openai/gpt-oss-20b"
+  },
+  "temperature": 0,
+  "max_tokens": 3000,
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "records"
+    ],
+    "properties": {
+      "records": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "beam",
+            "comparator",
+            "direction",
+            "dose",
+            "dose_role",
+            "endpoint",
+            "evidence",
+            "factor",
+            "role"
+          ],
+          "properties": {
+            "role": {
+              "type": "string",
+              "enum": [
+                "drug",
+                "perturbation",
+                "drug_target",
+                "measured_marker",
+                "exposure"
+              ]
+            },
+            "beam": {
+              "type": "string",
+              "enum": [
+                "photon",
+                "proton",
+                "carbon_ion",
+                "electron",
+                "other",
+                "unreported"
+              ]
+            },
+            "dose_role": {
+              "type": "string",
+              "enum": [
+                "irradiation_dose",
+                "fractionation",
+                "organ_dose",
+                "dose_rate",
+                "unreported"
+              ]
+            },
+            "comparator": {
+              "type": "string",
+              "enum": [
+                "none",
+                "unreported",
+                "photon",
+                "proton",
+                "carbon_ion",
+                "radiation_only",
+                "conventional_dose_rate",
+                "untreated",
+                "other"
+              ]
+            },
+            "endpoint": {
+              "type": "string",
+              "enum": [
+                "radiosensitivity",
+                "radioresistance",
+                "target_identity",
+                "immunogenic_cell_death",
+                "heart_dose",
+                "dna_damage",
+                "expression",
+                "clonogenic_survival",
+                "pathway_activation",
+                "toxicity",
+                "irradiation_schedule"
+              ]
+            },
+            "direction": {
+              "type": "string",
+              "enum": [
+                "increase",
+                "decrease",
+                "no_detected_difference",
+                "descriptive",
+                "unreported"
+              ]
+            },
+            "factor": {
+              "type": "string"
+            },
+            "dose": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "model_options": {
+    "qwen/qwen3.5-27b": {
+      "reasoning": {
+        "enabled": false
+      }
+    }
+  }
+}

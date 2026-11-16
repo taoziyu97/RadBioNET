@@ -1,0 +1,53 @@
+{
+  "case_id": "outcome_25962492",
+  "pmid": "25962492",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794810601-sy2lutFQTZsuZGa4MqvD",
+  "recorded_utc": "2026-11-16T06:30:05+00:00",
+  "elapsed_seconds": 4.506,
+  "usage": {
+    "prompt_tokens": 2706,
+    "completion_tokens": 231,
+    "total_tokens": 2937,
+    "cost": 0.015444,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015444,
+      "upstream_inference_prompt_cost": 0.010824,
+      "upstream_inference_completions_cost": 0.00462
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"perturbation\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"other\",\"endpoint\":\"radioresistance\",\"direction\":\"increase\",\"factor\":\"SHP-1\",\"dose\":\"\",\"evidence\":[\"transfected with a lentivirus that contained the SHP-1 gene or a nonsense sequence (referred to as LP-H1802Lv201 and LP-NegLv201 cells, respectively)\",\"Compared with the control (CNE-2 cells) and LP-NegLv201 cells, LP-H1802Lv201 cells were more resistant to IR.\",\"Overexpression of SHP-1 in the CNE-2 cells led to radioresistance\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "other",
+      "endpoint": "radioresistance",
+      "direction": "increase",
+      "factor": "SHP-1",
+      "dose": "",
+      "evidence": [
+        "transfected with a lentivirus that contained the SHP-1 gene or a nonsense sequence (referred to as LP-H1802Lv201 and LP-NegLv201 cells, respectively)",
+        "Compared with the control (CNE-2 cells) and LP-NegLv201 cells, LP-H1802Lv201 cells were more resistant to IR.",
+        "Overexpression of SHP-1 in the CNE-2 cells led to radioresistance"
+      ]
+    }
+  ]
+}

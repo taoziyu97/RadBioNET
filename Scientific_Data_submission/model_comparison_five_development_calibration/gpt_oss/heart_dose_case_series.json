@@ -1,0 +1,52 @@
+{
+  "case_id": "heart_dose_case_series",
+  "pmid": "40353857",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Darkbloom",
+  "completion_id": "gen-1794804476-OKqcanXkP4nuZxeNuGHx",
+  "recorded_utc": "2026-11-16T04:48:08+00:00",
+  "elapsed_seconds": 11.978,
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 425,
+    "total_tokens": 1794,
+    "cost": 6.2892e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 6.2892e-05,
+      "upstream_inference_prompt_cost": 2.4642e-05,
+      "upstream_inference_completions_cost": 3.825e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 340,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"proton\",\"comparator\":\"none\",\"direction\":\"descriptive\",\"dose\":\"1.25 Gy\",\"dose_role\":\"organ_dose\",\"endpoint\":\"heart_dose\",\"evidence\":[\"intensity-modulated proton therapy (IMPT)\",\"median mean heart dose was 1.25 Gy\"],\"factor\":\"\",\"role\":\"exposure\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "proton",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "1.25 Gy",
+      "dose_role": "organ_dose",
+      "endpoint": "heart_dose",
+      "evidence": [
+        "intensity-modulated proton therapy (IMPT)",
+        "median mean heart dose was 1.25 Gy"
+      ],
+      "factor": "",
+      "role": "exposure"
+    }
+  ]
+}

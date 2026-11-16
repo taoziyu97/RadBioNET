@@ -1,0 +1,52 @@
+{
+  "case_id": "flash_rate_and_marker",
+  "pmid": "39724928",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794803456-eVQ17RniIE163bnGYBtI",
+  "recorded_utc": "2026-11-16T04:30:59+00:00",
+  "elapsed_seconds": 2.929,
+  "usage": {
+    "prompt_tokens": 865,
+    "completion_tokens": 157,
+    "total_tokens": 1022,
+    "cost": 0.0006331,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0006331,
+      "upstream_inference_prompt_cost": 0.0002249,
+      "upstream_inference_completions_cost": 0.0004082
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"dose_rate\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"expression\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"PD-L1\",\n      \"dose\": \"380 Gy/s\",\n      \"evidence\": [\n        \"The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation.\",\n        \"uHDR C-ion suppressed the expression of PD-L1 on Pan02.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "measured_marker",
+      "beam": "unreported",
+      "dose_role": "dose_rate",
+      "comparator": "unreported",
+      "endpoint": "expression",
+      "direction": "descriptive",
+      "factor": "PD-L1",
+      "dose": "380 Gy/s",
+      "evidence": [
+        "The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation.",
+        "uHDR C-ion suppressed the expression of PD-L1 on Pan02."
+      ]
+    }
+  ]
+}

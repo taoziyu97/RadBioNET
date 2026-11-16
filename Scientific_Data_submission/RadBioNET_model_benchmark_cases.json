@@ -1,0 +1,464 @@
+{
+  "benchmark_version": "radbionet-abstract-pilot-1",
+  "reference_status": "Agent-reviewed, purposefully selected challenge set based on the archived abstracts. Independent curator verification is pending.",
+  "cases": [
+    {
+      "case_id": "niraparib_by_beam",
+      "pmid": "32323895",
+      "focus": "Extract the reported effect of niraparib on radiosensitivity, with one record per supported radiation modality.",
+      "expected": [
+        {
+          "factor": "niraparib",
+          "role": "drug",
+          "beam": "photon",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "Niraparib enhanced the sensitivity",
+            "both photons and protons"
+          ],
+          "dose": "",
+          "dose_role": "unreported"
+        },
+        {
+          "factor": "niraparib",
+          "role": "drug",
+          "beam": "proton",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "Niraparib enhanced the sensitivity",
+            "both photons and protons"
+          ],
+          "dose": "",
+          "dose_role": "unreported"
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:5aa22d9b9f1680da92a3c606",
+          "sha256": "d080cb048ad80c66c31cf35d6e45dfb2cb7ed846477d439bcfa09c7ec3e814c3",
+          "label": "title"
+        },
+        {
+          "block_id": "block:8137a037ce08d698435757fd",
+          "sha256": "201723a31ef97db6fb984e9c9cf11f40bf043410c6fb5ae90e10ad63f7225066",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "niraparib_targets",
+      "pmid": "32323895",
+      "focus": "Extract each explicitly identified molecular target of niraparib as a target-identity record. Include one record per target. A target-identity statement has no specific irradiation arm or effect direction.",
+      "expected": [
+        {
+          "factor": "PARP1",
+          "role": "drug_target",
+          "beam": "unreported",
+          "endpoint": "target_identity",
+          "direction": "descriptive",
+          "evidence_terms": [
+            "polymerase-1/2 inhibitor niraparib"
+          ]
+        },
+        {
+          "factor": "PARP2",
+          "role": "drug_target",
+          "beam": "unreported",
+          "endpoint": "target_identity",
+          "direction": "descriptive",
+          "evidence_terms": [
+            "polymerase-1/2 inhibitor niraparib"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:5aa22d9b9f1680da92a3c606",
+          "sha256": "d080cb048ad80c66c31cf35d6e45dfb2cb7ed846477d439bcfa09c7ec3e814c3",
+          "label": "title"
+        },
+        {
+          "block_id": "block:8137a037ce08d698435757fd",
+          "sha256": "201723a31ef97db6fb984e9c9cf11f40bf043410c6fb5ae90e10ad63f7225066",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "xray_fractionation",
+      "pmid": "39372406",
+      "focus": "Extract the reported association between the fractionated X-ray regimen and immunogenic cell death. Include the reported dose schedule. Use an exposure record when there is no named molecular factor or drug in the requested relation.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "beam": "photon",
+          "endpoint": "immunogenic_cell_death",
+          "direction": "increase",
+          "evidence_terms": [
+            "X-ray hypofractionation regimen",
+            "induces immunogenic cell death"
+          ],
+          "dose": "3x8 Gy",
+          "dose_role": "fractionation"
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:5a51a7f217c1aad8d896dc35",
+          "sha256": "584d16b1ff25139a44175013bda593b28af4b976871cf0f948d8d53dfcc59ef5",
+          "label": "title"
+        },
+        {
+          "block_id": "block:3f81b4b28b04e8f43cdc5d71",
+          "sha256": "f024c1f695cea61f9135b45dd70cf0fc28e8a0c7fd48ab94987f8723569b76a1",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "proton_dose_missing",
+      "pmid": "39372406",
+      "focus": "Extract an exposure record only if the input gives a numerical irradiation dose expressly assigned to proton irradiation. If a numerical proton dose is unreported, return zero records.",
+      "expected": [],
+      "source_blocks": [
+        {
+          "block_id": "block:5a51a7f217c1aad8d896dc35",
+          "sha256": "584d16b1ff25139a44175013bda593b28af4b976871cf0f948d8d53dfcc59ef5",
+          "label": "title"
+        },
+        {
+          "block_id": "block:3f81b4b28b04e8f43cdc5d71",
+          "sha256": "f024c1f695cea61f9135b45dd70cf0fc28e8a0c7fd48ab94987f8723569b76a1",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "heart_dose_case_series",
+      "pmid": "40353857",
+      "focus": "Extract the central estimate of mean heart dose reported for the cohort. Return the central dose value and its unit alone in the dose field. Use an exposure record and include evidence of the radiation modality and the dose definition.",
+      "expected": [
+        {
+          "factor": "",
+          "role": "exposure",
+          "beam": "proton",
+          "endpoint": "heart_dose",
+          "direction": "descriptive",
+          "evidence_terms": [
+            "intensity-modulated proton therapy",
+            "median mean heart dose"
+          ],
+          "dose": "1.25 Gy",
+          "dose_role": "organ_dose",
+          "comparator": "none"
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:13e93b0e2f80b203837b2ed1",
+          "sha256": "dddf738d9650f8410f48249c6ae759d7b7444af317d76b85cfbb32505aee1230",
+          "label": "title"
+        },
+        {
+          "block_id": "block:2844c8f3cffd3680c837a32f",
+          "sha256": "2b2161b28c56206ea10057bdba077489b7fdce9894f778a2d33c63cb8e63b482",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "toxicity_case_series_no_comparison",
+      "pmid": "40353857",
+      "focus": "Extract any observed comparative effect of TP53 versus ATM status on toxicity after proton therapy. Return zero records if no genotype-specific toxicity comparison is reported.",
+      "expected": [],
+      "source_blocks": [
+        {
+          "block_id": "block:13e93b0e2f80b203837b2ed1",
+          "sha256": "dddf738d9650f8410f48249c6ae759d7b7444af317d76b85cfbb32505aee1230",
+          "label": "title"
+        },
+        {
+          "block_id": "block:2844c8f3cffd3680c837a32f",
+          "sha256": "2b2161b28c56206ea10057bdba077489b7fdce9894f778a2d33c63cb8e63b482",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "nanp_dna_damage",
+      "pmid": "41851195",
+      "focus": "Extract the reported effect of NANP deficiency on DNA damage after irradiation. Capture radiation modality only when stated in the provided title or abstract.",
+      "expected": [
+        {
+          "factor": "NANP",
+          "role": "perturbation",
+          "beam": "unreported",
+          "endpoint": "dna_damage",
+          "direction": "increase",
+          "evidence_terms": [
+            "NANP-deficient cells exhibit more DNA damage"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:70095f2a5a3b6d4308f623ce",
+          "sha256": "75522e6746ce9fac0074190b9a4724e31b08d4e06f6ba987c3bc5c79a793153a",
+          "label": "title"
+        },
+        {
+          "block_id": "block:14d11b393ebc1972a11022e5",
+          "sha256": "577a347342240850476bf17ac0cd20f27347a20f705e2fa65bb03e48083dcbb3",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "hdac3_two_interventions",
+      "pmid": "40899441",
+      "focus": "Extract experimental effects on radiosensitivity for both the genetic and pharmacological interventions reported for HDAC3. Use HDAC3 as the factor for gene knockdown and the named drug as the factor for pharmacological inhibition. Restrict the endpoint to radiosensitivity.",
+      "expected": [
+        {
+          "factor": "HDAC3",
+          "role": "perturbation",
+          "beam": "unreported",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "genetic knockdown",
+            "Both approaches enhanced radiosensitivity"
+          ]
+        },
+        {
+          "factor": "RGFP966",
+          "role": "drug",
+          "beam": "unreported",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "pharmacologic inhibition (RGFP966)",
+            "Both approaches enhanced radiosensitivity"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:a4748b5ccc9983de20f08a96",
+          "sha256": "5289b587418e640ab09cdc2021e480e97b61fee515bdc21bb2ae7177bf09bf57",
+          "label": "title"
+        },
+        {
+          "block_id": "block:a3b37321c408435fe7bfbe54",
+          "sha256": "768961118fcff69b7e631541f63476a2cf808036dea4d9798215285ab73b3e64",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "flash_rate_and_marker",
+      "pmid": "39724928",
+      "focus": "Extract the PD-L1 expression finding for Pan02 under ultra-high-dose-rate irradiation. Include the numerical quantity and unit for the dose rate of that arm.",
+      "expected": [
+        {
+          "factor": "PD-L1",
+          "role": "measured_marker",
+          "beam": "carbon_ion",
+          "endpoint": "expression",
+          "direction": "decrease",
+          "evidence_terms": [
+            "380 Gy/s",
+            "uHDR C-ion suppressed the expression of PD-L1 on Pan02"
+          ],
+          "dose": "380 Gy/s",
+          "dose_role": "dose_rate"
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:914ad6f56435f6cae9f39272",
+          "sha256": "beda474783c3b4da77c3ab6e47c05bf88a2effc78a50d7bdeb0c81cd2796098c",
+          "label": "title"
+        },
+        {
+          "block_id": "block:ccd73429e766ad9fe605271f",
+          "sha256": "2b916c988b9a9ca9201d160feadf7791f405537711da62beb4e63eb1f1e5944e",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "glycolysis_different_beams",
+      "pmid": "36628255",
+      "focus": "Extract the effect of the experimentally enhanced glycolysis condition on clonogenic survival separately for X-rays and carbon ions. Use enhanced glycolysis as the factor label. Preserve a reported absence of significant change.",
+      "expected": [
+        {
+          "factor": "enhanced glycolysis",
+          "role": "perturbation",
+          "beam": "photon",
+          "endpoint": "clonogenic_survival",
+          "direction": "increase",
+          "evidence_terms": [
+            "attenuated the loss of clonogenic survival",
+            "X-ray"
+          ]
+        },
+        {
+          "factor": "enhanced glycolysis",
+          "role": "perturbation",
+          "beam": "carbon_ion",
+          "endpoint": "clonogenic_survival",
+          "direction": "no_detected_difference",
+          "evidence_terms": [
+            "no significant changes were noted following CII"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:c806a4540e06d7aad4c0aa69",
+          "sha256": "18dd25bbae7c35a03d24482768882d4b9141b8df6d2bf1de01e70d15c0ad8538",
+          "label": "title"
+        },
+        {
+          "block_id": "block:0d76962f3b1329c1cc8deea1",
+          "sha256": "96d31a3ca41e3331a37c16aaab699bfcfb38363c94274acdba2c441bc61c3a8e",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "carbon_ion_parp_inhibitors",
+      "pmid": "39486351",
+      "focus": "Extract the reported radiosensitivity finding for each PARP inhibitor explicitly tested with carbon ions. Record drugs individually.",
+      "expected": [
+        {
+          "factor": "olaparib",
+          "role": "drug",
+          "beam": "carbon_ion",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "olaparib and rucaparib sensitize",
+            "C-ion exposure"
+          ]
+        },
+        {
+          "factor": "rucaparib",
+          "role": "drug",
+          "beam": "carbon_ion",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "olaparib and rucaparib sensitize",
+            "C-ion exposure"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:1c0d86ea38cfa5d6c5f3c41e",
+          "sha256": "2b4ce5d935b7f3cfab6e05e372b3e56d5dadaee1e6bac62dbfdc291f6576c6db",
+          "label": "title"
+        },
+        {
+          "block_id": "block:a51cb4b7cf760a7644cd2892",
+          "sha256": "79caec0016759b2d112ba658245f1d37ab9eecc7b511294f457c0cf7cf57c480",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "melanoma_cgas_comparator",
+      "pmid": "36745223",
+      "focus": "Extract the cGAS-STING activation finding comparing carbon-ion and X-ray irradiation. Identify the index beam, comparator beam and effect direction.",
+      "expected": [
+        {
+          "factor": "cGAS-STING",
+          "role": "measured_marker",
+          "beam": "carbon_ion",
+          "endpoint": "pathway_activation",
+          "direction": "increase",
+          "evidence_terms": [
+            "cGAS-STING pathway activation compared with X-ray irradiation"
+          ],
+          "comparator": "photon"
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:39963ada5158e001c5e20293",
+          "sha256": "7b06eeedbcc7d3cca80ffb92248734e3729de047994e3d0e846839d03e8b7d1f",
+          "label": "title"
+        },
+        {
+          "block_id": "block:eec0cc4ac40b444051dcdba0",
+          "sha256": "2ffb1fb0bab6e7e4e4da2fd70fb1ca102899647fb3eee67f2caf89850e134c0a",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "pancreatic_1433_depletion",
+      "pmid": "38843383",
+      "focus": "Extract the effect of depleting 14-3-3σ on radiosensitivity in the in-vivo model. Include the beam modality as supported by the text.",
+      "expected": [
+        {
+          "factor": "14-3-3σ",
+          "role": "perturbation",
+          "beam": "carbon_ion",
+          "endpoint": "radiosensitivity",
+          "direction": "increase",
+          "evidence_terms": [
+            "enhanced radiosensitivity of 14-3-3σ depletion",
+            "demonstrated in vivo"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:e5a4e9d988a8d28abe9c815d",
+          "sha256": "32e2a0d0eff4cd68dccc155c58825be84af3accfbe1ebf60a77e0ede4811967b",
+          "label": "title"
+        },
+        {
+          "block_id": "block:099c7147d1b5ccbb1097780e",
+          "sha256": "526fc3d48879c8ffc21448d135713eaa65c57521ca59b269b2c3a3ed27767a71",
+          "label": "abstract"
+        }
+      ]
+    },
+    {
+      "case_id": "beta_catenin_carbon",
+      "pmid": "37334439",
+      "focus": "Extract the effect of β-catenin pathway inhibition on resistance to carbon ions in quiescent cells. Use β-catenin as the factor and radioresistance as the endpoint.",
+      "expected": [
+        {
+          "factor": "β-catenin",
+          "role": "perturbation",
+          "beam": "carbon_ion",
+          "endpoint": "radioresistance",
+          "direction": "increase",
+          "evidence_terms": [
+            "inhibition of this pathway improved the resistance",
+            "β-catenin pathway"
+          ]
+        }
+      ],
+      "source_blocks": [
+        {
+          "block_id": "block:4c7287cff7c63d62e69e8f37",
+          "sha256": "fbf8bff28e6a2aede263297faad4941c91483f9b72c78ba10db51e8dd38b2e9d",
+          "label": "title"
+        },
+        {
+          "block_id": "block:66081bfe8d5a044c9a1df592",
+          "sha256": "3c3b16a232467fd9b373a2cef97fc20d83fed1d82fd5b788af4fc8359018a61f",
+          "label": "abstract"
+        }
+      ]
+    }
+  ]
+}

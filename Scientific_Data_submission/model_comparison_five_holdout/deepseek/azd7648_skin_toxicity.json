@@ -1,0 +1,65 @@
+{
+  "case_id": "azd7648_skin_toxicity",
+  "pmid": "38781104",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Wafer",
+  "completion_id": "gen-1794804637-mZaP0tS8hciTO4dTqyfw",
+  "recorded_utc": "2026-11-16T04:50:38+00:00",
+  "elapsed_seconds": 1.651,
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 278,
+    "total_tokens": 1302,
+    "cost": 0.00017612,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 512,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00017612,
+      "upstream_inference_prompt_cost": 3.712e-05,
+      "upstream_inference_completions_cost": 0.000139
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"unreported\",\n      \"comparator\": \"none\",\n      \"direction\": \"increase\",\n      \"dose\": \"3 to 100 mg/kg\",\n      \"dose_role\": \"dose_rate\",\n      \"endpoint\": \"toxicity\",\n      \"evidence\": [\n        \"FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648.\",\n        \"A dose-dependent increase in time to tumor volume doubling following AZD7648 was proportional to an increase in toxicity scores of the overlying skin.\"\n      ],\n      \"factor\": \"AZD7648\",\n      \"role\": \"drug\"\n    },\n    {\n      \"beam\": \"unreported\",\n      \"comparator\": \"none\",\n      \"direction\": \"descriptive\",\n      \"dose\": \"10 to 15 Gy\",\n      \"dose_role\": \"dose_rate\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"evidence\": [\n        \"FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648.\"\n      ],\n      \"factor\": \"\",\n      \"role\": \"exposure\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "3 to 100 mg/kg",
+      "dose_role": "dose_rate",
+      "endpoint": "toxicity",
+      "evidence": [
+        "FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648.",
+        "A dose-dependent increase in time to tumor volume doubling following AZD7648 was proportional to an increase in toxicity scores of the overlying skin."
+      ],
+      "factor": "AZD7648",
+      "role": "drug"
+    },
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "10 to 15 Gy",
+      "dose_role": "dose_rate",
+      "endpoint": "irradiation_schedule",
+      "evidence": [
+        "FaDu tumor xenografts implanted in mice were treated with 10 to 15 Gy irradiation ± 3 to 100 mg/kg AZD7648."
+      ],
+      "factor": "",
+      "role": "exposure"
+    }
+  ]
+}

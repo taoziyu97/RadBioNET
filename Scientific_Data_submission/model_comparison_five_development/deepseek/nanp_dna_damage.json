@@ -1,0 +1,51 @@
+{
+  "case_id": "nanp_dna_damage",
+  "pmid": "41851195",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "InferenceNet",
+  "completion_id": "gen-1794804633-f6fRube7gGThI5rHQ9Wd",
+  "recorded_utc": "2026-11-16T04:50:35+00:00",
+  "elapsed_seconds": 1.993,
+  "usage": {
+    "prompt_tokens": 715,
+    "completion_tokens": 135,
+    "total_tokens": 850,
+    "cost": 0.000138875,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000138875,
+      "upstream_inference_prompt_cost": 5.72e-05,
+      "upstream_inference_completions_cost": 8.1675e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"perturbation\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"dna_damage\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"NANP deficiency\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"After radiation, NANP-deficient cells exhibit more DNA damage, G2/M arrest and apoptosis, and impaired DNA repair by favoring non-homologous end-joining over homologous recombination.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "dna_damage",
+      "direction": "descriptive",
+      "factor": "NANP deficiency",
+      "dose": "",
+      "evidence": [
+        "After radiation, NANP-deficient cells exhibit more DNA damage, G2/M arrest and apoptosis, and impaired DNA repair by favoring non-homologous end-joining over homologous recombination."
+      ]
+    }
+  ]
+}

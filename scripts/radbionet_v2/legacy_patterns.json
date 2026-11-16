@@ -1,0 +1,1252 @@
+{
+  "directions": {
+    "Anti-tumour immune effect": [
+      "anti[- ]?tumou?r\\s+immun",
+      "immunog?en(?:ic|icity)",
+      "immunostimulat",
+      "immune\\s+activation",
+      "type\\s+[i1]\\s+(?:interferon|ifn)\\s+(?:response|signal)",
+      "pro[- ]?inflammatory\\s+cytokine",
+      "cytotoxic\\s+t[- ]?cell\\s+(?:activation|infiltrat|recruitment|response)",
+      "damp\\s+release",
+      "in\\s+situ\\s+vaccin"
+    ],
+    "Immunogenic cell death": [
+      "immunog?enic\\s+cell\\s+death",
+      "\\bicd\\b",
+      "damage[- ]?associated\\s+molecular\\s+pattern",
+      "\\bdamp\\b\\s+release"
+    ],
+    "Immunosuppressive effect": [
+      "immunosuppress",
+      "immune\\s+suppress",
+      "immune\\s+evasion",
+      "immune\\s+escape",
+      "\\btreg\\s+(?:induc|expan|recruit|increase)",
+      "regulatory\\s+t[- ]?cell\\s+(?:induc|expan)",
+      "mdsc\\s+(?:induc|recruit|increase)",
+      "myeloid[- ]?derived\\s+suppressor"
+    ],
+    "No change observed": [
+      "no\\s+significant\\s+change",
+      "not\\s+affected\\s+by\\s+radiation",
+      "did\\s+not\\s+(?:induce|change|affect|alter)\\s+",
+      "no\\s+radiation[- ]?(?:mediated|induced)\\s+(?:change|effect)",
+      "unchanged\\s+(?:after|following)\\s+(?:radiation|irradiat)",
+      "no\\s+effect\\s+on\\s+"
+    ],
+    "Radiation toxicity factor": [
+      "\\btoxicit",
+      "adverse\\s+event",
+      "grade\\s+[\\u2265>=]?\\s*[23]\\s+(?:toxicity|event)",
+      "radiation[- ]?induced\\s+(?:dermatitis|pneumonitis|fibrosis|mucositis|esophagitis|enteritis)",
+      "normal\\s+tissue\\s+(?:dam|injury|complication|toxicity)",
+      "late\\s+(?:effect|toxicity|complication)"
+    ],
+    "Radiation-induced downregulation": [
+      "(?:radiation|irradiation|proton)[- ]?induc(?:ed|tion of)?\\s+(?:down[- ]?regulat|decrease|reduction|suppression|loss)",
+      "downregulat(?:ed|ion)\\s+(?:after|following|by|upon)\\s+(?:radiation|irradiation|proton)"
+    ],
+    "Radiation-induced upregulation": [
+      "(?:radiation|irradiation|proton)[- ]?induc(?:ed|tion of)?\\s+(?:up[- ]?regulat|increase|expression|activation|elevat|secretion|release)",
+      "upregulat(?:ed|ion)\\s+(?:after|following|by|upon)\\s+(?:radiation|irradiation|proton)",
+      "increased\\s+expression\\s+(?:after|following|by|upon)\\s+(?:radiation|irradiation|proton)",
+      "induce[ds]?\\s+(?:the\\s+)?(?:expression|release|secretion|activation)"
+    ],
+    "Radioresistance": [
+      "\\bradioresist",
+      "radio[- ]?resist",
+      "resistant\\s+to\\s+(?:radiation|irradiat|proton|photon|radiotherapy)",
+      "resistance\\s+to\\s+(?:radiation|irradiat|proton|photon|radiotherapy)",
+      "confer(?:s|red|ring)?\\s+(?:radio|radiation)[a-z\\- ]*?resistance"
+    ],
+    "Radiosensitization": [
+      "\\bradiosensitiz",
+      "radio[- ]?sensitiz",
+      "sensitiz(?:e|es|ed|ing)\\s+(?:tumor|tumour|cancer|cells|[a-z]+\\s+cells)\\s+(?:to|towards|against)\\s+(?:radiation|irradiat|proton|photon)",
+      "enhanc(?:e|es|ed|ement|ing)\\s+(?:the\\s+)?(?:radiation|radio|proton|photon)[a-z\\- ]{0,30}(?:sensitivity|response|killing|efficacy)",
+      "increase[ds]?\\s+radiosensitivity",
+      "radiosensitizer"
+    ]
+  },
+  "factors": {
+    "5-FU": [
+      [
+        "5[- ]?fu\\b|5[- ]?fluorouracil",
+        "Drug"
+      ]
+    ],
+    "53BP1": [
+      [
+        "\\b53bp1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "ACSL4": [
+      [
+        "\\bacsl4\\b",
+        "Gene/Protein (ferroptosis)"
+      ],
+      [
+        "\\bacsl4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "AKT": [
+      [
+        "\\bakt\\b|protein kinase b\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "ALDH1": [
+      [
+        "\\baldh1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "ALKBH5": [
+      [
+        "\\balkbh5\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "AMPK": [
+      [
+        "\\bampk\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "ATG5": [
+      [
+        "\\batg5\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "ATG7": [
+      [
+        "\\batg7\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "ATM": [
+      [
+        "\\batm\\b(?![- ])",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "ATR": [
+      [
+        "\\batr\\b(?![a-z])",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "AZD1775": [
+      [
+        "\\bazd1775\\b|adavosertib",
+        "WEE1 inhibitor"
+      ]
+    ],
+    "AZD2281": [
+      [
+        "\\bazd2281\\b",
+        "PARP inhibitor"
+      ]
+    ],
+    "AZD6738": [
+      [
+        "\\bazd6738\\b|ceralasertib",
+        "ATR inhibitor"
+      ]
+    ],
+    "Atezolizumab": [
+      [
+        "atezolizumab",
+        "ICI"
+      ],
+      [
+        "atezolizumab",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "BAK": [
+      [
+        "\\bbak\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BAX": [
+      [
+        "\\bbax\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BCL-XL": [
+      [
+        "bcl[- ]?xl\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BCL2": [
+      [
+        "bcl[- ]?2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BMI1": [
+      [
+        "\\bbmi[- ]?1\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "BRCA1": [
+      [
+        "\\bbrca1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BRCA2": [
+      [
+        "\\bbrca2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "BRD4": [
+      [
+        "\\bbrd4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Beclin1/BECN1": [
+      [
+        "\\bbeclin[- ]?1\\b|\\bbecn1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Bevacizumab": [
+      [
+        "bevacizumab",
+        "Targeted antibody"
+      ]
+    ],
+    "Bismuth NPs": [
+      [
+        "bismuth nanoparticle",
+        "Nanoparticle"
+      ]
+    ],
+    "Boron NPs": [
+      [
+        "boron nanoparticle",
+        "Nanoparticle"
+      ]
+    ],
+    "CA9/CA-IX": [
+      [
+        "\\bca[- ]?9\\b|carbonic anhydrase ix|\\bcaix\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "CD133/PROM1": [
+      [
+        "\\bcd133\\b|\\bprom1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "CD44": [
+      [
+        "\\bcd44\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "CDK4": [
+      [
+        "\\bcdk4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "CDK6": [
+      [
+        "\\bcdk6\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "CHK1": [
+      [
+        "\\bchk1\\b|\\bchek1\\b",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "CHK2": [
+      [
+        "\\bchk2\\b|\\bchek2\\b",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "CTLA-4": [
+      [
+        "ctla[- ]?4",
+        "Immune factor"
+      ]
+    ],
+    "CXCL10": [
+      [
+        "\\bcxcl10\\b|\\bip-?10\\b",
+        "Chemokine"
+      ]
+    ],
+    "Capecitabine": [
+      [
+        "capecitabin",
+        "Drug"
+      ]
+    ],
+    "Carboplatin": [
+      [
+        "\\bcarboplatin\\b",
+        "Drug"
+      ]
+    ],
+    "Caspase-3": [
+      [
+        "caspase[- ]?3",
+        "Gene/Protein"
+      ]
+    ],
+    "Caspase-8": [
+      [
+        "caspase[- ]?8",
+        "Gene/Protein"
+      ]
+    ],
+    "Caspase-9": [
+      [
+        "caspase[- ]?9",
+        "Gene/Protein"
+      ]
+    ],
+    "Cetuximab": [
+      [
+        "cetuximab",
+        "Targeted antibody"
+      ]
+    ],
+    "Cisplatin": [
+      [
+        "\\bcisplatin\\b",
+        "Drug"
+      ]
+    ],
+    "Curcumin": [
+      [
+        "\\bcurcumin\\b",
+        "Small molecule"
+      ]
+    ],
+    "Cyclin B1": [
+      [
+        "cyclin[ -]?b1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Cyclin D1": [
+      [
+        "cyclin[ -]?d1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "DLAT": [
+      [
+        "\\bdlat\\b",
+        "Gene/Protein (cuproptosis)"
+      ]
+    ],
+    "DNA-PK/PRKDC": [
+      [
+        "dna[- ]?pk(?:cs)?|\\bprkdc\\b",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "DNMT1": [
+      [
+        "\\bdnmt1\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "Decitabine": [
+      [
+        "decitabine|5[- ]?aza",
+        "DNMT inhibitor"
+      ]
+    ],
+    "Docetaxel": [
+      [
+        "docetaxel",
+        "Drug"
+      ]
+    ],
+    "Doxorubicin": [
+      [
+        "doxorubicin|adriamycin",
+        "Drug"
+      ]
+    ],
+    "Durvalumab": [
+      [
+        "durvalumab",
+        "ICI"
+      ],
+      [
+        "durvalumab",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "E-cadherin/CDH1": [
+      [
+        "e[- ]?cadherin|\\bcdh1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "EGFR": [
+      [
+        "\\begfr\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "EZH2": [
+      [
+        "\\bezh2\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "Erastin": [
+      [
+        "\\berastin\\b",
+        "Ferroptosis inducer"
+      ]
+    ],
+    "Etoposide": [
+      [
+        "etoposide",
+        "Drug"
+      ]
+    ],
+    "FANCD2": [
+      [
+        "\\bfancd2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "FAS": [
+      [
+        "\\bfas\\b(?!t)",
+        "Gene/Protein"
+      ]
+    ],
+    "FDX1": [
+      [
+        "\\bfdx1\\b",
+        "Gene/Protein (cuproptosis)"
+      ]
+    ],
+    "FOXM1": [
+      [
+        "\\bfoxm1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "FOXP3": [
+      [
+        "\\bfoxp3\\b",
+        "Gene/Protein (Treg)"
+      ]
+    ],
+    "FSP1": [
+      [
+        "\\bfsp1\\b|\\baifm2\\b",
+        "Gene/Protein (ferroptosis)"
+      ]
+    ],
+    "FTO": [
+      [
+        "\\bfto\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "GLUT1": [
+      [
+        "\\bglut[- ]?1\\b|\\bslc2a1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "GPX4": [
+      [
+        "\\bgpx4\\b",
+        "Gene/Protein (ferroptosis)"
+      ],
+      [
+        "\\bgpx4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "GSDMD": [
+      [
+        "\\bgsdmd\\b",
+        "Gene/Protein (pyroptosis)"
+      ]
+    ],
+    "GSDME": [
+      [
+        "\\bgsdme\\b|\\bdfna5\\b",
+        "Gene/Protein (pyroptosis)"
+      ]
+    ],
+    "Galectin-1": [
+      [
+        "galectin[- ]?1\\b|\\bgal-?1\\b|\\blgals1\\b",
+        "Immunosuppressive factor"
+      ]
+    ],
+    "Gemcitabine": [
+      [
+        "gemcitabin",
+        "Drug"
+      ]
+    ],
+    "Gold nanoparticles": [
+      [
+        "gold nanoparticle|\\bgnp\\b",
+        "Nanoparticle"
+      ]
+    ],
+    "HDAC1": [
+      [
+        "\\bhdac1\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "HDAC6": [
+      [
+        "\\bhdac6\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "HER2/ERBB2": [
+      [
+        "\\bher[- ]?2\\b|\\berbb2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "HER3/ERBB3": [
+      [
+        "\\bher[- ]?3\\b|\\berbb3\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "HIF-1α": [
+      [
+        "hif[- ]?1[\\u03b1a]?|hypoxia[- ]?inducible factor",
+        "Gene/Protein"
+      ]
+    ],
+    "HIF-2α": [
+      [
+        "hif[- ]?2[\\u03b1a]?",
+        "Gene/Protein"
+      ]
+    ],
+    "HMGB1": [
+      [
+        "\\bhmgb1\\b",
+        "DAMP"
+      ],
+      [
+        "\\bhmgb1\\b",
+        "Damage-associated molecular pattern (DAMP)"
+      ]
+    ],
+    "Hedgehog": [
+      [
+        "hedgehog|sonic hedgehog",
+        "Pathway"
+      ]
+    ],
+    "Hippo/YAP": [
+      [
+        "\\byap1?\\b|\\bhippo\\b|\\btaz\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "IDH1": [
+      [
+        "\\bidh1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "IFN-γ/IFNG": [
+      [
+        "ifn[- ]?\\u03b3|interferon[- ]?gamma|\\bifng\\b",
+        "Cytokine"
+      ]
+    ],
+    "IFNB1/IFN-β": [
+      [
+        "\\bifnb1\\b|interferon[- ]?beta|ifn[- ]?\\u03b2|ifn-beta",
+        "Cytokine"
+      ]
+    ],
+    "IGF1R": [
+      [
+        "\\bigf[- ]?1r\\b|igf[- ]?1 receptor",
+        "Gene/Protein"
+      ]
+    ],
+    "IL-6": [
+      [
+        "\\bil[- ]?6\\b|interleukin[- ]?6",
+        "Cytokine"
+      ]
+    ],
+    "IRE1α/XBP1": [
+      [
+        "ire1[- ]?α|ire1[- ]?alpha|\\bxbp1\\b",
+        "Pathway (UPR)"
+      ]
+    ],
+    "IRF3": [
+      [
+        "\\birf3\\b|\\bpirf3\\b",
+        "Transcription factor"
+      ]
+    ],
+    "IRF7": [
+      [
+        "\\birf7\\b",
+        "Transcription factor"
+      ]
+    ],
+    "Ipilimumab": [
+      [
+        "ipilimumab",
+        "ICI"
+      ],
+      [
+        "ipilimumab",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "Irinotecan": [
+      [
+        "irinotecan|\\bcpt[- ]?11\\b",
+        "Drug"
+      ]
+    ],
+    "Iron oxide NPs": [
+      [
+        "iron oxide nanoparticle|magnetic nanoparticle",
+        "Nanoparticle"
+      ]
+    ],
+    "KEAP1": [
+      [
+        "\\bkeap1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "KRAS": [
+      [
+        "\\bkras\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "KU-55933": [
+      [
+        "\\bku[- ]?55933\\b",
+        "ATM inhibitor"
+      ]
+    ],
+    "Ku70/XRCC6": [
+      [
+        "\\bku70\\b|\\bxrcc6\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Ku80/XRCC5": [
+      [
+        "\\bku80\\b|\\bxrcc5\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "LC3": [
+      [
+        "\\blc3\\b|\\bmap1lc3\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "LDHA": [
+      [
+        "\\bldha\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "LIAS": [
+      [
+        "\\blias\\b",
+        "Gene/Protein (cuproptosis)"
+      ]
+    ],
+    "MAPK/ERK": [
+      [
+        "\\bmapk\\b|\\berk1/2\\b|\\berk\\b(?!opathy)",
+        "Pathway/Protein"
+      ]
+    ],
+    "MAVS": [
+      [
+        "\\bmavs\\b|mitochondrial antiviral",
+        "Pathway/Protein"
+      ]
+    ],
+    "MCL1": [
+      [
+        "\\bmcl[- ]?1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "MDM2": [
+      [
+        "\\bmdm2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "MET/c-Met": [
+      [
+        "\\bc[- ]?met\\b|\\bmet (?:proto)?onco|\\bmet receptor",
+        "Gene/Protein"
+      ]
+    ],
+    "METTL3": [
+      [
+        "\\bmettl3\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "MGMT": [
+      [
+        "\\bmgmt\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "MHC-I": [
+      [
+        "\\bmhc[- ]?[i1]\\b|major histocompatibility complex (?:class )?[i1]|hla-?a,?b,?c|hla[- ]?class[- ]?[i1]",
+        "Antigen presentation"
+      ]
+    ],
+    "MRE11": [
+      [
+        "\\bmre11\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "MYC/c-Myc": [
+      [
+        "\\bmyc\\b|c[- ]?myc",
+        "Gene/Protein"
+      ]
+    ],
+    "Metformin": [
+      [
+        "\\bmetformin\\b",
+        "Small molecule"
+      ]
+    ],
+    "Mitomycin-C": [
+      [
+        "mitomycin",
+        "Drug"
+      ]
+    ],
+    "NBS1/NBN": [
+      [
+        "\\bnbs1\\b|\\bnbn\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "NCOA4": [
+      [
+        "\\bncoa4\\b",
+        "Gene/Protein (ferritinophagy)"
+      ]
+    ],
+    "NF-κB": [
+      [
+        "nf[- ]?\\u03bab|nf[- ]?kappa[- ]?b|\\bnfkb\\b|nf-kappab",
+        "Pathway/Protein"
+      ]
+    ],
+    "NLRP3": [
+      [
+        "\\bnlrp3\\b",
+        "Gene/Protein (inflammasome)"
+      ]
+    ],
+    "NOXA": [
+      [
+        "\\bnoxa\\b|\\bpmaip1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "NRF2/NFE2L2": [
+      [
+        "\\bnrf2\\b|\\bnfe2l2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "NU7441": [
+      [
+        "\\bnu7441\\b",
+        "DNA-PK inhibitor"
+      ]
+    ],
+    "Nanog": [
+      [
+        "\\bnanog\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Niraparib": [
+      [
+        "niraparib",
+        "PARP inhibitor"
+      ]
+    ],
+    "Nivolumab": [
+      [
+        "nivolumab",
+        "ICI"
+      ],
+      [
+        "nivolumab",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "Notch": [
+      [
+        "\\bnotch\\b",
+        "Pathway"
+      ]
+    ],
+    "OTUD4": [
+      [
+        "\\botud4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Olaparib": [
+      [
+        "olaparib",
+        "PARP inhibitor"
+      ]
+    ],
+    "Oxaliplatin": [
+      [
+        "\\boxaliplatin\\b",
+        "Drug"
+      ]
+    ],
+    "PALB2": [
+      [
+        "\\bpalb2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "PARP1": [
+      [
+        "\\bparp[- ]?1\\b|\\bparp\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "PARP2": [
+      [
+        "\\bparp[- ]?2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "PD-1/PDCD1": [
+      [
+        "\\bpd[- ]?1\\b(?!l)|\\bpdcd1\\b",
+        "Immune factor"
+      ]
+    ],
+    "PD-L1/CD274": [
+      [
+        "\\bpd[- ]?l1\\b|\\bcd274\\b",
+        "Immune factor"
+      ]
+    ],
+    "PI3K": [
+      [
+        "\\bpi3k\\b|pi3[- ]kinase",
+        "Pathway/Protein"
+      ]
+    ],
+    "PRKCSH": [
+      [
+        "\\bprkcsh\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "PTEN": [
+      [
+        "\\bpten\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "PUMA": [
+      [
+        "\\bpuma\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Paclitaxel": [
+      [
+        "paclitaxel|taxol",
+        "Drug"
+      ]
+    ],
+    "Panobinostat": [
+      [
+        "panobinostat",
+        "HDAC inhibitor"
+      ]
+    ],
+    "Pembrolizumab": [
+      [
+        "pembrolizumab",
+        "ICI"
+      ],
+      [
+        "pembrolizumab",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "RAD50": [
+      [
+        "\\brad50\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "RAD51": [
+      [
+        "\\brad51\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "RAD52": [
+      [
+        "\\brad52\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "RAD54": [
+      [
+        "\\brad54\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "RIG-I": [
+      [
+        "\\brig-?i\\b|retinoic acid-inducible gene",
+        "Pathway/Protein"
+      ]
+    ],
+    "RSL3": [
+      [
+        "\\brsl3\\b",
+        "Ferroptosis inducer"
+      ]
+    ],
+    "Rb": [
+      [
+        "\\brb1\\b|retinoblastom(?:a protein)?",
+        "Gene/Protein"
+      ]
+    ],
+    "Resveratrol": [
+      [
+        "\\bresveratrol\\b",
+        "Small molecule"
+      ]
+    ],
+    "SIRT1": [
+      [
+        "\\bsirt1\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "SLC7A11/xCT": [
+      [
+        "\\bslc7a11\\b|\\bxct\\b",
+        "Gene/Protein (ferroptosis)"
+      ],
+      [
+        "\\bslc7a11\\b|\\bxct\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "SOD2": [
+      [
+        "\\bsod2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "SOX2": [
+      [
+        "\\bsox2\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "STAT1": [
+      [
+        "\\bstat1\\b|\\bpstat1\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "STAT3": [
+      [
+        "\\bstat3\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "STING/TMEM173": [
+      [
+        "\\bsting\\b|\\btmem173\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "Snail/SNAI1": [
+      [
+        "\\bsnail\\b|\\bsnai1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Survivin/BIRC5": [
+      [
+        "\\bsurvivin\\b|\\bbirc5\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "TERT": [
+      [
+        "\\btert\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "TGF-β": [
+      [
+        "tgf[- ]?\\u03b2|tgf[- ]?beta",
+        "Gene/Protein/Pathway"
+      ]
+    ],
+    "TNF-α": [
+      [
+        "tnf[- ]?\\u03b1|tnf[- ]?alpha|tumou?r necrosis factor",
+        "Cytokine"
+      ]
+    ],
+    "TP53/p53": [
+      [
+        "\\bp53\\b|\\btp53\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "TRAIL/TNFSF10": [
+      [
+        "\\btrail\\b|\\btnfsf10\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Talazoparib": [
+      [
+        "talazoparib",
+        "PARP inhibitor"
+      ]
+    ],
+    "Temozolomide": [
+      [
+        "temozolomid|\\btmz\\b",
+        "Drug"
+      ]
+    ],
+    "Trastuzumab": [
+      [
+        "trastuzumab|herceptin",
+        "Targeted antibody"
+      ]
+    ],
+    "Twist1": [
+      [
+        "\\btwist1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Type I IFN response": [
+      [
+        "type[- ]?[i1] (?:interferon|ifn) (?:response|signal|signalling|signaling)",
+        "Pathway"
+      ]
+    ],
+    "VE-821": [
+      [
+        "\\bve[- ]?821\\b",
+        "ATR inhibitor"
+      ]
+    ],
+    "VEGF": [
+      [
+        "\\bvegf\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Veliparib": [
+      [
+        "veliparib",
+        "PARP inhibitor"
+      ]
+    ],
+    "Vimentin/VIM": [
+      [
+        "\\bvimentin\\b|\\bvim\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "Vincristine": [
+      [
+        "vincristine",
+        "Drug"
+      ]
+    ],
+    "Vorinostat/SAHA": [
+      [
+        "\\bvorinostat\\b|\\bsaha\\b",
+        "HDAC inhibitor"
+      ]
+    ],
+    "WEE1": [
+      [
+        "\\bwee1\\b",
+        "Gene/Protein (kinase)"
+      ]
+    ],
+    "Wnt/β-catenin": [
+      [
+        "\\bwnt\\b|\\u03b2[- ]?catenin|beta[- ]?catenin",
+        "Pathway"
+      ]
+    ],
+    "XIAP": [
+      [
+        "\\bxiap\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "XRCC1": [
+      [
+        "\\bxrcc1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "XRCC4": [
+      [
+        "\\bxrcc4\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "YTHDF1": [
+      [
+        "\\bythdf1\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "YTHDF2": [
+      [
+        "\\bythdf2\\b",
+        "Gene/Protein (epigenetic)"
+      ]
+    ],
+    "anti-CTLA-4": [
+      [
+        "anti[- ]?ctla[- ]?4",
+        "ICI"
+      ],
+      [
+        "anti[- ]?ctla[- ]?4",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "anti-PD-1": [
+      [
+        "anti[- ]?pd[- ]?1\\b",
+        "ICI"
+      ],
+      [
+        "anti[- ]?pd[- ]?1\\b",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "anti-PD-L1": [
+      [
+        "anti[- ]?pd[- ]?l1",
+        "ICI"
+      ],
+      [
+        "anti[- ]?pd[- ]?l1",
+        "Immune checkpoint inhibitor"
+      ]
+    ],
+    "cGAS": [
+      [
+        "\\bcgas\\b|cgamp synthase",
+        "Pathway/Protein"
+      ]
+    ],
+    "mTOR": [
+      [
+        "\\bmtor\\b",
+        "Pathway/Protein"
+      ]
+    ],
+    "p16/CDKN2A": [
+      [
+        "\\bp16(?:ink4a)?\\b|\\bcdkn2a\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "p21/CDKN1A": [
+      [
+        "\\bp21\\b|\\bcdkn1a\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "p62/SQSTM1": [
+      [
+        "\\bp62\\b|\\bsqstm1\\b",
+        "Gene/Protein"
+      ]
+    ],
+    "γH2AX": [
+      [
+        "gamma[- ]?h2ax|\\bh2ax\\b|γh2ax",
+        "Protein (DNA damage marker)"
+      ],
+      [
+        "gamma[- ]?h2ax|\\bh2ax\\b|\\\\u03b3h2ax|γh2ax",
+        "Protein (DNA damage marker)"
+      ]
+    ]
+  },
+  "sources": {
+    "v2_01_extract_with_section_tags.py": "72163eb7918a7bfe3878f0a2115aa9c38dde06ac1066c8f5ca70c0e43cc72668",
+    "zotero_01_stage1_extract.py": "cc61064dfb210a469c0642727ef6bf34fe4bafedc95ff17ff320788b31ba0a3f"
+  }
+}

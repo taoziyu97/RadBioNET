@@ -1,0 +1,66 @@
+{
+  "case_id": "niraparib_by_beam",
+  "pmid": "32323895",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794807089-HuBR96RJjHFyvvocV0vT",
+  "recorded_utc": "2026-11-16T05:31:34+00:00",
+  "elapsed_seconds": 5.064,
+  "usage": {
+    "prompt_tokens": 2489,
+    "completion_tokens": 271,
+    "total_tokens": 2760,
+    "cost": 0.015376,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.015376,
+      "upstream_inference_prompt_cost": 0.009956,
+      "upstream_inference_completions_cost": 0.00542
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"drug\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"radiation_only\",\"endpoint\":\"radiosensitivity\",\"direction\":\"increase\",\"factor\":\"niraparib\",\"dose\":\"\",\"evidence\":[\"Niraparib enhanced the sensitivity of four HNSCC cell lines to both photons and protons\",\"enhanced radiosensitivity in all four cell lines\"]},{\"role\":\"drug\",\"beam\":\"proton\",\"dose_role\":\"unreported\",\"comparator\":\"radiation_only\",\"endpoint\":\"radiosensitivity\",\"direction\":\"increase\",\"factor\":\"niraparib\",\"dose\":\"\",\"evidence\":[\"Niraparib enhanced the sensitivity of four HNSCC cell lines to both photons and protons\",\"enhanced radiosensitivity in all four cell lines\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "radiation_only",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "niraparib",
+      "dose": "",
+      "evidence": [
+        "Niraparib enhanced the sensitivity of four HNSCC cell lines to both photons and protons",
+        "enhanced radiosensitivity in all four cell lines"
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "proton",
+      "dose_role": "unreported",
+      "comparator": "radiation_only",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "niraparib",
+      "dose": "",
+      "evidence": [
+        "Niraparib enhanced the sensitivity of four HNSCC cell lines to both photons and protons",
+        "enhanced radiosensitivity in all four cell lines"
+      ]
+    }
+  ]
+}

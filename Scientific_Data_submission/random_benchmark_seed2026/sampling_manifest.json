@@ -1,0 +1,72 @@
+{
+  "seed": 2026,
+  "python_version": "3.14.4",
+  "source": "Scientific_Data_submission/data_v2_prepared/local_evidence/text_blocks.csv",
+  "source_sha256": "e7115c79973c99f66004b8784ae68d13373f3bc99ab3da7a961c8de70b01f034",
+  "unique_title_abstract_pairs": 8574,
+  "excluded_pilot_pmids": [
+    "22543217",
+    "24192264",
+    "24981250",
+    "26372435",
+    "26688569",
+    "32323895",
+    "36628255",
+    "36745223",
+    "37334439",
+    "38781104",
+    "38843383",
+    "39372406",
+    "39486351",
+    "39515408",
+    "39724928",
+    "39903402",
+    "40353857",
+    "40899441",
+    "41009714",
+    "41851195"
+  ],
+  "prescreen_frame": 8554,
+  "pool_sizes": {
+    "factor_role": 3747,
+    "photon": 376,
+    "outcome": 888,
+    "unsupported_dose": 174,
+    "unsupported_comparison": 40,
+    "proton": 57,
+    "carbon_ion": 31
+  },
+  "quotas": {
+    "selection": {
+      "factor_role": 2,
+      "outcome": 2,
+      "photon": 1,
+      "proton": 1,
+      "carbon_ion": 1,
+      "unsupported_dose": 1,
+      "unsupported_comparison": 1
+    },
+    "development": {
+      "factor_role": 4,
+      "outcome": 4,
+      "photon": 2,
+      "proton": 1,
+      "carbon_ion": 1,
+      "unsupported_dose": 1,
+      "unsupported_comparison": 1
+    }
+  },
+  "pool_order": [
+    "factor_role",
+    "outcome",
+    "photon",
+    "proton",
+    "carbon_ion",
+    "unsupported_dose",
+    "unsupported_comparison"
+  ],
+  "split_order": [
+    "selection",
+    "development"
+  ]
+}

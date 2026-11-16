@@ -1,0 +1,68 @@
+{
+  "case_id": "hdac3_two_interventions",
+  "pmid": "40899441",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794806271-3kh85ZkRfulTDwRxWjHP",
+  "recorded_utc": "2026-11-16T05:17:57+00:00",
+  "elapsed_seconds": 6.286,
+  "usage": {
+    "prompt_tokens": 2439,
+    "completion_tokens": 425,
+    "total_tokens": 2864,
+    "cost": 0.018256,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.018256,
+      "upstream_inference_prompt_cost": 0.009756,
+      "upstream_inference_completions_cost": 0.0085
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"perturbation\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"radiation_only\",\"endpoint\":\"radiosensitivity\",\"direction\":\"increase\",\"factor\":\"HDAC3\",\"dose\":\"\",\"evidence\":[\"validated through genetic knockdown and pharmacologic inhibition (RGFP966) in multiple SCLC cell lines\",\"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)\",\"treated with ionizing radiation (IR)\"]},{\"role\":\"drug\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"radiation_only\",\"endpoint\":\"radiosensitivity\",\"direction\":\"increase\",\"factor\":\"RGFP966\",\"dose\":\"\",\"evidence\":[\"validated through genetic knockdown and pharmacologic inhibition (RGFP966) in multiple SCLC cell lines\",\"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)\",\"treated with ionizing radiation (IR)\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "radiation_only",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "HDAC3",
+      "dose": "",
+      "evidence": [
+        "validated through genetic knockdown and pharmacologic inhibition (RGFP966) in multiple SCLC cell lines",
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)",
+        "treated with ionizing radiation (IR)"
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "radiation_only",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "RGFP966",
+      "dose": "",
+      "evidence": [
+        "validated through genetic knockdown and pharmacologic inhibition (RGFP966) in multiple SCLC cell lines",
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)",
+        "treated with ionizing radiation (IR)"
+      ]
+    }
+  ]
+}

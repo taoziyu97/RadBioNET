@@ -1,0 +1,51 @@
+{
+  "case_id": "ctrp1_expression_photons",
+  "pmid": "39515408",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Darkbloom",
+  "completion_id": "gen-1794804630-f6vugDwlbbG6WKYma73s",
+  "recorded_utc": "2026-11-16T04:50:32+00:00",
+  "elapsed_seconds": 2.465,
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 126,
+    "total_tokens": 1434,
+    "cost": 3.4884e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 3.4884e-05,
+      "upstream_inference_prompt_cost": 2.3544e-05,
+      "upstream_inference_completions_cost": 1.134e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 54,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"photon\",\"comparator\":\"none\",\"direction\":\"increase\",\"dose\":\"\",\"dose_role\":\"unreported\",\"endpoint\":\"expression\",\"evidence\":[\"CTRP1 expression increased following radiation exposure, especially after X-ray treatment.\"],\"factor\":\"CTRP1\",\"role\":\"measured_marker\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "expression",
+      "evidence": [
+        "CTRP1 expression increased following radiation exposure, especially after X-ray treatment."
+      ],
+      "factor": "CTRP1",
+      "role": "measured_marker"
+    }
+  ]
+}

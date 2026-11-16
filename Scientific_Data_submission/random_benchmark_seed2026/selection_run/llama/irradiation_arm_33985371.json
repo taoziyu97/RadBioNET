@@ -1,0 +1,51 @@
+{
+  "case_id": "irradiation_arm_33985371",
+  "pmid": "33985371",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794810600-FiPwFfP9HYtfoCFARUsh",
+  "recorded_utc": "2026-11-16T06:30:01+00:00",
+  "elapsed_seconds": 2.3,
+  "usage": {
+    "prompt_tokens": 1104,
+    "completion_tokens": 103,
+    "total_tokens": 1207,
+    "cost": 0.00023102,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 576,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00023102,
+      "upstream_inference_prompt_cost": 0.00017952,
+      "upstream_inference_completions_cost": 5.15e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"organ_dose\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"\",\n      \"dose\": \"6 Gy\",\n      \"evidence\": [\"after exposure to an acute dose of γ-radiation (6 Gy)\"]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "exposure",
+      "beam": "unreported",
+      "dose_role": "organ_dose",
+      "comparator": "none",
+      "endpoint": "irradiation_schedule",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "6 Gy",
+      "evidence": [
+        "after exposure to an acute dose of γ-radiation (6 Gy)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-11-16T03:52:46+00:00",
+  "pmc_filter": "open_access[filter] NOT pmc embargo[filter]",
+  "inventory_manifest_url": "https://pmc-oa-opendata.s3.amazonaws.com/inventory-reports/pmc-oa-opendata/metadata/2026-11-15T01-00Z/manifest.json",
+  "inventory_created_utc": "2026-11-15T01:00:00+00:00",
+  "search_first_utc": "2026-11-16T03:44:01+00:00",
+  "search_last_utc": "2026-11-16T03:46:01+00:00",
+  "historical": {
+    "pmids": 42752,
+    "oa_pmc_matched": 13500,
+    "cloud_listed": 13493,
+    "oai_listed": 7,
+    "fulltext_listed": 13500,
+    "oa_index_only": 0
+  },
+  "legacy_annotations": {
+    "pmids": 7784,
+    "oa_pmc_matched": 3090,
+    "cloud_listed": 3090,
+    "oai_listed": 0,
+    "fulltext_listed": 3090,
+    "oa_index_only": 0
+  }
+}

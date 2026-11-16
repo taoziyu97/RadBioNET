@@ -1,0 +1,51 @@
+{
+  "case_id": "outcome_25188816",
+  "pmid": "25188816",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794810587-wlV2phkSm9858YPLPWIV",
+  "recorded_utc": "2026-11-16T06:29:51+00:00",
+  "elapsed_seconds": 4.189,
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 412,
+    "total_tokens": 1459,
+    "cost": 8.909e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 8.909e-05,
+      "upstream_inference_prompt_cost": 3.141e-05,
+      "upstream_inference_completions_cost": 5.768e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 326,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"increase\",\n      \"factor\": \"FGFR1\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Inhibition of FGFR1 synergistically enhanced the cytotoxic effects of ionizing radiation and cisplatin.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "FGFR1",
+      "dose": "",
+      "evidence": [
+        "Inhibition of FGFR1 synergistically enhanced the cytotoxic effects of ionizing radiation and cisplatin."
+      ]
+    }
+  ]
+}

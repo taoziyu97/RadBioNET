@@ -1,0 +1,52 @@
+{
+  "case_id": "black_tea_normal_tissue",
+  "pmid": "24981250",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Wafer",
+  "completion_id": "gen-1794804630-wCoShpkTbs1DKhDGZwa1",
+  "recorded_utc": "2026-11-16T04:50:31+00:00",
+  "elapsed_seconds": 1.024,
+  "usage": {
+    "prompt_tokens": 873,
+    "completion_tokens": 123,
+    "total_tokens": 996,
+    "cost": 7.9616e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 512,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 7.9616e-05,
+      "upstream_inference_prompt_cost": 1.8116e-05,
+      "upstream_inference_completions_cost": 6.15e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"photon\",\n      \"comparator\": \"unreported\",\n      \"direction\": \"decrease\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"cell_viability\",\n      \"evidence\": [\n        \"Pre-treatment with black tea extract (BTE) significantly reduced radiation-induced loss of cell viability\",\n        \"in normal lymphocytes compared to K562 cells\"\n      ],\n      \"factor\": \"black tea extract\",\n      \"role\": \"drug\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "unreported",
+      "direction": "decrease",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "cell_viability",
+      "evidence": [
+        "Pre-treatment with black tea extract (BTE) significantly reduced radiation-induced loss of cell viability",
+        "in normal lymphocytes compared to K562 cells"
+      ],
+      "factor": "black tea extract",
+      "role": "drug"
+    }
+  ]
+}

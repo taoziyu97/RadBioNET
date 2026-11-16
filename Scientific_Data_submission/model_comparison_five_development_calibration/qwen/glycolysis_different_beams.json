@@ -1,0 +1,66 @@
+{
+  "case_id": "glycolysis_different_beams",
+  "pmid": "36628255",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "SiliconFlow",
+  "completion_id": "gen-1794804468-ZTdbUJ1Mgxt223pQNvSM",
+  "recorded_utc": "2026-11-16T04:47:59+00:00",
+  "elapsed_seconds": 11.1,
+  "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 310,
+    "total_tokens": 1307,
+    "cost": 0.00086925,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00086925,
+      "upstream_inference_prompt_cost": 0.00024925,
+      "upstream_inference_completions_cost": 0.00062
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"photon\",\n      \"comparator\": \"none\",\n      \"direction\": \"descriptive\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"clonogenic_survival\",\n      \"evidence\": [\n        \"Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines\",\n        \"Enhanced Glycolysis Confers Resistance Against Photon but Not Carbon Ion Irradiation in Human Glioma Cell Lines.\"\n      ],\n      \"factor\": \"enhanced glycolysis\",\n      \"role\": \"perturbation\"\n    },\n    {\n      \"beam\": \"unreported\",\n      \"comparator\": \"none\",\n      \"direction\": \"no_detected_difference\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"clonogenic_survival\",\n      \"evidence\": [\n        \"while no significant changes were noted following CII\",\n        \"Enhanced Glycolysis Confers Resistance Against Photon but Not Carbon Ion Irradiation in Human Glioma Cell Lines.\"\n      ],\n      \"factor\": \"enhanced glycolysis\",\n      \"role\": \"perturbation\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "Enhanced glycolysis attenuated the loss of clonogenic survival with D(10) doses increasing by 20% to 65% in these cell lines",
+        "Enhanced Glycolysis Confers Resistance Against Photon but Not Carbon Ion Irradiation in Human Glioma Cell Lines."
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    },
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "no_detected_difference",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "clonogenic_survival",
+      "evidence": [
+        "while no significant changes were noted following CII",
+        "Enhanced Glycolysis Confers Resistance Against Photon but Not Carbon Ion Irradiation in Human Glioma Cell Lines."
+      ],
+      "factor": "enhanced glycolysis",
+      "role": "perturbation"
+    }
+  ]
+}

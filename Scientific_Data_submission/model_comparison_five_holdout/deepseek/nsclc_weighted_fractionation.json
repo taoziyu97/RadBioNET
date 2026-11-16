@@ -1,0 +1,51 @@
+{
+  "case_id": "nsclc_weighted_fractionation",
+  "pmid": "22543217",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "River",
+  "completion_id": "gen-1794804634-dWUGtSN1TK1f4P3NWs9V",
+  "recorded_utc": "2026-11-16T04:50:35+00:00",
+  "elapsed_seconds": 2.049,
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 112,
+    "total_tokens": 1184,
+    "cost": 0.000131328,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000131328,
+      "upstream_inference_prompt_cost": 9.26208e-05,
+      "upstream_inference_completions_cost": 3.87072e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"proton\",\n      \"dose_role\": \"fractionation\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"\",\n      \"dose\": \"74 Gy(RBE) in 37 fractions\",\n      \"evidence\": [\n        \"proton radiation [74 Gy(RBE) in 37 fractions]\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "exposure",
+      "beam": "proton",
+      "dose_role": "fractionation",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "",
+      "dose": "74 Gy(RBE) in 37 fractions",
+      "evidence": [
+        "proton radiation [74 Gy(RBE) in 37 fractions]"
+      ]
+    }
+  ]
+}

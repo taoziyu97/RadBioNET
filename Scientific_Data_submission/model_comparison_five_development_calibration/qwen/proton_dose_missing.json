@@ -1,0 +1,37 @@
+{
+  "case_id": "proton_dose_missing",
+  "pmid": "39372406",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794804448-biKbOee8VI8xE76SjNqH",
+  "recorded_utc": "2026-11-16T04:47:29+00:00",
+  "elapsed_seconds": 1.655,
+  "usage": {
+    "prompt_tokens": 1028,
+    "completion_tokens": 10,
+    "total_tokens": 1038,
+    "cost": 0.00029328,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00029328,
+      "upstream_inference_prompt_cost": 0.00026728,
+      "upstream_inference_completions_cost": 2.6e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": []\n}",
+  "status": "ok",
+  "records": []
+}

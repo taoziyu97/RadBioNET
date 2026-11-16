@@ -1,0 +1,37 @@
+{
+  "case_id": "proton_dose_missing",
+  "pmid": "39372406",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "CoreWeave",
+  "completion_id": "gen-1794803402-hqj0wx9QTI05ADRoJakA",
+  "recorded_utc": "2026-11-16T04:30:02+00:00",
+  "elapsed_seconds": 0.736,
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 7,
+    "total_tokens": 1042,
+    "cost": 0.00073982,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 416,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00073982,
+      "upstream_inference_prompt_cost": 0.00073485,
+      "upstream_inference_completions_cost": 4.97e-06
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n\n\"records\": []\n\n}",
+  "status": "ok",
+  "records": []
+}

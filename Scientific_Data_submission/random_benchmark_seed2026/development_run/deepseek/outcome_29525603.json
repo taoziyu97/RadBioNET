@@ -1,0 +1,52 @@
+{
+  "case_id": "outcome_29525603",
+  "pmid": "29525603",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Wafer",
+  "completion_id": "gen-1794810598-iIpB3HF31YyK7L81mFTZ",
+  "recorded_utc": "2026-11-16T06:29:58+00:00",
+  "elapsed_seconds": 1.107,
+  "usage": {
+    "prompt_tokens": 836,
+    "completion_tokens": 129,
+    "total_tokens": 965,
+    "cost": 8.9212e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 512,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 8.9212e-05,
+      "upstream_inference_prompt_cost": 2.4712e-05,
+      "upstream_inference_completions_cost": 6.45e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"unreported\",\n      \"comparator\": \"none\",\n      \"direction\": \"increase\",\n      \"dose\": \"\",\n      \"dose_role\": \"unreported\",\n      \"endpoint\": \"cytokine_secretion\",\n      \"evidence\": [\n        \"melatonin synergized with irradiation to induce cytotoxicity to thyroid cancer, especially in the undifferentiated subgroups\",\n        \"Radio-sensitization by melatonin may have clinical benefits in thyroid cancer\"\n      ],\n      \"factor\": \"melatonin\",\n      \"role\": \"drug\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "cytokine_secretion",
+      "evidence": [
+        "melatonin synergized with irradiation to induce cytotoxicity to thyroid cancer, especially in the undifferentiated subgroups",
+        "Radio-sensitization by melatonin may have clinical benefits in thyroid cancer"
+      ],
+      "factor": "melatonin",
+      "role": "drug"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "a549_cytokine_arms",
+  "pmid": "41009714",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794803627-kdkR0S8dTaJuerDX42e2",
+  "recorded_utc": "2026-11-16T04:33:49+00:00",
+  "elapsed_seconds": 2.97,
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 184,
+    "total_tokens": 1172,
+    "cost": 0.00030936,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00030936,
+      "upstream_inference_prompt_cost": 0.00021736,
+      "upstream_inference_completions_cost": 9.2e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"photon\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"cytokine_secretion\",\n      \"direction\": \"increase\",\n      \"factor\": \"IL-6\",\n      \"dose\": \"\",\n      \"evidence\": [\"IL-6 secretion increased after X-rays\"]\n    },\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"cytokine_secretion\",\n      \"direction\": \"increase\",\n      \"factor\": \"IL-8\",\n      \"dose\": \"\",\n      \"evidence\": [\"IL-8 after carbon ions exposure\"]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "measured_marker",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "cytokine_secretion",
+      "direction": "increase",
+      "factor": "IL-6",
+      "dose": "",
+      "evidence": [
+        "IL-6 secretion increased after X-rays"
+      ]
+    },
+    {
+      "role": "measured_marker",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "cytokine_secretion",
+      "direction": "increase",
+      "factor": "IL-8",
+      "dose": "",
+      "evidence": [
+        "IL-8 after carbon ions exposure"
+      ]
+    }
+  ]
+}

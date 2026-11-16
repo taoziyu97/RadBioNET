@@ -1,0 +1,65 @@
+{
+  "case_id": "flash_rate_and_marker",
+  "pmid": "39724928",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "SambaNova",
+  "completion_id": "gen-1794803453-X0Y5rUxsfxIbYv0JDr9V",
+  "recorded_utc": "2026-11-16T04:30:56+00:00",
+  "elapsed_seconds": 3.264,
+  "usage": {
+    "prompt_tokens": 1476,
+    "completion_tokens": 242,
+    "total_tokens": 1718,
+    "cost": 0.001176,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001176,
+      "upstream_inference_prompt_cost": 0.0008856,
+      "upstream_inference_completions_cost": 0.0002904
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"beam\": \"carbon_ion\",\n      \"comparator\": \"none\",\n      \"direction\": \"decrease\",\n      \"dose\": \"40 Gy/s\",\n      \"dose_role\": \"dose_rate\",\n      \"endpoint\": \"expression\",\n      \"evidence\": [\n        \"uHDR C-ion suppressed the expression of PD-L1 on Pan02\",\n        \"The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation\"\n      ],\n      \"factor\": \"Pan02\",\n      \"role\": \"measured_marker\"\n    },\n    {\n      \"beam\": \"carbon_ion\",\n      \"comparator\": \"none\",\n      \"direction\": \"descriptive\",\n      \"dose\": \"380 Gy/s\",\n      \"dose_role\": \"dose_rate\",\n      \"endpoint\": \"irradiation_schedule\",\n      \"evidence\": [\n        \"The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation\"\n      ],\n      \"factor\": \"\",\n      \"role\": \"exposure\"\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "carbon_ion",
+      "comparator": "none",
+      "direction": "decrease",
+      "dose": "40 Gy/s",
+      "dose_role": "dose_rate",
+      "endpoint": "expression",
+      "evidence": [
+        "uHDR C-ion suppressed the expression of PD-L1 on Pan02",
+        "The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation"
+      ],
+      "factor": "Pan02",
+      "role": "measured_marker"
+    },
+    {
+      "beam": "carbon_ion",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "380 Gy/s",
+      "dose_role": "dose_rate",
+      "endpoint": "irradiation_schedule",
+      "evidence": [
+        "The dose rates at 1.16 Gy/s for Conv and 380 Gy/s for uHDR irradiation"
+      ],
+      "factor": "",
+      "role": "exposure"
+    }
+  ]
+}

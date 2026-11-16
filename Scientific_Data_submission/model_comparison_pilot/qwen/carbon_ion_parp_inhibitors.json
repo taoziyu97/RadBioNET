@@ -1,0 +1,65 @@
+{
+  "case_id": "carbon_ion_parp_inhibitors",
+  "pmid": "39486351",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794803480-K2XBHxSFCtLxhTLgQGl6",
+  "recorded_utc": "2026-11-16T04:31:24+00:00",
+  "elapsed_seconds": 4.229,
+  "usage": {
+    "prompt_tokens": 943,
+    "completion_tokens": 308,
+    "total_tokens": 1251,
+    "cost": 0.00104598,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00104598,
+      "upstream_inference_prompt_cost": 0.00024518,
+      "upstream_inference_completions_cost": 0.0008008
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"olaparib\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Our findings reveal that both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization.\",\n        \"Thus we are the first to demonstrate that olaparib sensitizes NSCLC cells to carbon ion by interfering with HR and NHEJ pathway.\"\n      ]\n    },\n    {\n      \"role\": \"drug\",\n      \"beam\": \"carbon_ion\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"rucaparib\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Our findings reveal that both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "olaparib",
+      "dose": "",
+      "evidence": [
+        "Our findings reveal that both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization.",
+        "Thus we are the first to demonstrate that olaparib sensitizes NSCLC cells to carbon ion by interfering with HR and NHEJ pathway."
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "carbon_ion",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "rucaparib",
+      "dose": "",
+      "evidence": [
+        "Our findings reveal that both PARPi olaparib and rucaparib sensitize A549 cells to (12)C-ion exposure, with olaparib exhibiting superior sensitization."
+      ]
+    }
+  ]
+}

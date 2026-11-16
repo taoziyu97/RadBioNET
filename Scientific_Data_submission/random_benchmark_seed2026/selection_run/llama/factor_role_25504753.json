@@ -1,0 +1,90 @@
+{
+  "case_id": "factor_role_25504753",
+  "pmid": "25504753",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Parasail",
+  "completion_id": "gen-1794810586-wbzYutEk0nkgoVeZ0GMq",
+  "recorded_utc": "2026-11-16T06:29:51+00:00",
+  "elapsed_seconds": 5.769,
+  "usage": {
+    "prompt_tokens": 1037,
+    "completion_tokens": 455,
+    "total_tokens": 1492,
+    "cost": 0.00039228,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 576,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00039228,
+      "upstream_inference_prompt_cost": 0.00016478,
+      "upstream_inference_completions_cost": 0.0002275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"perturbation\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"increase\",\n      \"factor\": \"BRG1-BRD\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells\"\n      ]\n    },\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"decrease\",\n      \"factor\": \"γ-H2AX\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells\"\n      ]\n    },\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"decrease\",\n      \"factor\": \"DSB repair\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells\"\n      ]\n    },\n    {\n      \"role\": \"measured_marker\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"decrease\",\n      \"factor\": \"53BP1\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"BRG1-BRD in irradiated HT29 cells inhibited the recruitment of 53BP1 to damaged chromatin\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "BRG1-BRD",
+      "dose": "",
+      "evidence": [
+        "ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells"
+      ]
+    },
+    {
+      "role": "measured_marker",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "decrease",
+      "factor": "γ-H2AX",
+      "dose": "",
+      "evidence": [
+        "ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells"
+      ]
+    },
+    {
+      "role": "measured_marker",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "decrease",
+      "factor": "DSB repair",
+      "dose": "",
+      "evidence": [
+        "ectopic expression of BRG1-BRD inhibited γ-H2AX and DSB repair after irradiation and increased the radiosensitivity in various human cancer cells"
+      ]
+    },
+    {
+      "role": "measured_marker",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "decrease",
+      "factor": "53BP1",
+      "dose": "",
+      "evidence": [
+        "BRG1-BRD in irradiated HT29 cells inhibited the recruitment of 53BP1 to damaged chromatin"
+      ]
+    }
+  ]
+}

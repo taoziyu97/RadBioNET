@@ -1,0 +1,51 @@
+{
+  "case_id": "irradiation_arm_41996280",
+  "pmid": "41996280",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Novita",
+  "completion_id": "gen-1794810593-vzfHWvrOq8luhCXjdrwz",
+  "recorded_utc": "2026-11-16T06:29:55+00:00",
+  "elapsed_seconds": 2.097,
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 73,
+    "total_tokens": 1405,
+    "cost": 0.00026796,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00026796,
+      "upstream_inference_prompt_cost": 0.00021978,
+      "upstream_inference_completions_cost": 4.818e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"proton\",\"comparator\":\"none\",\"direction\":\"descriptive\",\"dose\":\"10 Gy\",\"dose_role\":\"irradiation_dose\",\"endpoint\":\"irradiation_schedule\",\"evidence\":[\"irradiated with a total dose of 10 Gy using a proton microbeam\"],\"factor\":\"\",\"role\":\"exposure\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "proton",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "10 Gy",
+      "dose_role": "irradiation_dose",
+      "endpoint": "irradiation_schedule",
+      "evidence": [
+        "irradiated with a total dose of 10 Gy using a proton microbeam"
+      ],
+      "factor": "",
+      "role": "exposure"
+    }
+  ]
+}

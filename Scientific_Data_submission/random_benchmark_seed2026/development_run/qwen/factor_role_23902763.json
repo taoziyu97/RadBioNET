@@ -1,0 +1,70 @@
+{
+  "case_id": "factor_role_23902763",
+  "pmid": "23902763",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794810594-2Slc388OEKRzdMrHhBjR",
+  "recorded_utc": "2026-11-16T06:30:00+00:00",
+  "elapsed_seconds": 6.509,
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 421,
+    "total_tokens": 1541,
+    "cost": 0.0013858,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0013858,
+      "upstream_inference_prompt_cost": 0.0002912,
+      "upstream_inference_completions_cost": 0.0010946
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"increase\",\n      \"factor\": \"rhamnetin\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Rhamnetin and cirsiliol were selected as candidate Notch-1-regulating radiosensitizers\",\n        \"Treatment with rhamnetin or cirsiliol reduced the proliferation of NSCLC cells through the suppression of radiation-induced Notch-1 expression\",\n        \"resulting in a radiosensitizing effect on NSCLC cells\",\n        \"In these mice, tumor volume was significantly reduced by combinational treatment with irradiation and rhamnetin or cirsiliol compared with irradiation alone\"\n      ]\n    },\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"unreported\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"increase\",\n      \"factor\": \"cirsiliol\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Rhamnetin and cirsiliol were selected as candidate Notch-1-regulating radiosensitizers\",\n        \"Treatment with rhamnetin or cirsiliol reduced the proliferation of NSCLC cells through the suppression of radiation-induced Notch-1 expression\",\n        \"resulting in a radiosensitizing effect on NSCLC cells\",\n        \"In these mice, tumor volume was significantly reduced by combinational treatment with irradiation and rhamnetin or cirsiliol compared with irradiation alone\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "rhamnetin",
+      "dose": "",
+      "evidence": [
+        "Rhamnetin and cirsiliol were selected as candidate Notch-1-regulating radiosensitizers",
+        "Treatment with rhamnetin or cirsiliol reduced the proliferation of NSCLC cells through the suppression of radiation-induced Notch-1 expression",
+        "resulting in a radiosensitizing effect on NSCLC cells",
+        "In these mice, tumor volume was significantly reduced by combinational treatment with irradiation and rhamnetin or cirsiliol compared with irradiation alone"
+      ]
+    },
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "cirsiliol",
+      "dose": "",
+      "evidence": [
+        "Rhamnetin and cirsiliol were selected as candidate Notch-1-regulating radiosensitizers",
+        "Treatment with rhamnetin or cirsiliol reduced the proliferation of NSCLC cells through the suppression of radiation-induced Notch-1 expression",
+        "resulting in a radiosensitizing effect on NSCLC cells",
+        "In these mice, tumor volume was significantly reduced by combinational treatment with irradiation and rhamnetin or cirsiliol compared with irradiation alone"
+      ]
+    }
+  ]
+}

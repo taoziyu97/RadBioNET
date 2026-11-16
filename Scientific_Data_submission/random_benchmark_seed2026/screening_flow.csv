@@ -1,0 +1,29 @@
+split,pool,rank,pmid,decision,rationale
+selection,factor_role,1,18594829,included,Archived title and abstract substantiate the prespecified task type
+selection,factor_role,2,25504753,included,Archived title and abstract substantiate the prespecified task type
+selection,outcome,1,25188816,included,Archived title and abstract substantiate the prespecified task type
+selection,outcome,2,25523631,included,Archived title and abstract substantiate the prespecified task type
+selection,photon,1,40010843,excluded,Study protocol with planned exposures and no delivered photon exposure in the abstract.
+selection,photon,2,33985371,included,Archived title and abstract substantiate the prespecified task type
+selection,proton,1,41996280,included,Archived title and abstract substantiate the prespecified task type
+selection,carbon_ion,1,20819220,excluded,Trial protocol reports planned carbon-ion dose without delivered carbon-ion exposure.
+selection,carbon_ion,2,32974200,included,Archived title and abstract substantiate the prespecified task type
+selection,unsupported_dose,1,36472929,excluded,"Protons occur in acid or material chemistry context, with no proton- or carbon-ion irradiation arm."
+selection,unsupported_dose,2,33478544,included,"The abstract addresses proton plans, but contains no administered proton dose."
+selection,unsupported_comparison,1,32085439,excluded,Patient-derived organoid experiment with no clinical toxicity assessment in treated patients.
+selection,unsupported_comparison,2,23477361,included,A proton cohort and gastrointestinal toxicities are reported without a photon cohort.
+development,factor_role,1,19929413,included,Archived title and abstract substantiate the prespecified task type
+development,factor_role,2,38229577,included,Archived title and abstract substantiate the prespecified task type
+development,factor_role,3,23902763,included,Archived title and abstract substantiate the prespecified task type
+development,factor_role,4,30606609,included,Archived title and abstract substantiate the prespecified task type
+development,outcome,1,25962492,included,Archived title and abstract substantiate the prespecified task type
+development,outcome,2,31869663,included,Archived title and abstract substantiate the prespecified task type
+development,outcome,3,16142356,included,Archived title and abstract substantiate the prespecified task type
+development,outcome,4,29525603,included,Archived title and abstract substantiate the prespecified task type
+development,photon,1,33573176,included,Archived title and abstract substantiate the prespecified task type
+development,photon,2,12377343,included,Archived title and abstract substantiate the prespecified task type
+development,proton,1,36367724,included,Archived title and abstract substantiate the prespecified task type
+development,carbon_ion,1,37057285,included,Archived title and abstract substantiate the prespecified task type
+development,unsupported_dose,1,30197580,included,"Proton therapy was administered, without a numerical proton irradiation dose in the abstract."
+development,unsupported_comparison,1,37970351,excluded,The abstract gives an observed toxicity comparison between proton and photon patient groups.
+development,unsupported_comparison,2,37202212,included,The single-arm phase II study reports adverse events without a photon-treatment group.

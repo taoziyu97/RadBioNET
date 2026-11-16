@@ -1,0 +1,51 @@
+{
+  "case_id": "gbm_colony_carbon_vs_xray",
+  "pmid": "39903402",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "AkashML",
+  "completion_id": "gen-1794804455-8zqByCwPqdrBUTEc518g",
+  "recorded_utc": "2026-11-16T04:47:55+00:00",
+  "elapsed_seconds": 20.552,
+  "usage": {
+    "prompt_tokens": 938,
+    "completion_tokens": 1452,
+    "total_tokens": 2390,
+    "cost": 0.000146988,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 64,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000146988,
+      "upstream_inference_prompt_cost": 1.6308e-05,
+      "upstream_inference_completions_cost": 0.00013068
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"exposure\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"photon\",\n      \"endpoint\": \"clonogenic_survival\",\n      \"direction\": \"decrease\",\n      \"factor\": \"colony formation\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"carbon ion irradiation more effectively inhibited colony formation and induced more severe apoptosis and cell cycle disorder in U251 cells.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "exposure",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "photon",
+      "endpoint": "clonogenic_survival",
+      "direction": "decrease",
+      "factor": "colony formation",
+      "dose": "",
+      "evidence": [
+        "carbon ion irradiation more effectively inhibited colony formation and induced more severe apoptosis and cell cycle disorder in U251 cells."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": "outcome_25188816",
+  "pmid": "25188816",
+  "model_requested": "meta-llama/llama-3.3-70b-instruct",
+  "model_reported": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "CoreWeave",
+  "completion_id": "gen-1794810592-oWCrHVrQXXSENQmKpzsn",
+  "recorded_utc": "2026-11-16T06:29:54+00:00",
+  "elapsed_seconds": 2.232,
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 108,
+    "total_tokens": 1152,
+    "cost": 0.00081792,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00081792,
+      "upstream_inference_prompt_cost": 0.00074124,
+      "upstream_inference_completions_cost": 7.668e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug_target\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"radiosensitivity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"FGFR1\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Inhibition of FGFR1 synergistically enhanced the cytotoxic effects of ionizing radiation\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug_target",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "radiosensitivity",
+      "direction": "descriptive",
+      "factor": "FGFR1",
+      "dose": "",
+      "evidence": [
+        "Inhibition of FGFR1 synergistically enhanced the cytotoxic effects of ionizing radiation"
+      ]
+    }
+  ]
+}

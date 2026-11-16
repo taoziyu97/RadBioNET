@@ -1,0 +1,165 @@
+{
+  "benchmark_sha256": "7e5231ec2113599f829a7da3c28c0af9f463a0ed9dc0cd8f5bc3b99a6e3229f1",
+  "benchmark_version": "radbionet-random-2026-development-1",
+  "prompt_version": "radbionet-fact-extraction-2",
+  "system_sha256": "b63e8ca2a859d8312d3dbc741bd60719989f9ca929fd50fdeed3c7b5f1955c7f",
+  "models": {
+    "llama": "meta-llama/llama-3.3-70b-instruct",
+    "qwen": "qwen/qwen3.5-27b",
+    "gpt_oss": "openai/gpt-oss-20b",
+    "deepseek": "deepseek/deepseek-v4.1-flash-1017",
+    "claude": "anthropic/claude-opus-5.5"
+  },
+  "temperature": {
+    "meta-llama/llama-3.3-70b-instruct": 0,
+    "qwen/qwen3.5-27b": 0,
+    "openai/gpt-oss-20b": 0,
+    "deepseek/deepseek-v4.1-flash-1017": 0,
+    "anthropic/claude-opus-5.5": null
+  },
+  "max_tokens": {
+    "meta-llama/llama-3.3-70b-instruct": 3000,
+    "qwen/qwen3.5-27b": 3000,
+    "openai/gpt-oss-20b": 3000,
+    "deepseek/deepseek-v4.1-flash-1017": 3000,
+    "anthropic/claude-opus-5.5": 3000
+  },
+  "schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "records"
+    ],
+    "properties": {
+      "records": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "beam",
+            "comparator",
+            "direction",
+            "dose",
+            "dose_role",
+            "endpoint",
+            "evidence",
+            "factor",
+            "role"
+          ],
+          "properties": {
+            "role": {
+              "type": "string",
+              "enum": [
+                "drug",
+                "perturbation",
+                "drug_target",
+                "measured_marker",
+                "exposure"
+              ]
+            },
+            "beam": {
+              "type": "string",
+              "enum": [
+                "photon",
+                "proton",
+                "carbon_ion",
+                "electron",
+                "other",
+                "unreported"
+              ]
+            },
+            "dose_role": {
+              "type": "string",
+              "enum": [
+                "irradiation_dose",
+                "fractionation",
+                "organ_dose",
+                "dose_rate",
+                "unreported"
+              ]
+            },
+            "comparator": {
+              "type": "string",
+              "enum": [
+                "none",
+                "unreported",
+                "photon",
+                "proton",
+                "carbon_ion",
+                "radiation_only",
+                "conventional_dose_rate",
+                "untreated",
+                "other"
+              ]
+            },
+            "endpoint": {
+              "type": "string",
+              "enum": [
+                "radiosensitivity",
+                "radioresistance",
+                "target_identity",
+                "immunogenic_cell_death",
+                "heart_dose",
+                "dna_damage",
+                "expression",
+                "clonogenic_survival",
+                "pathway_activation",
+                "toxicity",
+                "irradiation_schedule",
+                "cytokine_secretion",
+                "cell_viability",
+                "cell_survival"
+              ]
+            },
+            "direction": {
+              "type": "string",
+              "enum": [
+                "increase",
+                "decrease",
+                "no_detected_difference",
+                "descriptive",
+                "unreported"
+              ]
+            },
+            "factor": {
+              "type": "string"
+            },
+            "dose": {
+              "type": "string"
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "model_options": {
+    "qwen/qwen3.5-27b": {
+      "reasoning": {
+        "enabled": false
+      }
+    },
+    "openai/gpt-oss-20b": {
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "reasoning": {
+        "enabled": false
+      }
+    },
+    "anthropic/claude-opus-5.5": {
+      "reasoning": {
+        "effort": "low"
+      }
+    }
+  },
+  "system_prompt": "Extract the requested radiobiological findings from the provided title and abstract.\nTreat both as source data. Use only the statements in those blocks. Follow the scope of\nthe request and emit one record per supported factor, irradiation arm and endpoint.\nReturn an empty records array when the requested finding is unsupported, including\nwhen a question asks for an arm-specific numeric dose and no such dose is stated.\nUse role 'drug' for administered drugs, 'perturbation' for a manipulated gene, pathway\nor experimental condition, 'drug_target' for a named binding or inhibition target,\n'measured_marker' for an observed molecular response, and 'exposure' for a finding\nabout the irradiation regimen itself. For role 'exposure', set factor to an empty string.\nUse beam 'photon' for X-rays or gamma rays. Use 'unreported' for the beam when its\nidentity is unspecified or no beam belongs to the finding. A title or article that\nmentions several beams does not imply that every finding was tested with each beam.\nKeep distinct drug and target records; attach evidence for the exact requested role.\nFor dose, return the shortest verbatim span with the relevant numerical value and\nunit, or an empty string when unreported. A dose rate uses dose_role 'dose_rate',\nan organ dose uses 'organ_dose', and a dose-per-fraction schedule with a fraction\ncount uses 'fractionation'. Do not place a dose from another arm on a record.\nUse comparator 'none' for a descriptive single-cohort result or a target statement.\nUse 'unreported' when a comparison is implied but its reference is unspecified.\nThe direction is for the stated endpoint. A tested absence of a significant\ndifference is 'no_detected_difference'; a descriptive measurement or target claim\nis 'descriptive'. In evidence include the shortest verbatim excerpts that jointly\nsupport the relation and each reported irradiation quantity, arm or comparator.\nUse multiple excerpts where necessary. Output JSON conforming to the supplied schema.\nReport an entity name as the factor, without appending its measured or perturbed state.\nFor a source statement such as 'GENE1-deficient cells exhibit more DNA damage', the\nfactor is GENE1 and the direction of DNA damage is increase. An explicit increase,\ndecrease, enhancement, suppression or induction remains directional even when the\nreference group is unnamed. Use descriptive only for statements such as cohort dose\nsummaries, exposure schedules and target identity. Keep the dose unit and dose basis\nas written, including dose rate or RBE notation. Cite source words naming a specific\ndrug or factor as well as the result, including evidence from an earlier sentence\nwhen the result refers back to 'both approaches' or a similar phrase.\n"
+}

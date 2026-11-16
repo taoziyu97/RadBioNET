@@ -1,0 +1,66 @@
+{
+  "case_id": "niraparib_targets",
+  "pmid": "32323895",
+  "model_requested": "qwen/qwen3.5-27b",
+  "model_reported": "qwen/qwen3.5-27b",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794803387-Yo5yTbLPhAfg9cHtMnKg",
+  "recorded_utc": "2026-11-16T04:29:51+00:00",
+  "elapsed_seconds": 4.499,
+  "usage": {
+    "prompt_tokens": 769,
+    "completion_tokens": 332,
+    "total_tokens": 1101,
+    "cost": 0.00106314,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00106314,
+      "upstream_inference_prompt_cost": 0.00019994,
+      "upstream_inference_completions_cost": 0.0008632
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug_target\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"target_identity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"PARP-1\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Proton and photon radiosensitization effects of niraparib, a PARP-1/-2 inhibitor, on human head and neck cancer cells.\",\n        \"The poly (adenosine diphosphate [ADP]-ribose) polymerase-1/2 inhibitor niraparib targets DNA damage repair (DDR).\"\n      ]\n    },\n    {\n      \"role\": \"drug_target\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"target_identity\",\n      \"direction\": \"descriptive\",\n      \"factor\": \"PARP-2\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Proton and photon radiosensitization effects of niraparib, a PARP-1/-2 inhibitor, on human head and neck cancer cells.\",\n        \"The poly (adenosine diphosphate [ADP]-ribose) polymerase-1/2 inhibitor niraparib targets DNA damage repair (DDR).\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug_target",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "target_identity",
+      "direction": "descriptive",
+      "factor": "PARP-1",
+      "dose": "",
+      "evidence": [
+        "Proton and photon radiosensitization effects of niraparib, a PARP-1/-2 inhibitor, on human head and neck cancer cells.",
+        "The poly (adenosine diphosphate [ADP]-ribose) polymerase-1/2 inhibitor niraparib targets DNA damage repair (DDR)."
+      ]
+    },
+    {
+      "role": "drug_target",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "target_identity",
+      "direction": "descriptive",
+      "factor": "PARP-2",
+      "dose": "",
+      "evidence": [
+        "Proton and photon radiosensitization effects of niraparib, a PARP-1/-2 inhibitor, on human head and neck cancer cells.",
+        "The poly (adenosine diphosphate [ADP]-ribose) polymerase-1/2 inhibitor niraparib targets DNA damage repair (DDR)."
+      ]
+    }
+  ]
+}

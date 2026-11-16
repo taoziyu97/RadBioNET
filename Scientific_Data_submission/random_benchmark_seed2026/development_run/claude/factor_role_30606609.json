@@ -1,0 +1,52 @@
+{
+  "case_id": "factor_role_30606609",
+  "pmid": "30606609",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "model_reported": "anthropic/claude-opus-5.5",
+  "provider": "Claude Platform on AWS",
+  "completion_id": "gen-1794810597-sItTUUf7kM6tIc5S2xKU",
+  "recorded_utc": "2026-11-16T06:30:00+00:00",
+  "elapsed_seconds": 3.877,
+  "usage": {
+    "prompt_tokens": 2542,
+    "completion_tokens": 166,
+    "total_tokens": 2708,
+    "cost": 0.013488,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.013488,
+      "upstream_inference_prompt_cost": 0.010168,
+      "upstream_inference_completions_cost": 0.00332
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"role\":\"perturbation\",\"beam\":\"photon\",\"dose_role\":\"unreported\",\"comparator\":\"unreported\",\"endpoint\":\"radiosensitivity\",\"direction\":\"increase\",\"factor\":\"DNA-PKcs\",\"dose\":\"\",\"evidence\":[\"DNA-PKcs genetic inactivation confers a remarkable radiation hypersensitivity, as even extremely low radiation doses may deregulate many DDR genes\",\"low doses (0.042 and 0.25 Gy)\"]}]}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "perturbation",
+      "beam": "photon",
+      "dose_role": "unreported",
+      "comparator": "unreported",
+      "endpoint": "radiosensitivity",
+      "direction": "increase",
+      "factor": "DNA-PKcs",
+      "dose": "",
+      "evidence": [
+        "DNA-PKcs genetic inactivation confers a remarkable radiation hypersensitivity, as even extremely low radiation doses may deregulate many DDR genes",
+        "low doses (0.042 and 0.25 Gy)"
+      ]
+    }
+  ]
+}

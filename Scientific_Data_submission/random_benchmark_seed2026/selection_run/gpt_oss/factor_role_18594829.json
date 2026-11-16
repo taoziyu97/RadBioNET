@@ -1,0 +1,51 @@
+{
+  "case_id": "factor_role_18594829",
+  "pmid": "18594829",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Groq",
+  "completion_id": "gen-1794810584-P5L1M2cs4kd8hWUybLHS",
+  "recorded_utc": "2026-11-16T06:29:44+00:00",
+  "elapsed_seconds": 1.083,
+  "usage": {
+    "prompt_tokens": 1493,
+    "completion_tokens": 204,
+    "total_tokens": 1697,
+    "cost": 0.000173175,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000173175,
+      "upstream_inference_prompt_cost": 0.000111975,
+      "upstream_inference_completions_cost": 6.12e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 97,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"photon\",\"comparator\":\"none\",\"direction\":\"increase\",\"dose\":\"\",\"dose_role\":\"unreported\",\"endpoint\":\"radiosensitivity\",\"evidence\":[\"Both cell lines were more sensitized to radiation's killing effects when treated with the combination of docetaxel and bortezomib than when treated with either agent alone.\"],\"factor\":\"docetaxel and bortezomib\",\"role\":\"drug\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "photon",
+      "comparator": "none",
+      "direction": "increase",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "radiosensitivity",
+      "evidence": [
+        "Both cell lines were more sensitized to radiation's killing effects when treated with the combination of docetaxel and bortezomib than when treated with either agent alone."
+      ],
+      "factor": "docetaxel and bortezomib",
+      "role": "drug"
+    }
+  ]
+}

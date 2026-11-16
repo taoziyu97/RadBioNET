@@ -1,0 +1,51 @@
+{
+  "case_id": "cordycepin_irradiation_comparator",
+  "pmid": "26688569",
+  "model_requested": "deepseek/deepseek-v4.1-flash-1017",
+  "model_reported": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "DeepInfra",
+  "completion_id": "gen-1794804471-f0Fxh39kIHQUWgdcZE2B",
+  "recorded_utc": "2026-11-16T04:48:01+00:00",
+  "elapsed_seconds": 10.606,
+  "usage": {
+    "prompt_tokens": 910,
+    "completion_tokens": 1256,
+    "total_tokens": 2166,
+    "cost": 0.00040977328,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 512,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00040977328,
+      "upstream_inference_prompt_cost": 4.050928e-05,
+      "upstream_inference_completions_cost": 0.000369264
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1143,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"records\": [\n    {\n      \"role\": \"drug\",\n      \"beam\": \"unreported\",\n      \"dose_role\": \"unreported\",\n      \"comparator\": \"none\",\n      \"endpoint\": \"cell_survival\",\n      \"direction\": \"decrease\",\n      \"factor\": \"cordycepin\",\n      \"dose\": \"\",\n      \"evidence\": [\n        \"Cells pre-treated with cordycepin showed lower cell survival than those exposed to irradiation only.\"\n      ]\n    }\n  ]\n}",
+  "status": "ok",
+  "records": [
+    {
+      "role": "drug",
+      "beam": "unreported",
+      "dose_role": "unreported",
+      "comparator": "none",
+      "endpoint": "cell_survival",
+      "direction": "decrease",
+      "factor": "cordycepin",
+      "dose": "",
+      "evidence": [
+        "Cells pre-treated with cordycepin showed lower cell survival than those exposed to irradiation only."
+      ]
+    }
+  ]
+}

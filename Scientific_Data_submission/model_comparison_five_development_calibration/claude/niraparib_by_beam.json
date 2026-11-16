@@ -1,0 +1,7 @@
+{
+  "case_id": "niraparib_by_beam",
+  "pmid": "32323895",
+  "model_requested": "anthropic/claude-opus-5.5",
+  "status": "service_error",
+  "error": "OpenRouter HTTP 402"
+}

@@ -1,0 +1,64 @@
+{
+  "case_id": "hdac3_two_interventions",
+  "pmid": "40899441",
+  "model_requested": "openai/gpt-oss-20b",
+  "model_reported": "openai/gpt-oss-20b",
+  "provider": "Darkbloom",
+  "completion_id": "gen-1794804642-7zOvvm0ooIWUCtp6FMRp",
+  "recorded_utc": "2026-11-16T04:50:45+00:00",
+  "elapsed_seconds": 3.698,
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 291,
+    "total_tokens": 1619,
+    "cost": 5.0094e-05,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 5.0094e-05,
+      "upstream_inference_prompt_cost": 2.3904e-05,
+      "upstream_inference_completions_cost": 2.619e-05
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 96,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\":[{\"beam\":\"unreported\",\"comparator\":\"none\",\"direction\":\"descriptive\",\"dose\":\"\",\"dose_role\":\"unreported\",\"endpoint\":\"radiosensitivity\",\"evidence\":[\"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).\"],\"factor\":\"HDAC3\",\"role\":\"perturbation\"},{\"beam\":\"unreported\",\"comparator\":\"none\",\"direction\":\"descriptive\",\"dose\":\"\",\"dose_role\":\"unreported\",\"endpoint\":\"radiosensitivity\",\"evidence\":[\"Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41).\"],\"factor\":\"RGFP966\",\"role\":\"drug\"}]}",
+  "status": "ok",
+  "records": [
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "radiosensitivity",
+      "evidence": [
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)."
+      ],
+      "factor": "HDAC3",
+      "role": "perturbation"
+    },
+    {
+      "beam": "unreported",
+      "comparator": "none",
+      "direction": "descriptive",
+      "dose": "",
+      "dose_role": "unreported",
+      "endpoint": "radiosensitivity",
+      "evidence": [
+        "Both approaches enhanced radiosensitivity, as shown by cell viability (dose modification factor10 = 1.14-1.69) and clonogenic assays (dose modification factor10 = 1.16-1.41)."
+      ],
+      "factor": "RGFP966",
+      "role": "drug"
+    }
+  ]
+}
