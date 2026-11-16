@@ -1,7 +1,0 @@
-{
-  "case_id": "a549_cytokine_arms",
-  "pmid": "41009714",
-  "model_requested": "anthropic/claude-opus-5.5",
-  "status": "service_error",
-  "error": "OpenRouter HTTP 402"
-}
